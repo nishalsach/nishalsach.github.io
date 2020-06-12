@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Lessons From a Massive(ly-Annoying) Scraping Project in Python - Sachita Nishal</title><link rel="icon" type="image/png" href=icons/myicon.png /><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="Lessons From a Massive(ly-Annoying) Scraping Project in Python" />
+<meta property="og:description" content="A Long Read about my Undergraduate Thesis Project" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://nishalsach.github.io/posts/2019-09-16-lessons-from-a-massively-annoying-scraping-project-in-python/" />
+<meta property="article:published_time" content="2019-09-16T00:00:00+00:00" />
+<meta property="article:modified_time" content="2019-09-16T00:00:00+00:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Lessons From a Massive(ly-Annoying) Scraping Project in Python"/>
+<meta name="twitter:description" content="A Long Read about my Undergraduate Thesis Project"/>
+<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:200,300" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" media="screen" href="https://nishalsach.github.io/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://nishalsach.github.io/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="https://nishalsach.github.io/css/custom.css" />
+	
+
+	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+	<script src="https://nishalsach.github.io/js/main.js"></script>
+	<script src="https://nishalsach.github.io/js/abc.js"></script>
+	<script src="https://nishalsach.github.io/js/xyz.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+
+<body>
+	<div class="container wrapper post">
+		<div class="header">
+	<base href="https://nishalsach.github.io/">
+	<h1 class="site-title"><a href="https://nishalsach.github.io/">Sachita Nishal</a></h1>
+	<div class="site-description"><h2>Incoming PhD Student, Northwestern University</h2><nav class="nav social">
+			<ul class="flat"><a href="https://github.com/nishalsach" title="Github"><i data-feather="github"></i></a><a href="mailto:sachita.nishal@gmail.com" title="Gmail"><i data-feather="mail"></i></a><a href="https://twitter.com/gohugoio" title="Twitter"><i data-feather="twitter"></i></a><a href="https://open.spotify.com/user/parikalpanaa" title="Spotify"><i data-feather="music"></i></a></ul>
+		</nav>
+	</div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li>
+				<a href="/">Home</a>
+			</li>
+			
+			<li>
+				<a href="/about">About Me</a>
+			</li>
+			
+			<li>
+				<a href="/resume">Resume</a>
+			</li>
+			
+			<li>
+				<a href="/tags">Tags</a>
+			</li>
+			
+			<li>
+				<a href="/posts">All Posts</a>
+			</li>
+			
+			<li>
+				<a href="/posts/2020-06-16-cool-stuff/">Cool Stuff</a>
+			</li>
+			
+		</ul>
+	</nav>
+</div>
+
+
+		<div class="post-header">
+			<h1 class="title">Lessons From a Massive(ly-Annoying) Scraping Project in Python</h1>
+			<div class="meta">Posted at &mdash; Sep 16, 2019</div>
+		</div>
+
+		<div class="markdown">
+			<p>Hello!</p>
+<p>I&rsquo;m honestly quite unsure of what SEO miracle led you here, given the enthusiastically descriptive, but less than optimal title for this post. I&rsquo;m further unsure of why you actually clicked this link when it showed up. But does that make me any less grateful that you&rsquo;re here? Certainly not!</p>
+<p>I wrote this post to document my experiences while scraping a massive crowdsourced website called <a href="https://tvtropes.org">TVTropes</a>. During this venture, I spent many an afternoon quite desperately Googling &ldquo;ugh web-scraping is so annoying save me python&rdquo;. Consequently, due to an SEO miracle akin to the one brought you here, I found tons of websites which helped me with figuring out the coding bits, and I am extremely grateful for them. However, I didn&rsquo;t feel like there was enough material out there that could guide me with regards to the broader approach that I could take with scraping and managing my dataset.</p>
+<p>Luckily for me, I had people in my lab who gave me a ton of pragmatic ideas about how to scrape, process and store my data. What follows is the result of several such discussions I&rsquo;ve had with my labmates over the course of the past month or so, and I hope documenting their result here can help anyone else who is ever in a similar position. I feel like it is important to specify here that I was working with textual data, and not numbers. The path to scraping something numerical might not be as long-winded as this was, but maybe the general practices here could still help.</p>
+<p>So, this project that I undertook required me to scrape almost 13000 webpages from a nifty little website called <a href="https://tvtropes.org">TVTropes</a>. All these pages followed a general template more or less, albeit with quite a generous definition of &lsquo;general&rsquo; sometimes. What that means is that they were all kind of similar, but sometimes had small-yet-significant changes in how they structured their information.</p>
+<p>Shown below is an example of a page from this website, which is one of the several that I would like to scrape.</p>
+<p align="center">
+<img style="margin: 15px 20px 15px 0px;" src="img/tvt/TVTropes.png" width=500 align="middle" />
+</p>
+<br>
+<br>
+<p>The next image compares two other webpages from the site, both of which present their tropes in visibly different ways.</p>
+<p><img style="margin: 15px 20px 15px 0px;" src="img/tvt/tvt_compare.png" />
+<br>
+<br>
+I&rsquo;m now going to break down my process of scraping this dataset into a series of steps, and use the concrete examples of webpages for the rest of this post. I hope it will come in handy when I talk about some of the more abstract ideas behind the process.</p>
+<h2 id="step-1-whats-the-story-morning-glory1">Step 1: (What&rsquo;s the Story) Morning Glory?<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></h2>
+<p>The first thing I learnt was that you need to <strong>broadly, but definitely define the reason you want to scrape a website</strong>, because it can go a long way in ensuring that your scraping process is streamlined and well-structured. Why?</p>
+<p>Because it helps you to <strong>optimise how you organise your data while you scrape it, which will make the subsequent data cleaning and processing much smoother</strong>.</p>
+<p>My broader goal was to understand analyse creativity in films, which I defined as the process of mixing and matching different ideas to give rise to something new. To ground this notion of &lsquo;creativity&rsquo; in something slightly more tangible, I decided to look at tropes used in films, and how they evolve over time in their usage, as well as how they co-occur with and influence each other.</p>
+<p>In the image from <em>Vault of Horror</em> a few paragraphs ago, you can see that all the tropes for a film are quite evidently in bullets, and this is a common feature (with minor exceptions) across the website. So at this stage, it would&rsquo;ve been easy for me to say &ldquo;Oh, okay, so I know I only really want the tropes, so I think I&rsquo;m just going to pick up everything that is in the <code>&lt;li&gt;</code> tag, and I&rsquo;m done!&rdquo; In fact, that is exactly what I said! But then, one of my labmates told me something really important: <strong>scraping and cleaning are two different parts of the process, and should be treated that way</strong>.</p>
+<p>What that practically translates into is this: it is important to not eliminate a lot of information early on, during the scraping stage itself. This is because when you&rsquo;re moving on to actually processing and playing around with your data, you want to be able to choose what data you use, and what data you don&rsquo;t. You might end up actually benefiting from some of the data that you thought wouldn&rsquo;t help, but even if you don&rsquo;t, it&rsquo;s good to leave that choice of what you pick and what you reject to the later, more concrete planning stages.</p>
+<p><strong>And the reason why you need to know your broad-but-definite goal early on is simply to be efficient in your organisation of all this data that you&rsquo;re scraping!</strong></p>
+<p>So by this stage, I knew that not only did I want to pick up tropes from films, I also wanted to pick up some possibly unstructured data which could be useful to me later. Logically, the next step was to now find out what differentiated all these types of information which were available to me on a webpage.</p>
+<h2 id="step-2-the-general-template-and-its-exceptions">Step 2: The General Template, and its Exceptions</h2>
+<p>After figuring out the bigger picture for my project, I began looking at the different parts of the webpage, and mapping out how they are organised. I feel like acquainting myself with the <strong>broader template</strong> early gave good structure to my code, even if it wasn&rsquo;t didn&rsquo;t exhaust all the possibilties.</p>
+<p>I started by randomly browsing a few webpages of different films on the website, and using the &lsquo;Inspect Element&rsquo; to get decent idea of how some important tags are nested in the HTML file.</p>
+<p align="center">
+<img style="margin: 15px 20px 15px 0px;" src="img/tvt/TVTropes_edit.png" width=500/>
+</p>
+<br>
+<br>
+<p>So in the image above, you can see that I&rsquo;ve identified different zones on one of the webpages, and categorised them based on what sort of function they serve.</p>
+<p>Looking at more pages on the website made me realise that the &lsquo;Section Demarcators&rsquo;(in green) are not really uniformly used, and that the meta-data for the film may or may not be in a folder (like the Synopsis is in a folder in the image above, but in some cases it might be just a paragraph). So I take note of these things as I keep exploring more pages. Sometimes, films list their tropes inside a folder, and sometimes, a single webpage has tropes for three different films within a franchise.</p>
+<p>At this point, it is really easy to enthusiastically dive into the rabbit-hole of figuring out tons of exceptions to the general template, only to end up feeling extremely lost. Also I should probably stop saying &ldquo;it is really easy to &lt; insert possible goof up &gt;&rdquo; and should just skip ahead to &ldquo;yeah so I did this stupid thing&rdquo;.</p>
+<p>But so, yes, at this point, I did this stupid thing where I got extremely caught up in cataloguing all the minute organisational/structural features each webpage had (folders, headers, bullets, paragraphs etc.), and it was really driving me crazy.</p>
+<p>Here&rsquo;s a sample that merely scratches the surface of the madness:</p>
+<p align="center">
+<img style="margin: 15px 20px 15px 0px;" src="img/tvt/190801_master_film_scrapeyearsflowchart.JPG" width=500/>
+</p>
+<br>
+<br>
+<p>But I was very patiently counselled out of this manic state by one of the post-docs in my lab, and he pointed out something really crucial: <strong>understanding the template is important not so that you can find out each and every exception, but so that your code is flexible and can also deal with exceptions that you might not have been able to record.</strong></p>
+<p>Put simply, this means that it&rsquo;s not worth trying to exhaustively cover all possible exceptions to the template. Invest effort in understanding the range of possibilities, and then debug for specific ones later.</p>
+<p>It&rsquo;s honestly a little difficult to know when to stop, but I found that once my if-else trees started going past 5-6 levels (because of course I had several if-else trees by this point), it was a good idea to hit the brakes. This exercise had helped me realise that the webpages were quite varied, even if only in subtle ways, and so I needed to make allowances for quite a lot of deviations in my code. It had served its purpose!</p>
+<h2 id="step-3-i-couldnt-think-of-a-joke-about-cooking-up-soup-but-heres-a-trope-anyway2">Step 3: I Couldn&rsquo;t Think of a Joke about Cooking Up Soup, But Here&rsquo;s a Trope Anyway<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></h2>
+<p>Now is a good time to actually begin the scraping, and if you&rsquo;re scraping webpages in python, you&rsquo;re going to want to use <a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/">BeautifulSoup</a> with <a href="https://docs.python.org/3/library/urllib.html">urllib</a>, so make sure you have those set-up by this stage. You can find them both for conda, or you can get them with pip.</p>
+<p>urllib does the job of requesting and opening URLs, while BeautifulSoup converts the HTML and XML files from those URLs into a parse tree which is easy to navigate and modify. Think of the parse tree as a tree made of HTML tags, all of which are related to each other in different ways: they could be siblings, or they could share a parent-child relationship on multiple nested levels. BeautifulSoup allows you to travel across the tree, identify these relationships, and access the attributes of individual tags in the tree.</p>
+<p>Here&rsquo;s an example of a parse tree:
+<br></p>
+<p align="center">
+<img style="margin: 15px 20px 15px 0px;" src="https://vinaytech.files.wordpress.com/2008/11/domimage.png" />
+</p>
+<p align="center">
+Source: <a href="https://vinaytech.files.wordpress.com/2008/11/domimage.png">Vinay's Blog</a>
+</p>
+<br>
+<br>
+<p>Let&rsquo;s go ahead and create our first soup. I&rsquo;m using a different website to demonstrate this section because it is much simpler than a standard TVtropes page, making it easy to comprehend the parse tree.</p>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># Importing requisite libraries</span>
+
+<span style="color:#f92672">from</span> <span style="color:#111">bs4</span> <span style="color:#f92672">import</span> <span style="color:#111">BeautifulSoup</span><span style="color:#111">,</span> <span style="color:#111">Tag</span><span style="color:#111">,</span> <span style="color:#111">NavigableString</span>
+<span style="color:#f92672">from</span> <span style="color:#111">urllib.request</span> <span style="color:#f92672">import</span> <span style="color:#111">Request</span><span style="color:#111">,</span> <span style="color:#111">urlopen</span>
+
+<span style="color:#75715e"># An example link</span>
+<span style="color:#111">link</span> <span style="color:#f92672">=</span> <span style="color:#d88200">&#39;https://katewagner.neocities.org/index.html&#39;</span>
+
+<span style="color:#75715e">#Query the website and return the html to the variable &#39;webpage&#39;</span>
+<span style="color:#75715e">#You need to send a User-Agent header in the request, because websites are typically designed for browsers that can parse HTML data, not programs in Jupyter Notebooks</span>
+
+<span style="color:#111">req</span> <span style="color:#f92672">=</span> <span style="color:#111">Request</span><span style="color:#111">(</span><span style="color:#111">link</span><span style="color:#111">,</span> <span style="color:#111">headers</span><span style="color:#f92672">=</span><span style="color:#111">{</span><span style="color:#d88200">&#39;User-Agent&#39;</span><span style="color:#111">:</span> <span style="color:#d88200">&#39;Mozilla/5.0&#39;</span><span style="color:#111">})</span>
+<span style="color:#111">webpage</span> <span style="color:#f92672">=</span> <span style="color:#111">urlopen</span><span style="color:#111">(</span><span style="color:#111">req</span><span style="color:#111">)</span><span style="color:#f92672">.</span><span style="color:#111">read</span><span style="color:#111">()</span>
+
+<span style="color:#75715e">#Parse the html in the &#39;webpage&#39; variable, and store it in Beautiful Soup format</span>
+<span style="color:#111">soup</span> <span style="color:#f92672">=</span> <span style="color:#111">BeautifulSoup</span><span style="color:#111">(</span><span style="color:#111">webpage</span><span style="color:#111">,</span> <span style="color:#111">features</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;html.parser&#34;</span><span style="color:#111">)</span>
+
+
+</code></pre></div><p>We have now obtained the <code>soup </code> variable, which stores the parse tree from our webpage. We can now get a closer look at how tags are structured in the parse tree, so that we can start organising them as per our requirements.</p>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">
+<span style="color:#75715e">#Printing the soup in a readable format</span>
+<span style="color:#00a8c8">print</span><span style="color:#111">(</span><span style="color:#111">soup</span><span style="color:#f92672">.</span><span style="color:#111">prettify</span><span style="color:#111">())</span>
+
+</code></pre></div><p>The output looks like this:</p>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-HTML" data-lang="HTML"><span style="color:#75715e">&lt;!DOCTYPE html&gt;</span>
+<span style="color:#111">&lt;</span><span style="color:#f92672">html</span><span style="color:#111">&gt;</span>
+ <span style="color:#111">&lt;</span><span style="color:#f92672">head</span><span style="color:#111">&gt;</span>
+  <span style="color:#111">&lt;</span><span style="color:#f92672">meta</span> <span style="color:#75af00">charset</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;utf-8&#34;</span><span style="color:#111">/&gt;</span>
+  <span style="color:#111">&lt;</span><span style="color:#f92672">title</span><span style="color:#111">&gt;</span>
+   Kate Wagner
+  <span style="color:#111">&lt;/</span><span style="color:#f92672">title</span><span style="color:#111">&gt;</span>
+  <span style="color:#75715e">&lt;!-- The style.css file allows you to change the look of your web pages.
+</span><span style="color:#75715e">         If you include the next line in all your web pages, they will all share the same look.
+</span><span style="color:#75715e">         This makes it easier to make new pages for your site. --&gt;</span>
+  <span style="color:#111">&lt;</span><span style="color:#f92672">link</span> <span style="color:#75af00">href</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;https://fonts.googleapis.com/css?family=VT323&#34;</span> <span style="color:#75af00">rel</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;stylesheet&#34;</span><span style="color:#111">/&gt;</span>
+  <span style="color:#111">&lt;</span><span style="color:#f92672">link</span> <span style="color:#75af00">href</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;/style.css&#34;</span> <span style="color:#75af00">media</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;all&#34;</span> <span style="color:#75af00">rel</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;stylesheet&#34;</span> <span style="color:#75af00">type</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;text/css&#34;</span><span style="color:#111">/&gt;</span>
+ <span style="color:#111">&lt;/</span><span style="color:#f92672">head</span><span style="color:#111">&gt;</span>
+ <span style="color:#111">&lt;</span><span style="color:#f92672">body</span><span style="color:#111">&gt;</span>
+  <span style="color:#75715e">&lt;!-- navigation links --&gt;</span>
+  <span style="color:#111">&lt;</span><span style="color:#f92672">a</span> <span style="color:#75af00">href</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;./index.html&#34;</span><span style="color:#111">&gt;</span>
+   Home
+  <span style="color:#111">&lt;/</span><span style="color:#f92672">a</span><span style="color:#111">&gt;</span>
+  <span style="color:#111">&lt;</span><span style="color:#f92672">a</span> <span style="color:#75af00">href</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;./aboutme.html&#34;</span><span style="color:#111">&gt;</span>
+   About Me
+  <span style="color:#111">&lt;/</span><span style="color:#f92672">a</span><span style="color:#111">&gt;</span>
+  <span style="color:#111">&lt;</span><span style="color:#f92672">a</span> <span style="color:#75af00">href</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;./clips.html&#34;</span><span style="color:#111">&gt;</span>
+   Clips
+  <span style="color:#111">&lt;/</span><span style="color:#f92672">a</span><span style="color:#111">&gt;</span>
+  <span style="color:#111">&lt;</span><span style="color:#f92672">a</span> <span style="color:#75af00">href</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;./resume.html&#34;</span><span style="color:#111">&gt;</span>
+   Resume
+  <span style="color:#111">&lt;/</span><span style="color:#f92672">a</span><span style="color:#111">&gt;</span>
+  <span style="color:#75715e">&lt;!-- end navigation --&gt;</span>
+  <span style="color:#111">&lt;</span><span style="color:#f92672">h1</span><span style="color:#111">&gt;</span>
+   howdy there
+  <span style="color:#111">&lt;/</span><span style="color:#f92672">h1</span><span style="color:#111">&gt;</span>
+  <span style="color:#111">&lt;</span><span style="color:#f92672">h2</span><span style="color:#111">&gt;</span>
+   I created
+   <span style="color:#111">&lt;</span><span style="color:#f92672">a</span> <span style="color:#75af00">href</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;http://mcmansionhell.com&#34;</span><span style="color:#111">&gt;</span>
+    McMansion Hell
+   <span style="color:#111">&lt;/</span><span style="color:#f92672">a</span><span style="color:#111">&gt;</span>
+  <span style="color:#111">&lt;/</span><span style="color:#f92672">h2</span><span style="color:#111">&gt;</span>
+  <span style="color:#111">&lt;</span><span style="color:#f92672">p</span><span style="color:#111">&gt;</span>
+   This is my personal website. it is currently
+   <span style="color:#111">&lt;</span><span style="color:#f92672">a</span> <span style="color:#75af00">href</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;http://art.teleportacia.org/observation/vernacular/uc/&#34;</span> <span style="color:#75af00">target</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;_blank&#34;</span><span style="color:#111">&gt;</span>
+    <span style="color:#111">&lt;</span><span style="color:#f92672">img</span> <span style="color:#75af00">src</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;https://web.archive.org/web/20090830115448/http://geocities.com/chankowkwai-ia/underconstruction3.gif&#34;</span><span style="color:#111">/&gt;</span>
+   <span style="color:#111">&lt;/</span><span style="color:#f92672">a</span><span style="color:#111">&gt;</span>
+  <span style="color:#111">&lt;/</span><span style="color:#f92672">p</span><span style="color:#111">&gt;</span>
+  <span style="color:#111">&lt;</span><span style="color:#f92672">br</span><span style="color:#111">/&gt;</span>
+  <span style="color:#111">&lt;</span><span style="color:#f92672">br</span><span style="color:#111">/&gt;</span>
+  <span style="color:#111">&lt;</span><span style="color:#f92672">p</span><span style="color:#111">&gt;</span>
+   <span style="color:#111">&lt;</span><span style="color:#f92672">a</span> <span style="color:#75af00">href</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;https://thebaffler.com/salvos/404-page-not-found-wagner&#34;</span><span style="color:#111">&gt;</span>
+    why does this website look like this?
+   <span style="color:#111">&lt;/</span><span style="color:#f92672">a</span><span style="color:#111">&gt;</span>
+  <span style="color:#111">&lt;/</span><span style="color:#f92672">p</span><span style="color:#111">&gt;</span>
+  <span style="color:#111">&lt;</span><span style="color:#f92672">img</span> <span style="color:#75af00">src</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;https://web.archive.org/web/20090830221555/http://geocities.com/kc6brz/stars.gif&#34;</span><span style="color:#111">/&gt;</span>
+  <span style="color:#111">&lt;</span><span style="color:#f92672">h2</span><span style="color:#111">&gt;</span>
+   contents
+  <span style="color:#111">&lt;/</span><span style="color:#f92672">h2</span><span style="color:#111">&gt;</span>
+  <span style="color:#111">&lt;</span><span style="color:#f92672">ul</span><span style="color:#111">&gt;</span>
+   <span style="color:#111">&lt;</span><span style="color:#f92672">li</span><span style="color:#111">&gt;</span>
+    <span style="color:#111">&lt;</span><span style="color:#f92672">a</span> <span style="color:#75af00">href</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;#horrible things i like&#34;</span><span style="color:#111">&gt;</span>
+     the horrible things i like
+    <span style="color:#111">&lt;/</span><span style="color:#f92672">a</span><span style="color:#111">&gt;</span>
+   <span style="color:#111">&lt;/</span><span style="color:#f92672">li</span><span style="color:#111">&gt;</span>
+   <span style="color:#111">&lt;</span><span style="color:#f92672">li</span><span style="color:#111">&gt;</span>
+    <span style="color:#111">&lt;</span><span style="color:#f92672">a</span> <span style="color:#75af00">href</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;#horrible things ive done&#34;</span><span style="color:#111">&gt;</span>
+     the horrible things i&#39;ve done
+    <span style="color:#111">&lt;/</span><span style="color:#f92672">a</span><span style="color:#111">&gt;</span>
+   <span style="color:#111">&lt;/</span><span style="color:#f92672">li</span><span style="color:#111">&gt;</span>
+  <span style="color:#111">&lt;/</span><span style="color:#f92672">ul</span><span style="color:#111">&gt;</span>
+  <span style="color:#111">&lt;</span><span style="color:#f92672">div</span> <span style="color:#75af00">id</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;horrible things i like&#34;</span><span style="color:#111">&gt;</span>
+   <span style="color:#111">&lt;</span><span style="color:#f92672">h3</span><span style="color:#111">&gt;</span>
+    the horrible things i like
+   <span style="color:#111">&lt;/</span><span style="color:#f92672">h3</span><span style="color:#111">&gt;</span>
+   <span style="color:#111">&lt;</span><span style="color:#f92672">ul</span><span style="color:#111">&gt;</span>
+    <span style="color:#111">&lt;</span><span style="color:#f92672">li</span><span style="color:#111">&gt;</span>
+     living to see the warm sun rise over an unfeeling horizon
+    <span style="color:#111">&lt;/</span><span style="color:#f92672">li</span><span style="color:#111">&gt;</span>
+    <span style="color:#111">&lt;</span><span style="color:#f92672">li</span><span style="color:#111">&gt;</span>
+     web design (one could say it is my passion)
+    <span style="color:#111">&lt;/</span><span style="color:#f92672">li</span><span style="color:#111">&gt;</span>
+   <span style="color:#111">&lt;/</span><span style="color:#f92672">ul</span><span style="color:#111">&gt;</span>
+  <span style="color:#111">&lt;/</span><span style="color:#f92672">div</span><span style="color:#111">&gt;</span>
+  <span style="color:#111">&lt;</span><span style="color:#f92672">div</span> <span style="color:#75af00">id</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;horrible things ive done&#34;</span><span style="color:#111">&gt;</span>
+   <span style="color:#111">&lt;</span><span style="color:#f92672">h3</span><span style="color:#111">&gt;</span>
+    the horrible things i&#39;ve done
+   <span style="color:#111">&lt;/</span><span style="color:#f92672">h3</span><span style="color:#111">&gt;</span>
+   <span style="color:#111">&lt;</span><span style="color:#f92672">p</span><span style="color:#111">&gt;</span>
+    <span style="color:#111">&lt;</span><span style="color:#f92672">a</span> <span style="color:#75af00">href</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;./resume.html&#34;</span><span style="color:#111">&gt;</span>
+     view my resume
+    <span style="color:#111">&lt;/</span><span style="color:#f92672">a</span><span style="color:#111">&gt;</span>
+    <span style="color:#111">&lt;</span><span style="color:#f92672">br</span><span style="color:#111">/&gt;</span>
+    <span style="color:#111">&lt;</span><span style="color:#f92672">a</span> <span style="color:#75af00">href</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;./clips.html&#34;</span><span style="color:#111">&gt;</span>
+     view my favorite clips
+    <span style="color:#111">&lt;/</span><span style="color:#f92672">a</span><span style="color:#111">&gt;</span>
+    <span style="color:#111">&lt;</span><span style="color:#f92672">br</span><span style="color:#111">/&gt;</span>
+    <span style="color:#111">&lt;</span><span style="color:#f92672">a</span> <span style="color:#75af00">href</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;./personal.html&#34;</span><span style="color:#111">&gt;</span>
+     view a small log of my personal, unpublished writing for some reason
+    <span style="color:#111">&lt;/</span><span style="color:#f92672">a</span><span style="color:#111">&gt;</span>
+    <span style="color:#111">&lt;</span><span style="color:#f92672">br</span><span style="color:#111">/&gt;</span>
+   <span style="color:#111">&lt;/</span><span style="color:#f92672">p</span><span style="color:#111">&gt;</span>
+  <span style="color:#111">&lt;/</span><span style="color:#f92672">div</span><span style="color:#111">&gt;</span>
+  <span style="color:#111">&lt;</span><span style="color:#f92672">br</span><span style="color:#111">/&gt;</span>
+  <span style="color:#111">&lt;</span><span style="color:#f92672">br</span><span style="color:#111">/&gt;</span>
+  <span style="color:#75715e">&lt;!--web counter--&gt;</span>
+  <span style="color:#111">&lt;</span><span style="color:#f92672">a</span> <span style="color:#75af00">href</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;http://www.freevisitorcounters.com&#34;</span><span style="color:#111">&gt;</span>
+   Free Counter
+  <span style="color:#111">&lt;/</span><span style="color:#f92672">a</span><span style="color:#111">&gt;</span>
+  <span style="color:#111">&lt;</span><span style="color:#f92672">script</span> <span style="color:#75af00">src</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;https://www.freevisitorcounters.com/auth.php?id=8748185d51c5e74d18cd1651af22770f5051aa6d&#34;</span> <span style="color:#75af00">type</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;text/javascript&#34;</span><span style="color:#111">&gt;</span>
+  <span style="color:#111">&lt;/</span><span style="color:#f92672">script</span><span style="color:#111">&gt;</span>
+  <span style="color:#111">&lt;</span><span style="color:#f92672">script</span> <span style="color:#75af00">src</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;https://www.freevisitorcounters.com/en/home/counter/439769/t/13&#34;</span> <span style="color:#75af00">type</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;text/javascript&#34;</span><span style="color:#111">&gt;</span>
+  <span style="color:#111">&lt;/</span><span style="color:#f92672">script</span><span style="color:#111">&gt;</span>
+ <span style="color:#111">&lt;/</span><span style="color:#f92672">body</span><span style="color:#111">&gt;</span>
+<span style="color:#111">&lt;/</span><span style="color:#f92672">html</span><span style="color:#111">&gt;</span>
+
+</code></pre></div><p>The levels of indentation here indicate the hierarchical level of tags in the parse tree. Two tags at the same indentation are siblings, and a tag enclosed within another is a child. You can use different methods from the BeautifulSoup library to find tags that have specific names or attributes, find the siblings of tags, find the children of tags etc. The <a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/#navigating-the-tree">documentation</a> is pretty straightforward, and very easy to understand.</p>
+<p>Here are some easy methods to get started with:</p>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> <span style="color:#111">regex</span> <span style="color:#f92672">as</span> <span style="color:#111">re</span>
+
+<span style="color:#75715e"># Find the first &lt;a&gt; tag</span>
+<span style="color:#111">first_a_tag</span> <span style="color:#f92672">=</span> <span style="color:#111">soup</span><span style="color:#f92672">.</span><span style="color:#111">find</span><span style="color:#111">(</span><span style="color:#d88200">&#34;a&#34;</span><span style="color:#111">)</span>
+
+<span style="color:#75715e"># Find all &lt;a&gt; tags</span>
+<span style="color:#111">soup</span><span style="color:#f92672">.</span><span style="color:#111">find_all</span><span style="color:#111">(</span><span style="color:#d88200">&#34;a&#34;</span><span style="color:#111">)</span>
+
+<span style="color:#75715e"># Find all the headings which use the word &#34;things&#34; - uses the regex library</span>
+<span style="color:#111">soup</span><span style="color:#f92672">.</span><span style="color:#111">find_all</span><span style="color:#111">(</span><span style="color:#111">string</span><span style="color:#f92672">=</span><span style="color:#111">re</span><span style="color:#f92672">.</span><span style="color:#111">compile</span><span style="color:#111">(</span><span style="color:#d88200">&#34;things&#34;</span><span style="color:#111">))</span>
+
+<span style="color:#75715e"># Find the next sibling of first_a_tag</span>
+<span style="color:#111">first_a_tag</span><span style="color:#f92672">.</span><span style="color:#111">next_sibling</span>
+</code></pre></div><p>Once your parse tree is ready, it&rsquo;s time to traverse it, and pick up whatever could be useful!</p>
+<h2 id="step-4-solving-the-soup-3">Step 4: Solving the Soup <sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></h2>
+<p>Looking at the soup for my webpage, it became clear that some components were quite uselss. Things like advertisements, toolbars, menus and miscellaneous buttons would not serve any purpose to my broader goal. Using &lsquo;Inspect Element&rsquo; from earlier, I&rsquo;d figured out that all of the useful information was within the main body of the article, so that&rsquo;s where I began looking.</p>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-HTML" data-lang="HTML">
+<span style="color:#111">&lt;</span><span style="color:#f92672">div</span> <span style="color:#75af00">class</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;article-content retro-folders&#34;</span> <span style="color:#75af00">id</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;main-article&#34;</span><span style="color:#111">&gt;</span>
+           <span style="color:#111">&lt;</span><span style="color:#f92672">p</span><span style="color:#111">&gt;</span>
+           <span style="color:#111">&lt;/</span><span style="color:#f92672">p</span><span style="color:#111">&gt;</span>
+           <span style="color:#111">&lt;</span><span style="color:#f92672">div</span> <span style="color:#75af00">class</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;quoteright&#34;</span> <span style="color:#75af00">style</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;width:300px;&#34;</span><span style="color:#111">&gt;</span>
+            <span style="color:#111">&lt;</span><span style="color:#f92672">img</span> <span style="color:#75af00">alt</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;https://static.tvtropes.org/pmwiki/pub/images/img_1203_7.JPG&#34;</span> <span style="color:#75af00">border</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;0&#34;</span> <span style="color:#75af00">class</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;embeddedimage&#34;</span> <span style="color:#75af00">src</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;https://static.tvtropes.org/pmwiki/pub/images/img_1203_7.JPG&#34;</span><span style="color:#111">/&gt;</span>
+           <span style="color:#111">&lt;/</span><span style="color:#f92672">div</span><span style="color:#111">&gt;</span>
+           <span style="color:#111">&lt;</span><span style="color:#f92672">div</span> <span style="color:#75af00">class</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;proper-ad-unit mobile-ad&#34;</span><span style="color:#111">&gt;</span>
+            <span style="color:#111">&lt;</span><span style="color:#f92672">h6</span> <span style="color:#75af00">class</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;ad-caption&#34;</span><span style="color:#111">&gt;</span>
+             Advertisement:
+            <span style="color:#111">&lt;/</span><span style="color:#f92672">h6</span><span style="color:#111">&gt;</span>
+            <span style="color:#111">&lt;</span><span style="color:#f92672">div</span> <span style="color:#75af00">id</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;proper-ad-tvtropes_content_3&#34;</span><span style="color:#111">&gt;</span>
+             <span style="color:#111">&lt;</span><span style="color:#f92672">script</span><span style="color:#111">&gt;</span>
+              <span style="color:#75af00">propertag</span><span style="color:#111">.</span><span style="color:#75af00">cmd</span><span style="color:#111">.</span><span style="color:#75af00">push</span><span style="color:#111">(</span><span style="color:#00a8c8">function</span><span style="color:#111">()</span> <span style="color:#111">{</span> <span style="color:#75af00">proper_display</span><span style="color:#111">(</span><span style="color:#d88200">&#39;tvtropes_content_3&#39;</span><span style="color:#111">);</span> <span style="color:#111">})</span>
+             <span style="color:#111">&lt;/</span><span style="color:#f92672">script</span><span style="color:#111">&gt;</span>
+            <span style="color:#111">&lt;/</span><span style="color:#f92672">div</span><span style="color:#111">&gt;</span>
+           <span style="color:#111">&lt;/</span><span style="color:#f92672">div</span><span style="color:#111">&gt;</span>
+           <span style="color:#111">&lt;</span><span style="color:#f92672">p</span><span style="color:#111">&gt;</span>
+            <span style="color:#111">&lt;</span><span style="color:#f92672">em</span><span style="color:#111">&gt;</span>
+             Vault of Horror
+            <span style="color:#111">&lt;/</span><span style="color:#f92672">em</span><span style="color:#111">&gt;</span>
+            is an
+            <span style="color:#111">&lt;</span><span style="color:#f92672">a</span> <span style="color:#75af00">class</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;twikilink&#34;</span> <span style="color:#75af00">href</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;/pmwiki/pmwiki.php/Main/AnthologyFilm&#34;</span> <span style="color:#75af00">title</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;/pmwiki/pmwiki.php/Main/AnthologyFilm&#34;</span><span style="color:#111">&gt;</span>
+             Anthology Film
+            <span style="color:#111">&lt;/</span><span style="color:#f92672">a</span><span style="color:#111">&gt;</span>
+            
+            .....
+</code></pre></div><p>I could identify this tag across several pages on the website, and it had the same <code>class</code> and <code>id</code> attributes on all these pages.</p>
+<p>The tag had some text summarising the film, as well as some child tags which stored other information. I decided that I didn&rsquo;t really need to store the image within this main body, but I wanted to preserve the other textual information. Links to tropes are scattered all over the webpage, and since my goal is to understand how tropes relate to each other, tropes that are mentioned out of the &lsquo;Tropes&rsquo; section could possibly prove useful too. After iterating over the webpage, this is the format I decided to store my data in:</p>
+<p><img style="margin: 15px 20px 15px 0px;" src="img/tvt/Screenshot 2019-10-02 at 3.13.46 AM.png" /></p>
+<p>This format suited my data for several reasons (and I&rsquo;d more or less figured them out along the way till here):</p>
+<ul>
+<li><strong>It preserved the hierarchical structure of the webpage</strong>, which helped me to figure out relationships between different components. For example: what does the header tag have underneath it? What does the folder tag have within it? Is there a line (denoted by the <code>&lt;hr&gt;</code> tag) between two different compenents?</li>
+</ul>
+<p>This way, I could label textual components as &lsquo;Summary&rsquo; or &lsquo;Tropes&rsquo; or &lsquo;Cast List&rsquo; with ease. It became especially important to distinguish components like this when there were tropes for several films within a single webpage (like for instance with <a href="https://tvtropes.org/pmwiki/pmwiki.php/Film/HomeAlone">Home Alone</a>.</p>
+<ul>
+<li><strong>It was functional, and it preserved all text that I could use to get additional insights about the data.</strong></li>
+</ul>
+<p>For instance, in the table you can see that I stored the text that I found within the <code>&lt;h2&gt;</code> tag that precedes the tropes. The text here mentions that &lsquo;This film contains examples of: &lsquo;, which, being singular, points to the fact that the tropes below this heading are for one film only. Sometimes, the <code>&lt;h2&gt;</code> tag would mention something like &lsquo;This series contains examples of: &lsquo;, where the &lsquo;series&rsquo; keyword could alert me to the possibility of there being tropes for multiple films within the same webpage.</p>
+<p>Learning to organise my data in such a direct and accessible format was thus another really major takeaway for me from the entire process.</p>
+<h2 id="step-5-on-storing-formats-and-pickles">Step 5: On Storing, Formats and Pickles</h2>
+<p>Once I&rsquo;d finished scraping everything, I had to figure out how to store this information in an efficient format. I considered three options mainly: JSON, Pickle, and MessagePack. I will take a brief moment to break down the jargon surrounding all these three formats, because I think it&rsquo;s important to undertsand what they essentially do.</p>
+<ul>
+<li><strong><a href="http://www.json.org">JSON</a></strong> is a format which essentially encodes objects in a string. This conversion is called &lsquo;serialization&rsquo;, and its inverse operation is called &lsquo;deserialization&rsquo;. Transmitting objects or storing them in files requires them to be in the form of byte strings, which is exactly what JSON helps you accomplish.</li>
+</ul>
+<p>This <a href="https://stackoverflow.com/questions/3316762/what-is-deserialize-and-serialize-in-json">post</a> on StackOverflow illustrates this process with a great example.</p>
+<p>A huge benefit of JSON is that you can use it across multiple languages. However, not all objects can be serialized into JSON by default, and you need to define new functions to serialize objects for which this functionality doesn&rsquo;t already exist. Here is a <a href="https://pythontic.com/serialization/json/introduction">guide</a> to doing this.</p>
+<ul>
+<li>
+<p><strong><a href="https://msgpack.org/index.html">MessagePack</a></strong> is just a JSON-like serialization format, except that it&rsquo;s faster and more space-efficient than JSON. It&rsquo;s been gaining traction over the past few years, and it can be parsed in most relevant programming languages as well.</p>
+</li>
+<li>
+<p><strong><a href="https://docs.python.org/3/library/pickle.html">Pickle</a></strong> encodes objects in character streams, which is a slightly different concept than what JSON does. Practically, what this means is that pickle can serialize basically any python object, and you don&rsquo;t need to write new code. However, this also means that you can only use Pickle with python and not across languages, and that it&rsquo;s also slower compared to JSON.</p>
+</li>
+</ul>
+<p>Ben Frederickson makes an excellent case to use JSON or MessagePack over Pickle, and it&rsquo;s worth reading <a href="https://www.benfrederickson.com/dont-pickle-your-data/">his post</a> to understand some of the issues one could face with Pickle.</p>
+<p>After exploring my options, I decided to go ahead and just use Pickle, which was the only one of the three which could serialize HTML tags by default. Not having to write a function to serialize HTML tags was just a little faster for me because I was on a time constraint. Also, since I was the only one who would use the data in its current format, I wasn&rsquo;t particularly worried about security loopholes.</p>
+<p>But so yes, after almost a month and a half of angsting over HTML tags, I finally finished my scraping! The next step was to clean up this data systematically and pragmatically, which is what I&rsquo;ve been working one for the past month or so. However, I&rsquo;m going to go ahead and just end this blog post here, on a high(?). I thought scraping was stressful, but cleaning something like this has just been an entirely different ballgame, and it has come with its own lessons as well.</p>
+<p>Speaking of learning things, my workflow wouldn&rsquo;t have been half as smooth or streamlined without the guidance of some very cool people from my lab - Dr. Thomas Stoeger, Helio Tejedoro and Dr. Luis Amaral were wonderful sources of wisdom and powerful enforcers of sanity checks. For this, I am grateful to them.</p>
+<p>Finally, I just hope this blog post can help people figure out some fundamental, but often overlooked elements of the process of scraping webpages. And really, I&rsquo;m really passing on the favour that I benefited from. Any feedback or comments are always welcome!</p>
+<h4 id="footnotes">Footnotes:</h4>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p><a href="https://tvtropes.org/pmwiki/pmwiki.php/Music/WhatsTheStoryMorningGlory">What&rsquo;s the Story, Morning Glory</a> <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2" role="doc-endnote">
+<p><a href="https://tvtropes.org/pmwiki/pmwiki.php/Main/RealMenCook">Real Men Cook</a> <a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3" role="doc-endnote">
+<p><a href="https://tvtropes.org/pmwiki/pmwiki.php/Main/SolveTheSoupCans">Solve the Soup Cans</a> <a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+
+		</div>
+
+		<div class="post-tags">
+			
+				
+					<nav class="nav tags">
+							<ul class="flat">
+								
+								<li><a href="/tags/python">python</a></li>
+								
+								<li><a href="/tags/research">research</a></li>
+								
+							</ul>
+					</nav>
+				
+			
+		</div>
+		</div>
+	<div class="footer wrapper">
+	<nav class="nav">
+		<div> <a href="https://github.com/vividvilla/ezhil">Ezhil theme</a> | Built with <a href="https://gohugo.io">Hugo</a></div>
+	</nav>
+</div>
+
+
+
+<script>feather.replace()</script>
+</body>
+</html>
