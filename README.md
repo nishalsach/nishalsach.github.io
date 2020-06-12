@@ -6,7 +6,9 @@ Content:
 
 - Edit About Me to add my education
 - Accommodate my projects somewhere
-- Update cool stuff
+- Update cool stuff:
+    + Play posters
+    + 
 
 CSS:
 

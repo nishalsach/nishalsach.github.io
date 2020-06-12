@@ -6,10 +6,47 @@
     <description>Recent content on Sachita Nishal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Jun 2020 18:01:26 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 13 Jun 2020 02:59:08 +0530</lastBuildDate>
     
 	<atom:link href="https://nishalsach.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Staples</title>
+      <link>https://nishalsach.github.io/poems_pages/staples/</link>
+      <pubDate>Sat, 13 Jun 2020 02:59:08 +0530</pubDate>
+      
+      <guid>https://nishalsach.github.io/poems_pages/staples/</guid>
+      <description>there’s always certain staples in my mind,
+not quite glued in,
+but sort of tackily clipped on somewhere in the gaps.
+they come in flashes and in those mini chunks of moments -
+on the bus, walking through a doorway,
+squeezing soap out on my palms,
+or while zipping up a really full suitcase.
+like that really colourful human evolution network diagram thingy
+i saw in a science museum once.</description>
+    </item>
+    
+    <item>
+      <title>Gentle</title>
+      <link>https://nishalsach.github.io/poems_pages/gentle/</link>
+      <pubDate>Sat, 13 Jun 2020 02:42:06 +0530</pubDate>
+      
+      <guid>https://nishalsach.github.io/poems_pages/gentle/</guid>
+      <description>hush, quiet now,
+the dawn isn’t here yet.
+it won’t be here for another hour or two.
+or maybe you will snap your fingers (softly, surely!),
+and it will unveil itself,
+chirp by chirp,
+until the sky’s blue sneaks in,
+from between the crevices of your curtains.
+you will have spent the night,
+rubbing the soles of your feet underneath the table,
+wishing they were gentler.
+pausing to press down on</description>
+    </item>
     
     <item>
       <title>Hugo Hacks</title>
@@ -30,7 +67,7 @@ So, I am proud to announce that as of today, June 12 2020, I have transitioned o
       <pubDate>Fri, 12 Jun 2020 14:45:40 +0530</pubDate>
       
       <guid>https://nishalsach.github.io/posts/2020-06-16-cool-stuff/</guid>
-      <description>I am extremely passionate about literature, cinema and theatre, and I have directed several plays as part of BITS Goa&amp;rsquo;s theatre society. Some of my favourite playwrights are Edward Albee, Annie Baker and Will Eno. Most recently, I directed an adaptation of a wonderfully life-affirming play called ‘Every Brilliant Thing’ (originally written by Duncan Macmillan).</description>
+      <description>.myDiv { /* border: 5px outset red;*/ height: 630px; text-align: center; margin:10; }  Books and Stuff My Reading List has, on average, 47 books on it at any given point of time. However, my most ambitious project by far has been to finally complete the Discworld books! Ever since I read Guards! Guards! earlier this year, I&amp;rsquo;ve been meaning to get my hands on the entire series. So here I am, stuck at home in the Age of COVID, currently reading: Sourcery (7/41)</description>
     </item>
     
     <item>
@@ -39,7 +76,7 @@ So, I am proud to announce that as of today, June 12 2020, I have transitioned o
       <pubDate>Mon, 16 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>https://nishalsach.github.io/about/</guid>
-      <description>Hi, I am Sachita Nishal, and I study Computer Science at BITS Pilani in Goa. Welcome to my homepage!
+      <description>--   Hi, I&amp;rsquo;m Sachita Nishal, and I study Computer Science at BITS Pilani in Goa. Welcome to my homepage!
  waddup Chicago   -- I&amp;rsquo;m extremely fascinated by how complex networks of people, ideas and machines interact, and how these interactions change the fabric of our society. With this broader research interest in mind, I am joining Northwestern University&amp;rsquo;s PhD program in Technology and Social Behaviour in Fall 2020.</description>
     </item>
     

@@ -3,6 +3,7 @@ title: "Hugo Hacks"
 date: 2020-06-12T18:01:26+05:30
 draft: false
 description: Useful Tips for Hosting a Hugo Blog on Github Pages
+tags: [hacks]
 ---
 
 Hi.
