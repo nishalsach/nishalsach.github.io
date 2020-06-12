@@ -4,6 +4,7 @@ title = "Sachita Nishal"
 theme = "ezhil"
 
 publishDir = ".."
+# relativeURLs = true
 
 # Enable syntax highlighting.
 # Guides: https://xyproto.github.io/splash/docs/all.html
@@ -11,7 +12,7 @@ publishDir = ".."
 # Make sure these stting are BEFORE any arrays
 pygmentsuseclasses = false
 pygmentscodefences = true
-PygmentsStyle = "monokailight"
+pygmentsstyle = "monokailight"
 pygmentscodefencesguesssyntax = true
 
 # To enable images with HTML tags (for greater flexibility)

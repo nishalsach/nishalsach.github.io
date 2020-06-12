@@ -29,7 +29,9 @@
 <body>
 	<div class="container wrapper post">
 		<div class="header">
-	<base href="https://nishalsach.github.io/">
+
+
+
 	<h1 class="site-title"><a href="https://nishalsach.github.io/">Sachita Nishal</a></h1>
 	<div class="site-description"><h2>Incoming PhD Student, Northwestern University</h2><nav class="nav social">
 			<ul class="flat"><a href="https://github.com/nishalsach" title="Github"><i data-feather="github"></i></a><a href="mailto:sachita.nishal@gmail.com" title="Gmail"><i data-feather="mail"></i></a><a href="https://twitter.com/gohugoio" title="Twitter"><i data-feather="twitter"></i></a><a href="https://open.spotify.com/user/parikalpanaa" title="Spotify"><i data-feather="music"></i></a></ul>
@@ -81,16 +83,16 @@
 <p>So, this project that I undertook required me to scrape almost 13000 webpages from a nifty little website called <a href="https://tvtropes.org">TVTropes</a>. All these pages followed a general template more or less, albeit with quite a generous definition of &lsquo;general&rsquo; sometimes. What that means is that they were all kind of similar, but sometimes had small-yet-significant changes in how they structured their information.</p>
 <p>Shown below is an example of a page from this website, which is one of the several that I would like to scrape.</p>
 <p align="center">
-<img style="margin: 15px 20px 15px 0px;" src="img/tvt/TVTropes.png" width=500 align="middle" />
+<img style="margin: 15px 20px 15px 0px;" src="../../img/tvt/TVTropes.png" width=500 align="middle" />
 </p>
 <br>
 <br>
 <p>The next image compares two other webpages from the site, both of which present their tropes in visibly different ways.</p>
-<p><img style="margin: 15px 20px 15px 0px;" src="img/tvt/tvt_compare.png" />
+<p><img style="margin: 15px 20px 15px 0px;" src="../../img/tvt/tvt_compare.png" />
 <br>
 <br>
 I&rsquo;m now going to break down my process of scraping this dataset into a series of steps, and use the concrete examples of webpages for the rest of this post. I hope it will come in handy when I talk about some of the more abstract ideas behind the process.</p>
-<h2 id="step-1-whats-the-story-morning-glory1">Step 1: (What&rsquo;s the Story) Morning Glory?<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></h2>
+<h2 id="step-1-whats-the-story-morning-glory-1">Step 1: (What&rsquo;s the Story) Morning Glory? <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></h2>
 <p>The first thing I learnt was that you need to <strong>broadly, but definitely define the reason you want to scrape a website</strong>, because it can go a long way in ensuring that your scraping process is streamlined and well-structured. Why?</p>
 <p>Because it helps you to <strong>optimise how you organise your data while you scrape it, which will make the subsequent data cleaning and processing much smoother</strong>.</p>
 <p>My broader goal was to understand analyse creativity in films, which I defined as the process of mixing and matching different ideas to give rise to something new. To ground this notion of &lsquo;creativity&rsquo; in something slightly more tangible, I decided to look at tropes used in films, and how they evolve over time in their usage, as well as how they co-occur with and influence each other.</p>
@@ -102,7 +104,7 @@ I&rsquo;m now going to break down my process of scraping this dataset into a ser
 <p>After figuring out the bigger picture for my project, I began looking at the different parts of the webpage, and mapping out how they are organised. I feel like acquainting myself with the <strong>broader template</strong> early gave good structure to my code, even if it wasn&rsquo;t didn&rsquo;t exhaust all the possibilties.</p>
 <p>I started by randomly browsing a few webpages of different films on the website, and using the &lsquo;Inspect Element&rsquo; to get decent idea of how some important tags are nested in the HTML file.</p>
 <p align="center">
-<img style="margin: 15px 20px 15px 0px;" src="img/tvt/TVTropes_edit.png" width=500/>
+<img style="margin: 15px 20px 15px 0px;" src="../../img/tvt/TVTropes_edit.png" width=500/>
 </p>
 <br>
 <br>
@@ -112,7 +114,7 @@ I&rsquo;m now going to break down my process of scraping this dataset into a ser
 <p>But so, yes, at this point, I did this stupid thing where I got extremely caught up in cataloguing all the minute organisational/structural features each webpage had (folders, headers, bullets, paragraphs etc.), and it was really driving me crazy.</p>
 <p>Here&rsquo;s a sample that merely scratches the surface of the madness:</p>
 <p align="center">
-<img style="margin: 15px 20px 15px 0px;" src="img/tvt/190801_master_film_scrapeyearsflowchart.JPG" width=500/>
+<img style="margin: 15px 20px 15px 0px;" src="../../img/tvt/190801_master_film_scrapeyearsflowchart.JPG" width=500/>
 </p>
 <br>
 <br>
@@ -315,7 +317,7 @@ Source: <a href="https://vinaytech.files.wordpress.com/2008/11/domimage.png">Vin
             .....
 </code></pre></div><p>I could identify this tag across several pages on the website, and it had the same <code>class</code> and <code>id</code> attributes on all these pages.</p>
 <p>The tag had some text summarising the film, as well as some child tags which stored other information. I decided that I didn&rsquo;t really need to store the image within this main body, but I wanted to preserve the other textual information. Links to tropes are scattered all over the webpage, and since my goal is to understand how tropes relate to each other, tropes that are mentioned out of the &lsquo;Tropes&rsquo; section could possibly prove useful too. After iterating over the webpage, this is the format I decided to store my data in:</p>
-<p><img style="margin: 15px 20px 15px 0px;" src="img/tvt/Screenshot 2019-10-02 at 3.13.46 AM.png" /></p>
+<p><img style="margin: 15px 20px 15px 0px;" src="../../img/tvt/Screenshot 2019-10-02 at 3.13.46 AM.png" /></p>
 <p>This format suited my data for several reasons (and I&rsquo;d more or less figured them out along the way till here):</p>
 <ul>
 <li><strong>It preserved the hierarchical structure of the webpage</strong>, which helped me to figure out relationships between different components. For example: what does the header tag have underneath it? What does the folder tag have within it? Is there a line (denoted by the <code>&lt;hr&gt;</code> tag) between two different compenents?</li>

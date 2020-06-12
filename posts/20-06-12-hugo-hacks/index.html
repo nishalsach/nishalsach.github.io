@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Hugo Hacks - Sachita Nishal</title><link rel="icon" type="image/png" href=icons/myicon.png /><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="Hugo Hacks" />
+<meta property="og:description" content="Useful Tips for Hosting a Hugo Blog on Github Pages" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://nishalsach.github.io/posts/20-06-12-hugo-hacks/" />
+<meta property="article:published_time" content="2020-06-12T18:01:26+05:30" />
+<meta property="article:modified_time" content="2020-06-12T18:01:26+05:30" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Hugo Hacks"/>
+<meta name="twitter:description" content="Useful Tips for Hosting a Hugo Blog on Github Pages"/>
+<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:200,300" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" media="screen" href="https://nishalsach.github.io/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://nishalsach.github.io/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="https://nishalsach.github.io/css/custom.css" />
+	
+
+	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+	<script src="https://nishalsach.github.io/js/main.js"></script>
+	<script src="https://nishalsach.github.io/js/abc.js"></script>
+	<script src="https://nishalsach.github.io/js/xyz.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+
+<body>
+	<div class="container wrapper post">
+		<div class="header">
+
+
+
+	<h1 class="site-title"><a href="https://nishalsach.github.io/">Sachita Nishal</a></h1>
+	<div class="site-description"><h2>Incoming PhD Student, Northwestern University</h2><nav class="nav social">
+			<ul class="flat"><a href="https://github.com/nishalsach" title="Github"><i data-feather="github"></i></a><a href="mailto:sachita.nishal@gmail.com" title="Gmail"><i data-feather="mail"></i></a><a href="https://twitter.com/gohugoio" title="Twitter"><i data-feather="twitter"></i></a><a href="https://open.spotify.com/user/parikalpanaa" title="Spotify"><i data-feather="music"></i></a></ul>
+		</nav>
+	</div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li>
+				<a href="/">Home</a>
+			</li>
+			
+			<li>
+				<a href="/about">About Me</a>
+			</li>
+			
+			<li>
+				<a href="/resume">Resume</a>
+			</li>
+			
+			<li>
+				<a href="/tags">Tags</a>
+			</li>
+			
+			<li>
+				<a href="/posts">All Posts</a>
+			</li>
+			
+			<li>
+				<a href="/posts/2020-06-16-cool-stuff/">Cool Stuff</a>
+			</li>
+			
+		</ul>
+	</nav>
+</div>
+
+
+		<div class="post-header">
+			<h1 class="title">Hugo Hacks</h1>
+			<div class="meta">Posted at &mdash; Jun 12, 2020</div>
+		</div>
+
+		<div class="markdown">
+			<p>Hi.</p>
+<p>Welcome.</p>
+<p>You can choose to skip right to the hacks with this handy index:</p>
+<ul>
+<li><a href="#filepaths">Filepaths in Hugo</a></li>
+<li><a href="#footnotes">Footnotes in Markdown</a></li>
+<li><a href="#html_img">HTML Tags for Images in Markdown</a></li>
+<li><a href="#syntac_highlights">Syntax Highlighting for Code in Markdown</a></li>
+</ul>
+<p>Or, you can bear witness to an overly detailed and meandering tale about my journey navigating the horrific ills of modern technology, below.</p>
+<p>So, I am proud to announce that as of today, June 12 2020, I have transitioned out of Jekyll, and am the owner of a shiny new blog built with Hugo. Admittedly, this process has had me pulling my hair out over the past few days, and it has made me want to kick myself in frustration about why I set out on this journey in the first place.</p>
+<p>See, it started with wanting to use Hugo&rsquo;s themes, which were just minimalistic enough for me to show off to the internet what a cool, chill, minimalist I am. As someone who isn&rsquo;t a fan of writing my own CSS or HTML to achieve these glorious ends, I made this decision almost instantly. As someone who has <em>very</em> limited experience with CSS and HTML, I also regretted this decision instantly.</p>
+<p>(In fact, I&rsquo;d say I regretted the decision <em>more</em> instantly than I made it even, but physics is complicated and saying stupid stuff on the internet to convey the intricate emotions I felt in those <em>instants</em> doesn&rsquo;t seem worth it. So I&rsquo;m not saying that. To be clear.)</p>
+<p>I regretted it because, Hugo themes are cool and setting up a static website with Hugo is quick. The official docs have a great set of instructions about getting started with your site<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>, and I also found a cool blog post by someone else that shows you how to setup your Hugo website with GitHub pages <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> (a method I honestly found simpler than the one on the Hugo docs).</p>
+<p>That&rsquo;s it though. That&rsquo;s where the fun stuff ends.</p>
+<p>The rest of it is an absolutely terrifyingly harrowing endeavour, as you try to get your <code>&lt;img&gt;</code> tags in Markdown posts to work, your footnotes completely break into chaos, you are unable to make new static pages in your root directory for some reason, and the syntax highlighting for code in your blog posts just doesn&rsquo;t go with the beautiful theme you picked out for yourself.</p>
+<p>And in horror you realise: <em>I need to understand more HTML and CSS for this. I need to know how files in one directory generate another and what directory to put images in and what CSS needs to change for me to be able to add captions to my images that follow the left alignment of the image that I achieved two commits ago by enabling</em> <code>&lt;img&gt;</code> <em>tags in Hugo&rsquo;s Markdown.</em></p>
+<p>And maybe all this stuff only happened to me, and maybe I am absolute idiot who should&rsquo;ve bothered to read more than 5 pages in the docs+release notes before giving up and deciding to wing it after citing my laziness as a valid excuse AND as a positive trait that ensures I get work done faster.</p>
+<p>Maybe, maybe not.</p>
+<p>Either way, what I am sure of is that I am a bumbling idiot who might need to resort to these hacks again - not an unlikely event by any measure, seeing as I am indeed stupid enough to undertake such a drastic venture again. And then, wouldn&rsquo;t it help to have them here, aggregated, sectioned, documented and ripe for the picking?</p>
+<p>Yes, yes it could. Future me can figure out how to return that favour. And if someone else turns out to be more like me too, maybe this could earn me a bit of good karma.</p>
+<p>So but yes, I&rsquo;ve spent the last couple of days out on several wild-goose chases across the interwebz, winding through pages on the Hugo Support site, the docs, StackOverflow and random GitHub repos ever so often. And I would like to never do it again, thank you very much, so here is everything I&rsquo;ve discovered and implemented thus far. Genuinely a special mention here for the <a href="https://discourse.gohugo.io/about">Hugo Community site</a>, where people ask questions very well and very soundly, unlike me, whose googling begins and ends at &lsquo;hugo footnotes not working&rsquo;. Their&rsquo;s is a skill I hope to possess and be proud of one day.</p>
+<p>So then, that brings us here, to the relevant stuff. Lo and behold:</p>
+<h2 id="a-namereal_dealahacks-to-get-stuff-working-on-your-hugo-webpage"><a name="real_deal"></a>Hacks to Get Stuff Working on Your Hugo Webpage</h2>
+<h3 id="a-namefilepathsa-filepaths-in-hugo"><a name="filepaths"></a> Filepaths in Hugo</h3>
+<figure>
+ <img style="float: right; margin: 15px 15px 15px 15px;" src="../../img/filepath_quicksite.png" width="320" />
+</figure>
+<p>A brief note about how Hugo works, before we proceed further. Any Markdown posts you write should go in the &lsquo;content&rsquo; directory, within the folder for your website that you setup with Hugo. The sub-structure for &lsquo;content&rsquo; might vary across themes - the theme I am using is <a href="https://github.com/vividvilla/ezhil">Ezhil</a> <sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>, and I use a &lsquo;posts&rsquo; directory within &lsquo;content&rsquo; here.</p>
+<p>Any posts that get built are published in the &lsquo;public&rsquo; directory within your site&rsquo;s folder, unless you change this with the following statement in your <code>config.toml</code> file:</p>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-md" data-lang="md">publishdir = &#39;..&#39;
+</code></pre></div><p>My Hugo site&rsquo;s config file indeed contains this line, because that is how I configured it to work with GitHub Pages<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>. As a result, all my posts get built in the GitHub Pages repository, which contains this very Hugo site folder, with all my Hugo data/posts/themes within it, as  seen here on the right.</p>
+<p>To embed any media in your posts, it needs to be contained within the &lsquo;static&rsquo; directory in your Hugo site&rsquo;s folder. Paths to any media files in your markdown posts assume the root directory to be your Hugo site&rsquo;s folder.</p>
+<p><strong>Another tip</strong>: When you add a theme to your Hugo site, check-out the README on the theme&rsquo;s Git repo. It describes what changes you can make in <code>config.toml</code> file to enable social media icons, change navigation bar settings etc.</p>
+<h3 id="a-namefootnotesa-footnotes-in-markdown"><a name="footnotes"></a> Footnotes in Markdown</h3>
+<p>Setting up footnotes to work in your posts in Hugo is easy, and is elaborated upon in the Markdown Guide website<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup> quite well. However, I ran into a bunch of issues getting footnotes to work. Anytime I&rsquo;d click on a footnote, it would take me to the base url for my website, instead of the footnote itself. This issue also manifested when I tried to link to headings within my post, as described here on the Markdown Guide website<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup>.</p>
+<p>Turns out that someone else had also faced this very specific problem before, specifically, that the links to content within posts would get rendered relative to the web root rather than relative to the post that they belong to<sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup>. Also turns out, that this is a problem with the theme! The accepted solution on the forums points to a specific bug fix<sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup> for the theme that the original asker had setup for their blog.</p>
+<p>Ezhil had no such bug fix in place, so I decided to change the <code>layouts/partials/head.html</code> file myself. I removed the following line from the code:</p>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#111">&lt;</span><span style="color:#f92672">base</span> <span style="color:#75af00">href</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;{{ .Site.BaseURL }}&#34;</span> <span style="color:#111">/&gt;</span>
+</code></pre></div><p>So far, this measure has not created any new problems for me, except for a teensy new adjustment I&rsquo;ve had to make: anytime I link to content or media on my website from within my markdown posts, I now have to use the path relative to the current directory I am working in, as opposed to the root directory of my Hugo site. Bearable enough, seeing as my footnotes finally work!</p>
+<h3 id="a-namehtml_imga-html-tags-for-images-in-markdown"><a name="html_img"></a> HTML Tags for Images in Markdown</h3>
+<p>With Jekyll, I got really used to embedding images in HTML tags in my posts - this made it easy to align and resize them, and add margins with text. With Hugo however, I discovered that these <code>&lt;img&gt;</code> tags refused to work.</p>
+<p>I found out that this was because Hugo, unfortunately, since v0.60.0, has switched a new default library for Markdown, called Goldmark<sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup>. Goldmark does not support HTML tags by default, so you need to make a small addition in your <code>config.toml</code> file to allow for this. I found this advice on StackOverflow<sup id="fnref:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup>, and have been immensely grateful for it ever since:</p>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml"><span style="color:#111">[</span><span style="color:#75af00">markup</span><span style="color:#111">.</span><span style="color:#75af00">goldmark</span><span style="color:#111">.</span><span style="color:#75af00">renderer</span><span style="color:#111">]</span>
+    <span style="color:#75af00">unsafe</span> <span style="color:#111">=</span> <span style="color:#00a8c8">true</span>
+</code></pre></div><h3 id="a-namesyntax_highlightsa-syntax-highlighting-for-code-in-markdown"><a name="syntax_highlights"></a> Syntax Highlighting for Code in Markdown</h3>
+<p>So this one is actually pretty easy - I wanted to enable syntax highlighting for my code blocks, by picking a style from one of the several in Hugo&rsquo;s gallery<sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup>. This is typically a straightforward affair, and all you need to do is add the following lines to your <code>config.toml</code> file:</p>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml"><span style="color:#75af00">pygmentsstyle</span> <span style="color:#111">=</span> <span style="color:#d88200">&#34;monokailight&#34;</span>  <span style="color:#75715e"># insert the theme of your choice here</span>
+<span style="color:#75af00">pygmentscodefencesguesssyntax</span> <span style="color:#111">=</span> <span style="color:#00a8c8">true</span>
+</code></pre></div><p>However, my own implementation of this continued to fail, and here&rsquo;s the reason that I discovered: these lines need to be inserted before any arrays in your config file! <sup id="fnref:11"><a href="#fn:11" class="footnote-ref" role="doc-noteref">11</a></sup></p>
+<p>I don&rsquo;t honestly know why or how this configuration exists, but it should be enough to get syntax highlights working.</p>
+<h2 id="references">References:</h2>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p><a href="https://gohugo.io/getting-started/quick-start/">Hugo Docs on Getting Started</a> <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2" role="doc-endnote">
+<p><a href="https://pulsejet.github.io/blog/posts/setting-up-hugo-on-github-pages/">Cool Blog Post I Found on Using Hugo with GitHub Pages</a> <a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3" role="doc-endnote">
+<p><a href="https://github.com/vividvilla/ezhil">Ezhil Theme</a> <a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4" role="doc-endnote">
+<p><a href="https://www.markdownguide.org/extended-syntax/#footnotes">Markdown Guide&rsquo;s Section on Footnotes</a> <a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5" role="doc-endnote">
+<p><a href="https://www.markdownguide.org/extended-syntax/#heading-ids">Markdown Guide&rsquo;s Section on Linking to Headings</a> <a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:6" role="doc-endnote">
+<p><a href="https://discourse.gohugo.io/t/org-mode-anchors-solved/13842">Issues with Anchors on Hugo</a> <a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:7" role="doc-endnote">
+<p><a href="https://github.com/gyorb/hugo-dusk/commit/1bb572284a3db971ed425a527166a409ee331ebe">fix base href usage which breaks footnotes</a> <a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:8" role="doc-endnote">
+<p><a href="https://gohugo.io/news/0.60.0-relnotes/">Hugo 0.60.0 Release Notes</a> <a href="#fnref:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:9" role="doc-endnote">
+<p><a href="https://stackoverflow.com/questions/60329235/blogdown-and-hugo-not-parsing-html-tags-in-markdown">HTML Tags in Hugo Markdown</a> <a href="#fnref:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:10" role="doc-endnote">
+<p><a href="https://xyproto.github.io/splash/docs/all.html">Hugo&rsquo;s Syntax Highlighting Gallery</a> <a href="#fnref:10" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:11" role="doc-endnote">
+<p><a href="https://discourse.gohugo.io/t/pygmentsstyle/20785">pygmentsStyle Not Working</a> <a href="#fnref:11" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+
+		</div>
+
+		<div class="post-tags">
+			
+				
+			
+		</div>
+		</div>
+	<div class="footer wrapper">
+	<nav class="nav">
+		<div> <a href="https://github.com/vividvilla/ezhil">Ezhil theme</a> | Built with <a href="https://gohugo.io">Hugo</a></div>
+	</nav>
+</div>
+
+
+
+<script>feather.replace()</script>
+</body>
+</html>

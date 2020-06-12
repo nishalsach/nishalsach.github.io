@@ -10,5 +10,11 @@ Content:
 
 CSS:
 
-- Get footnotes working on posts
 - Add captions to images
+
+Done:
+
+- Figured out the filepaths in general
+- Made footnotes work in head.html (means I have to do relative indexing)
+- Got img tags working in config.toml
+- Fixed the syntax highlighting for code in posts in config.toml

@@ -6,7 +6,7 @@ description: "A Brief Introduction"
 ---
 
 <figure>
- <img style="float: right; margin: 15px 15px 15px 25px;" src="img/broadway.png" width="320" />
+ <img style="float: right; margin: 15px 15px 15px 25px;" src="../img/broadway.png" width="320" />
 </figure>
 
 Hi, I am Sachita Nishal, and I study Computer Science at BITS Pilani in Goa. Welcome to my homepage!
@@ -17,5 +17,5 @@ I'm extremely fascinated by how complex networks of people, ideas and machines i
 
 I am also a part of the founding and editorial team of the BITS R&D blog, which documents the research endeavours of BITS students and alumni for public benefit.
 
-You can find out about some other stuff I do in my life [here](posts/2020-06-16-cool-stuff/)!
+You can find out about some other stuff I do in my life [here](https://nishalsach.github.io/posts/2020-06-16-cool-stuff/)!
 

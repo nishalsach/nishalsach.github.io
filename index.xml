@@ -6,10 +6,23 @@
     <description>Recent content on Sachita Nishal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Jun 2020 14:45:40 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 12 Jun 2020 18:01:26 +0530</lastBuildDate>
     
 	<atom:link href="https://nishalsach.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hugo Hacks</title>
+      <link>https://nishalsach.github.io/posts/20-06-12-hugo-hacks/</link>
+      <pubDate>Fri, 12 Jun 2020 18:01:26 +0530</pubDate>
+      
+      <guid>https://nishalsach.github.io/posts/20-06-12-hugo-hacks/</guid>
+      <description>Hi.
+Welcome.
+You can choose to skip right to the hacks with this handy index:
+ Filepaths in Hugo Footnotes in Markdown HTML Tags for Images in Markdown Syntax Highlighting for Code in Markdown  Or, you can bear witness to an overly detailed and meandering tale about my journey navigating the horrific ills of modern technology, below.
+So, I am proud to announce that as of today, June 12 2020, I have transitioned out of Jekyll, and am the owner of a shiny new blog built with Hugo.</description>
+    </item>
     
     <item>
       <title>Cool Stuff</title>

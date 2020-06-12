@@ -18,7 +18,7 @@ So, this project that I undertook required me to scrape almost 13000 webpages fr
 Shown below is an example of a page from this website, which is one of the several that I would like to scrape.
 
 <p align="center">
-<img style="margin: 15px 20px 15px 0px;" src="img/tvt/TVTropes.png" width=500 align="middle" />
+<img style="margin: 15px 20px 15px 0px;" src="../../img/tvt/TVTropes.png" width=500 align="middle" />
 </p>
 
 <br>
@@ -26,13 +26,13 @@ Shown below is an example of a page from this website, which is one of the sever
 
 The next image compares two other webpages from the site, both of which present their tropes in visibly different ways.
 
-<img style="margin: 15px 20px 15px 0px;" src="img/tvt/tvt_compare.png" />
+<img style="margin: 15px 20px 15px 0px;" src="../../img/tvt/tvt_compare.png" />
 <br>
 <br>
 I'm now going to break down my process of scraping this dataset into a series of steps, and use the concrete examples of webpages for the rest of this post. I hope it will come in handy when I talk about some of the more abstract ideas behind the process. 
 
 
-## Step 1: (What's the Story) Morning Glory?[^1]
+## Step 1: (What's the Story) Morning Glory? [^1]
 
 The first thing I learnt was that you need to **broadly, but definitely define the reason you want to scrape a website**, because it can go a long way in ensuring that your scraping process is streamlined and well-structured. Why? 
 
@@ -55,7 +55,7 @@ After figuring out the bigger picture for my project, I began looking at the dif
 I started by randomly browsing a few webpages of different films on the website, and using the 'Inspect Element' to get decent idea of how some important tags are nested in the HTML file. 
 
 <p align="center">
-<img style="margin: 15px 20px 15px 0px;" src="img/tvt/TVTropes_edit.png" width=500/>
+<img style="margin: 15px 20px 15px 0px;" src="../../img/tvt/TVTropes_edit.png" width=500/>
 </p>
 
 <br>
@@ -72,7 +72,7 @@ But so, yes, at this point, I did this stupid thing where I got extremely caught
 Here's a sample that merely scratches the surface of the madness:
 
 <p align="center">
-<img style="margin: 15px 20px 15px 0px;" src="img/tvt/190801_master_film_scrapeyearsflowchart.JPG" width=500/>
+<img style="margin: 15px 20px 15px 0px;" src="../../img/tvt/190801_master_film_scrapeyearsflowchart.JPG" width=500/>
 </p>
 
 <br>
@@ -312,7 +312,7 @@ I could identify this tag across several pages on the website, and it had the sa
 
 The tag had some text summarising the film, as well as some child tags which stored other information. I decided that I didn't really need to store the image within this main body, but I wanted to preserve the other textual information. Links to tropes are scattered all over the webpage, and since my goal is to understand how tropes relate to each other, tropes that are mentioned out of the 'Tropes' section could possibly prove useful too. After iterating over the webpage, this is the format I decided to store my data in:
 
-<img style="margin: 15px 20px 15px 0px;" src="img/tvt/Screenshot 2019-10-02 at 3.13.46 AM.png" />
+<img style="margin: 15px 20px 15px 0px;" src="../../img/tvt/Screenshot 2019-10-02 at 3.13.46 AM.png" />
 
 This format suited my data for several reasons (and I'd more or less figured them out along the way till here):
 
