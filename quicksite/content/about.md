@@ -22,5 +22,5 @@ I'm extremely fascinated by how complex networks of people, ideas and machines i
 
 I am also a part of the founding and editorial team of the BITS R&D blog, which documents the research endeavours of BITS students and alumni for public benefit.
 
-You can find out about some other stuff I do in my life [here](../posts/2020-06-16-cool-stuff/)!
+You can find out about some other stuff I do in my life [here](../cool_stuff/2020-06-16-cool-stuff/)!
 

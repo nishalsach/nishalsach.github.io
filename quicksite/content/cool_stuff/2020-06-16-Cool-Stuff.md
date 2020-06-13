@@ -21,15 +21,13 @@ My Reading List has, on average, 47 books on it at any given point of time. Howe
 
 ### Theatre
 
-During my undergrad years, I spent a lot of time doing theatre with my uni's Drama Club. Some of my favourite playwrights are Edward Albee, Annie Baker and Will Eno. I directed three full-length stage plays, assisted on two others, and competed at national-level collegiate theatre competitions thrice. Here are some  cool posters we made for these plays: 
+During my undergrad years, I spent a lot of time doing theatre with my uni's Drama Club. Some of my favourite playwrights are Edward Albee, Annie Baker and Will Eno. 
 
-<div class="myDiv">
-    <img style="float: left; margin: 15px 15px 15px 15px;" src="../../img/cool_stuff/ebt_1.PNG" width="210px" />
-    <img style="float: left; margin: 15px 15px 15px 15px;" src="../../img/cool_stuff/ebt_1.PNG" width="210px" />
-    <img style="float: left; margin: 15px 15px 15px 15px;" src="../../img/cool_stuff/ebt_1.PNG" width="210px" />
-    <img style="float: left; margin: 15px 15px 15px 15px;" src="../../img/cool_stuff/ebt_1.PNG" width="210px" />
-</div>
+<img style="float: right; margin: 15px 15px 15px 15px;" src="../../img/cool_stuff/ebt_1.PNG" width="300" />
 
+I directed three full-length stage plays, assisted on two others, and competed at national-level collegiate theatre competitions thrice. Here's a poster for the last play I ever directed - Duncan Macmillan's Every Brilliant Thing, which we also adapted for a more Indian context. 
+
+You can find some cool posters we made for my other plays on [this](../play_posters) page. 
 
 <!-- 
 | Every Brilliant Thing, April 2019 | Every Brilliant Thing, April 2019 |
@@ -44,14 +42,14 @@ During my undergrad years, I spent a lot of time doing theatre with my uni's Dra
 
 ### Writing
 
-I really like writing poems and essays (about films, books and me!), and I even send them out into the world on rare occasions. [Here's](../../poems_pages/gentle/) a poem I wrote that I really like, and here's [another](../../poems_pages/staples/). You can tell me what you think about them, or not, it's okay. 
+I really like writing poems and essays (about films, books and me!), and I even send them out into the world on rare occasions. [Here's](../poems/gentle/) a poem I wrote that I really like, and here's [another](../poems/staples/). You can tell me what you think about them, or not, it's okay. 
 
 ### Other Stuff I Do
 
 - Make Spotify playlists about extremely specific things I feel during car rides, in the midst of tortuous summers, and when it drizzles in Goa. Find them [here](https://open.spotify.com/user/parikalpanaa), apologies in advance.
 - Play tabletop games with my friends - I am particularly a fan of Catan, Codenames and Love Letter.
 - Make amateur animations with Blender, which is honestly a gift! (Blender, not my animations. Definitely not my animations.)
-- Play 90s-style point-and-click adventure games. The mania began with Monkey Island, and I can't get enough of Thimbleweed Park right now!
+- Play 90s-style point-and-click adventure games. The mania began with Monkey Island last year, and I can't get enough of Thimbleweed Park right now!
 
 
 

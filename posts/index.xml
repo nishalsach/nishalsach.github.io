@@ -25,15 +25,6 @@ So, I am proud to announce that as of today, June 12 2020, I have transitioned o
     </item>
     
     <item>
-      <title>Cool Stuff</title>
-      <link>https://nishalsach.github.io/posts/2020-06-16-cool-stuff/</link>
-      <pubDate>Fri, 12 Jun 2020 14:45:40 +0530</pubDate>
-      
-      <guid>https://nishalsach.github.io/posts/2020-06-16-cool-stuff/</guid>
-      <description>.myDiv { /* border: 5px outset red;*/ height: 630px; text-align: center; margin:10; }  Books and Stuff My Reading List has, on average, 47 books on it at any given point of time. However, my most ambitious project by far has been to finally complete the Discworld books! Ever since I read Guards! Guards! earlier this year, I&amp;rsquo;ve been meaning to get my hands on the entire series. So here I am, stuck at home in the Age of COVID, currently reading: Sourcery (7/41)</description>
-    </item>
-    
-    <item>
       <title>Lessons From a Massive(ly-Annoying) Scraping Project in Python</title>
       <link>https://nishalsach.github.io/posts/2019-09-16-lessons-from-a-massively-annoying-scraping-project-in-python/</link>
       <pubDate>Mon, 16 Sep 2019 00:00:00 +0000</pubDate>

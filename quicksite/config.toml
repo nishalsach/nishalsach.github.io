@@ -96,7 +96,7 @@ weight = 5
 
 [[menu.main]]
 name = "Cool Stuff"
-url = "/posts/2020-06-16-cool-stuff/"
+url = "/cool_stuff/2020-06-16-cool-stuff/"
 weight = 6
 
 # Social media links which shows up on site header.

@@ -8,7 +8,6 @@ Content:
 - Accommodate my projects somewhere
 - Update cool stuff:
     + Play posters
-    + 
 
 CSS:
 
