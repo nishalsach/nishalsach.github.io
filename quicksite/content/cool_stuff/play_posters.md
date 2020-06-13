@@ -1,7 +1,7 @@
 ---
 title: "Posters for Plays"
 date: 2020-06-13T12:37:02+05:30
-draft: true
+draft: false
 description: "Undergrad Thespian Experiences"
 tags: [theatre]
 ---
