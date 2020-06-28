@@ -1,9 +1,9 @@
 body {
     font-family: "ubuntu", sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     color: #333;
     line-height: 1.6;
-    font-size: 16px;
+    font-size: 17px;
 }
 
 a, a:hover {
@@ -50,6 +50,21 @@ figure {
     text-align: center;
 }
 
+/*CUSTOM CREATED CLASSES*/
+
+.with_caption{
+    display: inline-block;
+    margin: 0;
+}
+
+figure figcaption {
+    font-style: italic;
+    /*border: 1px dotted blue;*/
+    text-align: center;
+}
+
+/*CUSTOM CREATED CLASSES*/
+
 fieldset {
     border: 0;
     margin: 0;
@@ -80,7 +95,8 @@ blockquote em {
 }
 
 a,a:hover {
-    color: #a00;
+    /*color: #a00;*/
+    color: #384ac5;
     text-decoration: none
 }
 
