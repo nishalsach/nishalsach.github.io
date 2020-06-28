@@ -15,7 +15,7 @@ Hi, I'm Sachita Nishal, and I study Computer Science at BITS Pilani in Goa. Welc
 I completed my undergraduate thesis under [Dr. Luis Amaral](https://amaral.northwestern.edu/people/amaral/) at Northwestern Univeristy, where I studied the interplay and evolution of cinematic tropes in American films, by modelling complex network dynamics of said tropes. In Summer 2018, I worked under [Dr. Karthik Raman](https://home.iitm.ac.in/kraman/lab/karthik/) at IIT Madras, on studying protein-ligand interactions for medical drug design, using convolutional neural networks to predict these linkage strengths. 
 
 <figure class='with_caption' style="float: right">
- <img style="margin: 15px 15px 15px 25px;" src="../img/goan_sunset.jpg" width="320" />
+ <img style="margin: 15px 0px 15px 25px;" src="../img/goan_sunset.jpg" width="320" />
  <figcaption> Goan summer sunsets can be spectacular!</figcaption>
 </figure>
 
@@ -25,19 +25,28 @@ I am also a part of the founding and editorial team of the [BITS R&D blog](https
 
 You can find out about some other interesting, non-researchy stuff I do in my life [here](../cool_stuff/2020-06-16-cool-stuff/)!
 
-<!-- # Experience
+# Experience
 
- -->
+<img style="float: left; margin: 0px 20px 10px 0px;" src="../img/msr_logo.jpeg" width="75" />
+### [Microsoft Research, India](https://northwestern.edu)
+#### Summer Research Intern, 2020
+
+<img style="float: left; margin: 0px 20px 10px 0px;" src="../img/iisc_logo.png" width="75" />
+### [Indian Institute of Science](https://www.iisc.ac.in)
+#### Remote Research Intern, 2019
+
+<img style="float: left; margin: 0px 20px 10px 0px;" src="../img/iit_madras_logo.png" width="75" />
+### [IIT Madras](https://www.iitm.ac.in)
+#### Summer Research Intern, 2018
+
 
 # Education
 
-<img style="float: left; margin: 0px 20px 0px 0px;" src="../img/northwestern_logo.png" width="80" />
-### [Northwestern University](https://northwestern.edu)
+<img style="float: left; margin: 0px 20px 10px 0px;" src="../img/northwestern_logo.png" width="75" />
+### [Northwestern University](https://www.microsoft.com/en-us/research/lab/microsoft-research-india/)
 #### PhD, Technology and Social Behaviour, Ongoing
 
-<br>
-
-<img style="float: left; margin: 0px 20px 0px 0px;" src="../img/bits_pilani_logo.png" width="80" />
+<img style="float: left; margin: 0px 20px 10px 0px;" src="../img/bits_pilani_logo.png" width="75" />
 ### [BITS Pilani K. K. Birla Goa Campus](https://www.bits-pilani.ac.in/goa/)
 #### B.E. Computer Science, 2016-2020
 
