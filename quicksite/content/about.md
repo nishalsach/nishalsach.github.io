@@ -27,30 +27,37 @@ You can find out about some other interesting, non-researchy stuff I do in my li
 
 # Experience
 
-<img style="float: left; margin: 0px 20px 10px 0px;" src="../img/msr_logo.jpeg" width="75" />
+<img style="float: left; margin: 0px 20px 5px 0px;" src="../img/msr_logo.jpeg" width="75" />
 ### [Microsoft Research, India](https://northwestern.edu)
 #### Summer Research Intern, 2020
 
-<img style="float: left; margin: 0px 20px 10px 0px;" src="../img/iisc_logo.png" width="75" />
+<br>
+
+<img style="float: left; margin: 0px 20px 5px 0px;" src="../img/iisc_logo.png" width="75" />
 ### [Indian Institute of Science](https://www.iisc.ac.in)
 #### Remote Research Intern, 2019
 
-<img style="float: left; margin: 0px 20px 10px 0px;" src="../img/iit_madras_logo.png" width="75" />
+<br>
+
+<img style="float: left; margin: 0px 20px 5px 0px;" src="../img/iit_madras_logo.png" width="75" />
 ### [IIT Madras](https://www.iitm.ac.in)
 #### Summer Research Intern, 2018
 
+<br>
 
 # Education
 
-<img style="float: left; margin: 0px 20px 10px 0px;" src="../img/northwestern_logo.png" width="75" />
+<img style="float: left; margin: 0px 20px 5px 0px;" src="../img/northwestern_logo.png" width="75" />
 ### [Northwestern University](https://www.microsoft.com/en-us/research/lab/microsoft-research-india/)
 #### PhD, Technology and Social Behaviour, Ongoing
 
-<img style="float: left; margin: 0px 20px 10px 0px;" src="../img/bits_pilani_logo.png" width="75" />
+<br>
+
+<img style="float: left; margin: 0px 20px 5px 0px;" src="../img/bits_pilani_logo.png" width="75" />
 ### [BITS Pilani K. K. Birla Goa Campus](https://www.bits-pilani.ac.in/goa/)
 #### B.E. Computer Science, 2016-2020
 
-
+<br>
 
 
 
