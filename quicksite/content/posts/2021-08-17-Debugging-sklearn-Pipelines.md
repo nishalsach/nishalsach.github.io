@@ -2,7 +2,7 @@
 title: "Debugging Inside Scikit-Learn Pipelines"
 date: 2021-08-17T18:01:26+05:30
 draft: false
-description: Writing a custom estimator in scikit-learn for debugging pipelines.
+description: Writing a custom transformer in scikit-learn for debugging pipelines.
 tags: [research, python, hacks]
 ---
 
