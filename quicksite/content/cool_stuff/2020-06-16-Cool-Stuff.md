@@ -3,7 +3,7 @@ title: "Cool Stuff"
 date: 2020-06-12T14:45:40+05:30
 draft: false
 description: "A Miscellany"
-tags: [books, poetry]
+tags: [books]
 ---
 
 <style>
@@ -17,7 +17,8 @@ tags: [books, poetry]
 
 ### Books and Stuff
 
-My Reading List has, on average, 47 books on it at any given point of time. However, my most ambitious project by far has been to finally complete the Discworld books! Ever since I read [*Guards! Guards!*](https://en.wikipedia.org/wiki/Guards!_Guards!) earlier this year, I've been meaning to get my hands on the entire series. So here I am, stuck at home in the Age of COVID, currently reading: [*Sourcery*](https://en.wikipedia.org/wiki/Sourcery) (7/41)
+My Reading List has, on average, 47 books on it at any given point of time. I am currently working my way through the works of Ann Patchett, and at the time of writing this, I am extremely taken with  [*The Dutch House*](https://en.wikipedia.org/wiki/The_Dutch_House_(novel)). Another really cool book I read recently was Carl Bergstrom and Jevin West's [*Calling Bullshit*](https://www.penguinrandomhouse.com/books/563882/calling-bullshit-by-carl-t-bergstrom-and-jevin-d-west/). It is a tremendously engaging book about wading through the sheer amount of misinformation we find ourselves besieged by on the internet today, and I highly recommend it if this is an area of thought that you are interested in!
+
 
 ### Theatre
 
@@ -40,16 +41,13 @@ You can find some cool posters we made for my other plays on [this](../play_post
 | <img style="margin: 15px 20px 15px 0px;" src="../../img/cool_stuff/ebt_1.PNG" width=300  /></img> | <img style="margin: 15px 20px 15px 0px;" src="../../img/cool_stuff/ebt_1.PNG" width=300  /></img> | -->
 <br>
 
-### Writing
-
-I really like writing poems and essays (about films, books and me!), and I even send them out into the world on rare occasions. [Here's](../poems/gentle/) a poem I wrote that I really like, and here's [another](../poems/staples/). You can tell me what you think about them, or not, it's okay. 
 
 ### Other Stuff I Do
 
-- Make Spotify playlists about extremely specific things I feel during car rides, in the midst of tortuous summers, and when it drizzles in Goa. Find them [here](https://open.spotify.com/user/parikalpanaa), apologies in advance.
 - Play tabletop games with my friends - I am particularly a fan of Catan, Codenames and Love Letter.
-- Make amateur animations with Blender, which is honestly a gift! (Blender, not my animations. Definitely not my animations.)
-- Play 90s-style point-and-click adventure games. The mania began with Monkey Island last year, and I can't get enough of Thimbleweed Park right now!
+- Play 90s-style point-and-click adventure games. The mania began with Monkey Island, continued with the Discworld games, and I have recently been daydreaming about making my own games with Twine or something similar.
+- Pretend to learn the ukulele. 
+- Take photos of stuff, I really really really enjoy (amateur) photography. 
 
 
 

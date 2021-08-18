@@ -2,6 +2,14 @@
 
 Hi, this is the repo for my Hugo blog. 
 
+To Do: 
+
+- Research Resouces
+- News/Updates
+- Research/Projects/Publications tab?
+- Posters
+- Language Post
+
 Done:
 
 - Figured out the filepaths in general

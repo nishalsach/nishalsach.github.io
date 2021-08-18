@@ -41,7 +41,7 @@ Either way, what I am sure of is that I am a bumbling idiot who might need to re
 
 Yes, yes it could. Future me can figure out how to return that favour. And if someone else turns out to be more like me too, maybe this could earn me a bit of good karma. 
 
-So but yes, I've spent the last couple of days out on several wild-goose chases across the interwebz, winding through pages on the Hugo Support site, the docs, StackOverflow and random GitHub repos ever so often. And I would like to never do it again, thank you very much, so here is everything I've discovered and implemented thus far. Genuinely a special mention here for the [Hugo Community site](https://discourse.gohugo.io/about), where people ask questions very well and very soundly, unlike me, whose googling begins and ends at 'hugo footnotes not working'. Their's is a skill I hope to possess and be proud of one day.
+So but yes, I've spent the last couple of days out on several wild-goose chases across the interwebz, winding through pages on the Hugo Support site, the docs, StackOverflow and random GitHub repos ever so often. And I would like to never do it again, thank you very much, so here is everything I've discovered and implemented thus far. Genuinely a special mention here for the [Hugo Community site](https://discourse.gohugo.io/about), where people ask questions very well and very soundly, unlike me, whose googling begins and ends at 'hugo footnotes not working'. Theirs is a skill I hope to possess and be proud of one day.
 
 So then, that brings us here, to the relevant stuff. Lo and behold:
 

@@ -38,10 +38,10 @@ summaryLength = 20
 
 [params]
     # Blog subtitle which appears below blog title. Supports markdown.
-    subtitle = "Incoming PhD Student, Northwestern University"
+    subtitle = "2nd-Year PhD Student, Northwestern University"
 
     # Content types which are included in home page recent posts list.
-    mainSections = ["posts"]
+    mainSections = ["posts", "research"]
 
     # Content types which are excludes Disqus comments.
     disableDisqusTypes = ["page"]
@@ -109,7 +109,7 @@ url = "https://github.com/nishalsach"
 [[params.social]]
 name = "Gmail"
 icon = "mail"
-url = "mailto:sachita.nishal@gmail.com"
+url = "mailto:nishal@u.northwestern.edu"
 
 [[params.social]]
 name = "Twitter"
