@@ -31,7 +31,7 @@ I completed my undergraduate thesis in 2019 under [Dr. Luis Amaral](https://amar
 
 In my free time, I love to read anything and everything I can get my hands on, and sometimes, I even write. I'm also a photography enthusiast, although I don't think I'm very good at it.
 
-I am also a part of the founding and editorial team of the [BITS R&D blog](https://bitsrnd.wordpress.com), which documents the research endeavours of BITS students and alumni for public benefit. I love helping my juniors with figure how to get into research as an undergrad, because I really benefited from my own seniors taking out the time to help me explore research and understand if it was the right career for me to pursue. So if you're reading this and need help, feel free to email me and I'd be happy to be a sounding board with whatever you'd like!
+I am also a part of the founding and editorial team of the [BITS R&D blog](https://bitsrnd.wordpress.com), which documents the research endeavours of BITS students and alumni for public benefit. I love helping my juniors figure how to get into research as an undergrad, because I really benefited from my own seniors taking out the time to help me explore research, to see if it was the right career for me to pursue. So if you're reading this and need help, feel free to email me and I'd be happy to be a sounding board with whatever you'd like!
 
 You can find out about some other interesting, non-researchy stuff I do in my life [here](../cool_stuff/2020-06-16-cool-stuff/)!
 
