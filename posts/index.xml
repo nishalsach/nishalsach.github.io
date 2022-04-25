@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Sachita Nishal</title>
+    <link>https://nishalsach.github.io/posts/</link>
+    <description>Recent content in Posts on Sachita Nishal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 25 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://nishalsach.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Short Primer on Mutual Information</title>
+      <link>https://nishalsach.github.io/posts/2022-04-25-short-primer_mi/</link>
+      <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishalsach.github.io/posts/2022-04-25-short-primer_mi/</guid>
+      <description>Definitions  Conceptual Definition: MI is the reduction in uncertainty when predicting one variable (&amp;ldquo;outcome&amp;rdquo;) in a system, if we know the value of another variable in the system.  It will always be &amp;gt;=0, and higher values mean higher dependency between the two variables   Formula (for discrete processes/variables X1 and X2):   As must be apparent, for two independent variables, MI = 0. Eg. Two coins are tossed; the results of one coin do not help us measure the results of the other in any way Another way to look at this (and I still have some trouble wrapping my head around this) is that MI is the KL Divergence in going from the joint distribution P(X1, X2) to the product of the marginal distributions P(X1).</description>
+    </item>
+    
+    <item>
+      <title>Debugging Inside Scikit-Learn Pipelines</title>
+      <link>https://nishalsach.github.io/posts/2021-08-17-debugging-sklearn-pipelines/</link>
+      <pubDate>Tue, 17 Aug 2021 18:01:26 +0530</pubDate>
+      
+      <guid>https://nishalsach.github.io/posts/2021-08-17-debugging-sklearn-pipelines/</guid>
+      <description>Click the given link to skip to the code and spare yourself my tortuous introduction: code for sklearn Pipeline debugging Transformer. Don&amp;rsquo;t click the link if you&amp;rsquo;re debugging at 2pm on a slow Thursday and want something, anything, to distract you from staring at VSCode and its quickly blurring lines of code. I can help you pretend you&amp;rsquo;re working as you scan the next few paragraphs of my inner monologue.</description>
+    </item>
+    
+    <item>
+      <title>My Thesis Experience at Northwestern University</title>
+      <link>https://nishalsach.github.io/posts/2020-06-29-thesis_northwestern/</link>
+      <pubDate>Mon, 29 Jun 2020 13:39:12 +0530</pubDate>
+      
+      <guid>https://nishalsach.github.io/posts/2020-06-29-thesis_northwestern/</guid>
+      <description>In 2019, I completed my undergrad thesis at Northwestern University, where I worked in Dr. Luis Amaral&amp;rsquo;s lab to model complex networks of tropes in American films starting from the 1890s.
+I wrote a brief account of how I applied for my thesis, as well as my takeaways from this momentous experience, and it was published on BITS Goa&amp;rsquo;s blog for undergrad research experiences. Here&amp;rsquo;s a link to the post: Sachita Nishal’s Thesis at Northwestern University!</description>
+    </item>
+    
+    <item>
+      <title>Hugo Hacks</title>
+      <link>https://nishalsach.github.io/posts/2020-06-12-hugo-hacks/</link>
+      <pubDate>Fri, 12 Jun 2020 18:01:26 +0530</pubDate>
+      
+      <guid>https://nishalsach.github.io/posts/2020-06-12-hugo-hacks/</guid>
+      <description>Hi.
+Welcome.
+You can choose to skip right to the hacks with this handy index:
+ Filepaths in Hugo Footnotes in Markdown HTML Tags for Images in Markdown Syntax Highlighting for Code in Markdown  Or, you can bear witness to an overly detailed and meandering tale about my journey navigating the horrific ills of modern technology, below.
+So, I am proud to announce that as of today, June 12 2020, I have transitioned out of Jekyll, and am the owner of a shiny new blog built with Hugo.</description>
+    </item>
+    
+    <item>
+      <title>Lessons From a Massive(ly-Annoying) Scraping Project in Python</title>
+      <link>https://nishalsach.github.io/posts/2019-09-16-lessons-from-a-massively-annoying-scraping-project-in-python/</link>
+      <pubDate>Mon, 16 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishalsach.github.io/posts/2019-09-16-lessons-from-a-massively-annoying-scraping-project-in-python/</guid>
+      <description>Hello!
+I&amp;rsquo;m honestly quite unsure of what SEO miracle led you here, given the enthusiastically descriptive, but less than optimal title for this post. I&amp;rsquo;m further unsure of why you actually clicked this link when it showed up. But does that make me any less grateful that you&amp;rsquo;re here? Certainly not!
+I wrote this post to document my experiences while scraping a massive crowdsourced website called TVTropes. During this venture, I spent many an afternoon quite desperately Googling &amp;ldquo;ugh web-scraping is so annoying save me python&amp;rdquo;.</description>
+    </item>
+    
+  </channel>
+</rss>
