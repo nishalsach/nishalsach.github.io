@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>A Short Primer on Mutual Information - Sachita Nishal</title><link rel="icon" type="image/png" href=icons/myicon.png /><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="A Short Primer on Mutual Information" />
+<meta property="og:description" content="A conceptual and practical reference about mutual information for forgetful people (me)." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://nishalsach.github.io/posts/2022-04-25-short-primer_mi/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-04-25T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-04-25T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="A Short Primer on Mutual Information"/>
+<meta name="twitter:description" content="A conceptual and practical reference about mutual information for forgetful people (me)."/>
+<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:200,300|Cabin:300,400,300italic,400italic" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" media="screen" href="https://nishalsach.github.io/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://nishalsach.github.io/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="https://nishalsach.github.io/css/custom.css" />
+	
+
+	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+	<script src="https://nishalsach.github.io/js/main.js"></script>
+	<script src="https://nishalsach.github.io/js/abc.js"></script>
+	<script src="https://nishalsach.github.io/js/xyz.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+
+<body>
+	<div class="container wrapper post">
+		<div class="header">
+	
+	<h1 class="site-title"><a href="https://nishalsach.github.io/">Sachita Nishal</a></h1>
+	<div class="site-description"><h2>2nd-Year PhD Student, Northwestern University</h2><nav class="nav social">
+			<ul class="flat"><a href="https://scholar.google.com/citations?user=JgsaeQmLjKcC&amp;hl=en&amp;oi=ao" title="Google Scholar"><i data-feather="pen-tool"></i></a><a href="https://github.com/nishalsach" title="Github"><i data-feather="github"></i></a><a href="mailto:nishal@u.northwestern.edu" title="Gmail"><i data-feather="mail"></i></a><a href="https://twitter.com/nishalsach" title="Twitter"><i data-feather="twitter"></i></a></ul>
+		</nav>
+	</div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li>
+				<a href="/">Home</a>
+			</li>
+			
+			<li>
+				<a href="/resume">Resume</a>
+			</li>
+			
+			<li>
+				<a href="/posts">Blog</a>
+			</li>
+			
+		</ul>
+	</nav>
+</div>
+
+
+		<div class="post-header">
+			<h1 class="title">A Short Primer on Mutual Information</h1>
+			<div class="meta">Posted at &mdash; Apr 25, 2022</div>
+		</div>
+
+		<div class="markdown">
+			<h3 id="definitions">Definitions</h3>
+<ul>
+<li><strong>Conceptual Definition</strong>: MI is the reduction in uncertainty when predicting one variable (&ldquo;outcome&rdquo;) in a system, if we know the value of another variable in the system.
+<ul>
+<li>It will always be &gt;=0, and higher values mean higher dependency between the two variables</li>
+</ul>
+</li>
+<li>Formula (for discrete processes/variables X1 and X2):</li>
+</ul>
+<p align="center">
+<img style="margin: 15px 20px 15px 0px;" src="../../img/mi_formula.png" width=500/>
+</p>
+<ul>
+<li>As must be apparent, for two independent variables, MI = 0. Eg. Two coins are tossed; the results of one coin do not help us measure the results of the other in any way</li>
+<li>Another way to look at this (and I still have some trouble wrapping my head around this) is that MI is the KL Divergence in going from the joint distribution P(X1, X2) to the product of the marginal distributions P(X1).P(X2)(derives from the formula of KL Divergence)
+<ul>
+<li>i.e. the informational cost in representing our system as the product of marginals opposed to the full joint distribution</li>
+</ul>
+</li>
+</ul>
+<h3 id="mutual-information-as-feature-selection">Mutual Information as Feature Selection</h3>
+<p>MI can be used for feature selection, and  scikit-learn implementation of MI for both <a href="https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.mutual_info_regression.html#sklearn.feature_selection.mutual_info_regression">regression</a> and <a href="https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.mutual_info_classif.html#sklearn.feature_selection.mutual_info_classif">classification</a> problems exists.</p>
+<p>MI results can be used to select the K-best features/K-percentile features, and their site gives the explicit instruction that &ldquo;treating a continuous feature as discrete and vice versa will usually give incorrect results, so be attentive about that.&rdquo; A comparable method of univariate feature selection (i.e. selection based on univariate statistical tests) is the F-test method - based on a quick linear model for testing the effect of a single regressor, sequentially for many regressors, and using it to get F-stats and p-values for each feature. However, mutual information can capture any kind of dependency between variables whereas the F-test captures only linear dependency.</p>
+<h3 id="sources">Sources</h3>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=U9h1xkNELvY">Ben Lambert&rsquo;s Excellent Primer on Mutual Information</a>, which links it to basic concepts in Information Theory, and also gives an example</li>
+<li><a href="https://scikit-learn.org/stable/modules/feature_selection.html#univariate-feature-selection">Scikit-learn Docs on Univariate Feature Selection</a></li>
+</ul>
+
+		</div>
+
+		<div class="post-tags">
+			
+				
+					<nav class="nav tags">
+							<ul class="flat">
+								
+								<li><a href="/tags/research">research</a></li>
+								
+								<li><a href="/tags/statistics">statistics</a></li>
+								
+								<li><a href="/tags/machine-learning">machine learning</a></li>
+								
+							</ul>
+					</nav>
+				
+			
+		</div>
+		</div>
+	<div class="footer wrapper">
+	<nav class="nav">
+		<div> <a href="https://github.com/vividvilla/ezhil">Ezhil theme</a> | Built with <a href="https://gohugo.io">Hugo</a></div>
+	</nav>
+</div>
+
+
+
+<script>feather.replace()</script>
+</body>
+</html>

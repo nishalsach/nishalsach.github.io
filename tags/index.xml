@@ -6,10 +6,33 @@
     <description>Recent content in Tags on Sachita Nishal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 17 Aug 2021 18:01:26 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 25 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://nishalsach.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>machine learning</title>
+      <link>https://nishalsach.github.io/tags/machine-learning/</link>
+      <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishalsach.github.io/tags/machine-learning/</guid>
+      <description></description>
+    </item>
     
-	<atom:link href="https://nishalsach.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>research</title>
+      <link>https://nishalsach.github.io/tags/research/</link>
+      <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishalsach.github.io/tags/research/</guid>
+      <description></description>
+    </item>
     
+    <item>
+      <title>statistics</title>
+      <link>https://nishalsach.github.io/tags/statistics/</link>
+      <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishalsach.github.io/tags/statistics/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>hacks</title>
@@ -30,11 +53,11 @@
     </item>
     
     <item>
-      <title>research</title>
-      <link>https://nishalsach.github.io/tags/research/</link>
-      <pubDate>Tue, 17 Aug 2021 18:01:26 +0530</pubDate>
+      <title>essays</title>
+      <link>https://nishalsach.github.io/tags/essays/</link>
+      <pubDate>Mon, 29 Jun 2020 13:39:12 +0530</pubDate>
       
-      <guid>https://nishalsach.github.io/tags/research/</guid>
+      <guid>https://nishalsach.github.io/tags/essays/</guid>
       <description></description>
     </item>
     
@@ -53,15 +76,6 @@
       <pubDate>Sat, 13 Jun 2020 12:37:02 +0530</pubDate>
       
       <guid>https://nishalsach.github.io/tags/theatre/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>books</title>
-      <link>https://nishalsach.github.io/tags/books/</link>
-      <pubDate>Fri, 12 Jun 2020 14:45:40 +0530</pubDate>
-      
-      <guid>https://nishalsach.github.io/tags/books/</guid>
       <description></description>
     </item>
     
