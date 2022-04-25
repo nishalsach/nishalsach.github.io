@@ -3,7 +3,7 @@ title: "My Thesis Experience at Northwestern University"
 date: 2020-06-29T13:39:12+05:30
 draft: false
 description: Advice for Applying for Research Internships Abroad
-tags: [research, personal experiences]
+tags: [research, personal experiences, essays]
 ---
 
 In 2019, I completed my undergrad thesis at Northwestern University, where I worked in [Dr. Luis Amaral's lab](https://amaral.northwestern.edu/people/amaral/) to model complex networks of tropes in American films starting from the 1890s. 
