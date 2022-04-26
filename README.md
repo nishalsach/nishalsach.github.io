@@ -1,8 +1,6 @@
-# Readme
+# To do
 
-To do:
-
-- Fix the heading sizes oh header and body
-- Improve responsive-ness of site
+- Fix the heading sizes of header and body
+- Improve responsiveness of site by setting some sort of min-width on text
 - Auto-update publictions from markdown
 - Host paper PDFs on my site and render them
