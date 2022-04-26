@@ -1,4 +1,4 @@
-Link: [nishalsach.github.io](nishalsach.github.io)
+Link: [nishalsach.github.io](https://nishalsach.github.io)
 # To Do
 
 - Fix the heading sizes of header and body
