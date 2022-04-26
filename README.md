@@ -1,4 +1,5 @@
-# To do
+Link: [nishalsach.github.io](nishalsach.github.io)
+# To Do
 
 - Fix the heading sizes of header and body
 - Improve responsiveness of site by setting some sort of min-width on text
