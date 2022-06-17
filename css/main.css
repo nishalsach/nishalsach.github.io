@@ -16,6 +16,11 @@ html,button,input,select,textarea {
     color: #333;
 }
 
+div p:first-of-type{
+    margin-top: 0;
+    /* the first paragraph-type child of every div container will not have a margin top  */
+}
+
 ::-moz-selection {
     background: #b3d4fc;
     text-shadow: none;
@@ -36,7 +41,6 @@ hr {
 }
 
 img {
-    margin: 10px auto 10px auto;
     max-width: 100%;
     /* display: block; */
     object-fit: contain;
@@ -97,7 +101,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 2.75rem;
 }
 
 h2 {
@@ -200,8 +204,10 @@ pre code {
 .wrapper {
     /* max-width: 760px; */
     margin: 0 auto;
-    max-width: 50%;
+    width: 768px;
+    max-width: 80vw;
     height: auto;
+    
 }
 
 .container {
@@ -210,7 +216,7 @@ pre code {
 
 .header {
     margin-bottom: 20px;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
 }
 
 .header h1,
@@ -295,9 +301,18 @@ pre code {
     height: auto;
 }
 
+.headshot_wrapper {
+    display: inline;
+    float: right;
+
+    width: 100%;
+    max-width: 15ch;
+    height: auto;
+    margin: 0 auto;
+    margin-left: 0.75rem;
+}
+
 .headshot {
-    min-width: 150px;
-    max-width: 23%;
     height: auto;
 }
 
@@ -432,3 +447,11 @@ table th, table td {
         margin-top: 10px;
     }
 }
+
+@media (max-width: 476px) {
+    .headshot_wrapper {
+        display: block;
+        float: none;
+        margin-left: 0;
+    }
+} 

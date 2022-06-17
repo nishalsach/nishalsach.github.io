@@ -6,7 +6,11 @@
     <description>Recent content in Publications on Sachita Nishal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://nishalsach.github.io/publications/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Apr 2022 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://nishalsach.github.io/publications/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Voting with the Stars: Analyzing Partisan Engagement between Celebrities and Politicians in India</title>
       <link>https://nishalsach.github.io/publications/2022-voting-with-the-stars/</link>
