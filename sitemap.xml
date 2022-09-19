@@ -1,115 +1,65 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>https://nishalsach.github.io/posts/2022-04-25-short-primer_mi/</loc>
-    <lastmod>2022-04-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nishalsach.github.io/tags/machine-learning/</loc>
-    <lastmod>2022-04-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nishalsach.github.io/posts/</loc>
-    <lastmod>2022-04-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nishalsach.github.io/tags/research/</loc>
-    <lastmod>2022-04-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nishalsach.github.io/</loc>
-    <lastmod>2022-04-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nishalsach.github.io/tags/statistics/</loc>
-    <lastmod>2022-04-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nishalsach.github.io/tags/</loc>
-    <lastmod>2022-04-25T00:00:00+00:00</lastmod>
-  </url>
-  
   <url>
     <loc>https://nishalsach.github.io/publications/</loc>
-    <lastmod>2022-04-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nishalsach.github.io/publications/2022-voting-with-the-stars/</loc>
-    <lastmod>2022-04-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nishalsach.github.io/publications/2022-dismiss-dataset/</loc>
-    <lastmod>2022-03-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2022-09-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nishalsach.github.io/posts/2022-04-25-short-primer_mi/</loc>
+    <lastmod>2022-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nishalsach.github.io/tags/machine-learning/</loc>
+    <lastmod>2022-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nishalsach.github.io/posts/</loc>
+    <lastmod>2022-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nishalsach.github.io/tags/research/</loc>
+    <lastmod>2022-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nishalsach.github.io/</loc>
+    <lastmod>2022-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nishalsach.github.io/tags/statistics/</loc>
+    <lastmod>2022-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nishalsach.github.io/tags/</loc>
+    <lastmod>2022-04-25T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://nishalsach.github.io/posts/2021-08-17-debugging-sklearn-pipelines/</loc>
     <lastmod>2021-08-17T18:01:26+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://nishalsach.github.io/tags/hacks/</loc>
     <lastmod>2021-08-17T18:01:26+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://nishalsach.github.io/tags/python/</loc>
     <lastmod>2021-08-17T18:01:26+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://nishalsach.github.io/tags/essays/</loc>
     <lastmod>2020-06-29T13:39:12+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://nishalsach.github.io/posts/2020-06-29-thesis_northwestern/</loc>
     <lastmod>2020-06-29T13:39:12+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://nishalsach.github.io/tags/personal-experiences/</loc>
     <lastmod>2020-06-29T13:39:12+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://nishalsach.github.io/cool_stuff/</loc>
     <lastmod>2020-06-13T12:37:02+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://nishalsach.github.io/cool_stuff/play_posters/</loc>
     <lastmod>2020-06-13T12:37:02+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://nishalsach.github.io/tags/theatre/</loc>
     <lastmod>2020-06-13T12:37:02+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://nishalsach.github.io/posts/2020-06-12-hugo-hacks/</loc>
     <lastmod>2020-06-12T18:01:26+05:30</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://nishalsach.github.io/about/</loc>
     <lastmod>2019-09-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://nishalsach.github.io/posts/2019-09-16-lessons-from-a-massively-annoying-scraping-project-in-python/</loc>
     <lastmod>2019-09-16T00:00:00+00:00</lastmod>
   </url>
-  
 </urlset>

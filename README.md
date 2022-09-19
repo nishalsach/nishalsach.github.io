@@ -13,6 +13,4 @@ Link: [nishalsach.github.io](https://nishalsach.github.io)
 
 - Fix the heading sizes of header and body
 - Improve responsiveness of site by setting some sort of min-width on text
-
-
-
+- Test shortcodes for buttons: done using [here](http://oostens.me/posts/hugo-button-shortcode/) and an scss2css converter

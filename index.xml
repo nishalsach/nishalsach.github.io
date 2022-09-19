@@ -6,10 +6,21 @@
     <description>Recent content on Sachita Nishal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 Apr 2022 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://nishalsach.github.io/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Mon, 25 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://nishalsach.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Publications</title>
+      <link>https://nishalsach.github.io/publications/</link>
+      <pubDate>Mon, 19 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishalsach.github.io/publications/</guid>
+      <description>Archival Publications From Crowd Ratings to Predictive Models of Newsworthiness to Support Science Journalism
+Sachita Nishal and Nick Diakopoulos
+Proceedings of the ACM (PACM): Human-Computer Interaction (CSCW). 2022
+PDF Webpage Voting with the Stars: Analyzing Partisan Engagement between Celebrities and Politicians in India
+Ramaravind Kommiya Mothilal, Dibyendu Mishra, Sachita Nishal, Faisal M. Lalani, Joyojeet Pal
+Proceedings of the ACM (PACM): Human-Computer Interaction (CSCW). 2022
+PDF Webpage Devotees on an Astroturf: Media, Politics, and Outrage in the Suicide of a Popular Film Star</description>
+    </item>
     
     <item>
       <title>A Short Primer on Mutual Information</title>
@@ -17,25 +28,7 @@
       <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>
       
       <guid>https://nishalsach.github.io/posts/2022-04-25-short-primer_mi/</guid>
-      <description>Definitions  Conceptual Definition: MI is the reduction in uncertainty when predicting one variable (&amp;ldquo;outcome&amp;rdquo;) in a system, if we know the value of another variable in the system.  It will always be &amp;gt;=0, and higher values mean higher dependency between the two variables   Formula (for discrete processes/variables X1 and X2):   As must be apparent, for two independent variables, MI = 0. Eg. Two coins are tossed; the results of one coin do not help us measure the results of the other in any way Another way to look at this (and I still have some trouble wrapping my head around this) is that MI is the KL Divergence in going from the joint distribution P(X1, X2) to the product of the marginal distributions P(X1).</description>
-    </item>
-    
-    <item>
-      <title>Voting with the Stars: Analyzing Partisan Engagement between Celebrities and Politicians in India</title>
-      <link>https://nishalsach.github.io/publications/2022-voting-with-the-stars/</link>
-      <pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://nishalsach.github.io/publications/2022-voting-with-the-stars/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>DISMISS: Database of Indian Social Media Influencers (Snowballed Sequentially) on Twitter</title>
-      <link>https://nishalsach.github.io/publications/2022-dismiss-dataset/</link>
-      <pubDate>Tue, 22 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://nishalsach.github.io/publications/2022-dismiss-dataset/</guid>
-      <description></description>
+      <description>Definitions Conceptual Definition: MI is the reduction in uncertainty when predicting one variable (&amp;ldquo;outcome&amp;rdquo;) in a system, if we know the value of another variable in the system. It will always be &amp;gt;=0, and higher values mean higher dependency between the two variables Formula (for discrete processes/variables X1 and X2): As must be apparent, for two independent variables, MI = 0. Eg. Two coins are tossed; the results of one coin do not help us measure the results of the other in any way Another way to look at this (and I still have some trouble wrapping my head around this) is that MI is the KL Divergence in going from the joint distribution P(X1, X2) to the product of the marginal distributions P(X1).</description>
     </item>
     
     <item>
@@ -75,7 +68,7 @@ I wrote a brief account of how I applied for my thesis, as well as my takeaways 
       <description>Hi.
 Welcome.
 You can choose to skip right to the hacks with this handy index:
- Filepaths in Hugo Footnotes in Markdown HTML Tags for Images in Markdown Syntax Highlighting for Code in Markdown  Or, you can bear witness to an overly detailed and meandering tale about my journey navigating the horrific ills of modern technology, below.
+Filepaths in Hugo Footnotes in Markdown HTML Tags for Images in Markdown Syntax Highlighting for Code in Markdown Or, you can bear witness to an overly detailed and meandering tale about my journey navigating the horrific ills of modern technology, below.
 So, I am proud to announce that as of today, June 12 2020, I have transitioned out of Jekyll, and am the owner of a shiny new blog built with Hugo.</description>
     </item>
     
@@ -85,8 +78,8 @@ So, I am proud to announce that as of today, June 12 2020, I have transitioned o
       <pubDate>Mon, 16 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>https://nishalsach.github.io/about/</guid>
-      <description>-- Hi, I&amp;rsquo;m Sachita Nishal, and I am a 2nd-year PhD student at Northwestern University in Technology and Social Behaviour, a joint PhD program spanning Communication Studies and Computer Science.
- Goan summer sunsets can be spectacular!  In 2020, I completed my undergraduate degree in Computer Science and Engineering at BITS Pilani&amp;rsquo;s Goa Campus in India, and I don&amp;rsquo;t think I will ever get over how devastatingly beautiful and other-worldly Goa is.</description>
+      <description>Hi, I&amp;rsquo;m Sachita Nishal, and I am a 2nd-year PhD student at Northwestern University in Technology and Social Behaviour, a joint PhD program spanning Communication Studies and Computer Science.
+Goan summer sunsets can be spectacular! In 2020, I completed my undergraduate degree in Computer Science and Engineering at BITS Pilani&amp;rsquo;s Goa Campus in India, and I don&amp;rsquo;t think I will ever get over how devastatingly beautiful and other-worldly Goa is.</description>
     </item>
     
     <item>

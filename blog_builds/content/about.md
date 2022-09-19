@@ -9,7 +9,6 @@ description: "A Brief Introduction"
  <img style="float: right; margin: 15px 15px 15px 25px;" src="../img/broadway.jpg" width="320" />
 </figure> -->
 
-
 Hi, I'm Sachita Nishal, and I am a 2nd-year PhD student at Northwestern University in [Technology and Social Behaviour](https://tsb.northwestern.edu), a joint PhD program spanning Communication Studies and Computer Science.
 
 <figure class='with_caption' style="float: right">
