@@ -2,6 +2,8 @@ baseURL = "https://nishalsach.github.io/"
 languageCode = "en-us"
 title = "Sachita Nishal"
 theme = "ezhil"
+# Number of posts to show in recent posts list (Optional). Defaults to 10.
+paginate = 3
 
 publishDir = ".."
 # relativeURLs = true
@@ -30,15 +32,12 @@ pygmentscodefencesguesssyntax = true
     [markup.goldmark.renderer]
       unsafe = true
 
-# Number of posts to show in recent posts list (Optional). Defaults to 10.
-paginate = 2
-
 # Number of characters to show in summary.
 summaryLength = 20
 
 [params]
     # Blog subtitle which appears below blog title. Supports markdown.
-    subtitle = "2nd-Year PhD Student, Northwestern University"
+    subtitle = "3rd-Year PhD Student, Northwestern University"
 
     # Content types which are included in home page recent posts list.
     mainSections = ["posts", "research"]
