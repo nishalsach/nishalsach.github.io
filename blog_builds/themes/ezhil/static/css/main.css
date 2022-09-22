@@ -337,7 +337,6 @@ pre code {
 .headshot_wrapper {
     display: inline;
     float: right;
-
     width: 100%;
     max-width: 15ch;
     height: auto;

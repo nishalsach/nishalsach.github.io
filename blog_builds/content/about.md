@@ -16,7 +16,7 @@ description: "A Brief Introduction"
 
 - Hi, I'm Sachita, and I am a 3rd-year PhD student at Northwestern University in [Technology and Social Behaviour](https://tsb.northwestern.edu), a joint PhD program spanning Communication Studies 💬 and Computer Science 🖥️.
 
-- I work right at the intersection of human-computer interaction and journalism, and my work examines how recommender systems mediate attention towards different events and information - for journalists and their audiences alike. We just published some new work about the [human-centered design, and preliminary evaluation of such recommender systems](https://nishalsach.github.io/pdfs/2022-newsworthiness.pdf).
+- I work right at the intersection of human-computer interaction and journalism, and design + investigate recommender systems that mediate attention towards different events and information - for journalists and their audiences alike. We just published some new work about the [human-centered design, and preliminary evaluation of such recommender systems](https://nishalsach.github.io/pdfs/2022-newsworthiness.pdf).
 
 - In 2020, I completed my undergraduate degree in Computer Science and Engineering at [BITS Pilani's Goa Campus](https://www.bits-pilani.ac.in/goa/) in India, which is an spectacularly beautiful place. I feel incredibly lucky I got to experience this :)
 
