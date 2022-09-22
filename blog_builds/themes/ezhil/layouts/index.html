@@ -32,9 +32,9 @@
 
 
 		<div class="recent-posts section">
-			<h1 class="section-header">
+			<h3>
 				News and Updates
-			</h1>
+			</h3>
 
 			<div class="news_item" id="news1">
 				<b>Sep 2022</b>: Our paper on building predictive models of "newsworthiness" of research articles to help journalists just came out in the CSCW 2022 proceedings. <a href="https://doi.org/10.1145/3555542">Read it here!</a>
@@ -51,9 +51,9 @@
 		</div>
 
 		<div class="recent-posts section">
-			<h2 class="section-header">
+			<h3>
 				Recent Blog Posts
-			</h2>
+			</h3>
 			<div class="posts">
 				{{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
 				{{ $paginator := .Paginate (where $pages "Params.hidden" "ne" true) }}

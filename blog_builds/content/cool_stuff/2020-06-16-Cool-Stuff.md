@@ -15,7 +15,7 @@ tags: [books]
 }
 </style>
 
-### Books and Stuff
+## Books and Stuff
 
 **Sep 2022**: I'm currently reading James Gleick's book, [_The Information_](https://www.penguinrandomhouse.com/books/60765/the-information-by-james-gleick/), which provides a very detailed history of humanity's relationship with _information_ - oral, written, digital, all kinds! I'm really enjoying it because it weaves a wide-ranging set of ideas, people, and locations together to tell the story of how we've understood, catalogued, and communicated our ideas over the ages, and how the media that we use for these purposes has changed how we think.
 
@@ -23,7 +23,7 @@ tags: [books]
 
 <img style="float: right; margin: 0px 15px 15px 15px;" src="../../img/cool_stuff/ebt_1.PNG" width="250" />
 
-### Theatre
+## Theatre
 
 During my undergrad years, I spent a lot of time doing theatre with my uni's Drama Club. Some of my favourite playwrights are Edward Albee, Annie Baker and Will Eno. 
 
@@ -47,7 +47,7 @@ I love watching movies and thinking about why I (and everyone else) loves watchi
 
 
 
-### Other Stuff I Do
+## Other Stuff I Do
 
 - Play tabletop games with my friends - I am particularly a fan of _Betrayal at House on the Hill_, _Codenames_, and _Love Letter_.
 - Play 90s-style point-and-click adventure games. The mania began with Monkey Island, continued with the Discworld games, and I have recently been daydreaming about making my own games with Twine or something similar.
