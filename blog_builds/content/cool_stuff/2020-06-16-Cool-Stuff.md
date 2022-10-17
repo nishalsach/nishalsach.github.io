@@ -17,7 +17,7 @@ tags: [books]
 
 ## Books and Stuff
 
-**Sep 2022**: I'm currently reading James Gleick's book, [_The Information_](https://www.penguinrandomhouse.com/books/60765/the-information-by-james-gleick/), which provides a very detailed history of humanity's relationship with _information_ - oral, written, digital, all kinds! I'm really enjoying it because it weaves a wide-ranging set of ideas, people, and locations together to tell the story of how we've understood, catalogued, and communicated our ideas over the ages, and how the media that we use for these purposes has changed how we think.
+**Oct 2022**: I'm currently reading James Gleick's book, [_The Information_](https://www.penguinrandomhouse.com/books/60765/the-information-by-james-gleick/), which provides a very detailed history of humanity's relationship with _information_ - oral, written, digital, all kinds! I'm really enjoying it because it weaves a wide-ranging set of ideas, people, and locations together to tell the story of how we've understood, catalogued, and communicated our ideas over the ages, and how the media that we use for these purposes has changed how we think.
 
 **Aug 2022**: I am chipping away at Jane Jacobs' excellent book on how we can build better, safer, more vibrant cities: [_The Death and Life of Great American Cities_](https://en.m.wikipedia.org/wiki/The_Death_and_Life_of_Great_American_Cities). It's very life-changing in the way that it's really making me notice small nuances of the cities I've visited and lived in that made them the way they were! I hope to write a little essy about it after I'm done!
 
