@@ -31,6 +31,13 @@ _Proceedings of the Sixteenth International AAAI Conference on Web and Social Me
 
 ### Posters and Conference Presentations
 
+**<span style="color:#384ac5">Designing Predictive Models of Newsworthiness to Support
+Science Journalism.</span>**  
+<u>Sachita Nishal</u> and Nick Diakopoulos   
+Poster presented at _Lambert Conference on the Future of Human Computer Interaction + Design_. 2022  
+{{< link_button href="/pdfs/2022-newsworthiness-poster.pdf" >}} Poster {{< /link_button >}}
+
+
 **<span style="color:#384ac5">Impact of Trope-based Novelty on Cinematic Success</span>**  
 <u>Sachita Nishal</u> and Luís A. Nunes Amaral  
 Poster presented at _International Conference on Computational Social Science (IC2S2)_. 2022  
@@ -38,5 +45,5 @@ Poster presented at _International Conference on Computational Social Science (I
 
 **<span style="color:#384ac5">AI-Driven Lead Recommenders for Science Journalists</span>**  
 <u>Sachita Nishal</u> and Nick Diakopoulos   
-Abstract presented at _Computation + Journalism Symposium (C+J)_. 2022  
+Talk presented at _Computation + Journalism Symposium (C+J)_. 2022  
 {{< link_button href="/pdfs/2022-ai-driven-lead.pdf" >}} Slides {{< /link_button >}}
