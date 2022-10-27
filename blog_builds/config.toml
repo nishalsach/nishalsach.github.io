@@ -80,7 +80,7 @@ weight = 2
 
 [[menu.main]]
 name = "Resume"
-url = "/resume"
+url = "/pdfs/221027_Sachita_Nishal.pdf"
 weight = 3
 
 [[menu.main]]
