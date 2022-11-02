@@ -1,9 +1,9 @@
 body {
-    font-family: "Cabin", sans-serif;
+    font-family: "Helvetica Neue", sans-serif;
     font-weight: 400;
     color: #333;
     line-height: 1.6;
-    font-size: 16px;
+    font-size: 1.0rem;
 }
 
 a, a:hover {
@@ -101,7 +101,7 @@ textarea {
 blockquote {
     margin-left: 1rem;
     font-style: italic;
-    font-size: 1.4rem;
+    font-size: 1rem;
     font-family: Georgia,bitstream charter,serif;
     border-left: 3px solid;
     border-color: #384ac5;
@@ -127,10 +127,10 @@ a:hover {
 }
 
 h1,h2,h3,h4,h5,h6 {
-    font-family: Cabin,sans-serif;
+    font-family: "Helvetica Neue",sans-serif;
     line-height: 1.2;
     color: #333;
-    font-weight: 200;
+    font-weight: 500;
 }
 
 h1 {
@@ -321,8 +321,8 @@ pre code {
 .recent-posts .posts .post .meta,
 .post .post-header .meta,
 .list .posts .post .meta {
-    font-size: 0.725rem;
-    color: #999;
+    font-size: 0.9rem;
+    color: rgb(93, 88, 88);
     margin-bottom: 4px;
 }
 
@@ -489,3 +489,10 @@ table th, table td {
 } 
 
 
+/* @font-face {
+    font-family: F16;
+    src: url("../../SubSkipper/F16_Panel Font.ttf") format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+ */

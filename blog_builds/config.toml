@@ -80,7 +80,7 @@ weight = 2
 
 [[menu.main]]
 name = "Resume"
-url = "/pdfs/221027_Sachita_Nishal.pdf"
+url = "/pdfs/2022-sachita-cv.pdf"
 weight = 3
 
 [[menu.main]]
@@ -106,20 +106,20 @@ weight = 5
 # Social media links which shows up on site header.
 # Uses feather icons for icons. You can [search icon names from here](https://feathericons.com/).
 
+# [[params.social]]
+# name = "Google Scholar"
+# icon = "pen-tool"
+# url = "https://scholar.google.com/citations?user=JgsaeQmLjKcC&hl=en&oi=ao"
+
 [[params.social]]
-name = "Google Scholar"
-icon = "pen-tool"
-url = "https://scholar.google.com/citations?user=JgsaeQmLjKcC&hl=en&oi=ao"
+name = "Email"
+icon = "mail"
+url = "mailto:nishal@u.northwestern.edu"
 
 [[params.social]]
 name = "Github"
 icon = "github"
 url = "https://github.com/nishalsach"
-
-[[params.social]]
-name = "Gmail"
-icon = "mail"
-url = "mailto:nishal@u.northwestern.edu"
 
 [[params.social]]
 name = "Twitter"
