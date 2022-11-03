@@ -10,7 +10,7 @@ One thing I did not (really, truly, practically) take into consideration when I 
 
 <figure>
  <img style="float: center; margin: 15px 15px 15px 15px;" src="../../img/phd_comics_year.png" width="320" />
- <figcaption> <i>And after that summer you're just having this converdation with people again and again and again ... <br> Source: <a href="https://phdcomics.com/comics/archive.php?comicid=1434">PHD Comics</a></i></figcaption>
+ <figcaption> <i>And after that summer you're just having this conversation with people again and again and again ... <br> Source: <a href="https://phdcomics.com/comics/archive.php?comicid=1434">PHD Comics</a></i></figcaption>
 </figure>
 
 Of course, I'm still excited about these questions and problems that I came in thinking about, but **how I think about my time in academia has changed massively** over the last couple of years. This blog post is as much a way for me to think through some of these changes, as it is a way to externalize my thoughts for others in a way that spurs interesting conversation. 
@@ -87,7 +87,7 @@ It's very reassuring to see more senior scholars in the field contemplate this i
 
 ### Looking Ahead 
 
-Another factor that the Mechanical Turk paper (and others in the field too) pushes me to consider is that **maybe I need to collaborate with a lot more people, work in teams, and pool my expertise with other people's to do more sustainable research**. That way we're all putting in this time and care together. It's difficult to do, especially since I don't really know how one begins with setting up collaborations and COVID has been the opposite of helpful with helping me meet people or go to conferences. But this is someting I'm excited to try out over the near future, especially going to more conferences next year, and meeting all the cool people whose work I read and cite. (**Timely Note: If you'd like to collaborate on/think about human-AI interaction stuff, I'm always excited to talk!**)
+Another factor that the Mechanical Turk paper (and others in the field too) pushes me to consider is that **maybe I need to collaborate with a lot more people, work in teams, and pool my expertise with other people's to do more sustainable research**. That way we're all putting in this time and care together. It's difficult to do, especially since I don't really know how one begins with setting up collaborations and COVID has been the opposite of helpful for meeting people at conferences. But this is someting I'm excited to try out over the near future, especially going to more conferences next year, and meeting all the cool people whose work I read and cite. (**Timely Note: If you'd like to collaborate on/think about human-AI interaction stuff, I'm always excited to talk!**)
 
 And of course, that requires more effort into actually communicating my research and putting it out there, so people know who I am and what I'm up to. It's another aspect of doing research that I'm excited to try and experiment with over the coming years. 
 
