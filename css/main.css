@@ -12,17 +12,6 @@ a, a:hover {
     word-break: break-word;
 }
 
-
-/* display: inline-block;
-    border: 1px solid #384ac5;
-    border-radius: 4px;
-    padding: 0px 6px;
-    color: #384ac5;
-    line-height: 20px;
-    font-size: 12px;
-    text-decoration: none;
-    margin: 0 1px;
-} */
 a.markdown-btn {
     /* font-size: "inherit";
     font-family: inherit; */
@@ -44,6 +33,24 @@ a.markdown-btn:hover, a.markdown-btn:active {
     color: white;
 }
 
+.button1 {
+    display: inline-block;
+    border: 1.5px solid #384ac5;
+    border-radius: 4px;
+    padding: 2px 6px;
+    color: #384ac5;
+    line-height: 20px;
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+.button1:hover, .button1:active {
+    text-decoration: none;
+    background-color: #384ac5;
+    color: white;
+  }
 
 html,button,input,select,textarea {
     color: #333;
@@ -338,7 +345,7 @@ pre code {
     display: inline;
     float: right;
     width: 100%;
-    max-width: 15ch;
+    max-width: 18ch;
     height: auto;
     margin: 0 auto;
     margin-left: 0.75rem;

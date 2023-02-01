@@ -37,7 +37,7 @@ summaryLength = 20
 
 [params]
     # Blog subtitle which appears below blog title. Supports markdown.
-    subtitle = "3rd-Year PhD Student, Northwestern University"
+    subtitle = "PhD Student, Northwestern University"
 
     # Content types which are included in home page recent posts list.
     mainSections = ["posts", "research"]
@@ -74,24 +74,19 @@ url = "/"
 weight = 1
 
 [[menu.main]]
-name = "More About Me"
-url = "/about"
-weight = 2
-
-[[menu.main]]
-name = "Resume"
+name = "C.V."
 url = "/pdfs/2022-sachita-cv.pdf"
-weight = 3
+weight = 2
 
 [[menu.main]]
 name = "Publications"
 url = "/publications"
-weight = 4
+weight = 3
 
 [[menu.main]]
 name = "Blog"
 url = "/posts"
-weight = 5
+weight = 4
 
 #[[menu.main]]
 #name = "Tags"
@@ -111,20 +106,20 @@ weight = 5
 # icon = "pen-tool"
 # url = "https://scholar.google.com/citations?user=JgsaeQmLjKcC&hl=en&oi=ao"
 
-[[params.social]]
-name = "Email"
-icon = "mail"
-url = "mailto:nishal@u.northwestern.edu"
+#[[params.social]]
+#name = "Email"
+#icon = "mail"
+#url = "mailto:nishal@u.northwestern.edu"
 
-[[params.social]]
-name = "Github"
-icon = "github"
-url = "https://github.com/nishalsach"
+#[[params.social]]
+#name = "Github"
+#icon = "github"
+#url = "https://github.com/nishalsach"
 
-[[params.social]]
-name = "Twitter"
-icon = "twitter"
-url = "https://twitter.com/nishalsach"
+#[[params.social]]
+#name = "Twitter"
+#icon = "twitter"
+#url = "https://twitter.com/nishalsach"
 
 #[[params.social]]
 #name = "Spotify"
