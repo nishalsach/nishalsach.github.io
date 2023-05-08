@@ -45,7 +45,7 @@
 			</li>
 			
 			<li>
-				<a href="/pdfs/2022-sachita-cv.pdf">C.V.</a>
+				<a href="/pdfs/sachita-resume.pdf">C.V.</a>
 			</li>
 			
 			<li>
@@ -80,49 +80,50 @@
 <p>And there&rsquo;s a really simple solution: you can write your custom Transformer object to print out the intermediate state of the data/any other stats you want to see! This is really easy, and probably something one can deploy during the intial phase where you&rsquo;ve just built a pipeline and are previewing it to make sure everything is in order. It helps especially when you&rsquo;ve chained together like five different transformations that operate on like seven different columns of your data and then slammed them together for your final output.</p>
 <p>Here&rsquo;s the code for this!</p>
 <h3 id="a-namecodea-python-code-for-scikit-learn-pipeline-debug-object"><a name="code"></a> Python Code for scikit-learn Pipeline Debug Object</h3>
-<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> <span style="color:#111">sklearn.base</span> <span style="color:#f92672">import</span> <span style="color:#111">TransformerMixin</span><span style="color:#111">,</span> <span style="color:#111">BaseEstimator</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#00a8c8">class</span> <span style="color:#75af00">Debugger</span><span style="color:#111">(</span><span style="color:#111">BaseEstimator</span><span style="color:#111">,</span> <span style="color:#111">TransformerMixin</span><span style="color:#111">):</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#00a8c8">def</span> <span style="color:#75af00">transform</span><span style="color:#111">(</span><span style="color:#111">self</span><span style="color:#111">,</span> <span style="color:#111">data</span><span style="color:#111">):</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Here you just print what you need + return the actual data. You&#39;re not transforming anything. </span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#111">print</span><span style="color:#111">(</span><span style="color:#d88200">&#34;Shape of Pre-processed Data:&#34;</span><span style="color:#111">,</span> <span style="color:#111">data</span><span style="color:#f92672">.</span><span style="color:#111">shape</span><span style="color:#111">)</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#111">print</span><span style="color:#111">(</span><span style="color:#111">pd</span><span style="color:#f92672">.</span><span style="color:#111">DataFrame</span><span style="color:#111">(</span><span style="color:#111">data</span><span style="color:#111">)</span><span style="color:#f92672">.</span><span style="color:#111">head</span><span style="color:#111">())</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#00a8c8">return</span> <span style="color:#111">data</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#00a8c8">def</span> <span style="color:#75af00">fit</span><span style="color:#111">(</span><span style="color:#111">self</span><span style="color:#111">,</span> <span style="color:#111">data</span><span style="color:#111">,</span> <span style="color:#111">y</span><span style="color:#f92672">=</span><span style="color:#00a8c8">None</span><span style="color:#111">,</span> <span style="color:#f92672">**</span><span style="color:#111">fit_params</span><span style="color:#111">):</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># No need to fit anything, because this is not an actual  transformation. </span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#00a8c8">return</span> <span style="color:#111">self</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Create a pipeline for training</span>
-</span></span><span style="display:flex;"><span><span style="color:#111">train_pipe</span> <span style="color:#f92672">=</span> <span style="color:#111">Pipeline</span><span style="color:#111">(</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#111">steps</span><span style="color:#f92672">=</span><span style="color:#111">[</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#111">(</span><span style="color:#d88200">&#39;preprocessor&#39;</span><span style="color:#111">,</span> <span style="color:#111">preprocessor</span><span style="color:#111">),</span>  <span style="color:#75715e"># preprocessor pipeline - I usually have one I&#39;ve written already that I throw into the training pipeline</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#111">(</span><span style="color:#d88200">&#39;debugger&#39;</span><span style="color:#111">,</span> <span style="color:#111">Debugger</span><span style="color:#111">()),</span> <span style="color:#75715e">######## -&gt; POSITION THIS WHEREVER YOU WANT TO SEE THE OUTPUT</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#111">(</span><span style="color:#d88200">&#39;classifier&#39;</span><span style="color:#111">,</span> <span style="color:#111">ExtraTreesClassifier</span><span style="color:#111">(</span><span style="color:#111">n_jobs</span> <span style="color:#f92672">=</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span><span style="color:#111">))</span>  <span style="color:#75715e"># the classification model</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#111">]</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#111">)</span>
-</span></span></code></pre></div><p>Hope this helps anyone else who was trying to get a little peek into their transformer Pipeline for whatever reason!</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">
+<span style="color:#f92672">from</span> <span style="color:#111">sklearn.base</span> <span style="color:#f92672">import</span> <span style="color:#111">TransformerMixin</span><span style="color:#111">,</span> <span style="color:#111">BaseEstimator</span>
+
+<span style="color:#00a8c8">class</span> <span style="color:#75af00">Debugger</span><span style="color:#111">(</span><span style="color:#111">BaseEstimator</span><span style="color:#111">,</span> <span style="color:#111">TransformerMixin</span><span style="color:#111">):</span>
+
+    <span style="color:#00a8c8">def</span> <span style="color:#75af00">transform</span><span style="color:#111">(</span><span style="color:#111">self</span><span style="color:#111">,</span> <span style="color:#111">data</span><span style="color:#111">):</span>
+
+        <span style="color:#75715e"># Here you just print what you need + return the actual data. You&#39;re not transforming anything. </span>
+
+        <span style="color:#111">print</span><span style="color:#111">(</span><span style="color:#d88200">&#34;Shape of Pre-processed Data:&#34;</span><span style="color:#111">,</span> <span style="color:#111">data</span><span style="color:#f92672">.</span><span style="color:#111">shape</span><span style="color:#111">)</span>
+        <span style="color:#111">print</span><span style="color:#111">(</span><span style="color:#111">pd</span><span style="color:#f92672">.</span><span style="color:#111">DataFrame</span><span style="color:#111">(</span><span style="color:#111">data</span><span style="color:#111">)</span><span style="color:#f92672">.</span><span style="color:#111">head</span><span style="color:#111">())</span>
+        <span style="color:#00a8c8">return</span> <span style="color:#111">data</span>
+
+    <span style="color:#00a8c8">def</span> <span style="color:#75af00">fit</span><span style="color:#111">(</span><span style="color:#111">self</span><span style="color:#111">,</span> <span style="color:#111">data</span><span style="color:#111">,</span> <span style="color:#111">y</span><span style="color:#f92672">=</span><span style="color:#00a8c8">None</span><span style="color:#111">,</span> <span style="color:#f92672">**</span><span style="color:#111">fit_params</span><span style="color:#111">):</span>
+
+        <span style="color:#75715e"># No need to fit anything, because this is not an actual  transformation. </span>
+
+        <span style="color:#00a8c8">return</span> <span style="color:#111">self</span>
+
+<span style="color:#75715e"># Create a pipeline for training</span>
+<span style="color:#111">train_pipe</span> <span style="color:#f92672">=</span> <span style="color:#111">Pipeline</span><span style="color:#111">(</span>
+        <span style="color:#111">steps</span><span style="color:#f92672">=</span><span style="color:#111">[</span>
+            <span style="color:#111">(</span><span style="color:#d88200">&#39;preprocessor&#39;</span><span style="color:#111">,</span> <span style="color:#111">preprocessor</span><span style="color:#111">),</span>  <span style="color:#75715e"># preprocessor pipeline - I usually have one I&#39;ve written already that I throw into the training pipeline</span>
+            <span style="color:#111">(</span><span style="color:#d88200">&#39;debugger&#39;</span><span style="color:#111">,</span> <span style="color:#111">Debugger</span><span style="color:#111">()),</span> <span style="color:#75715e">######## -&gt; POSITION THIS WHEREVER YOU WANT TO SEE THE OUTPUT</span>
+            <span style="color:#111">(</span><span style="color:#d88200">&#39;classifier&#39;</span><span style="color:#111">,</span> <span style="color:#111">ExtraTreesClassifier</span><span style="color:#111">(</span><span style="color:#111">n_jobs</span> <span style="color:#f92672">=</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span><span style="color:#111">))</span>  <span style="color:#75715e"># the classification model</span>
+        <span style="color:#111">]</span>
+    <span style="color:#111">)</span>
+
+</code></pre></div><p>Hope this helps anyone else who was trying to get a little peek into their transformer Pipeline for whatever reason!</p>
 <h2 id="references">References:</h2>
-<div class="footnotes" role="doc-endnotes">
+<section class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
-<li id="fn:1">
+<li id="fn:1" role="doc-endnote">
 <p><a href="https://scikit-learn.org/stable/index.html">scikit-learn Documentation</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:2">
+<li id="fn:2" role="doc-endnote">
 <p><a href="https://scikit-learn.org/stable/modules/generated/sklearn.pipeline.Pipeline.html#sklearn.pipeline.Pipeline">Pipeline Documentation</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
-<li id="fn:3">
+<li id="fn:3" role="doc-endnote">
 <p>See: <a href="https://en.wikipedia.org/wiki/The_Quatermass_Xperiment">The Quatermass Xperiment</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
-</div>
+</section>
 
 		</div>
 

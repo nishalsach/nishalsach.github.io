@@ -13,7 +13,7 @@
       <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>
       
       <guid>https://nishalsach.github.io/posts/2022-04-25-short-primer_mi/</guid>
-      <description>Definitions Conceptual Definition: MI is the reduction in uncertainty when predicting one variable (&amp;ldquo;outcome&amp;rdquo;) in a system, if we know the value of another variable in the system. It will always be &amp;gt;=0, and higher values mean higher dependency between the two variables Formula (for discrete processes/variables X1 and X2): As must be apparent, for two independent variables, MI = 0. Eg. Two coins are tossed; the results of one coin do not help us measure the results of the other in any way Another way to look at this (and I still have some trouble wrapping my head around this) is that MI is the KL Divergence in going from the joint distribution P(X1, X2) to the product of the marginal distributions P(X1).</description>
+      <description>Definitions  Conceptual Definition: MI is the reduction in uncertainty when predicting one variable (&amp;ldquo;outcome&amp;rdquo;) in a system, if we know the value of another variable in the system.  It will always be &amp;gt;=0, and higher values mean higher dependency between the two variables   Formula (for discrete processes/variables X1 and X2):   As must be apparent, for two independent variables, MI = 0. Eg. Two coins are tossed; the results of one coin do not help us measure the results of the other in any way Another way to look at this (and I still have some trouble wrapping my head around this) is that MI is the KL Divergence in going from the joint distribution P(X1, X2) to the product of the marginal distributions P(X1).</description>
     </item>
     
   </channel>
