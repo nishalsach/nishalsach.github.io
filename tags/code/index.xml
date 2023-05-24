@@ -14,7 +14,10 @@
       
       <guid>https://nishalsach.github.io/posts/2023-05-23-reading-writing-modifiers/</guid>
       <description>Different modes of reading and writing to files, and what they do:
-r: Only read. This is the default if no mode argument is given. w: Only write. An existing file with the same name will be over-written. a: Append data to the end of the file. Still writing. r+: Both reading and writing and can be done. I never use this.
+r: Only read. This is the default if no mode argument is given.
+w: Only write. An existing file with the same name will be over-written.
+a: Append data to the end of the file. Still writing.
+r+: Both reading and writing and can be done. I never use this.
 From the Python Docs:
 Normally, files are opened in text mode, that means, you read and write strings from and to the file, which are encoded in a specific encoding.</description>
     </item>

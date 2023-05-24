@@ -4,20 +4,14 @@
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Reading and Writing Files in Python: Modifiers - Sachita Nishal</title><link rel="icon" type="image/png" href=icons/myicon.png /><meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta property="og:title" content="Reading and Writing Files in Python: Modifiers" />
-<meta property="og:description" content="Different modes of reading and writing to files, and what they do:
-r: Only read. This is the default if no mode argument is given. w: Only write. An existing file with the same name will be over-written. a: Append data to the end of the file. Still writing. r&#43;: Both reading and writing and can be done. I never use this.
-From the Python Docs:
-Normally, files are opened in text mode, that means, you read and write strings from and to the file, which are encoded in a specific encoding." />
+<meta property="og:description" content="How modifiers change what you write" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://nishalsach.github.io/posts/2023-05-23-reading-writing-modifiers/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2023-05-23T00:00:00+00:00" />
 <meta property="article:modified_time" content="2023-05-23T00:00:00+00:00" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Reading and Writing Files in Python: Modifiers"/>
-<meta name="twitter:description" content="Different modes of reading and writing to files, and what they do:
-r: Only read. This is the default if no mode argument is given. w: Only write. An existing file with the same name will be over-written. a: Append data to the end of the file. Still writing. r&#43;: Both reading and writing and can be done. I never use this.
-From the Python Docs:
-Normally, files are opened in text mode, that means, you read and write strings from and to the file, which are encoded in a specific encoding."/>
+<meta name="twitter:description" content="How modifiers change what you write"/>
 <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:200,300|Cabin:300,400,300italic,400italic" rel="stylesheet">
 
 	<link rel="stylesheet" type="text/css" media="screen" href="https://nishalsach.github.io/css/normalize.css" />
@@ -79,9 +73,9 @@ Normally, files are opened in text mode, that means, you read and write strings 
 
 		<div class="markdown">
 			<p>Different <em>modes</em> of reading and writing to files, and what they do:</p>
-<p><code>r</code>: Only read. This is the default if no <code>mode</code> argument is given.
-<code>w</code>: Only write. An existing file with the same name will be over-written.
-<code>a</code>: Append data to the end of the file. Still writing.
+<p><code>r</code>: Only read. This is the default if no <code>mode</code> argument is given.<br>
+<code>w</code>: Only write. An existing file with the same name will be over-written.<br>
+<code>a</code>: Append data to the end of the file. Still writing.<br>
 <code>r+</code>: Both reading and writing and can be done. I never use this.</p>
 <p>From the <a href="https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files">Python Docs</a>:</p>
 <blockquote>

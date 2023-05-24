@@ -2,16 +2,16 @@
 title: "Reading and Writing Files in Python: Modifiers"
 date: 2023-05-23
 draft: false
-description: 
+description: How modifiers change what you write
 tags: [python, code]
 ---
 
 Different _modes_ of reading and writing to files, and what they do:
 
-```r```: Only read. This is the default if no ```mode``` argument is given.
-```w```: Only write. An existing file with the same name will be over-written.
-```a```: Append data to the end of the file. Still writing.
-```r+```: Both reading and writing and can be done. I never use this.
+```r```: Only read. This is the default if no ```mode``` argument is given.  
+```w```: Only write. An existing file with the same name will be over-written.  
+```a```: Append data to the end of the file. Still writing.  
+```r+```: Both reading and writing and can be done. I never use this.  
 
 From the [Python Docs](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files): 
 
