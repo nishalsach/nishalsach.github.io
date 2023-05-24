@@ -20,6 +20,17 @@ Normally, files are opened in text mode, that means, you read and write strings 
     </item>
     
     <item>
+      <title>BeautifulSoup4Dummies</title>
+      <link>https://nishalsach.github.io/posts/2023-05-19-bs4dummies/</link>
+      <pubDate>Fri, 19 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishalsach.github.io/posts/2023-05-19-bs4dummies/</guid>
+      <description>Note: All links are from BS v4.12.0 documentation and reference, but the gist should probably hold for a while.
+BeautifulSoup4 + Python is a formidable combo for web-scraping when the territory I&amp;rsquo;m scraping in is uncertain, webpages are static, and I need to spin up something quick and dirty so I can hunt around through the HTML to specifically extract what I need.
+Another thing is: when pulling web data with BS4, sometimes it&amp;rsquo;s really handy to keep separate files of the subset/tags/text in a page that are of interest, but then also save original HTML files just to have them on hand in case extraction does not go according to plan.</description>
+    </item>
+    
+    <item>
       <title>Two Years into the PhD: Thoughts and Half-thoughts</title>
       <link>https://nishalsach.github.io/posts/2022-10-27-evaluating-my-phd/</link>
       <pubDate>Thu, 27 Oct 2022 00:00:00 +0000</pubDate>

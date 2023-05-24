@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>BeautifulSoup4Dummies - Sachita Nishal</title><link rel="icon" type="image/png" href=icons/myicon.png /><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="BeautifulSoup4Dummies" />
+<meta property="og:description" content="Note: All links are from BS v4.12.0 documentation and reference, but the gist should probably hold for a while.
+BeautifulSoup4 &#43; Python is a formidable combo for web-scraping when the territory I&rsquo;m scraping in is uncertain, webpages are static, and I need to spin up something quick and dirty so I can hunt around through the HTML to specifically extract what I need.
+Another thing is: when pulling web data with BS4, sometimes it&rsquo;s really handy to keep separate files of the subset/tags/text in a page that are of interest, but then also save original HTML files just to have them on hand in case extraction does not go according to plan." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://nishalsach.github.io/posts/2023-05-19-bs4dummies/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-05-19T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-05-19T00:00:00+00:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="BeautifulSoup4Dummies"/>
+<meta name="twitter:description" content="Note: All links are from BS v4.12.0 documentation and reference, but the gist should probably hold for a while.
+BeautifulSoup4 &#43; Python is a formidable combo for web-scraping when the territory I&rsquo;m scraping in is uncertain, webpages are static, and I need to spin up something quick and dirty so I can hunt around through the HTML to specifically extract what I need.
+Another thing is: when pulling web data with BS4, sometimes it&rsquo;s really handy to keep separate files of the subset/tags/text in a page that are of interest, but then also save original HTML files just to have them on hand in case extraction does not go according to plan."/>
+<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:200,300|Cabin:300,400,300italic,400italic" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" media="screen" href="https://nishalsach.github.io/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://nishalsach.github.io/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="https://nishalsach.github.io/css/custom.css" />
+	
+
+	
+	<script src="https://nishalsach.github.io/js/main.js"></script>
+	<script src="https://nishalsach.github.io/js/abc.js"></script>
+	<script src="https://nishalsach.github.io/js/xyz.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+
+<body>
+	<div class="container wrapper post">
+		<div class="header">
+	
+	<h1 class="site-title"><a href="https://nishalsach.github.io/">Sachita Nishal</a></h1>
+	<div class="site-description"><h2>PhD Student, Northwestern University</h2><nav class="nav social">
+			<ul class="flat"></ul>
+		</nav>
+	</div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li>
+				<a href="/">Home</a>
+			</li>
+			
+			<li>
+				<a href="/pdfs/sachita-resume.pdf">C.V.</a>
+			</li>
+			
+			<li>
+				<a href="/publications">Publications</a>
+			</li>
+			
+			<li>
+				<a href="/posts">Blog</a>
+			</li>
+			
+		</ul>
+	</nav>
+</div>
+
+
+		<div class="post-header">
+			<h1 class="title">BeautifulSoup4Dummies</h1>
+			<div class="meta">
+				Date Updated: May 19, 2023 <br> 
+				Reading Time: 8 minutes <br>
+				1538 words
+
+			</div>
+			
+		</div>
+
+		<div class="markdown">
+			<p><strong>Note</strong>: All links are from BS v4.12.0 documentation and reference, but the gist should probably hold for a while.</p>
+<p>BeautifulSoup4 + Python is a formidable combo for web-scraping when the territory I&rsquo;m scraping in is uncertain, webpages are static, and I need to spin up something quick and dirty so I can hunt around through the HTML to specifically extract what I need.</p>
+<p>Another thing is: when pulling web data with BS4, sometimes it&rsquo;s really handy to keep separate files of the subset/tags/text in a page that are of interest, but then also save original HTML files just to have them on hand in case extraction does not go according to plan.</p>
+<p>Through this scraping and cleaning process, there are some coniderations involved:</p>
+<h3 id="scraping-choice-of-parser">Scraping: Choice of Parser</h3>
+<p>Parsers are important to specify because <a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/#differences-between-parsers">each parser behaves a bit differently</a>, especially if webpages are formatted wonkily (which is decently often) and my work needs to be reproducible.</p>
+<p>Parser choices include: Python&rsquo;s native <code>html.parser</code>, C-based <code>lxml</code> parsers, and finally HTML5. <code>lxml</code> is the quickest and most efficient, but has external dependencies. <code>html.parser</code> has no dependencies but being Python native, it&rsquo;s slower. It&rsquo;s also less lenient in what webpage inaccuracies/wonkiness it will permit. I find it best to use <code>lxml</code>.</p>
+<p>Here&rsquo;s the standard code I use:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Imports</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> <span style="color:#111">bs4</span> <span style="color:#f92672">import</span> <span style="color:#111">BeautifulSoup</span><span style="color:#111">,</span> <span style="color:#111">Tag</span><span style="color:#111">,</span> <span style="color:#111">NavigableString</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> <span style="color:#111">requests</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Query the website and return the html</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">response</span> <span style="color:#f92672">=</span> <span style="color:#111">requests</span><span style="color:#f92672">.</span><span style="color:#111">get</span><span style="color:#111">(</span><span style="color:#111">insert_url</span><span style="color:#111">)</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Parse the html in the &#39;response&#39; variable, and store it in Beautiful Soup format</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">soup</span> <span style="color:#f92672">=</span> <span style="color:#111">BeautifulSoup</span><span style="color:#111">(</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">response</span><span style="color:#f92672">.</span><span style="color:#111">text</span><span style="color:#111">,</span> <span style="color:#75715e">### Remember, do not use response.content here, BAD THINGS HAPPEN</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">features</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;lxml&#34;</span><span style="color:#111">,</span> 
+</span></span><span style="display:flex;"><span><span style="color:#111">)</span>
+</span></span></code></pre></div><p>One thing worth remembering is that all HTML pages have some sort of text encoding they are written in (e.g. ASCII, UTF-8). Using the <code>requests</code> library in this case returns a <a href="https://requests.readthedocs.io/en/latest/api/#requests.Response">library-specific <code>Response</code> object</a>. This object&rsquo;s encoding is guessed by the <code>requests</code>  library <a href="https://requests.readthedocs.io/en/latest/api/#requests.Response.text">&ldquo;based solely on HTTP headers&rdquo;</a>, but it can also be set manually using the <code>response.encoding</code> property, if I know the correct encoding to use. Once this is sorted, I can access the content of the webpage using the <code>response.text</code> property, which returns the content in a Unicode string, which can be passed into BS4. This is the sane and normal thing to do.</p>
+<p>Now if I&rsquo;m feeling edgy, I can pass an HTML response object to BS4 (not the Unicode string from <code>requests</code>), and <a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/#encodings">it will automatically convert everything, regardless of its encoding, into the Unicode character set</a>. Very occasionally, there might be errors in how certain characters are processed, because BS4 does the conversion based on guesswork about the original encoding of the webpage, using another library called <code>Unicode, Dammit</code>. I have never actually have done it this way and there&rsquo;s no reason to do it this way as far as I can tell.</p>
+<p>Errors in how the encoding for a webpage was interpreted, either by <code>requests</code> or BS4&rsquo;s <code>Unicode, Dammit</code>, are usually revealed as I navigate the contents and tags of the page. If I uncover errors during analysis, it would be worth going back and using the <code>response.encoding</code> property of <code>requests</code> to set the right encoding. The docs say one can also use the <code>from_encoding</code> parameter for the <code>BeautifulSoup()</code> function when parsing the scraped webpage, whichever is relevant. If I don’t know what the correct encoding is, but I know that <em>Unicode, Dammit</em> is guessing wrong in the case of BS4, the docs say can pass the wrong guesses in as a list to the<code>exclude_encodings</code> argument in BS4.</p>
+<p>Now, a really important one: using the <code>requests</code> library to generate the webpage&rsquo;s Unicode string means that the <code>from_encoding</code> argument of the <code>BeautifulSoup()</code> function will become useless. Intuitively this makes sense: it isn&rsquo;t needed because there&rsquo;s already a decoded Unicode string representing the webpage. However, this can still be easy to forget.</p>
+<p>If I <em>do</em> want to use it or any other features that BS4 makes available to control the decoding of a webpage, I have to query and store the webpage without creating a Unicode string to be passed to BS4. This probably entails figuring out how to pass an HTML response object to BS4. If I try to pass the <code>from_encoding</code> argument to <code>BeautifulSoup()</code> along with the <code>response.text</code> object anyway, BS4 will be very kind and throw up the following warning:</p>
+<p><code>UserWarning: You provided Unicode markup but also provided a value for from_encoding. Your from_encoding will be ignored.</code></p>
+<p>Re: parsers, here&rsquo;s a page from the docs also laying out the different parsers and their features, for further reference: <a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/#installing-a-parser">table of parsers</a>.</p>
+<h3 id="analysis">Analysis</h3>
+<p>Digging through the resulting soup (&ldquo;parse tree&rdquo;) is easy enough with functions like <code>soup.find_all()</code>, and checking if something is a tag or a NavigableString with <code>isinstance()</code> calls. There&rsquo;s reams of documentation and SO content to help me dig through and extract what I want.</p>
+<p>The doc shows two ways to preview the soup or its selected sub-components: <a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/#pretty-printing">pretty</a> vs. <a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/#non-pretty-printing">non-pretty printing</a>. I tend to prefer pretty printing because it&rsquo;s nicer and well-indented. All I need to use is the <code>print(soup.prettify())</code> call. This method will turn a BS4 parse tree into a nicely formatted Unicode string, with newline characters separating tags and different lines.</p>
+<p>BS4 documentation says you can pass an encoding to <code>soup.prettify()</code> as an argument but I don&rsquo;t know why or when I would do that. Experimenting with it leads to not fun outcomes so for now I should avoid this.</p>
+<h3 id="file-output-considerations">File Output Considerations</h3>
+<p>Once it&rsquo;s time to write out the soup for later analysis/revisiting, instead of say conducting all my analysis ad-hoc over a thousand scraped pages and deleting the scraped HTML once I think I&rsquo;m done because there&rsquo;s no way I might have made an error and could have to re-scrape this in three weeks when I uncover said error, there&rsquo;s a couple different ways to go about it.</p>
+<p>One thing to know is that BS4 outputs a UTF-8 encoded document, unless specified otherwise. I have never run into errors with this or have had to use an alternate encoding version for output, but just in case, here&rsquo;s a handy link to navigate those issues: <a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/#output-encoding">docs page for output encodings</a>.</p>
+<h4 id="html-files">HTML Files</h4>
+<p>A simple way: save as an HTML file!</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#00a8c8">with</span> <span style="color:#111">open</span><span style="color:#111">(</span><span style="color:#d88200">&#34;filepath/scraped_page.html&#34;</span><span style="color:#111">,</span> <span style="color:#111">mode</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;w&#34;</span><span style="color:#111">,</span> <span style="color:#111">encoding</span><span style="color:#f92672">=</span><span style="color:#d88200">&#39;utf-8&#39;</span><span style="color:#111">)</span> <span style="color:#00a8c8">as</span> <span style="color:#111">file</span><span style="color:#111">:</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">file</span><span style="color:#f92672">.</span><span style="color:#111">write</span><span style="color:#111">(</span><span style="color:#111">str</span><span style="color:#111">(</span><span style="color:#111">soup</span><span style="color:#111">))</span>
+</span></span></code></pre></div><p>I learnt how to do this <a href="https://stackoverflow.com/questions/40529848/how-to-write-the-output-to-html-file-with-python-beautifulsoup">here</a>.</p>
+<p>Some housekeeping notes:</p>
+<ul>
+<li>I should convert the soup to <code>str</code> before writing, and use text mode (<code>w</code>), not byte mode (<code>wb</code>). Code written in Python2 used to convert the soup to <code>unicode</code> and not <code>str</code> because of different syntax conventions, and some internet code might reflect that too.</li>
+<li>More on the distinction of writing in text vs. byte mode <a href="https://nishalsach.github.io/posts/2023-05-23-reading-writing-modifiers/">here</a>.</li>
+<li>Specifying the encoding is also good practice! Makes reading it back in that much neater.</li>
+<li>This method is good even when a webpage is extremely nested, and does not throw any recursion errors.</li>
+</ul>
+<p>Then, when it&rsquo;s time to read the file back in:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#00a8c8">with</span> <span style="color:#111">open</span><span style="color:#111">(</span><span style="color:#d88200">&#34;filepath/scraped_page.html&#34;</span><span style="color:#111">,</span> <span style="color:#d88200">&#34;r&#34;</span><span style="color:#111">)</span> <span style="color:#00a8c8">as</span> <span style="color:#111">file</span><span style="color:#111">:</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">soup</span> <span style="color:#f92672">=</span> <span style="color:#111">BeautifulSoup</span><span style="color:#111">(</span><span style="color:#111">file</span><span style="color:#f92672">.</span><span style="color:#111">read</span><span style="color:#111">(),</span> <span style="color:#d88200">&#34;lxml&#34;</span><span style="color:#111">)</span>
+</span></span></code></pre></div><p>Something I still don&rsquo;t know is what the difference is between writing out the <code>str(soup)</code> vs. <code>str(soup.prettify())</code>. <a href="https://www.geeksforgeeks.org/how-to-write-the-output-to-html-file-with-python-beautifulsoup/">GFG recommends the latter</a> and I&rsquo;m not sure why one would like to write out a modified and maybe even bloated version of the page with newline characters inserted all over. Is fidelity to the original not valuable? Unsure.</p>
+<h4 id="pickle-files">Pickle Files</h4>
+<p>Pickling is insecure, prone to recursion errors when a page is very nested, and is maybe even a lazy way out because you don&rsquo;t bother about encodings or anything of the sort. All of this is true. But also pickling is <em>incredibly</em> flexible: you can serialise anything! The perks are good for local storage and quick experimentation. Here&rsquo;s how to do this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Do this to prevent issues with recursion</span>
+</span></span><span style="display:flex;"><span><span style="color:#111">sys</span><span style="color:#f92672">.</span><span style="color:#111">setrecursionlimit</span><span style="color:#111">(</span><span style="color:#ae81ff">8000</span><span style="color:#111">)</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Save the soup object to a file</span>
+</span></span><span style="display:flex;"><span><span style="color:#00a8c8">with</span> <span style="color:#111">open</span><span style="color:#111">(</span><span style="color:#d88200">&#34;soup.pickle&#34;</span><span style="color:#111">,</span> <span style="color:#d88200">&#34;wb&#34;</span><span style="color:#111">)</span> <span style="color:#00a8c8">as</span> <span style="color:#111">file</span><span style="color:#111">:</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">pickle</span><span style="color:#f92672">.</span><span style="color:#111">dump</span><span style="color:#111">(</span><span style="color:#111">soup</span><span style="color:#111">,</span> <span style="color:#111">f</span><span style="color:#111">)</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Read the soup object from a file</span>
+</span></span><span style="display:flex;"><span><span style="color:#00a8c8">with</span> <span style="color:#111">open</span><span style="color:#111">(</span><span style="color:#d88200">&#34;soup.pickle&#34;</span><span style="color:#111">,</span> <span style="color:#d88200">&#34;rb&#34;</span><span style="color:#111">)</span> <span style="color:#00a8c8">as</span> <span style="color:#111">file</span><span style="color:#111">:</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#111">soup_obj</span> <span style="color:#f92672">=</span> <span style="color:#111">pickle</span><span style="color:#f92672">.</span><span style="color:#111">load</span><span style="color:#111">(</span><span style="color:#111">f</span><span style="color:#111">)</span>
+</span></span></code></pre></div><p>I learnt how to do this from <a href="https://stackoverflow.com/questions/52973700/how-to-save-the-beautifulsoup-object-to-a-file-and-then-read-from-it-as-beautifu">a very nice SO thread</a> very long ago.</p>
+<p>One case where pickling won&rsquo;t help is when I want to keep previewing the saved files for whether they &ldquo;look alright&rdquo; on my Mac. I can only preview the saved file if it&rsquo;s in HTML, not as a pickle. In part due to this, and in part due it being not great standard practice for publicly hosted work, I&rsquo;m mostly phasing out of using <code>pickle</code>. However, it IS a good solution under certain cases, so it&rsquo;s a good one to keep in the back pocket.</p>
+<h3 id="last-words">Last Words</h3>
+<p>Scraping webpages is very hard because the internet is a wild, wild place, and everyone uses different templates and patterns and schematics for how they organize their data. It&rsquo;s almost like being a detective - looking for clues on the pages to see what the standard patterns and templates for a website are, how error handling could be done, and how flexible and adaptive functions can be written to extract the relevant data. But before all of that comes the tedious pro cess of actually procuring the correctly decoded HTML in hand. This is one way to think of that process. I&rsquo;m happy to hear from anyone who thinks they have cool ideas on this stuff and would want to think through them together!</p>
+
+		</div>
+
+		<div class="post-tags">
+			
+				
+					<nav class="nav tags">
+							<ul class="flat">
+								
+								<li><a href="/tags/web-scraping">web-scraping</a></li>
+								
+								<li><a href="/tags/python">python</a></li>
+								
+								<li><a href="/tags/code">code</a></li>
+								
+							</ul>
+					</nav>
+				
+			
+
+		</div>
+		</div>
+	<div class="footer wrapper">
+	<nav class="nav">
+		<div> <a href="https://github.com/vividvilla/ezhil">Ezhil theme</a> | Built with <a href="https://gohugo.io">Hugo</a></div>
+	</nav>
+</div>
+
+
+
+
+</body>
+</html>
