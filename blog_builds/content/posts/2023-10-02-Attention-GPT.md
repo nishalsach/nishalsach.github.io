@@ -1,7 +1,7 @@
 ---
 title: "Turn off the GPT Scraper? In this [Attention] Economy?"
 date: 2023-10-02
-draft: false
+draft: true
 description: Thinking (opinionatedly) about how LLMs can shape our collective attention to the news, and what it means to opt-out of being fodder for text generation. 
 tags: [generative models, news]
 ---
