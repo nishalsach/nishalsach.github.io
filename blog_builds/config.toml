@@ -75,7 +75,7 @@ weight = 1
 
 [[menu.main]]
 name = "C.V."
-url = "/pdfs/sachita-cv.pdf"
+url = "https://nishalsach.github.io/pdfs/sachita-cv.pdf"
 weight = 2
 
 [[menu.main]]
