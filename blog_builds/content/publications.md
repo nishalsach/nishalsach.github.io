@@ -7,6 +7,12 @@ description: ""
 
 ### Archival Publications
 
+**<span style="color:#384ac5">Understanding Practices around Computational News Discovery Tools in the Domain of Science Journalism</span>**  
+<u>Sachita Nishal</u> and Nick Diakopoulos  
+Proceedings of the ACM on Human-Computer Interaction (CSCW) 2024. 
+Preprint forthcoming. 
+<!-- {{< link_button href="https://nishalsach.github.io/pdfs/2022-newsworthiness.pdf" >}} PDF {{< /link_button >}}  {{< link_button href="https://dl.acm.org/doi/abs/10.1145/3512981" >}} ACM DL {{< /link_button >}}  -->
+
 **<span style="color:#384ac5">From Crowd Ratings to Predictive Models of Newsworthiness to Support Science Journalism</span>**  
 <u>Sachita Nishal</u> and Nick Diakopoulos  
 Proceedings of the ACM on Human-Computer Interaction (CSCW) 2022.  
@@ -23,12 +29,16 @@ Proceedings of the ACM: Conference on Computing and Sustainable Societies (COMPA
 {{< link_button href="/pdfs/2022-devotees.pdf" >}} PDF {{< /link_button >}}  {{< link_button href="https://dl.acm.org/doi/10.1145/3530190.3534801" >}} ACM DL {{< /link_button >}} 
 
 **<span style="color:#384ac5">DISMISS: Database of Indian Social Media Influencers (Snowballed Sequentially) on Twitter</span>**  
-Arshia Arya, Soham De, Dibyendu Mishra, ... , <u> Sachita Nishal </u>, Saloni Dash, S. Shora, Syeda Zainab Akbar, J. Pal 
+Arshia Arya, Soham De, Dibyendu Mishra, ... , <u> Sachita Nishal </u>, Saloni Dash, S. Shora, Syeda Zainab Akbar, Joyojeet Pal  
 Proceedings of the Sixteenth International AAAI Conference on Web and Social Media (ICWSM) 2022.  
 {{< link_button href="/pdfs/2022-dismiss-dataset.pdf" >}} PDF {{< /link_button >}}  {{< link_button href="https://ojs.aaai.org/index.php/ICWSM/article/view/19370" >}} AAAI Archive {{< /link_button >}}  
 
 
 ### Posters, Talks and Conference Presentations
+
+**<span style="color:#384ac5"> Building and Evaluating Trustworthy Tools with Generative AI in your Newsroom.</span>**  
+<u>Sachita Nishal</u>  and Eric Ulken
+Talk delivered at SRCCON 2023.
 
 **<span style="color:#384ac5">Designing Interactive, Configurable and Transparent Algorithmic Systems to Support Journalistic Decision-Making</span>**  
 <u>Sachita Nishal</u>  
