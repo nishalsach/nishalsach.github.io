@@ -1,0 +1,10 @@
+{
+    "[python]": {
+        "editor.autoClosingBrackets": "languageDefined"
+    },
+    "editor.autoClosingBrackets": "beforeWhitespace",
+    "cSpell.words": [
+        "brainer",
+        "nilly"
+    ]
+}

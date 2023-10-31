@@ -6,7 +6,16 @@
     <description>Recent content in Posts on Sachita Nishal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 23 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://nishalsach.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://nishalsach.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Turn off the GPT Scraper? In this [Attention] Economy?</title>
+      <link>https://nishalsach.github.io/posts/2023-10-02-attention-gpt/</link>
+      <pubDate>Mon, 02 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishalsach.github.io/posts/2023-10-02-attention-gpt/</guid>
+      <description>After all the hullabaloo around generative models like ChatGPT, BARD, and others helping their parent companies profit off the intellectual property produced by news outlets (and artists and writers but they are not really in the purview of this post), there seem to be some inklings of legislative action, at least in the U.S. For one, representatives of news outlets regional and local, big and small, recently met with lawmakers to discuss copyright protections for their work.</description>
+    </item>
+    
     <item>
       <title>Reading and Writing Files in Python: Modifiers</title>
       <link>https://nishalsach.github.io/posts/2023-05-23-reading-writing-modifiers/</link>
