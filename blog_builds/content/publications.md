@@ -10,8 +10,7 @@ description: ""
 **<span style="color:#384ac5">Understanding Practices around Computational News Discovery Tools in the Domain of Science Journalism</span>**  
 <b>Sachita Nishal</b> and Nick Diakopoulos  
 Proceedings of the ACM on Human-Computer Interaction (CSCW) 2024.  
-Preprint forthcoming.  
-<!-- {{< link_button href="https://nishalsach.github.io/pdfs/2022-newsworthiness.pdf" >}} PDF {{< /link_button >}}  {{< link_button href="https://dl.acm.org/doi/abs/10.1145/3512981" >}} ACM DL {{< /link_button >}}  -->
+{{< link_button href="https://arxiv.org/abs/2311.06864">}} arXiv preprint {{< /link_button >}}  {{< link_button href="https://generative-ai-newsroom.com/getting-the-science-and-the-scoop-with-news-angles-from-gpt-3-b1b4fcd7f6b1" >}} LLM Evaluation Strategy blogpost {{< /link_button >}}  
 
 **<span style="color:#384ac5">From Crowd Ratings to Predictive Models of Newsworthiness to Support Science Journalism</span>**  
 <b>Sachita Nishal</b> and Nick Diakopoulos  
