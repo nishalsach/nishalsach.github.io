@@ -1,9 +1,8 @@
 Link: [nishalsach.github.io](https://nishalsach.github.io)
-# To Do (updated Nov 1, 2023)
+# To Do (updated Nov 29, 2023)
 
 ### Content
 
-- update the gpt blog post
 - link to TSB post
 - link to GAI post
 
