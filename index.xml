@@ -6,7 +6,17 @@
     <description>Recent content on Sachita Nishal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 23 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://nishalsach.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 02 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://nishalsach.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2 Feb 2024: Where the Week Went</title>
+      <link>https://nishalsach.github.io/posts/readings/2024-02-02-reading/</link>
+      <pubDate>Fri, 02 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishalsach.github.io/posts/readings/2024-02-02-reading/</guid>
+      <description>Cool readings and excerpts from this week:
+The Business of the News Lots of news in January about media downsizing and layoffs. The news industry in the U.S. looks like it is in a precarious position, but I feel like it&amp;rsquo;s also been this way for a while now. In the meanwhile, Joshua Benton of Nieman Lab reminds us that while it can feel like the industry is in freefall, sometimes outlets can collapse because they were ill-conceived, ego-driven projects that were terribly run.</description>
+    </item>
+    
     <item>
       <title>Reading and Writing Files in Python: Modifiers</title>
       <link>https://nishalsach.github.io/posts/2023-05-23-reading-writing-modifiers/</link>
