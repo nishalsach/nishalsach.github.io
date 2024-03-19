@@ -16,11 +16,11 @@ a.markdown-btn {
     /* font-size: "inherit";
     font-family: inherit; */
     display: inline-block;
-    border: 1.5px solid #384ac5;
-    border-radius: 4px;
-    padding: 2px 6px;
+    border: 0.1rem solid #384ac5;
+    border-radius: 0.25rem;
+    padding: 0.2rem 0.4rem;
     color: #384ac5;
-    line-height: 20px;
+    line-height: 1.2rem;
     background-color: white;
     text-align: center;
     cursor: pointer;
@@ -33,17 +33,18 @@ a.markdown-btn:hover, a.markdown-btn:active {
     color: white;
 }
 
+/* for the buttons in homepage */
 .button1 {
     display: inline-block;
-    border: 1.5px solid #384ac5;
-    border-radius: 4px;
-    padding: 2px 6px;
+    border: 0.1rem solid #384ac5;
+    border-radius: 0.25rem;
+    padding: 0.2rem 0.4rem;
     color: #384ac5;
-    line-height: 20px;
+    line-height: 1.2rem;
     background-color: white;
     text-align: center;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 1.0rem;
   }
 
 .button1:hover, .button1:active {
@@ -387,15 +388,37 @@ pre code {
 }
 
 .post-tags .tags a {
-    display: inline-block;
-    border: 1px solid #384ac5;
+
+    /* Old formatting from theme */
+    /* display: inline-block;
+    border: 1.5px solid #384ac5;
     border-radius: 4px;
-    padding: 0px 6px;
+    padding: 2px 6px;
     color: #384ac5;
     line-height: 20px;
-    font-size: 12px;
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+     */
+
+     display: inline-block;
+     border: 0.1rem solid #384ac5;
+     border-radius: 0.25rem;
+     padding: 0.2rem 0.4rem;
+     color: #384ac5;
+     line-height: 1rem;
+     background-color: white;
+     text-align: center;
+     cursor: pointer;
+     font-size: 1rem;
+}
+
+
+.post-tags .tags a:hover {
     text-decoration: none;
-    margin: 0 1px;
+    background-color: #384ac5;
+    color: white;
 }
 
 .list .posts .post .meta {

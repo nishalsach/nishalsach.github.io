@@ -6,7 +6,37 @@
     <description>Recent content on Sachita Nishal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 02 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://nishalsach.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 19 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://nishalsach.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>19 Mar 2024: Where the Month Went</title>
+      <link>https://nishalsach.github.io/posts/readings/2024-03-15-reading/</link>
+      <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishalsach.github.io/posts/readings/2024-03-15-reading/</guid>
+      <description>It&amp;rsquo;s been a while since I wrote these posts, and I think it&amp;rsquo;s not for lack of reading, but for lack of engaging with newer papers. I&amp;rsquo;ve been doing a lot more reading and writing for my prospectus, which majorly involves re-treading my own work as well as stuff I&amp;rsquo;ve already read and cited.
+That being said, I&amp;rsquo;ve read a few books this year! Focusing on books has been an interesting change of pace than reading tons of one-off essays or papers.</description>
+    </item>
+    
+    <item>
+      <title>More About Me</title>
+      <link>https://nishalsach.github.io/about/</link>
+      <pubDate>Mon, 18 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishalsach.github.io/about/</guid>
+      <description>I&amp;rsquo;m Sachita, and I am PhDing at Northwestern University in Technology and Social Behaviour, a joint PhD program spanning Communication Studies 💬 and Computer Science 🖥️.
+I work right at the intersection of human-computer interaction and journalism, and design interactive AI-based systems that help science and tech journalists explore newsworthy scientific research, and offer supports for brainstorming around it for their reporting.
+Beyond my research, I also enjoy reading, watching films (and reviewing them on Letterboxd), amateur photography, and tennis!</description>
+    </item>
+    
+    <item>
+      <title>Sorting Things Out, by Geoffrey Bowker and Susan Star (2000)</title>
+      <link>https://nishalsach.github.io/posts/readings/2024-03-14-sorting-things-out/</link>
+      <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishalsach.github.io/posts/readings/2024-03-14-sorting-things-out/</guid>
+      <description>I read this over the Fall and Winter quarters with our HCI+Design Book Club at Northwestern. It&amp;rsquo;s a landmark work in HCI and had been on my bucket list for a long time, so I was glad to finally get to it, and wrest with some of its more complex and thought-provoking themes in our little reading group. We read a chapter a week and the result of this was that I genuinely really enjoyed reading it and digging into its meaty bits1!</description>
+    </item>
+    
     <item>
       <title>2 Feb 2024: Where the Week Went</title>
       <link>https://nishalsach.github.io/posts/readings/2024-02-02-reading/</link>
@@ -24,6 +54,15 @@ The Business of the News Lots of news in January about media downsizing and layo
       
       <guid>https://nishalsach.github.io/posts/readings/2024-01-26-reading/</guid>
       <description>I&amp;rsquo;m trying out something new this year, where I maintain a log of cool things I read (or watch, or listen to) around my work or academic interests. I think logging and describing these things can be good for my sense-making process in the long term, or generally help me feel sane when I look at the calendar on a Friday and exclaim &amp;ldquo;Where did the week go? 🫠&amp;rdquo;. Now, I will know, where the week went.</description>
+    </item>
+    
+    <item>
+      <title>Books I&#39;ve Read</title>
+      <link>https://nishalsach.github.io/books/</link>
+      <pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishalsach.github.io/books/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -133,16 +172,6 @@ So, I am proud to announce that as of today, June 12 2020, I have transitioned o
       
       <guid>https://nishalsach.github.io/cool_stuff/2020-06-16-cool-stuff/</guid>
       <description>Books and Stuff Oct 2022: I&amp;rsquo;m currently reading James Gleick&amp;rsquo;s book, The Information, which provides a very detailed history of humanity&amp;rsquo;s relationship with information - oral, written, digital, all kinds! I&amp;rsquo;m really enjoying it because it weaves a wide-ranging set of ideas, people, and locations together to tell the story of how we&amp;rsquo;ve understood, catalogued, and communicated our ideas over the ages, and how the media that we use for these purposes has changed how we think.</description>
-    </item>
-    
-    <item>
-      <title>About Me</title>
-      <link>https://nishalsach.github.io/about/</link>
-      <pubDate>Mon, 16 Sep 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://nishalsach.github.io/about/</guid>
-      <description>Goan summer sunsets can be spectacular! Hi, I&amp;rsquo;m Sachita, and I am a 3rd-year PhD student at Northwestern University in Technology and Social Behaviour, a joint PhD program spanning Communication Studies 💬 and Computer Science 🖥️.
-I work right at the intersection of human-computer interaction and journalism, and design information retrieval/recommender systems that help science and tech journalists explore newsworthy scientific research, and further investigate it for their reporting. We just published some new work about the human-centered design, and preliminary evaluation of such a recommender system.</description>
     </item>
     
     <item>

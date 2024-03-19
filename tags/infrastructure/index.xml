@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>books on Sachita Nishal</title>
-    <link>https://nishalsach.github.io/tags/books/</link>
-    <description>Recent content in books on Sachita Nishal</description>
+    <title>infrastructure on Sachita Nishal</title>
+    <link>https://nishalsach.github.io/tags/infrastructure/</link>
+    <description>Recent content in infrastructure on Sachita Nishal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 19 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://nishalsach.github.io/tags/books/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 19 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://nishalsach.github.io/tags/infrastructure/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>19 Mar 2024: Where the Month Went</title>
       <link>https://nishalsach.github.io/posts/readings/2024-03-15-reading/</link>
@@ -24,15 +24,6 @@ That being said, I&amp;rsquo;ve read a few books this year! Focusing on books ha
       
       <guid>https://nishalsach.github.io/posts/readings/2024-03-14-sorting-things-out/</guid>
       <description>I read this over the Fall and Winter quarters with our HCI+Design Book Club at Northwestern. It&amp;rsquo;s a landmark work in HCI and had been on my bucket list for a long time, so I was glad to finally get to it, and wrest with some of its more complex and thought-provoking themes in our little reading group. We read a chapter a week and the result of this was that I genuinely really enjoyed reading it and digging into its meaty bits1!</description>
-    </item>
-    
-    <item>
-      <title>Even More About Me</title>
-      <link>https://nishalsach.github.io/cool_stuff/2020-06-16-cool-stuff/</link>
-      <pubDate>Fri, 12 Jun 2020 14:45:40 +0530</pubDate>
-      
-      <guid>https://nishalsach.github.io/cool_stuff/2020-06-16-cool-stuff/</guid>
-      <description>Books and Stuff Oct 2022: I&amp;rsquo;m currently reading James Gleick&amp;rsquo;s book, The Information, which provides a very detailed history of humanity&amp;rsquo;s relationship with information - oral, written, digital, all kinds! I&amp;rsquo;m really enjoying it because it weaves a wide-ranging set of ideas, people, and locations together to tell the story of how we&amp;rsquo;ve understood, catalogued, and communicated our ideas over the ages, and how the media that we use for these purposes has changed how we think.</description>
     </item>
     
   </channel>
