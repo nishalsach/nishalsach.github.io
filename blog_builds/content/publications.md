@@ -3,6 +3,7 @@ title: Publications
 # type: "page"
 date: 2023-05-01
 description: ""
+blogpost: false
 ---
 
 ### Archival Publications

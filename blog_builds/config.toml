@@ -88,6 +88,11 @@ name = "Blog"
 url = "/posts"
 weight = 4
 
+[[menu.main]]
+name = "More About Me"
+url = "/about"
+weight = 5
+
 #[[menu.main]]
 #name = "Tags"
 #url = "/tags"

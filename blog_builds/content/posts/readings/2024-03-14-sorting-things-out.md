@@ -1,0 +1,24 @@
+---
+title: "Sorting Things Out, by Geoffrey Bowker and Susan Star (2000)"
+date: 2024-03-14
+draft: false
+description: Lessons on building and changing sociotechnical systems.
+tags: [books, infrastructure, human-computer-interaction]
+---
+
+I read this over the Fall and Winter quarters with our [HCI+Design Book Club](https://hci.northwestern.edu/news-events/phd-book-club.html) at Northwestern. It's a landmark work in HCI and had been on my bucket list for a long time, so I was glad to finally get to it, and wrest with some of its more complex and thought-provoking themes in our little reading group. We read a chapter a week and the result of this was that I genuinely really enjoyed reading it and digging into its meaty bits[^1]!
+
+This is a very unique book in that it dissects massive socio-technical systems that classify people, their conditions, and their experiences, while managing to focus on all the different micro, meso, macro levels. Bowker and Star's style of writing is also incredibly vivid. For instance, when describing how classification systems can  permanently alter the course of their subjects lives (with the case of apartheid in South Africa and racial classifications), they use the visual metaphor of _torque_ to describe these effects. More examples can be found in the book. Academic writing that relies on imagery like as this is very enjoyable to read[^2]!
+
+Beyond style, I think the big theses of this book are that 1) classification systems  standardise people's existence in the world, and ergo that 2) classification systems work well when treated as living, breathing infrastructures. What does this mean for designers, policy-makers and publics? That while social systems and infrastructures can easily fade into the background; be taken for granted; appear to be morally unambiguous, or seem unchangeable, they aren't and shouldn't be those things. Case studies of systems such as the Nursing Classification Index (NIC), the apartheid system, and the International Classification of diseases, demonstrate how individuals' decisions can not only reify certain aspects of intstructures, but even question them or make change. People must work to build systems, but also to challenge and adapt them!
+
+A case-study from the book that I really like pertains to the NIC, which was designed to capture different nursing activities and render them invisible for measurment by researchers. But when you try and classify some of more the ambiguous (but crucial) work that is a part of nursing, such a system can seem ineffectual or even harmful. For instance, how does one measure nurses' _humour_, to the end of cheering up patients during treatments? It is certainly a part of nurses' existence in the clinic, but is it a duty? Is it to be demanded? Is it to be rewarded? Such questions about the ambiguity of individuals' activities, biologies, and histories make the case that any system that is frozen in time and does not recognise the general subjectivity of human existence is doomed.  
+
+What can make change in these infrastructures hard? The authors argue that there is no one locus of change for these infrastructures, or one person who controls them. Further, infrastructures are instead often built and maintained with some level of daily consensus, they are embedded in many of our practices, and this embeddedness can even lead to some degree of invisibility.  
+
+As designers then, it is becomes our prerogative to be more thoughtful, via "the incorporation of ambiguity - leaving certain terms open for multiple definitions acrossdifferent social worlds". The authors also suggest "keeping voices of classifiers and their constituents present, the system can retain maximum political flexibility". Finally, they also recommend that designers recognize that systems will always exclude and other some people, so it is important to always ask: who is being othered?
+
+It's an inspiring book, and I think its philosophy is going to stay with me. It's the kind of meta-level philosophical work that feels concrete enough to work with in my research. I've already cited it in two different papers. I only wish it were a little shorter and maybe a little bit more accessible in the writing, just so that people outside of the discipline could read it too. It would serve many many people well, not just researchers in STS and HCI.
+
+[^1]: which are all of them, this book is dense!
+[^2]: I also have a newfound soapbox that most HCI writing nowadays is very boring and dry and straightforward in comparison. I sincerely believe we should strive to wax lyrical and use visual metaphors more often. It would make reading 25-pager CSCW papers more fun.  

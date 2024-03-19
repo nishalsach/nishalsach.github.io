@@ -7,11 +7,14 @@
 
 		<div class="post-header">
 			<h1 class="title">{{ .Title }}</h1>
+			<!-- Used this ink to write this section: https://discourse.gohugo.io/t/content-is-it-same-for-page-and-post-and-how-to-hide-date/2246/4 -->
 			<div class="meta">
-				Date Updated: {{ dateFormat "Jan 2, 2006" .Date }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }} <br> 
+				Date Updated: {{ dateFormat "Jan 2, 2006" .Date }}<br>
+				{{ if .Params.blogpost | default "true" }}
 				Reading Time: {{ .ReadingTime }} minutes <br>
 				{{ .WordCount }} words
-
+				{{ end }}
+				{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}
 			</div>
 			
 		</div>

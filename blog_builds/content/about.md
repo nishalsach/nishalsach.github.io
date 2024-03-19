@@ -1,26 +1,30 @@
 ---
-title: About Me
-type: "page"
-date: 2019-09-16
+title: More About Me
+type: "default"
+date: 2024-03-18
 description: "A Brief Introduction"
+blogpost: false
 ---
 
-<!-- <figure>
- <img style="float: right; margin: 15px 15px 15px 25px;" src="../img/broadway.jpg" width="320" />
-</figure> -->
+I'm Sachita, and I am PhDing at Northwestern University in [Technology and Social Behaviour](https://tsb.northwestern.edu), a joint PhD program spanning Communication Studies 💬 and Computer Science 🖥️.
 
-<figure class='with_caption' style="float: right">
- <img style="margin: 15px 0px 15px 25px;" src="../img/goan_sunset.jpg" width="300" />
- <figcaption> Goan summer sunsets can be spectacular!</figcaption>
+I work right at the intersection of human-computer interaction and journalism, and design interactive AI-based systems that help science and tech journalists explore newsworthy scientific research, and offer supports for brainstorming around it for their reporting.  
+
+Beyond my research, I also enjoy reading, watching films (and reviewing them on Letterboxd), amateur photography, and tennis! I help run the [HCI + Design book club](https://hci.northwestern.edu/news-events/phd-book-club.html) at Northwestern, and also log the books I read [on here](../books).
+
+
+<figure class='with_caption'>
+ <img style="margin: 15px 0px 15px 15px;" src="../img/lake_michigan.jpg" width=35% />
+ <figcaption> I can never take enough photos of Lake Michigan. </figcaption>
 </figure>
 
-- Hi, I'm Sachita, and I am a 3rd-year PhD student at Northwestern University in [Technology and Social Behaviour](https://tsb.northwestern.edu), a joint PhD program spanning Communication Studies 💬 and Computer Science 🖥️.
+In 2020, I completed my undergraduate degree in Computer Science and Engineering at [BITS Pilani's Goa Campus](https://www.bits-pilani.ac.in/goa/) in India, which is an tremendously beautiful place. It's really heaven on earth, if there is any. I feel incredibly lucky I got to experience this :) I also conducted research at other pretty campuses, such as [Microsoft Research India](https://www.microsoft.com/en-us/research/lab/microsoft-research-india/) (virtually, boo!), [Northwestern University](https://amaral.northwestern.edu), [IISc Bangalore](http://dccc.iisc.ac.in), [IISER Pune](https://pbl.acads.iiserpune.ac.in/pbl-iiser-p), and [IIT Madras](https://home.iitm.ac.in/kraman/lab/).
 
-- I work right at the intersection of human-computer interaction and journalism, and design information retrieval/recommender systems that help science and tech journalists explore newsworthy scientific research, and further investigate it for their reporting. We just published some new work about the [human-centered design, and preliminary evaluation of such a recommender system](https://nishalsach.github.io/pdfs/2022-newsworthiness.pdf).
+<figure class='with_caption'>
+ <img style="margin: 15px 0px 15px 25px;" src="../img/goan_sunset.jpg" width=45% />
+ <figcaption> Goan summer sunsets can be spectacular!</figcaption>
+</figure>  
 
-- In 2020, I completed my undergraduate degree in Computer Science and Engineering at [BITS Pilani's Goa Campus](https://www.bits-pilani.ac.in/goa/) in India, which is an spectacularly beautiful place. I feel incredibly lucky I got to experience this :)
-
-- In 2020, I also interned at Microsoft Research, where I studied how influencers and other prominent individuals leverage social media platforms to engage in agenda-setting. We  just published some of that work over the past year or so [here](/pdfs/2022-voting-with-the-stars.pdf) and [here](/pdfs/2022-devotees.pdf).
 
 <!-- - Over my research career thus far, I've worked with some wonderful people on some fascinating ideas such as:
     - running computer simulations to model evolutionary theories, 
@@ -41,7 +45,7 @@ In my free time, I love to read anything and everything I can get my hands on, a
 
 I am also a part of the founding and editorial team of the [BITS R&D blog](https://bitsrnd.wordpress.com), which documents the research endeavours of BITS students and alumni for public benefit. I love helping my juniors figure how to get into research as an undergrad, because I really benefited from my own seniors taking out the time to help me explore research, to see if it was the right career for me to pursue. So if you're reading this and need help, feel free to email me and I'd be happy to be a sounding board with whatever you'd like! -->
 
-Beyond my research, I also enjoy [reading, playing board games, and amateur photography](../cool_stuff/2020-06-16-cool-stuff/)!
+
 
 <!-- # Experience
 
