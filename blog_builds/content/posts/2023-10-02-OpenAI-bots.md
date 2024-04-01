@@ -1,12 +1,4 @@
 ---
-title: "Reading and Writing Files in Python: Modifiers"
-date: 2023-05-23
-draft: true
-description: How modifiers change what you write
-tags: [python, code]
----
-
----
 title: “Turn off the GPT Scraper? In this [Attention] Economy?”
 date: 2023-10-02
 draft: true

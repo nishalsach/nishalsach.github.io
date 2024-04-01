@@ -346,10 +346,11 @@ pre code {
     display: inline;
     float: right;
     width: 100%;
-    max-width: 18ch;
+    max-width: 25%;
     height: auto;
     margin: 0 auto;
-    margin-left: 0.75rem;
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .headshot {
@@ -514,7 +515,7 @@ table th, table td {
     .headshot_wrapper {
         display: block;
         float: none;
-        margin-left: 0;
+        margin-left: 1.5rem;
     }
 } 
 

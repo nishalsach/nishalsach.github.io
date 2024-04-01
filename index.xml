@@ -8,6 +8,21 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 19 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://nishalsach.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Publications</title>
+      <link>https://nishalsach.github.io/publications/</link>
+      <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishalsach.github.io/publications/</guid>
+      <description>Archival Publications Understanding Practices around Computational News Discovery Tools in the Domain of Science Journalism
+Sachita Nishal and Nick Diakopoulos
+Proceedings of the ACM on Human-Computer Interaction (CSCW) 2024.
+arXiv Blogpost (on LLM Evaluation) From Crowd Ratings to Predictive Models of Newsworthiness to Support Science Journalism
+Sachita Nishal and Nick Diakopoulos
+Proceedings of the ACM on Human-Computer Interaction (CSCW) 2022.
+PDF ACM DL Voting with the Stars: Analyzing Partisan Engagement between Celebrities and Politicians in India</description>
+    </item>
+    
+    <item>
       <title>19 Mar 2024: Where the Month Went</title>
       <link>https://nishalsach.github.io/posts/readings/2024-03-15-reading/</link>
       <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
@@ -24,8 +39,7 @@ That being said, I&amp;rsquo;ve read a few books this year! Focusing on books ha
       
       <guid>https://nishalsach.github.io/about/</guid>
       <description>I&amp;rsquo;m Sachita, and I am PhDing at Northwestern University in Technology and Social Behaviour, a joint PhD program spanning Communication Studies 💬 and Computer Science 🖥️.
-I work right at the intersection of human-computer interaction and journalism, and design interactive AI-based systems that help science and tech journalists explore newsworthy scientific research, and offer supports for brainstorming around it for their reporting.
-Beyond my research, I also enjoy reading, watching films (and reviewing them on Letterboxd), amateur photography, and tennis!</description>
+I work right at the intersection of human-computer interaction and journalism, and design interactive AI-based systems that help science and tech journalists explore newsworthy scientific research, and offer supports for brainstorming around it for their reporting. Doing this work at a communication school is super interesting: it means I am nudged to design and devise HCI/AI/NLP-based solutions based on problems people actually face, as well as loop back to study their impacts on these communities.</description>
     </item>
     
     <item>
@@ -89,21 +103,6 @@ Normally, files are opened in text mode, that means, you read and write strings 
       <description>Note: All links are from BS v4.12.0 documentation and reference, but the gist should probably hold for a while.
 BeautifulSoup4 + Python is a formidable combo for web-scraping when the territory I&amp;rsquo;m scraping in is uncertain, webpages are static, and I need to spin up something quick and dirty so I can hunt around through the HTML to specifically extract what I need.
 Another thing is: when pulling web data with BS4, sometimes it&amp;rsquo;s really handy to keep separate files of the subset/tags/text in a page that are of interest, but then also save original HTML files just to have them on hand in case extraction does not go according to plan.</description>
-    </item>
-    
-    <item>
-      <title>Publications</title>
-      <link>https://nishalsach.github.io/publications/</link>
-      <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://nishalsach.github.io/publications/</guid>
-      <description>Archival Publications Understanding Practices around Computational News Discovery Tools in the Domain of Science Journalism
-Sachita Nishal and Nick Diakopoulos
-Proceedings of the ACM on Human-Computer Interaction (CSCW) 2024.
-arXiv preprint LLM Evaluation Strategy blogpost From Crowd Ratings to Predictive Models of Newsworthiness to Support Science Journalism
-Sachita Nishal and Nick Diakopoulos
-Proceedings of the ACM on Human-Computer Interaction (CSCW) 2022.
-PDF ACM DL Voting with the Stars: Analyzing Partisan Engagement between Celebrities and Politicians in India</description>
     </item>
     
     <item>

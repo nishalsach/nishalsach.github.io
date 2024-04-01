@@ -37,7 +37,7 @@ summaryLength = 20
 
 [params]
     # Blog subtitle which appears below blog title. Supports markdown.
-    subtitle = "PhD Student, Northwestern University"
+    subtitle = "PhD Candidate, Northwestern University"
 
     # Content types which are included in home page recent posts list.
     mainSections = ["posts", "research"]
