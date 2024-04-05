@@ -346,7 +346,7 @@ pre code {
     display: inline;
     float: right;
     width: 100%;
-    max-width: 25%;
+    max-width: 33%;
     height: auto;
     margin: 0 auto;
     margin-left: 1.5rem;
@@ -511,11 +511,12 @@ table th, table td {
     }
 }
 
-@media (max-width: 476px) {
+@media (max-width: 500px) {
     .headshot_wrapper {
         display: block;
-        float: none;
+        float: center;
         margin-left: 1.5rem;
+        max-width: 50%;
     }
 } 
 
