@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Talk &#43; Responses: Gender Biases in LLM Narratives - Sachita Nishal</title><link rel="icon" type="image/png" href=icons/myicon.png /><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="Talk &#43; Responses: Gender Biases in LLM Narratives" />
+<meta property="og:description" content="Notes on my recent talk and related conversations at Big Local News&#39; annual Story Discovery at Scale conference." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://nishalsach.github.io/posts/2024-04-02-story-discovery-at-scale/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-04-02T00:00:00+00:00" />
+<meta property="article:modified_time" content="2024-04-02T00:00:00+00:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Talk &#43; Responses: Gender Biases in LLM Narratives"/>
+<meta name="twitter:description" content="Notes on my recent talk and related conversations at Big Local News&#39; annual Story Discovery at Scale conference."/>
+<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:200,300|Cabin:300,400,300italic,400italic" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" media="screen" href="https://nishalsach.github.io/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://nishalsach.github.io/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="https://nishalsach.github.io/css/custom.css" />
+	
+
+	
+	<script src="https://nishalsach.github.io/js/main.js"></script>
+	<script src="https://nishalsach.github.io/js/abc.js"></script>
+	<script src="https://nishalsach.github.io/js/xyz.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+
+<body>
+	<div class="container wrapper post">
+		<div class="header">
+	
+	<h1 class="site-title"><a href="https://nishalsach.github.io/">Sachita Nishal</a></h1>
+	<div class="site-description"><h2>PhD Candidate, Northwestern University</h2><nav class="nav social">
+			<ul class="flat"></ul>
+		</nav>
+	</div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li>
+				<a href="/">Home</a>
+			</li>
+			
+			<li>
+				<a href="/pdfs/sachita-cv.pdf">C.V.</a>
+			</li>
+			
+			<li>
+				<a href="/publications">Publications</a>
+			</li>
+			
+			<li>
+				<a href="/posts">Blog</a>
+			</li>
+			
+			<li>
+				<a href="/about">More About Me</a>
+			</li>
+			
+		</ul>
+	</nav>
+</div>
+
+
+		<div class="post-header">
+			<h1 class="title">Talk &#43; Responses: Gender Biases in LLM Narratives</h1>
+			
+			<div class="meta">
+				Date Updated: Apr 2, 2024<br>
+				
+				Reading Time: 6 minutes <br>
+				1112 words
+				
+				
+			</div>
+			
+		</div>
+
+		<div class="markdown">
+			<p>Last week I delivered a short talk at <a href="https://biglocalnews.org/#/login">Big Local News</a>&rsquo; conference <em>Story Discovery at Scale 2024</em>. It was great to be back this year &ndash; 2023 was my first time attending this event, and meeting the groups around Big Local News! I felt like I was going back to a community of people that I now know and understand a little better, and it was nice to have some familiar faces to say hello to and catch up with. They all do incredible work in making tools and datasets available to news organizations that need support!</p>
+<p>I gave a talk about the ways in which gender biases can crop up in LLM-generated narratives without prompts suggesting any explicit demographic cues (work under peer review). While not tailored to newsroom applications, I believe bias in narratives is highly relevant as news organizations consider using AI models for summaries, headlines, brainstorming, etc. Ultimately, everything is a narrative.</p>
+<p>I am just going to use this space to quickly jot down some of the ideas that other participants at the conferece talked about with me in response to my talk, or along similar themes.</p>
+<h3 id="on-having-bias-in-the-training-data-itself">On having bias in the training data itself</h3>
+<p>News organizations seem interested in fine-tuning generative AI models on their own archives &ndash; just to have better fit with their style of doing things and produce more relevant outputs<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. But this could require them to audit their own archives more thoroughly for biased or harmful stories, so they don&rsquo;t have such kinds of stories contaminating the training datasets, as a fellow participant told me.</p>
+<p>Methodologically, this is about ensuring high training data quality. It&rsquo;s analogous to exlcuding hate speech fom Reddit in your training data, and clearly data quality matters.  But news also serves an archival function, making past information visible to the public.  Today, I can view <a href="https://www.theatlantic.com/magazine/backissues/?order=asc">The Atlantic&rsquo;s archive going back to the 1800s</a> to see how public opinion on social issues has evolved. You don&rsquo;t want, say a summary over news coverage on a specific issue in a specific timeframe, to be agnostic to that kind of flux. So I wonder if there are nuanced ways of dealing with complex social issues and controversial events, and their historical representations in training data that doesn&rsquo;t erase the histories of their discourse, but also doesn&rsquo;t replicate biased perspectives.</p>
+<p>This is the kind of thing I want to be hopeful about, because I think there are potentially publicly beneficial and technically feasible and super-specific uses for LLMs (e.g., summarization, contextualization of search results w.r.t. queries) for news readers. And having ways to approach the problem I described would be important to actually making these cases work.</p>
+<h3 id="on-system-prompts-and-agents-to-reduce-bias">On system prompts and agents to reduce bias</h3>
+<p>Another topic of discussion was if providing system prompts to LLMs or using LLM agents (lightly unclear to me what this technically entails) could help reduce bias. The idea is essentially encoding general journalistic values into a prompt such as &ldquo;You are an unbiased, professional reporter for the <code>&lt;</code>insert esteemed news outlet<code>&gt;</code>. Be accurate &hellip;&rdquo;</p>
+<p><strong>TLDR for what I thought</strong>: It may work? It may not work? How consistently will it work? Will we ever know why it works or it doesn&rsquo;t? Are we okay with not knowing? How much time and effort do we want to spend on this problem? Is it fun, or likely to yield further actionable insight? I have vague answers and optimism about non-prompt interactions.</p>
+<p>At the outset of this: Transformer models don&rsquo;t have an ontology of &ldquo;values&rdquo; or &ldquo;facts&rdquo;<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>. There&rsquo;s no demonstrable notion of &ldquo;planning&rdquo; for their outputs to adhere to these concepts. They operate on conditional probabilities of tokens based on the prompts we feed them. Certain tokens evoke certain associations with others in this way, but that&rsquo;s about it.</p>
+<p>From a user perspective, system prompts used to align outputs to specific values are then a misleading &ldquo;fix&rdquo;. Such a framing can set high expectations about the model outputs, leading to what has been termed <a href="https://www.microsoft.com/en-us/research/publication/appropriate-reliance-on-generative-ai-research-synthesis/"><em>inappropriate reliance</em></a>. Expectations will influence how users perceive the output, the degree of verification/introspection they engage in around it , and what they do with it ultimately. And you want to explicitly design for users making good choices on that front.</p>
+<p>From an engineering lens, I also think it&rsquo;s imprecise. With supervised models, we provide classification labels for specific tasks, nudging the model to make particular associations between features and pertinent ontological concepts<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>. Even then, interpreting what the model actually learns and operationalises is difficult. LLMs are more massive and less intuitive than supervised models, and you can&rsquo;t reliably know what associations prompt terms like &ldquo;unbiased&rdquo; or &ldquo;professional&rdquo; will trigger. There&rsquo;s just not a very clear or interrogable mapping between input prompts and output token probabilities. This may change in the future as novel explainability techniques are developed, or not.</p>
+<p>It&rsquo;s also unclear if a system prompt will consistently lead to similar associations, as these models are non-deterministic and frequently updated. That lack of temporal consistency can be good &ndash; human notions of bias change over time, so training data distributions will shift too. But it is hard to model or intuit about these <a href="https://en.wikipedia.org/wiki/Concept_drift">shifts in the data</a>, and probably harder to communicate that to users. Also probably harder to then design practices and policies to that manipulate those associations. And how much time and resources do we want to spend doing this?  Will this detract from resources and funds to hire and train reporters?</p>
+<p>What kind of results this paradigm of interacting with information yields over the longer term are still unclear, I guess it will solidify based on the specific tasks. But I do feel that prompts cannot be our only or major effort at manipulating model outputs to be desirable or aligned to our values<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup>. We need different tools and probes!</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>What is a news organizations <em>style</em> of doing things than an LLM is capturing exactly? What is the variation in how it ways olders versus more recent approaches, philosophies, and themes? What is this latent space capturing and how can we render that more explicit? I don&rsquo;t know &ndash; cool things to consider though! From our <a href="https://generative-ai-newsroom.com/getting-the-science-and-the-scoop-with-news-angles-from-gpt-3-b1b4fcd7f6b1">news angle generation study</a>, I do think LLMs are able to replicate certain ways of framing and emphasizing of subjects in headlines. But we uncovered that because we fine-tuned and prompted for a very specific thing. What else is in there???&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://dl.acm.org/doi/10.1145/3442188.3445922">Stochastic Parrots</a>, yes, and also <a href="https://www.pnas.org/doi/10.1073/pnas.2215907120">this nice paper</a> summarizing the debate around to make some meta-level arguments on this debate.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>Actual degree of success there of course also really varying.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p>Amelia Wattengerger actually has an incredible blog post about this concept as a whole, <a href="https://wattenberger.com/thoughts/boo-chatbots">here</a>!&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+		</div>
+
+		<div class="post-tags">
+			
+				
+					<nav class="nav tags">
+							<ul class="flat">
+								
+								<li><a href="/tags/research">research</a></li>
+								
+								<li><a href="/tags/news-industry">news-industry</a></li>
+								
+								<li><a href="/tags/talks">talks</a></li>
+								
+								<li><a href="/tags/generative-ai">generative-ai</a></li>
+								
+								<li><a href="/tags/bias">bias</a></li>
+								
+							</ul>
+					</nav>
+				
+			
+
+		</div>
+		</div>
+	<div class="footer wrapper">
+	<nav class="nav">
+		<div> <a href="https://github.com/vividvilla/ezhil">Ezhil theme</a> | Built with <a href="https://gohugo.io">Hugo</a></div>
+	</nav>
+</div>
+
+
+
+
+</body>
+</html>

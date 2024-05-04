@@ -2,7 +2,7 @@
 title: "Talk + Responses: Blueprints for Evaluating AI in Journalism"
 date: 2024-05-03
 draft: false
-description: Notes on a recent talk and related conversations at Aspen Digital's AI & News event.
+description: Notes on my recent talk and related conversations at Aspen Digital's AI & News event.
 tags: [research, news-industry, human-computer-interaction, talks]
 ---
 
