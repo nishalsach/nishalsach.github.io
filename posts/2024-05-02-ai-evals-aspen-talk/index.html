@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Talk &#43; Responses: Blueprints for Evaluating AI in Journalism - Sachita Nishal</title><link rel="icon" type="image/png" href=icons/myicon.png /><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="Talk &#43; Responses: Blueprints for Evaluating AI in Journalism" />
+<meta property="og:description" content="Notes on a recent talk and related conversations at Aspen Digital&#39;s AI &amp; News event." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://nishalsach.github.io/posts/2024-05-02-ai-evals-aspen-talk/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-05-03T00:00:00+00:00" />
+<meta property="article:modified_time" content="2024-05-03T00:00:00+00:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Talk &#43; Responses: Blueprints for Evaluating AI in Journalism"/>
+<meta name="twitter:description" content="Notes on a recent talk and related conversations at Aspen Digital&#39;s AI &amp; News event."/>
+<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:200,300|Cabin:300,400,300italic,400italic" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" media="screen" href="https://nishalsach.github.io/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://nishalsach.github.io/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="https://nishalsach.github.io/css/custom.css" />
+	
+
+	
+	<script src="https://nishalsach.github.io/js/main.js"></script>
+	<script src="https://nishalsach.github.io/js/abc.js"></script>
+	<script src="https://nishalsach.github.io/js/xyz.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+
+<body>
+	<div class="container wrapper post">
+		<div class="header">
+	
+	<h1 class="site-title"><a href="https://nishalsach.github.io/">Sachita Nishal</a></h1>
+	<div class="site-description"><h2>PhD Candidate, Northwestern University</h2><nav class="nav social">
+			<ul class="flat"></ul>
+		</nav>
+	</div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li>
+				<a href="/">Home</a>
+			</li>
+			
+			<li>
+				<a href="/pdfs/sachita-cv.pdf">C.V.</a>
+			</li>
+			
+			<li>
+				<a href="/publications">Publications</a>
+			</li>
+			
+			<li>
+				<a href="/posts">Blog</a>
+			</li>
+			
+			<li>
+				<a href="/about">More About Me</a>
+			</li>
+			
+		</ul>
+	</nav>
+</div>
+
+
+		<div class="post-header">
+			<h1 class="title">Talk &#43; Responses: Blueprints for Evaluating AI in Journalism</h1>
+			
+			<div class="meta">
+				Date Updated: May 3, 2024<br>
+				
+				Reading Time: 6 minutes <br>
+				1140 words
+				
+				
+			</div>
+			
+		</div>
+
+		<div class="markdown">
+			<p>Yesterday I delivered a short talk at Aspen Digital&rsquo;s event called <em>AI &amp; News: Charting the Course</em>. It was hosted at the Ford Foundation Center for Social Justice in NYC, which is a really pretty venue. They have so many trees inside! And also apprently: birds<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>! Here&rsquo;s the <a href="/pdfs/2024-aspen-talk.pdf">slide deck</a> for this talk, made under a certain degree of sleep deprivation-based duress and fever brain.</p>
+<figure>
+ <img style="float: center; margin: 15px 15px 15px 15px;" src="/img/ford_foundation_trees.jpg" width="50%" />
+ <figcaption> <i> Pretty trees! </i></figcaption>
+</figure>
+<p>This was a really fun time for me for a bunch of reasons. First, this was my first time describing our recent <a href="https://arxiv.org/abs/2403.17911">CHI workshop paper</a> on the topic of LLM evaluation in journalism, and to an audience of people actually present in these newsrooms. Exciting in its own right! Second, this then led to a bunch of interesting conversations about what people thought was important to evaluate, and some of the challenges they were encountering when thinking about evaluation. Third, I learnt a lot (a LOT!) about how some decision-makers in the newsroom are approaching this really uncertain tech, its relationship to their intellectual property, and its potential impacts on their role in the information ecosystem.</p>
+<h3 id="on-evaluation-itself">On Evaluation Itself</h3>
+<p>The event was under Chatham House rules, so I can only paraphrase here what I heard. My feeling from listening to the talks and panels is that the evaluation of LLMs (and allied systems) still bears uncertainty because newsrooms are still figuring out the specific use-cases where generative AI systems are consistent, reliable, and trustworthy. It makes sense that evaluation is hard to think about when you don&rsquo;t have some concrete use-cases nailed down.</p>
+<p>More practically, news outlets are also worried about losing readers&rsquo; trust and subscriptions with experiments that go awry, which makes sense given <a href="https://www.pewresearch.org/short-reads/2023/11/15/more-americans-are-getting-news-on-tiktok-bucking-the-trend-seen-on-most-other-social-media-sites/">where the American news industry stands today</a>. However, I&rsquo;m not entirely sure whether trying to avoid audience loss with bad AI interventions is the same as trying to create tangible audience benefits with good AI interventions. And I&rsquo;m also uncertain about how efforts toward either end exactly work in newsrooms are differentiated. Additionally, outlets are also weighing the value propositions of partnerships with different AI companies as they think about software vendors, and about licensing their own data for model training even<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>.</p>
+<p>I also heard accounts of approaching AI use-cases based on the values in their newsrooms, which is good for a <a href="https://mitpress.mit.edu/9780262039536/value-sensitive-design/">number</a> <a href="https://dl.acm.org/doi/10.1145/3419249.3420105">of</a> <a href="https://dl.acm.org/doi/10.1145/3625252">well-documented</a> <a href="https://dl.acm.org/doi/10.1145/3632297">reasons</a>, so yay! It would be nice if such specific values drive not just evaluation of the final AI system/interface, but even of what is seen as a good use-case + prototyping towards it.</p>
+<h3 id="on-incentives-for-different-evaluation-strategies">On Incentives for Different Evaluation Strategies</h3>
+<p>The other part of this is also: what we&rsquo;re talking about in the workshop paper isn&rsquo;t really new, but rather the same set of concerns &ndash; about evaluating <em>any sociotechnical intervention</em> &ndash; just applied to a new set of technologies<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>. This then raises the question of how willing newsrooms will actually be to invest in our proposed context/value-sensitive evaluation approaches for AI systems, when they can potentially fall back on more familiar metrics they&rsquo;ve primarily used to evaluate previous tech interventions (e.g., CTR for recommendation engines or efficiency metrics for CMS changes).</p>
+<p>And to be clear &ndash; I don&rsquo;t think relying solely on those old metrics is a good idea anymore (if it ever really was before). But what factors would motivate news orgs to adopt these more comprehensive, context/value-sensitive evaluation approaches, when they didn&rsquo;t always prioritize such rigor for older ML interventions? What&rsquo;s the incentive to undertake this more resource-intensive and conceptually harder work that we&rsquo;re proposing?</p>
+<p>I think it depends on what concerns they choose to center. This ties back to the audience loss (i.e. revenue) versus audience benefit argument from before. Like, are newsrooms primarily looking at AI evaluation as a way to inform business decisions – deciding which vendors to partner with, whether to use open-source models, etc.? Or is the goal really to assess whether this tech tangibly benefits the communities they serve? Maybe it just depends on who you ask within the org? Maybe they can strike a healthy balance between both perspectives? I&rsquo;d like to be optimistic about that.</p>
+<p>Incentive can also be influenced by what&rsquo;s out there for people to use and draw from, and this is where I think academics like us can contribute by actually putting out open-source evaluation suites for specific news tasks, contexts, and values. Obviously, this won&rsquo;t solve everything, because qualitative evaluations are equally important in determining appropriate applications. But providing these open evaluation resources could help nudge newsrooms in the right direction.</p>
+<h3 id="on-the-types-of-use-cases-under-consideration">On the Types of Use-cases Under Consideration</h3>
+<p>What did emerge: newsrooms and tech companies are talking about scoped, low-risk and non-chatbot type applications (yay!). Not everyone and not all of the time, but also, a non-zero number. These applications can involve using AI models for glue work or grunt work. What exactly qualifies under these &ldquo;grunt work&rdquo; categories and who helpds define that is less clear to me, although a couple of interesting examples such as communicating with readers or classifying certain kinds of harmful/hateful text were mentioned.</p>
+<p>There also seems to be a bit of a divide in who is actually more enthusiastic about AI use-cases in general, and also in whether they are jazzed about current glue-work uses or <em>eventual</em> fancy creativity support tools. Local newsrooms seem to face more friction in adopting or approaching these tools, not least because they often serve a very specific community-building function wherever they operate, so determining the role/utility of AI is harder. Their reporting tends to be very people-driven, e.g., <a href="https://www.documenters.org">the Documenters network</a>.</p>
+<p>Of those local news orgs that are dabbling with AI, it does sound like they are focused much more on using it to do whatever glue work it takes to scale their existing work to reach more people in their community. As opposed to, say, developing entirely new media formats or creativity support tools, which seems more of interest to bigger outlets. Lots of credit here to groups like <a href="https://www.ap.org/solutions/artificial-intelligence/local-news-ai/">The Associated Press</a> and <a href="https://www.theajp.org/news-insights/announcements/american-journalism-project-announces-new-partnership-with-openai-to-support-local-news/">The American Journalism Project</a> who are out there, trying to help local newsrooms build their own AI tools for their scoped and specific use-cases.</p>
+<h3 id="closing-notes">Closing Notes</h3>
+<p>I have many more thoughts and ideas from this event that I&rsquo;m still working through. Being in these rooms with people who make decisions in newsrooms was incredibly insightful as I think about what different stakeholders consider when evaluating emerging tools and technologies for their organizations. Lots to reflect on.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>I was alerted to this fact by one of my fellow conference attendees, but alas, could not find time to go look for them.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>This is perhaps the highest ratio of business jargon to normal words in any sentence I have ever written.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>Because the new tech works differently, poses new challenges in its non-deterministic outputs and potential for environmental, labor, and economic havoc, etc. etc.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+		</div>
+
+		<div class="post-tags">
+			
+				
+					<nav class="nav tags">
+							<ul class="flat">
+								
+								<li><a href="/tags/research">research</a></li>
+								
+								<li><a href="/tags/news-industry">news-industry</a></li>
+								
+								<li><a href="/tags/human-computer-interaction">human-computer-interaction</a></li>
+								
+								<li><a href="/tags/talks">talks</a></li>
+								
+							</ul>
+					</nav>
+				
+			
+
+		</div>
+		</div>
+	<div class="footer wrapper">
+	<nav class="nav">
+		<div> <a href="https://github.com/vividvilla/ezhil">Ezhil theme</a> | Built with <a href="https://gohugo.io">Hugo</a></div>
+	</nav>
+</div>
+
+
+
+
+</body>
+</html>

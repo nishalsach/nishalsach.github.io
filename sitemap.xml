@@ -2,8 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://nishalsach.github.io/tags/human-computer-interaction/</loc>
+    <lastmod>2024-05-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nishalsach.github.io/tags/news-industry/</loc>
+    <lastmod>2024-05-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nishalsach.github.io/posts/</loc>
+    <lastmod>2024-05-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nishalsach.github.io/tags/research/</loc>
+    <lastmod>2024-05-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nishalsach.github.io/</loc>
+    <lastmod>2024-05-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nishalsach.github.io/tags/</loc>
+    <lastmod>2024-05-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nishalsach.github.io/posts/2024-05-02-ai-evals-aspen-talk/</loc>
+    <lastmod>2024-05-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nishalsach.github.io/tags/talks/</loc>
+    <lastmod>2024-05-03T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://nishalsach.github.io/publications/</loc>
-    <lastmod>2024-04-01T00:00:00+00:00</lastmod>
+    <lastmod>2024-05-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nishalsach.github.io/posts/readings/2024-03-15-reading/</loc>
     <lastmod>2024-03-19T00:00:00+00:00</lastmod>
@@ -14,19 +38,7 @@
     <loc>https://nishalsach.github.io/tags/economics/</loc>
     <lastmod>2024-03-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nishalsach.github.io/tags/human-computer-interaction/</loc>
-    <lastmod>2024-03-19T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://nishalsach.github.io/tags/infrastructure/</loc>
-    <lastmod>2024-03-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nishalsach.github.io/posts/</loc>
-    <lastmod>2024-03-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nishalsach.github.io/</loc>
-    <lastmod>2024-03-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nishalsach.github.io/tags/</loc>
     <lastmod>2024-03-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nishalsach.github.io/tags/weekly-logs/</loc>
@@ -45,9 +57,6 @@
     <lastmod>2024-02-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nishalsach.github.io/tags/generative-ai/</loc>
-    <lastmod>2024-02-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nishalsach.github.io/tags/news-industry/</loc>
     <lastmod>2024-02-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nishalsach.github.io/tags/open-source/</loc>
@@ -79,9 +88,6 @@
   </url><url>
     <loc>https://nishalsach.github.io/tags/web-scraping/</loc>
     <lastmod>2023-05-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nishalsach.github.io/tags/research/</loc>
-    <lastmod>2022-10-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nishalsach.github.io/posts/2022-10-27-evaluating-my-phd/</loc>
     <lastmod>2022-10-27T00:00:00+00:00</lastmod>

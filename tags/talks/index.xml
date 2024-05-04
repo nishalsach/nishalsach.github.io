@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>talks on Sachita Nishal</title>
+    <link>https://nishalsach.github.io/tags/talks/</link>
+    <description>Recent content in talks on Sachita Nishal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 03 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://nishalsach.github.io/tags/talks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Talk &#43; Responses: Blueprints for Evaluating AI in Journalism</title>
+      <link>https://nishalsach.github.io/posts/2024-05-02-ai-evals-aspen-talk/</link>
+      <pubDate>Fri, 03 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishalsach.github.io/posts/2024-05-02-ai-evals-aspen-talk/</guid>
+      <description>Yesterday I delivered a short talk at Aspen Digital&amp;rsquo;s event called AI &amp;amp; News: Charting the Course. It was hosted at the Ford Foundation Center for Social Justice in NYC, which is a really pretty venue. They have so many trees inside! And also apprently: birds1! Here&amp;rsquo;s the slide deck for this talk, made under a certain degree of sleep deprivation-based duress and fever brain.
+Pretty trees! This was a really fun time for me for a bunch of reasons.</description>
+    </item>
+    
+  </channel>
+</rss>

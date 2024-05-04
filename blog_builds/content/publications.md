@@ -1,7 +1,7 @@
 ---
 title: Publications
 # type: "page"
-date: 2024-04-01
+date: 2024-05-02
 description: ""
 blogpost: false
 ---
@@ -11,7 +11,8 @@ blogpost: false
 **<span style="color:#384ac5">Understanding Practices around Computational News Discovery Tools in the Domain of Science Journalism</span>**  
 <b>Sachita Nishal</b> and Nick Diakopoulos  
 Proceedings of the ACM on Human-Computer Interaction (CSCW) 2024.  
-{{< link_button href="https://arxiv.org/abs/2311.06864">}} arXiv {{< /link_button >}}  {{< link_button href="https://generative-ai-newsroom.com/getting-the-science-and-the-scoop-with-news-angles-from-gpt-3-b1b4fcd7f6b1" >}} Blogpost (on LLM Evaluation) {{< /link_button >}}  
+{{< link_button href="https://nishalsach.github.io/pdfs/2024-newsworthiness.pdf" >}} PDF {{< /link_button >}} 
+{{< link_button href="https://dl.acm.org/doi/10.1145/3637419">}} ACM DL {{< /link_button >}}  {{< link_button href="https://generative-ai-newsroom.com/getting-the-science-and-the-scoop-with-news-angles-from-gpt-3-b1b4fcd7f6b1" >}} Blogpost (on LLM Evaluation) {{< /link_button >}}  
 
 **<span style="color:#384ac5">From Crowd Ratings to Predictive Models of Newsworthiness to Support Science Journalism</span>**  
 <b>Sachita Nishal</b> and Nick Diakopoulos  
@@ -70,13 +71,19 @@ Poster presented at International Conference on Computational Social Science (IC
 Short paper presented at Computation + Journalism Symposium (C+J) 2022.  
 {{< link_button href="/pdfs/2022-ai-driven-lead.pdf" >}} Slides {{< /link_button >}}  
 
-### Public Talks
+### Invited Talks
+
+**<span style="color:#384ac5">Blueprints for Evaluating AI in
+Journalism</span>**  
+<b>Sachita Nishal</b>  
+Talk at AI & News: Charting the Course, organized by [Aspen Digital](https://www.aspendigital.org).  
+May 2024, New York City, U.S.A.  
+{{< link_button href="/pdfs/2024-aspen-talk.pdf" >}} Slides {{< /link_button >}}  
 
 **<span style="color:#384ac5">Who gets to be a jerk with a heart of gold, or: measuring implicit gender biases in LLM-generated stories</span>**  
 <b>Sachita Nishal</b>  
-Short talk at Story Discovery At Scale Conference 2024, organized by [Big Local News](https://biglocalnews.org/content/about/).  
+Talk at Story Discovery At Scale Conference 2024, organized by [Big Local News](https://biglocalnews.org/content/about/).  
 March 2024, Palo Alto, U.S.A.  
-<!-- {{< link_button href="/pdfs/2023-big_local_news_cnd.pdf" >}} Slides {{< /link_button >}}   -->
 
 **<span style="color:#384ac5"> Building and Evaluating Trustworthy Tools with Generative AI in your Newsroom</span>**  
 <b>Sachita Nishal</b> and Eric Ulken  
@@ -86,7 +93,7 @@ October 2023, Minneapolis, U.S.A.
 
 **<span style="color:#384ac5"> AI Literacy for News Reporting</span>**  
 <b>Sachita Nishal</b> and Mandi Cai  
-Talk delivered at CAMP 2023, organized by [Journalism & Women Symposium](https://www.jaws.org).  
+Talk at CAMP 2023, organized by [Journalism & Women Symposium](https://www.jaws.org).  
 October 2023, Chicago, U.S.A.  
 {{< link_button href="/pdfs/2023-jaws-ai-literacy.pdf" >}} Slides {{< /link_button >}}  
 
@@ -94,6 +101,6 @@ October 2023, Chicago, U.S.A.
 
 **<span style="color:#384ac5">Imagining Future(s) of AI-Driven Storytelling</span>**  
 <b>Sachita Nishal</b>  
-Short talk at Story Discovery At Scale Conference 2023, organized by [Big Local News](https://biglocalnews.org/content/about/).  
+Talk at Story Discovery At Scale Conference 2023, organized by [Big Local News](https://biglocalnews.org/content/about/).  
 March 2023, Palo Alto, U.S.A.  
 {{< link_button href="/pdfs/2023-big_local_news_cnd.pdf" >}} Slides {{< /link_button >}}  
