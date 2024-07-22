@@ -9,7 +9,7 @@ blogpost: false
 ### Archival Publications
 
 **<span style="color:#384ac5">Understanding Practices around Computational News Discovery Tools in the Domain of Science Journalism</span>**  
-<b>Sachita Nishal</b> and Nick Diakopoulos  
+<b>Sachita Nishal</b>, Jasmine Sinchai and Nick Diakopoulos  
 Proceedings of the ACM on Human-Computer Interaction (CSCW) 2024.  
 {{< link_button href="https://nishalsach.github.io/pdfs/2024-newsworthiness.pdf" >}} PDF {{< /link_button >}} 
 {{< link_button href="https://dl.acm.org/doi/10.1145/3637419">}} ACM DL {{< /link_button >}}  {{< link_button href="https://generative-ai-newsroom.com/getting-the-science-and-the-scoop-with-news-angles-from-gpt-3-b1b4fcd7f6b1" >}} Blogpost (on LLM Evaluation) {{< /link_button >}}  
