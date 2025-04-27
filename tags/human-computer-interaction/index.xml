@@ -1,22 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>human-computer interaction on Sachita Nishal</title>
+    <title>human-computer-interaction on Sachita Nishal</title>
     <link>https://nishalsach.github.io/tags/human-computer-interaction/</link>
-    <description>Recent content in human-computer interaction on Sachita Nishal</description>
+    <description>Recent content in human-computer-interaction on Sachita Nishal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://nishalsach.github.io/tags/human-computer-interaction/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Talk &#43; Responses: Blueprints for Evaluating AI in Journalism</title>
-      <link>https://nishalsach.github.io/posts/2024-05-02-ai-evals-aspen-talk/</link>
-      <pubDate>Fri, 03 May 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://nishalsach.github.io/posts/2024-05-02-ai-evals-aspen-talk/</guid>
-      <description>Yesterday I delivered a short talk at Aspen Digital&amp;rsquo;s event called AI &amp;amp; News: Charting the Course. It was hosted at the Ford Foundation Center for Social Justice in NYC, which is a really pretty venue. They have so many trees inside! And also apprently: birds1! Here&amp;rsquo;s the slide deck for this talk, made under a certain degree of sleep deprivation-based duress and fever brain.
-Pretty trees! This was a really fun time for me for a bunch of reasons.</description>
-    </item>
-    
+    <lastBuildDate>Tue, 19 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://nishalsach.github.io/tags/human-computer-interaction/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>19 Mar 2024: Where the Month Went</title>
       <link>https://nishalsach.github.io/posts/readings/2024-03-15-reading/</link>
@@ -34,15 +24,6 @@ That being said, I&amp;rsquo;ve read a few books this year! Focusing on books ha
       
       <guid>https://nishalsach.github.io/posts/readings/2024-03-14-sorting-things-out/</guid>
       <description>I read this over the Fall and Winter quarters with our HCI+Design Book Club at Northwestern. It&amp;rsquo;s a landmark work in HCI and had been on my bucket list for a long time, so I was glad to finally get to it, and wrest with some of its more complex and thought-provoking themes in our little reading group. We read a chapter a week and the result of this was that I genuinely really enjoyed reading it and digging into its meaty bits1!</description>
-    </item>
-    
-    <item>
-      <title>Two Years into the PhD: Thoughts and Half-thoughts</title>
-      <link>https://nishalsach.github.io/posts/2022-10-27-evaluating-my-phd/</link>
-      <pubDate>Thu, 27 Oct 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://nishalsach.github.io/posts/2022-10-27-evaluating-my-phd/</guid>
-      <description>One thing I did not (really, truly, practically) take into consideration when I started doing the PhD was how difficult it would be. I learnt soon enough, of course. But you know that joke &amp;ndash; that the best time to be in a PhD program is the summer before it begins, when you impress everyone by telling them you&amp;rsquo;re going to get a PhD without having to actually do anything for it?</description>
     </item>
     
   </channel>

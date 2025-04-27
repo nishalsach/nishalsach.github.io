@@ -3,7 +3,7 @@ title: "Talk + Responses: Blueprints for Evaluating AI in Journalism"
 date: 2024-05-03
 draft: false
 description: Notes on my recent talk and related conversations at Aspen Digital's AI & News event.
-tags: [research, news-industry, human-computer-interaction, talks]
+tags: [research, news-industry, HCI, talks, ai]
 ---
 
 Yesterday I delivered a short talk at Aspen Digital's event called _AI & News: Charting the Course_. It was hosted at the Ford Foundation Center for Social Justice in NYC, which is a really pretty venue. They have so many trees inside! And also apprently: birds[^1]! Here's the [slide deck](/pdfs/2024-aspen-talk.pdf) for this talk, made under a certain degree of sleep deprivation-based duress and fever brain.

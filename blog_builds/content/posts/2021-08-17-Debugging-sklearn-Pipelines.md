@@ -3,7 +3,7 @@ title: "Debugging Inside Scikit-Learn Pipelines"
 date: 2021-08-17T18:01:26+05:30
 draft: false
 description: Writing a custom transformer in scikit-learn for debugging pipelines.
-tags: [research, python, hacks]
+tags: [python, hacks]
 ---
 
 Click the given link to skip to the code and spare yourself my tortuous introduction: [code for sklearn Pipeline debugging Transformer](#code). _Don't_ click the link if you're debugging at 2pm on a slow Thursday and want something, _anything_, to distract you from staring at VSCode and its quickly blurring lines of code. I can help you pretend you're working as you scan the next few paragraphs of my inner monologue.

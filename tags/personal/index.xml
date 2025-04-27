@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>personal on Sachita Nishal</title>
+    <link>https://nishalsach.github.io/tags/personal/</link>
+    <description>Recent content in personal on Sachita Nishal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 15 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://nishalsach.github.io/tags/personal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learning to scope (and also breathe)</title>
+      <link>https://nishalsach.github.io/posts/2025-04-15-post-prospectus/</link>
+      <pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishalsach.github.io/posts/2025-04-15-post-prospectus/</guid>
+      <description>I recently defended my prospectus!
+I&amp;rsquo;ve spent the last few years of my PhD focused on different problems around value-sensitive design for journalism and science communication. Mostly I&amp;rsquo;ve engaged in artefact design to support tasks like newsgathering and sensemaking that science journalists engage in on a daily basis. When put together, I believe my work makes interesting contributions to how journalists generate the newsworthiness of the stories they ultimately tell the public.</description>
+    </item>
+    
+    <item>
+      <title>My Thesis Experience at Northwestern University</title>
+      <link>https://nishalsach.github.io/posts/2020-06-29-thesis_northwestern/</link>
+      <pubDate>Mon, 29 Jun 2020 13:39:12 +0530</pubDate>
+      
+      <guid>https://nishalsach.github.io/posts/2020-06-29-thesis_northwestern/</guid>
+      <description>In 2019, I completed my undergrad thesis at Northwestern University, where I worked in Dr. Luis Amaral&amp;rsquo;s lab to model complex networks of tropes in American films starting from the 1890s.
+I wrote a brief account of how I applied for my thesis, as well as my takeaways from this momentous experience, and it was published on BITS Goa&amp;rsquo;s blog for undergrad research experiences. Here&amp;rsquo;s a link to the post: Sachita Nishal’s Thesis at Northwestern University!</description>
+    </item>
+    
+    <item>
+      <title>Lessons From a Massive(ly-Annoying) Scraping Project in Python</title>
+      <link>https://nishalsach.github.io/posts/2019-09-16-lessons-from-a-massively-annoying-scraping-project-in-python/</link>
+      <pubDate>Mon, 16 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishalsach.github.io/posts/2019-09-16-lessons-from-a-massively-annoying-scraping-project-in-python/</guid>
+      <description>Hello!
+I&amp;rsquo;m honestly quite unsure of what SEO miracle led you here, given the enthusiastically descriptive, but less than optimal title for this post. I&amp;rsquo;m further unsure of why you actually clicked this link when it showed up. But does that make me any less grateful that you&amp;rsquo;re here? Certainly not!
+I wrote this post to document my experiences while scraping a massive crowdsourced website called TVTropes. During this venture, I spent many an afternoon quite desperately Googling &amp;ldquo;ugh web-scraping is so annoying save me python&amp;rdquo;.</description>
+    </item>
+    
+  </channel>
+</rss>

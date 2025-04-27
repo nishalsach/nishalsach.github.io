@@ -3,7 +3,7 @@ title: "Two Years into the PhD: Thoughts and Half-thoughts"
 date: 2022-10-27
 draft: false
 description: Reflecting on two years of trying (and sometimes succeeding) to do impactful research
-tags: [research, human-computer interaction]
+tags: [research, HCI]
 ---
 
 One thing I did not (really, truly, practically) take into consideration when I started doing the PhD was how **difficult** it would be. I learnt soon enough, of course. But you know that joke -- that the best time to be in a PhD program is the summer before it begins, when you impress everyone by telling them you're going to get a PhD without having to actually do anything for it? That was me, through and through. Incredibly optimistic, and very excited to finally have the **time** -- god, so much time! -- to ask cool, impactful questions about the world and work towards answering them. 

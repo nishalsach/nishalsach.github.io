@@ -1,21 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>generative-ai on Sachita Nishal</title>
+    <title>generative AI on Sachita Nishal</title>
     <link>https://nishalsach.github.io/tags/generative-ai/</link>
-    <description>Recent content in generative-ai on Sachita Nishal</description>
+    <description>Recent content in generative AI on Sachita Nishal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 02 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://nishalsach.github.io/tags/generative-ai/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Talk &#43; Responses: Gender Biases in LLM Narratives</title>
-      <link>https://nishalsach.github.io/posts/2024-04-02-story-discovery-at-scale/</link>
-      <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://nishalsach.github.io/posts/2024-04-02-story-discovery-at-scale/</guid>
-      <description>Last week I delivered a short talk at Big Local News&amp;rsquo; conference Story Discovery at Scale 2024. It was great to be back this year &amp;ndash; 2023 was my first time attending this event, and meeting the groups around Big Local News! I felt like I was going back to a community of people that I now know and understand a little better, and it was nice to have some familiar faces to say hello to and catch up with.</description>
-    </item>
-    
+    <lastBuildDate>Fri, 02 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://nishalsach.github.io/tags/generative-ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2 Feb 2024: Where the Week Went</title>
       <link>https://nishalsach.github.io/posts/readings/2024-02-02-reading/</link>

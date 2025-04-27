@@ -2,7 +2,7 @@
 title: "Lessons From a Massive(ly-Annoying) Scraping Project in Python"
 date: 2019-09-16
 description: "A Long Read about my Undergraduate Thesis Project"
-tags: [python, research, essays]
+tags: [python, research, personal]
 ---
 
 Hello! 

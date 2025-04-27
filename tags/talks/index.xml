@@ -6,7 +6,16 @@
     <description>Recent content in talks on Sachita Nishal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://nishalsach.github.io/tags/talks/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://nishalsach.github.io/tags/talks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A prototype newsgathering tool for science journalists</title>
+      <link>https://nishalsach.github.io/posts/2024-11-01-cplusj-blog/</link>
+      <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishalsach.github.io/posts/2024-11-01-cplusj-blog/</guid>
+      <description>This past month, I presented our recent work on using LLMs to aid science journalists in reading complex scientific papers. Here&amp;rsquo;s the link to my blog post about it, published on the Generative AI in the Newsroom blog.</description>
+    </item>
+    
     <item>
       <title>Talk &#43; Responses: Blueprints for Evaluating AI in Journalism</title>
       <link>https://nishalsach.github.io/posts/2024-05-02-ai-evals-aspen-talk/</link>

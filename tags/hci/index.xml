@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HCI on Sachita Nishal</title>
+    <link>https://nishalsach.github.io/tags/hci/</link>
+    <description>Recent content in HCI on Sachita Nishal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 15 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://nishalsach.github.io/tags/hci/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learning to scope (and also breathe)</title>
+      <link>https://nishalsach.github.io/posts/2025-04-15-post-prospectus/</link>
+      <pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishalsach.github.io/posts/2025-04-15-post-prospectus/</guid>
+      <description>I recently defended my prospectus!
+I&amp;rsquo;ve spent the last few years of my PhD focused on different problems around value-sensitive design for journalism and science communication. Mostly I&amp;rsquo;ve engaged in artefact design to support tasks like newsgathering and sensemaking that science journalists engage in on a daily basis. When put together, I believe my work makes interesting contributions to how journalists generate the newsworthiness of the stories they ultimately tell the public.</description>
+    </item>
+    
+    <item>
+      <title>A prototype newsgathering tool for science journalists</title>
+      <link>https://nishalsach.github.io/posts/2024-11-01-cplusj-blog/</link>
+      <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishalsach.github.io/posts/2024-11-01-cplusj-blog/</guid>
+      <description>This past month, I presented our recent work on using LLMs to aid science journalists in reading complex scientific papers. Here&amp;rsquo;s the link to my blog post about it, published on the Generative AI in the Newsroom blog.</description>
+    </item>
+    
+    <item>
+      <title>Talk &#43; Responses: Blueprints for Evaluating AI in Journalism</title>
+      <link>https://nishalsach.github.io/posts/2024-05-02-ai-evals-aspen-talk/</link>
+      <pubDate>Fri, 03 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishalsach.github.io/posts/2024-05-02-ai-evals-aspen-talk/</guid>
+      <description>Yesterday I delivered a short talk at Aspen Digital&amp;rsquo;s event called AI &amp;amp; News: Charting the Course. It was hosted at the Ford Foundation Center for Social Justice in NYC, which is a really pretty venue. They have so many trees inside! And also apprently: birds1! Here&amp;rsquo;s the slide deck for this talk, made under a certain degree of sleep deprivation-based duress and fever brain.
+Pretty trees! This was a really fun time for me for a bunch of reasons.</description>
+    </item>
+    
+    <item>
+      <title>Two Years into the PhD: Thoughts and Half-thoughts</title>
+      <link>https://nishalsach.github.io/posts/2022-10-27-evaluating-my-phd/</link>
+      <pubDate>Thu, 27 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishalsach.github.io/posts/2022-10-27-evaluating-my-phd/</guid>
+      <description>One thing I did not (really, truly, practically) take into consideration when I started doing the PhD was how difficult it would be. I learnt soon enough, of course. But you know that joke &amp;ndash; that the best time to be in a PhD program is the summer before it begins, when you impress everyone by telling them you&amp;rsquo;re going to get a PhD without having to actually do anything for it?</description>
+    </item>
+    
+  </channel>
+</rss>

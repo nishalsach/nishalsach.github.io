@@ -3,7 +3,7 @@ title: "Talk + Responses: Gender Biases in LLM Narratives"
 date: 2024-04-02
 draft: false
 description: Notes on my recent talk and related conversations at Big Local News' annual Story Discovery at Scale conference.
-tags: [research, news-industry, talks, generative-ai, bias]
+tags: [research, news-industry, talks, ai]
 ---
 
 Last week I delivered a short talk at [Big Local News](https://biglocalnews.org/#/login)' conference _Story Discovery at Scale 2024_. It was great to be back this year -- 2023 was my first time attending this event, and meeting the groups around Big Local News! I felt like I was going back to a community of people that I now know and understand a little better, and it was nice to have some familiar faces to say hello to and catch up with. They all do incredible work in making tools and datasets available to news organizations that need support!

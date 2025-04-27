@@ -6,58 +6,67 @@
     <description>Recent content in Tags on Sachita Nishal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://nishalsach.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://nishalsach.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>human-computer interaction</title>
-      <link>https://nishalsach.github.io/tags/human-computer-interaction/</link>
-      <pubDate>Fri, 03 May 2024 00:00:00 +0000</pubDate>
+      <title>HCI</title>
+      <link>https://nishalsach.github.io/tags/hci/</link>
+      <pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://nishalsach.github.io/tags/human-computer-interaction/</guid>
+      <guid>https://nishalsach.github.io/tags/hci/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>news-industry</title>
-      <link>https://nishalsach.github.io/tags/news-industry/</link>
-      <pubDate>Fri, 03 May 2024 00:00:00 +0000</pubDate>
+      <title>personal</title>
+      <link>https://nishalsach.github.io/tags/personal/</link>
+      <pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://nishalsach.github.io/tags/news-industry/</guid>
+      <guid>https://nishalsach.github.io/tags/personal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>research</title>
       <link>https://nishalsach.github.io/tags/research/</link>
-      <pubDate>Fri, 03 May 2024 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>
       
       <guid>https://nishalsach.github.io/tags/research/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>hHCI</title>
+      <link>https://nishalsach.github.io/tags/hhci/</link>
+      <pubDate>Wed, 02 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishalsach.github.io/tags/hhci/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>news-industry</title>
+      <link>https://nishalsach.github.io/tags/news-industry/</link>
+      <pubDate>Wed, 02 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishalsach.github.io/tags/news-industry/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ai</title>
+      <link>https://nishalsach.github.io/tags/ai/</link>
+      <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishalsach.github.io/tags/ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>talks</title>
       <link>https://nishalsach.github.io/tags/talks/</link>
-      <pubDate>Fri, 03 May 2024 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
       
       <guid>https://nishalsach.github.io/tags/talks/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>bias</title>
-      <link>https://nishalsach.github.io/tags/bias/</link>
-      <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://nishalsach.github.io/tags/bias/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>generative-ai</title>
-      <link>https://nishalsach.github.io/tags/generative-ai/</link>
-      <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://nishalsach.github.io/tags/generative-ai/</guid>
       <description></description>
     </item>
     
@@ -76,6 +85,15 @@
       <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>https://nishalsach.github.io/tags/economics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>human-computer-interaction</title>
+      <link>https://nishalsach.github.io/tags/human-computer-interaction/</link>
+      <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishalsach.github.io/tags/human-computer-interaction/</guid>
       <description></description>
     </item>
     
@@ -103,6 +121,15 @@
       <pubDate>Fri, 02 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>https://nishalsach.github.io/tags/ai-regulation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>generative AI</title>
+      <link>https://nishalsach.github.io/tags/generative-ai/</link>
+      <pubDate>Fri, 02 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishalsach.github.io/tags/generative-ai/</guid>
       <description></description>
     </item>
     
@@ -184,24 +211,6 @@
       <pubDate>Tue, 17 Aug 2021 18:01:26 +0530</pubDate>
       
       <guid>https://nishalsach.github.io/tags/hacks/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>essays</title>
-      <link>https://nishalsach.github.io/tags/essays/</link>
-      <pubDate>Mon, 29 Jun 2020 13:39:12 +0530</pubDate>
-      
-      <guid>https://nishalsach.github.io/tags/essays/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>personal experiences</title>
-      <link>https://nishalsach.github.io/tags/personal-experiences/</link>
-      <pubDate>Mon, 29 Jun 2020 13:39:12 +0530</pubDate>
-      
-      <guid>https://nishalsach.github.io/tags/personal-experiences/</guid>
       <description></description>
     </item>
     

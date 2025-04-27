@@ -6,7 +6,74 @@
     <description>Recent content on Sachita Nishal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://nishalsach.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://nishalsach.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Books</title>
+      <link>https://nishalsach.github.io/books/</link>
+      <pubDate>Mon, 21 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishalsach.github.io/books/</guid>
+      <description>A list of books I am reading or have read in a way that means something to me.
+Currently Reading Writers&amp;rsquo; Rights: Freelance Journalism in a Digital Age, by Nicole Cohen (2016)
+Living Thinkwork: Where do labor Processes Come From, by Mike Hales (1980)
+2025 The Carrier Bag Theory of Fiction, by Ursula K. Le Guin (1986)
+Technology and the Rise of Great Powers, by Jeffrey Ding (2024)
+2024 Sorting Things Out, by Geoffrey Bowker and Susan Star (2000)</description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>https://nishalsach.github.io/publications/</link>
+      <pubDate>Mon, 21 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishalsach.github.io/publications/</guid>
+      <description>Archival Publications Values as Problems, Principles, and Tensions in Sociotechnical System Design for Journalism
+Sachita Nishal and Nick Diakopoulos
+Proceedings of the ACM Conference on Designing Interactive Systems (DIS) 2025.
+Forthcoming News Futures: (Re-)Designing Socio-technical Systems for News Production and Consumption
+Sachita Nishal, Marianne Aubin Le Quéré, Brian James McInnis, Bronwyn Jones, Kristen Vaccaro, Tanja Aitamurto, Mor Naaman, and Nick Diakopoulos
+Extended Abstracts of the CHI Conference on Human Factors in Computing Systems (CHI EA) 2025.</description>
+    </item>
+    
+    <item>
+      <title>More About Me</title>
+      <link>https://nishalsach.github.io/about/</link>
+      <pubDate>Fri, 18 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishalsach.github.io/about/</guid>
+      <description>I&amp;rsquo;m Sachita, and I&amp;rsquo;m PhDing at Northwestern University in Technology and Social Behaviour, a joint PhD program spanning Communication Studies 💬 and Computer Science 🖥️.
+I work at the intersection of human-computer interaction and journalism, and design interactive AI-based systems that help science and tech journalists explore newsworthy scientific research, and offer supports for brainstorming and writing about it.
+Beyond my research, I also enjoy reading, watching films (and reviewing them on Letterboxd), amateur photography, and tennis!</description>
+    </item>
+    
+    <item>
+      <title>Learning to scope (and also breathe)</title>
+      <link>https://nishalsach.github.io/posts/2025-04-15-post-prospectus/</link>
+      <pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishalsach.github.io/posts/2025-04-15-post-prospectus/</guid>
+      <description>I recently defended my prospectus!
+I&amp;rsquo;ve spent the last few years of my PhD focused on different problems around value-sensitive design for journalism and science communication. Mostly I&amp;rsquo;ve engaged in artefact design to support tasks like newsgathering and sensemaking that science journalists engage in on a daily basis. When put together, I believe my work makes interesting contributions to how journalists generate the newsworthiness of the stories they ultimately tell the public.</description>
+    </item>
+    
+    <item>
+      <title>Recent write-up on LLMs and uncertainty</title>
+      <link>https://nishalsach.github.io/posts/2025-04-02-lab-exercise/</link>
+      <pubDate>Wed, 02 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishalsach.github.io/posts/2025-04-02-lab-exercise/</guid>
+      <description>This quarter, the Computational Journalism lab undertook a little science comunication exercise: each of us wrote a short blogpost dissecting a recent research paper + its implications for news practitioners. Here&amp;rsquo;s the link to my post, published on the Generative AI in the Newsroom (GAIN) blog.</description>
+    </item>
+    
+    <item>
+      <title>A prototype newsgathering tool for science journalists</title>
+      <link>https://nishalsach.github.io/posts/2024-11-01-cplusj-blog/</link>
+      <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishalsach.github.io/posts/2024-11-01-cplusj-blog/</guid>
+      <description>This past month, I presented our recent work on using LLMs to aid science journalists in reading complex scientific papers. Here&amp;rsquo;s the link to my blog post about it, published on the Generative AI in the Newsroom blog.</description>
+    </item>
+    
     <item>
       <title>Talk &#43; Responses: Blueprints for Evaluating AI in Journalism</title>
       <link>https://nishalsach.github.io/posts/2024-05-02-ai-evals-aspen-talk/</link>
@@ -15,21 +82,6 @@
       <guid>https://nishalsach.github.io/posts/2024-05-02-ai-evals-aspen-talk/</guid>
       <description>Yesterday I delivered a short talk at Aspen Digital&amp;rsquo;s event called AI &amp;amp; News: Charting the Course. It was hosted at the Ford Foundation Center for Social Justice in NYC, which is a really pretty venue. They have so many trees inside! And also apprently: birds1! Here&amp;rsquo;s the slide deck for this talk, made under a certain degree of sleep deprivation-based duress and fever brain.
 Pretty trees! This was a really fun time for me for a bunch of reasons.</description>
-    </item>
-    
-    <item>
-      <title>Publications</title>
-      <link>https://nishalsach.github.io/publications/</link>
-      <pubDate>Thu, 02 May 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://nishalsach.github.io/publications/</guid>
-      <description>Archival Publications Understanding Practices around Computational News Discovery Tools in the Domain of Science Journalism
-Sachita Nishal, Jasmine Sinchai and Nick Diakopoulos
-Proceedings of the ACM on Human-Computer Interaction (CSCW) 2024.
-PDF ACM DL Blogpost (on LLM Evaluation) From Crowd Ratings to Predictive Models of Newsworthiness to Support Science Journalism
-Sachita Nishal and Nick Diakopoulos
-Proceedings of the ACM on Human-Computer Interaction (CSCW) 2022.
-PDF ACM DL Voting with the Stars: Analyzing Partisan Engagement between Celebrities and Politicians in India</description>
     </item>
     
     <item>
@@ -49,16 +101,6 @@ PDF ACM DL Voting with the Stars: Analyzing Partisan Engagement between Celebrit
       <guid>https://nishalsach.github.io/posts/readings/2024-03-15-reading/</guid>
       <description>It&amp;rsquo;s been a while since I wrote these posts, and I think it&amp;rsquo;s not for lack of reading, but for lack of engaging with newer papers. I&amp;rsquo;ve been doing a lot more reading and writing for my prospectus, which majorly involves re-treading my own work as well as stuff I&amp;rsquo;ve already read and cited.
 That being said, I&amp;rsquo;ve read a few books this year! Focusing on books has been an interesting change of pace than reading tons of one-off essays or papers.</description>
-    </item>
-    
-    <item>
-      <title>More About Me</title>
-      <link>https://nishalsach.github.io/about/</link>
-      <pubDate>Mon, 18 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://nishalsach.github.io/about/</guid>
-      <description>I&amp;rsquo;m Sachita, and I am PhDing at Northwestern University in Technology and Social Behaviour, a joint PhD program spanning Communication Studies 💬 and Computer Science 🖥️.
-I work right at the intersection of human-computer interaction and journalism, and design interactive AI-based systems that help science and tech journalists explore newsworthy scientific research, and offer supports for brainstorming around it for their reporting. Doing this work at a communication school is super interesting: it means I am nudged to design and devise HCI/AI/NLP-based solutions based on problems people actually face, as well as loop back to study their impacts on these communities.</description>
     </item>
     
     <item>
@@ -87,15 +129,6 @@ The Business of the News Lots of news in January about media downsizing and layo
       
       <guid>https://nishalsach.github.io/posts/readings/2024-01-26-reading/</guid>
       <description>I&amp;rsquo;m trying out something new this year, where I maintain a log of cool things I read (or watch, or listen to) around my work or academic interests. I think logging and describing these things can be good for my sense-making process in the long term, or generally help me feel sane when I look at the calendar on a Friday and exclaim &amp;ldquo;Where did the week go? 🫠&amp;rdquo;. Now, I will know, where the week went.</description>
-    </item>
-    
-    <item>
-      <title>Books I&#39;ve Read</title>
-      <link>https://nishalsach.github.io/books/</link>
-      <pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://nishalsach.github.io/books/</guid>
-      <description></description>
     </item>
     
     <item>
