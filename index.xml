@@ -8,6 +8,20 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 15 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://nishalsach.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Publications</title>
+      <link>https://nishalsach.github.io/publications/</link>
+      <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://nishalsach.github.io/publications/</guid>
+      <description>Archival Publications Values as Problems, Principles, and Tensions in Sociotechnical System Design for Journalism
+Sachita Nishal and Nick Diakopoulos
+Proceedings of the ACM Conference on Designing Interactive Systems (DIS) 2025.
+PDF News Futures: (Re-)Designing Socio-technical Systems for News Production and Consumption
+Sachita Nishal, Marianne Aubin Le Quéré, Brian James McInnis, Bronwyn Jones, Kristen Vaccaro, Tanja Aitamurto, Mor Naaman, and Nick Diakopoulos
+Extended Abstracts of the CHI Conference on Human Factors in Computing Systems (CHI EA) 2025.</description>
+    </item>
+    
+    <item>
       <title>Books</title>
       <link>https://nishalsach.github.io/books/</link>
       <pubDate>Mon, 21 Apr 2025 00:00:00 +0000</pubDate>

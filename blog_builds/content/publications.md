@@ -1,7 +1,7 @@
 ---
 title: Publications
 # type: "page"
-date: 2025-07-16
+date: 2025-06-15
 description: ""
 blogpost: false
 ---
@@ -11,19 +11,17 @@ blogpost: false
 **<span style="color:#384ac5">Values as Problems, Principles, and Tensions in Sociotechnical System Design for Journalism</span>**  
 <b>Sachita Nishal</b> and Nick Diakopoulos  
 Proceedings of the ACM Conference on Designing Interactive Systems (DIS) 2025.  
-{{< link_button href="https://nishalsach.github.io/pdfs/2025-vsd-journalism.pdf" >}} PDF {{< /link_button >}}
+{{< link_button href="https://nishalsach.github.io/pdfs/2025-vsd-journalism.pdf" >}} PDF {{< /link_button >}}  
 
 **<span style="color:#384ac5">News Futures: (Re-)Designing Socio-technical Systems for News Production and Consumption</span>**  
 <b>Sachita Nishal</b>, Marianne Aubin Le Quéré, Brian James McInnis, Bronwyn Jones, Kristen Vaccaro, Tanja Aitamurto, Mor Naaman, and Nick Diakopoulos  
 Extended Abstracts of the CHI Conference on Human Factors in Computing Systems (CHI EA) 2025.  
-{{< link_button href="https://nishalsach.github.io/pdfs/2025-news-futures-chi.pdf" >}} PDF {{< /link_button >}} 
-{{< link_button href="https://doi.org/10.1145/3706599.3706733" >}} ACM DL {{< /link_button >}}
+{{< link_button href="https://nishalsach.github.io/pdfs/2025-news-futures-chi.pdf" >}} PDF {{< /link_button >}}  {{< link_button href="https://doi.org/10.1145/3706599.3706733" >}} ACM DL {{< /link_button >}}
 
 **<span style="color:#384ac5">Understanding Practices around Computational News Discovery Tools in the Domain of Science Journalism</span>**  
 <b>Sachita Nishal</b>, Jasmine Sinchai and Nick Diakopoulos  
 Proceedings of the ACM on Human-Computer Interaction (CSCW) 2024.  
-{{< link_button href="https://nishalsach.github.io/pdfs/2024-newsworthiness.pdf" >}} PDF {{< /link_button >}} 
-{{< link_button href="https://dl.acm.org/doi/10.1145/3637419">}} ACM DL {{< /link_button >}}  {{< link_button href="https://generative-ai-newsroom.com/getting-the-science-and-the-scoop-with-news-angles-from-gpt-3-b1b4fcd7f6b1" >}} Blogpost (on LLM Evaluation) {{< /link_button >}}  
+{{< link_button href="https://nishalsach.github.io/pdfs/2024-newsworthiness.pdf" >}} PDF {{< /link_button >}} {{< link_button href="https://dl.acm.org/doi/10.1145/3637419">}} ACM DL {{< /link_button >}}  {{< link_button href="https://generative-ai-newsroom.com/getting-the-science-and-the-scoop-with-news-angles-from-gpt-3-b1b4fcd7f6b1" >}} Blogpost (on LLM Evaluation) {{< /link_button >}}  
 
 **<span style="color:#384ac5">From Crowd Ratings to Predictive Models of Newsworthiness to Support Science Journalism</span>**  
 <b>Sachita Nishal</b> and Nick Diakopoulos  
@@ -50,7 +48,7 @@ Proceedings of the Sixteenth International AAAI Conference on Web and Social Med
 **<span style="color:#384ac5">Designing for Agency in LLM-Infused Writing Support Tools for Science Journalism</span>**  
 <b>Sachita Nishal</b>, Mina Lee, Nick Diakopoulos, and Jennifer Wortman Vaughan  
 Workshop on Tools for Thought at ACM CHI 2025.  
-{{< link_button href="/pdfs/2025-toolsforthought-science.pdf" >}} PDF {{< /link_button >}}
+{{< link_button href="https://nishalsach.github.io/pdfs/2025-toolsforthought-science.pdf" >}} PDF {{< /link_button >}}
 
 **<span style="color:#384ac5">De-jargonizing Science for Journalists with GPT-4: A Pilot Study</span>**  
 <b>Sachita Nishal</b>, Eric Lee and Nick Diakopoulos  
