@@ -1,7 +1,7 @@
 ---
 title: Publications
 # type: "page"
-date: 2025-04-21
+date: 2025-07-16
 description: ""
 blogpost: false
 ---
@@ -11,7 +11,7 @@ blogpost: false
 **<span style="color:#384ac5">Values as Problems, Principles, and Tensions in Sociotechnical System Design for Journalism</span>**  
 <b>Sachita Nishal</b> and Nick Diakopoulos  
 Proceedings of the ACM Conference on Designing Interactive Systems (DIS) 2025.  
-{{< link_button href="#" >}} Forthcoming {{< /link_button >}}
+{{< link_button href="https://nishalsach.github.io/pdfs/2025-vsd-journalism.pdf" >}} PDF {{< /link_button >}}
 
 **<span style="color:#384ac5">News Futures: (Re-)Designing Socio-technical Systems for News Production and Consumption</span>**  
 <b>Sachita Nishal</b>, Marianne Aubin Le Quéré, Brian James McInnis, Bronwyn Jones, Kristen Vaccaro, Tanja Aitamurto, Mor Naaman, and Nick Diakopoulos  

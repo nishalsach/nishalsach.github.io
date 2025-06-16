@@ -9,8 +9,6 @@ Hello, here's a collection of articles and general advice about research practic
 
 ### Applying for for PhD
 
-- [Georger Iskander's Guide to STEM PhD Applications](https://github.com/gwisk/gradguide): This guide was written (and last updated June 2020) by a student at Yale who applied for PhD programs in Physics. It's extremely comprehensive and contains loads of general advice about everything from LORs to SOPs to fellowships!
-
 
 ### Academic Conferences and Networking
 

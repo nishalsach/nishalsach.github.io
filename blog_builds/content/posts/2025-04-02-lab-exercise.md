@@ -1,8 +1,8 @@
 ---
-title: "Recent write-up on LLMs and uncertainty"
+title: "One way news practitioners can think about uncertainty in LLM outputs"
 date: 2025-04-02
 draft: false
-description: One way news practitioners can think about uncertainty in LLM outputs
+description: Recent write-up on LLMs and uncertainty for the GAIN blog
 tags: [research, news-industry, hHCI]
 ---
 
