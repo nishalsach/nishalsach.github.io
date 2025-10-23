@@ -7,10 +7,10 @@ draft: true
 
 Hello, here's a collection of articles and general advice about research practices/MS and PhD apps that I've found to be pretty handy. I'm compiling it here for not only my own reference, but also in case it can be of help to someone else!
 
-### Applying for for PhD
+## Applying for for PhD
 
 
-### Academic Conferences and Networking
+## Academic Conferences and Networking
 
 - http://lambdamaphone.blogspot.com/2016/05/learning-to-love-conferences.html
 - https://clairelegoues.com/2017/05/14/conference-networking-or-just-talk-to-whomever-with-anecdotes/

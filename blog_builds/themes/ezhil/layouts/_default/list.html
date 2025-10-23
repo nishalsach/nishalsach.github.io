@@ -18,32 +18,21 @@
 			{{- range .Data.Pages -}}
 			{{- if (in (.Site.Params.excludedTypes | default (slice "page")) .Type) -}}
 			{{- else -}}
-			<!-- <li class="post">
-				<a href="{{ .RelPermalink }}">{{.Title}}</a> <span class="meta">{{ dateFormat "Jan 2, 2006" .Date }}{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}</span>
-			</li> -->
-
-
-				<div class="post">
-					<li><a href="{{ .RelPermalink }}">{{.Title}}</a> 
-						<span class="meta">{{ dateFormat "Jan 2, 2006" .Date }}
-							{{ if .Draft }}<span class="draft-label">DRAFT</span> 
-						{{ end }}</span> &mdash;
-					
-					<span class="description">
+			<div class="post">
+				<span class="meta">{{ dateFormat "Jan 2, 2006" .Date }}</span>
+				<div>
+					<a class="title" href="{{ .RelPermalink }}">{{.Title}}</a>{{ if .Draft }} <span class="draft-label">DRAFT</span>{{ end }}
+					<span class="description">&mdash;
 						{{ if isset .Params "description" }}
 						{{ .Description }}
 						{{ else }}
 						{{ .Summary }}&hellip;
 						{{ end }}
-						<br>
 					</span>
-					</li>
-
-					<br>
 				</div>
-				{{- end -}}
-				{{- end -}}
-			</li>
+			</div>
+			{{- end -}}
+			{{- end -}}
 		</ul>
 	</div>
 

@@ -1,0 +1,29 @@
+items:
+
+  - title: "Participate in our new study!"
+    date: 2025-10-15
+    summary: >
+      Are you a science journalist? Interested in exploring the newsworthy research, along with who has covered it in the news and how? Excited to find new stories? We invite you to participate in our new study! Sign up [here](https://tinyurl.com/newscompass)!
+  - title: "Value-sensitive design paper headed to DIS 2025"
+    date: 2025-06-01
+    summary: >
+      Our [paper on value-sensitive design for journalism](https://nishalsach.github.io/pdfs/2025-vsd-journalism.pdf) has been accepted to the ACM DIS 2025 conference, and also won a Best Paper Honorable Mention award! The paper explores how we can design sociotechnical systems for journalism that support journalists' values, and has some fun discussion of the value tensions and trade-offs that arise in the design process.
+
+  - title: "A whirlwind summer of conferences"
+    date: 2025-05-01
+    summary: >
+      It's about to be a whirlwind summer! I will be attending CSST (hosted by Syracuse University iSchool) in May, followed by ICA in Denver in June, then HCIC in Wisconsin, and finally DIS in Portugal in July! If you're attending any of these conferences, please do reach out, I'd love to meet up and chat about my work!
+
+  - title: "Co-organizing News Futures at CHI 2025"
+    date: 2025-04-15
+    summary: >
+      I'll be co-organizing the workshop on [News Futures](https://nishalsach.github.io/pdfs/2025-news-futures-chi.pdf) at CHI 2025 in Yokohama, Japan! We'll explore the design of sociotechnical systems for news production and consumption, and hopefully develop new research ideas for the field going ahead!
+
+  - title: "Tools for Thought short paper accepted"
+    date: 2025-04-05
+    summary: >
+      Our short paper titled [Designing for Agency in LLM-Infused Writing Support Tools for Science Journalism](https://nishalsach.github.io/pdfs/2025-toolsforthought-science.pdf) has been accepted to the workshop on Tools for Thought at CHI 2025! This work comes out of my internship at MSR FATE last summer; stay tuned for more on this over the next year.
+
+  - title: "Prospectus passed—officially ABD!"
+    date: 2025-03-15
+    summary: >

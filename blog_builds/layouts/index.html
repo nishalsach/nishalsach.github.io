@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+{{ partial "header.html" . }}
+<body>
+	<div class="container wrapper">
+		{{ partial "head.html" . }}
+
+		{{ with .Content }}{{ . }}{{ end }}
+
+		<div id="my_bio" style="overflow:hidden">
+
+			<div id="bio_headshot" class="headshot_wrapper">
+				<img src="../img/cjl_inside_nameblur.png" class="headshot"/>
+			</div>
+
+			<div id="bio_text">
+
+				{{ with site.Data.bio }}
+					{{ if .job_market_alert }}
+					<p><b>{{ .job_market_alert }}</b></p>
+					{{ end }}
+
+					{{ range .paragraphs }}
+					<p>{{ . | markdownify | safeHTML }}</p>
+					{{ end }}
+
+					{{ if .email }}
+					<p>You can email me at: <span style="font-family:Courier">{{ .email }}</span></p>
+					{{ end }}
+				{{ end }}
+					
+				<!-- <button type="button" class="button1" onclick="window.open('https://nishalsach.github.io/pdfs/2022-sachita-cv.pdf');"> C.V. </button> -->
+
+				<button type="button" class="button1" onclick="window.open('https://github.com/nishalsach');"> GitHub </button>
+
+				<button type="button" class="button1" onclick="window.open('https://scholar.google.com/citations?user=JgsaeQmLjKcC&hl=en&oi=ao');"> Google Scholar </button>
+
+				<button type="button" class="button1" onclick="window.open('https://hci.social/@sachitanishal');"> Mastodon </button>
+
+				<!-- <button type="button" class="button1" onclick="window.open('https://twitter.com/nishalsach');"> Twitter </button> -->
+
+			</div>
+		</div>
+
+		<div class="recent-posts section">
+			<h2>
+				News
+			</h2>
+
+			{{ with site.Data.news.items }}
+				{{ $sortedNews := sort . "date" "desc" }}
+				{{ $newsList := first 3 $sortedNews }}
+				{{ if gt (len $newsList) 0 }}
+					{{ range $newsList }}
+					{{ $date := time .date }}
+					{{ $summary := .summary | markdownify | replaceRE "^<p>|</p>$" "" }}
+					<div class="news_item">
+						<div class="meta-date">{{ $date.Format "January 2006" }}</div>
+						<div class="news-summary">{{ $summary | safeHTML }}</div>
+					</div>
+					{{ end }}
+					<p class="news-archive-link"><a href="{{ "/news/" | relLangURL }}">See all news →</a></p>
+				{{ else }}
+					<p class="news-empty">Stay tuned—updates coming soon.</p>
+				{{ end }}
+			{{ else }}
+				<p class="news-empty">Stay tuned—updates coming soon.</p>
+			{{ end }}
+		</div>
+
+		<div class="recent-posts section">
+			<h2>
+				Recent Blog Posts
+			</h2>
+			<div class="posts">
+				{{ $paginator := .Paginate (where (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) "Params.hidden" "ne" true) }}
+				{{ range $paginator.Pages }}
+				<div class="post">
+					<div class="meta"><span class="meta-date">{{ dateFormat "Jan 2, 2006" .Date }}</span></div>
+					<a class="title" href="{{ .RelPermalink }}">{{ .Title }}</a> &mdash;
+					<span class="description">
+						{{ if isset .Params "description" }}
+						{{ .Description }}
+						{{ else }}
+						{{ .Summary }}&hellip;
+						{{ end }}
+					</span>
+				</div>
+				{{ end }}
+				<!-- THE PAGINATOR WAS PART OF THE ORIGINAL TEMPLATE, BUT I REMOVED IT BECAUSE I DON'T WANT TO HAVE TO CLICK THROUGH PAGES TO SEE MY BLOG POSTS -->
+				<!-- {{ template "partials/paginator.html" . }} --> 
+			</div>
+		</div>
+
+
+
+	</div>
+	{{ partial "footer.html" . }}
+</body>
+</html>

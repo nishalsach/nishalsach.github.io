@@ -45,7 +45,7 @@ So but yes, I've spent the last couple of days out on several wild-goose chases 
 
 So then, that brings us here, to the relevant stuff. Lo and behold:
 
-### <a name="real_deal"></a>Hacks to Get Stuff Working on Your Hugo Webpage
+## <a name="real_deal"></a>Hacks to Get Stuff Working on Your Hugo Webpage
 
 #### <a name="filepaths"></a> Filepaths in Hugo
 
@@ -106,7 +106,7 @@ However, my own implementation of this continued to fail, and here's the reason 
 I don't honestly know why or how this configuration exists, but it should be enough to get syntax highlights working.
 
 
-### References:
+## References:
 
 [^1]: [Hugo Docs on Getting Started](https://gohugo.io/getting-started/quick-start/)
 [^2]: [Cool Blog Post I Found on Using Hugo with GitHub Pages](https://pulsejet.github.io/blog/posts/setting-up-hugo-on-github-pages/)

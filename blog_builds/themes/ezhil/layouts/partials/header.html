@@ -20,19 +20,20 @@
 
 	{{- template "_internal/opengraph.html" . -}}
 	{{- template "_internal/twitter_cards.html" . -}}
-	<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:200,300|Cabin:300,400,300italic,400italic" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Karla:wght@200..800&display=swap" rel="stylesheet">
 
 	<link rel="stylesheet" type="text/css" media="screen" href="{{ .Site.BaseURL }}css/normalize.css" />
 	<link rel="stylesheet" type="text/css" media="screen" href="{{ .Site.BaseURL }}css/main.css" />
 	{{- if isset .Site.Params "customcss" }}
 	<link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}{{ .Site.Params.customCSS }}" />
 	{{ end }}
-	{{- if or (eq .Site.Params.mode "auto") (eq .Site.Params.mode "dark") -}}
-	<link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}css/dark.css" {{ if eq .Site.Params.mode "auto" }}media="(prefers-color-scheme: dark)"{{ end }} />
-	{{- if isset .Site.Params "customdarkcss" }}
-	<link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}{{ .Site.Params.customDarkCSS }}" {{ if eq .Site.Params.mode "auto" }}media="(prefers-color-scheme: dark)"{{ end }} />
-	{{- end }}
-	{{- end }}
+	<!-- Always load dark.css for manual toggle -->
+	<link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}css/dark.css" />
+
+	<!-- Theme toggle script (load early to prevent flash) -->
+	<script src="{{ .Site.BaseURL }}js/theme-toggle.js"></script>
 
 	{{ if and (isset .Site.Params "social") (isset .Site.Params "feathericonscdn") (eq .Site.Params.featherIconsCDN true) -}}
 	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
@@ -48,5 +49,11 @@
 	<script src="{{ $.Site.BaseURL }}{{ . }}"></script>
 	{{- end }}
 	{{- end }}
+	{{- end }}
+
+	{{- with .Site.Params.umami }}
+		{{- if and .enabled .websiteId }}
+	<script defer src="{{ or .scriptUrl "https://cloud.umami.is/script.js" }}" data-website-id="{{ .websiteId }}"></script>
+		{{- end }}
 	{{- end }}
 </head>

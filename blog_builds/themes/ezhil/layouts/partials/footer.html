@@ -4,9 +4,10 @@
 	</nav>
 </div>
 
-{{ if not .Site.IsServer }}
-{{ template "_internal/google_analytics_async.html" . }}
-{{ end }}
+{{- $ga := site.Config.Services.GoogleAnalytics.ID | default "" -}}
+{{- if and (not hugo.IsServer) $ga (templates.Exists "_internal/google_analytics.html") -}}
+{{ template "_internal/google_analytics.html" . }}
+{{- end -}}
 {{- with .Site.Params.Social -}}
 <script>feather.replace()</script>
 {{- end -}}

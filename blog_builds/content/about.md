@@ -1,14 +1,12 @@
 ---
 title: More About Me
-type: "default"
+type: "page"
 date: 2025-04-18
-description: "A Brief Introduction"
-blogpost: false
 ---
 
 I'm Sachita, and I'm PhDing at Northwestern University in [Technology and Social Behaviour](https://tsb.northwestern.edu), a joint PhD program spanning Communication Studies 💬 and Computer Science 🖥️.
 
-I work at the intersection of human-computer interaction and journalism, and design interactive AI-based systems that help science and tech journalists explore newsworthy scientific research, and offer supports for brainstorming and writing about it. 
+I work at the intersection of human-computer interaction and journalism, and design interactive AI-based systems that help science and tech journalists explore newsworthy scientific research, and offer supports for brainstorming and writing about it.
 
 Beyond my research, I also enjoy reading, watching films (and reviewing them on Letterboxd), amateur photography, and tennis! I help run the [HCI + Design book club](https://hci.northwestern.edu/news-events/phd-book-club.html) at Northwestern, and also log the books I read [on here](../books).
 

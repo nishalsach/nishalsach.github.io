@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Personal on Sachita Nishal</title>
+    <link>https://nishalsach.github.io/tags/personal/</link>
+    <description>Recent content in Personal on Sachita Nishal</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 15 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nishalsach.github.io/tags/personal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learning to scope (and also breathe)</title>
+      <link>https://nishalsach.github.io/posts/2025-04-15-post-prospectus/</link>
+      <pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://nishalsach.github.io/posts/2025-04-15-post-prospectus/</guid>
+      <description>&lt;p&gt;I recently defended my prospectus!&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve spent the last few years of my PhD focused on different problems around value-sensitive design for journalism and science communication. Mostly I&amp;rsquo;ve engaged in artefact design to support tasks like newsgathering and sensemaking that science journalists engage in on a daily basis. When put together, I believe my work makes interesting contributions to how journalists generate the &lt;em&gt;newsworthiness&lt;/em&gt; of the stories they ultimately tell the public. Not only is this a creative task, but it also involves the balancing of many different stakeholder values (what does the journalist care about? what is ethical to cover? what do editors want?). My dissertation will describe how we can design sociotechnical systems to support journalists engaged in this creative, generative, value-laden work!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My Thesis Experience at Northwestern University</title>
+      <link>https://nishalsach.github.io/posts/2020-06-29-thesis_northwestern/</link>
+      <pubDate>Mon, 29 Jun 2020 13:39:12 +0530</pubDate>
+      <guid>https://nishalsach.github.io/posts/2020-06-29-thesis_northwestern/</guid>
+      <description>&lt;p&gt;In 2019, I completed my undergrad thesis at Northwestern University, where I worked in &lt;a href=&#34;https://amaral.northwestern.edu/people/amaral/&#34;&gt;Dr. Luis Amaral&amp;rsquo;s lab&lt;/a&gt; to model complex networks of tropes in American films starting from the 1890s.&lt;/p&gt;&#xA;&lt;p&gt;I wrote a brief account of how I applied for my thesis, as well as my takeaways from this momentous experience, and it was published on BITS Goa&amp;rsquo;s blog for undergrad research experiences. Here&amp;rsquo;s a link to the post: &lt;a href=&#34;https://bitsrnd.wordpress.com/2020/06/26/sachitas-thesis-in-the-windy-city/0&#34;&gt;Sachita Nishal’s Thesis at Northwestern University!&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lessons From a Massive(ly-Annoying) Scraping Project in Python</title>
+      <link>https://nishalsach.github.io/posts/2019-09-16-lessons-from-a-massively-annoying-scraping-project-in-python/</link>
+      <pubDate>Mon, 16 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://nishalsach.github.io/posts/2019-09-16-lessons-from-a-massively-annoying-scraping-project-in-python/</guid>
+      <description>&lt;p&gt;Hello!&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;m honestly quite unsure of what SEO miracle led you here, given the enthusiastically descriptive, but less than optimal title for this post. I&amp;rsquo;m further unsure of why you actually clicked this link when it showed up. But does that make me any less grateful that you&amp;rsquo;re here? Certainly not!&lt;/p&gt;&#xA;&lt;p&gt;I wrote this post to document my experiences while scraping a massive crowdsourced website called &lt;a href=&#34;https://tvtropes.org&#34;&gt;TVTropes&lt;/a&gt;. During this venture, I spent many an afternoon quite desperately Googling &amp;ldquo;ugh web-scraping is so annoying save me python&amp;rdquo;. Consequently, due to an SEO miracle akin to the one brought you here, I found tons of websites which helped me with figuring out the coding bits, and I am extremely grateful for them. However, I didn&amp;rsquo;t feel like there was enough material out there that could guide me with regards to the broader approach that I could take with scraping and managing my dataset.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

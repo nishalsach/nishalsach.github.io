@@ -6,17 +6,17 @@
 		{{ partial "head.html" . }}
 
 		<div class="post-header">
-			<h1 class="title">{{ .Title }}</h1>
+			<h1 class="page-title">{{ .Title }}</h1>
 			<!-- Used this ink to write this section: https://discourse.gohugo.io/t/content-is-it-same-for-page-and-post-and-how-to-hide-date/2246/4 -->
 			<div class="meta">
-				Date Updated: {{ dateFormat "Jan 2, 2006" .Date }}<br>
+				<span class="meta-date">{{ dateFormat "Jan 2, 2006" .Date }}</span>
 				{{ if .Params.blogpost | default "true" }}
-				Reading Time: {{ .ReadingTime }} minutes <br>
-				{{ .WordCount }} words
+				<span class="meta-divider">·</span>
+				<span class="meta-stat">{{ .WordCount }} words</span>
 				{{ end }}
 				{{ if .Draft }} <span class="draft-label">DRAFT</span> {{ end }}
 			</div>
-			
+
 		</div>
 
 		<div class="markdown">
@@ -37,28 +37,6 @@
 			{{ end }}
 
 		</div>
-		{{- $.Scratch.Set "isDisqus" true -}}
-
-		<!-- Disable if content type is excluded in config -->
-		{{- if and (isset .Params "type") (in .Site.Params.disableDisqusTypes .Params.type) -}}
-		{{- $.Scratch.Set "isDisqus" false -}}
-		{{- end -}}
-
-		<!-- Check if content has flag to enable/disable disqus explicitly -->
-		{{- if and (isset .Params "disqus") (eq .Params.disqus false) -}}
-		{{- $.Scratch.Set "isDisqus" false -}}
-		{{- else if and (isset .Params "disqus") (eq .Params.disqus true) -}}
-		{{- $.Scratch.Set "isDisqus" true -}}
-		{{- end -}}
-
-		<!-- Check if disqus short name is given -->
-		{{ if not .Site.DisqusShortname }}
-		{{- $.Scratch.Set "isDisqus" false -}}
-		{{ end }}
-
-		{{- if eq ($.Scratch.Get "isDisqus") true -}}
-		{{- partial "disqus.html" . -}}
-		{{- end -}}
 	</div>
 	{{ partial "footer.html" . }}
 </body>

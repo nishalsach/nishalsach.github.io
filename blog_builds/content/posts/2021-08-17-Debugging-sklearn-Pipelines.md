@@ -18,7 +18,7 @@ And there's a really simple solution: you can write your custom Transformer obje
 
 Here's the code for this!
 
-### <a name="code"></a> Python Code for scikit-learn Pipeline Debug Object
+## <a name="code"></a> Python Code for scikit-learn Pipeline Debug Object
 
 ```python
 

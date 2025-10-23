@@ -2,9 +2,9 @@ baseURL = "https://nishalsach.github.io/"
 languageCode = "en-us"
 title = "Sachita Nishal"
 theme = "ezhil"
-# Number of posts to show in recent posts list (Optional). Defaults to 10.
-paginate = 3
-
+[pagination]
+  # Number of posts to show in recent posts list (Optional). Defaults to 10.
+  pagerSize = 3
 publishDir = ".."
 # relativeURLs = true
 
@@ -67,6 +67,11 @@ summaryLength = 20
     # for example you may want to include external JS library.
     customJS = ["js/abc.js", "js/xyz.js", "https://code.jquery.com/jquery-3.4.1.js"]
 
+    [params.umami]
+      enabled = true
+      websiteId = "70f9bc72-2ed9-4254-8b38-0df6799925c9"
+      scriptUrl = "https://cloud.umami.is/script.js"
+
 # Main menu which appears below site header.
 [[menu.main]]
 name = "Home"
@@ -84,14 +89,19 @@ url = "/publications"
 weight = 3
 
 [[menu.main]]
+name = "Projects"
+url = "/projects"
+weight = 4
+
+[[menu.main]]
 name = "Blog"
 url = "/posts"
-weight = 4
+weight = 5
 
 [[menu.main]]
 name = "More About Me"
 url = "/about"
-weight = 5
+weight = 6
 
 #[[menu.main]]
 #name = "Tags"

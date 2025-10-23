@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+{{ partial "header.html" . }}
+<body>
+	<div class="container wrapper list news-list">
+		{{ partial "head.html" . }}
+
+		<h1 class="page-title">{{ .Title }}</h1>
+
+		{{ with .Content }}
+		<div class="markdown section-intro">
+			{{ . }}
+		</div>
+		{{ end }}
+
+		{{ with site.Data.news.items }}
+			{{ $sortedNews := sort . "date" "desc" }}
+			{{ range $sortedNews }}
+			{{ $date := time .date }}
+			{{ $anchor := default (anchorize .title) .slug }}
+			<article class="section-item" id="{{ $anchor }}">
+				<div class="section-item-header">
+					<span class="meta-date">{{ $date.Format "January 2006" }}</span>
+				</div>
+				<div class="markdown">
+					{{ if .body }}
+						{{ .body | markdownify }}
+					{{ else }}
+						{{ .summary | markdownify }}
+					{{ end }}
+				</div>
+			</article>
+			{{ end }}
+		{{ else }}
+			<p class="news-empty">No updates yet—check back soon.</p>
+		{{ end }}
+
+		<p class="news-back-home"><a href="{{ "/" | relLangURL }}">Back to the homepage</a></p>
+	</div>
+
+	{{ partial "footer.html" . }}
+</body>
+</html>

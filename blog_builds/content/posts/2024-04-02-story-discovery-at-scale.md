@@ -12,7 +12,7 @@ I gave a talk about the ways in which gender biases can crop up in LLM-generated
 
 I am just going to use this space to quickly jot down some of the ideas that other participants at the conferece talked about with me in response to my talk, or along similar themes.  
 
-### On having bias in the training data itself
+## On having bias in the training data itself
 
 News organizations seem interested in fine-tuning generative AI models on their own archives -- just to have better fit with their style of doing things and produce more relevant outputs[^1]. But this could require them to audit their own archives more thoroughly for biased or harmful stories, so they don't have such kinds of stories contaminating the training datasets, as a fellow participant told me.  
 
@@ -20,7 +20,7 @@ Methodologically, this is about ensuring high training data quality. It's analog
 
 This is the kind of thing I want to be hopeful about, because I think there are potentially publicly beneficial and technically feasible and super-specific uses for LLMs (e.g., summarization, contextualization of search results w.r.t. queries) for news readers. And having ways to approach the problem I described would be important to actually making these cases work.  
 
-### On system prompts and agents to reduce bias
+## On system prompts and agents to reduce bias
 
 Another topic of discussion was if providing system prompts to LLMs or using LLM agents (lightly unclear to me what this technically entails) could help reduce bias. The idea is essentially encoding general journalistic values into a prompt such as "You are an unbiased, professional reporter for the ```<```insert esteemed news outlet```>```. Be accurate ..."
 

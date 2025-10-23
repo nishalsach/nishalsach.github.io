@@ -1,6 +1,6 @@
 ---
 title: Books
-date: 2025-04-21
+date: 2025-06-19
 description: "A list of books I am reading or have read in a way that means something to me."
 blogpost: false
 draft: false
@@ -11,10 +11,11 @@ A list of books I am reading or have read in a way that means something to me.
 ## Currently Reading  
 
 Writers' Rights: Freelance Journalism in a Digital Age, by Nicole Cohen (2016)  
-Living Thinkwork: Where do labor Processes Come From, by Mike Hales (1980)  
+Living Thinkwork: Where do Labor Processes Come From, by Mike Hales (1980)  
 
 ## 2025
 
+The Human Use of Human Beings, by Norbert Weiner (1954)
 The Carrier Bag Theory of Fiction, by Ursula K. Le Guin (1986)  
 Technology and the Rise of Great Powers, by Jeffrey Ding (2024)  
 

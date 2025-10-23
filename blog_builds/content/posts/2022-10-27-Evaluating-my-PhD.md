@@ -15,13 +15,13 @@ One thing I did not (really, truly, practically) take into consideration when I 
 
 Of course, I'm still excited about these questions and problems that I came in thinking about, but **how I think about my time in academia has changed massively** over the last couple of years. This blog post is as much a way for me to think through some of these changes, as it is a way to externalize my thoughts for others in a way that spurs interesting conversation. 
 
-### What I Do (most of the time, anyway)
+## What I Do (most of the time, anyway)
 
 For more context, I work within the field of human-computer interaction, and I design machine-learning powered tools/interfaces for information retrieval/organization/contextualization. Specifically, I design tools for science journalists who try and navigate the massive landscape of novel scientific research day after day, as they look for stories to report on. The landscape of scientific research is constantly evolving and expanding (exponentially, in fact[^1]), and **high-quality research that news audiences will benefit from reading takes time to discover, understand, and investigate**. 
 
 In my work, I use machine learning to evaluate scientific articles for "newsworthiness" -- this is the variable of interest for journalists when they look for the news. "Newsworthiness" is multi-faceted for a scientific article - could there be a human interest angle here? Is it in a currently active or popular area of work? Does this research have immediate real-world applications? The tools I build also involve the use of natural language processing to simplify technical research for journalists -- by generating more relevant hooks or angles for a news story from the jargon-y science. I **use the outputs of these assorted tools and technologies to build interactice user interfaces, and talk to practicing journalists about how systems like these can serve them better (or at all)**.
 
-### Working with People is Amazing but Difficult
+## Working with People is Amazing but Difficult
 
 Like a lot of other work within AI/HCI, my research involves a lot of moving gears that must be greased with the right glue code and Python dependencies for them to move in sync. And that's not even the most challenging part -- it's probably one of the more fun parts to be honest. Putting together a system design, thinking about how to make the data flow, parallelize things, designing a user interface and thinking about interactions -- I could do this all day!
 
@@ -32,7 +32,7 @@ Like a lot of other work within AI/HCI, my research involves a lot of moving gea
 
 I think **the bigger and cooler challenge is showing this to people, hearing what they think, and thinking about how interfaces and tools can adapt** to the needs and requirements of users -- related to not only ease-of-use and flexibility, but even scrutability, transparency, and explainability. 
 
-### Some Pains and Complaints and Constraints
+## Some Pains and Complaints and Constraints
 
 Tragically, I also think this is where the challenge of the PhD comes in, which is that there nearly isn't enough time to do all this. 
 
@@ -52,7 +52,7 @@ I feel like this part about creating value is especially what I've found difficu
 
 So what's the problem here? It's that **the next course of action that is valuable to the academic community is not always what will be valuable to the immediate user-base for something we build**. 
 
-### Academic Outcomes Can Be Very Different From Real-World Outcomes
+## Academic Outcomes Can Be Very Different From Real-World Outcomes
 
 For instance, **with a recent user study I conducted, I identified both short-term and long-term action items that, if implemented, could make the tool more useful and intuitive for journalists to use**. 
 
@@ -67,7 +67,7 @@ The **short-term** action items entailed making changes to the user interface, t
 
 Both courses of action are impactful, but there is one with a greater degree of immediate user impact than the other. Unfortunately, this is also not the choice with a greater degree of academic impact. **Academic impact is also, for better or worse, what decides whether I graduate on time or not**. And for the record, I do greatly enjoy working on novel approaches within my area of work. Developing a feature for explainable algorithms and experimenting with it to measure how useful it is (and even selecting/desiging a metric to capture 'usefulness') sounds terribly exciting! But you know what else sounds exciting? Moving to a more flexible CSS framework for the prototype I built, making pagination smoother, adding new options for filtering and ranking, and incorporating a search toolbar! 
 
-### The Trade-off is Time Spent
+## The Trade-off is Time Spent
 
 The **trade-off here is ultimately time**: making software changes could enable me to put the prototype out online, in a way that is still usable and valuable and open to new affordances in the future. But that would take time away from designing new affordances and experiments for a submission to a conference next year + for a chapter of my eventual dissertation. And going to conferences and meeting people and talking about my work is important for my career, which is why I'm doing a PhD in the first place. Adding prediction explanations would also really help journalists use the tool in their lives, trust it more, and even learn from it[^2]. But it would take another year to do, and that still means that the vital software changes are pushed to the backburner.
 
@@ -77,7 +77,7 @@ I do try and find spare time to make an improvement here, a fix there. It's a bi
 
 I also know this isn't really a novel dilemma I'm in -- people have talked about the pressures of publish or perish for far longer. But thinking about this dilemma in the field of HCI is highly relevant and kind of constant, because the **promise of putting an interface or a tool out there for real-world use is always so close, but still so far**. 
 
-### Looking to Others for Inspiration
+## Looking to Others for Inspiration
 
 I think about Turkopticon[^3] a lot in this context -- Irani and Silberman managed to productionize this tool in a way that has impacted the lives of so many crowd-workers who use it every day. It's incredibly inspirational! **The amount of care, dedication, and effort Turkopticon took has to be quite high**. They talk about this in their follow-up paper about Turkopticon and how the response to it changed their approach to design too. I especially really like **this quote from the paper about the meaning and impacts of "design"**:
 
@@ -85,7 +85,7 @@ I think about Turkopticon[^3] a lot in this context -- Irani and Silberman manag
 
 It's very reassuring to see more senior scholars in the field contemplate this issue of what the authors of this paper call _HCI in the longue durée_. I feel a little less alone in asking these questions about what my role as a designer and developer really is. 
 
-### Looking Ahead 
+## Looking Ahead 
 
 Another factor that the Mechanical Turk paper (and others in the field too) pushes me to consider is that **maybe I need to collaborate with a lot more people, work in teams, and pool my expertise with other people's to do more sustainable research**. That way we're all putting in this time and care together. It's difficult to do, especially since I don't really know how one begins with setting up collaborations and COVID has been the opposite of helpful for meeting people at conferences. But this is someting I'm excited to try out over the near future, especially going to more conferences next year, and meeting all the cool people whose work I read and cite. (**Timely Note: If you'd like to collaborate on/think about human-AI interaction stuff, I'm always excited to talk!**)
 
@@ -95,7 +95,7 @@ I'm sure my ideas on my roles as an academic and a designer will keep shifting o
 
 And of course, thank you for taking out the time to read this! I hope this sparked some ideas or questions or insights for you, or at the very least, the comics were kind of fun to look at!
 
-### References
+## References
 
 [^1]: [Exponential Growth Rates in Science](https://www.nature.com/articles/s41599-021-00903-w) -- Nature article about how growth rates of scientific literature are REALLY HIGH
 [^2]: [Explainability for Experts](https://reader.elsevier.com/reader/sd/pii/S266665962100010X?token=5B00E4AED570E93CD303E850438BF4D534D5394A7E264C8EFDACC27DD342922D2C4F32D6495B0F61B18DD776CC697BAF&originRegion=us-east-1&originCreation=20220831172932) -- an interesting paper about this

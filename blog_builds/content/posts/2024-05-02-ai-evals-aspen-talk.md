@@ -15,7 +15,7 @@ Yesterday I delivered a short talk at Aspen Digital's event called _AI & News: C
 
 This was a really fun time for me for a bunch of reasons. First, this was my first time describing our recent [CHI workshop paper](https://arxiv.org/abs/2403.17911) on the topic of LLM evaluation in journalism, and to an audience of people actually present in these newsrooms. Exciting in its own right! Second, this then led to a bunch of interesting conversations about what people thought was important to evaluate, and some of the challenges they were encountering when thinking about evaluation. Third, I learnt a lot (a LOT!) about how some decision-makers in the newsroom are approaching this really uncertain tech, its relationship to their intellectual property, and its potential impacts on their role in the information ecosystem.  
 
-### On Evaluation Itself
+## On Evaluation Itself
 
 The event was under Chatham House rules, so I can only paraphrase here what I heard. My feeling from listening to the talks and panels is that the evaluation of LLMs (and allied systems) still bears uncertainty because newsrooms are still figuring out the specific use-cases where generative AI systems are consistent, reliable, and trustworthy. It makes sense that evaluation is hard to think about when you don't have some concrete use-cases nailed down.
 
@@ -23,7 +23,7 @@ More practically, news outlets are also worried about losing readers' trust and 
 
 I also heard accounts of approaching AI use-cases based on the values in their newsrooms, which is good for a [number](https://mitpress.mit.edu/9780262039536/value-sensitive-design/) [of](https://dl.acm.org/doi/10.1145/3419249.3420105) [well-documented](https://dl.acm.org/doi/10.1145/3625252) [reasons](https://dl.acm.org/doi/10.1145/3632297), so yay! It would be nice if such specific values drive not just evaluation of the final AI system/interface, but even of what is seen as a good use-case + prototyping towards it.  
 
-### On Incentives for Different Evaluation Strategies
+## On Incentives for Different Evaluation Strategies
 
 The other part of this is also: what we're talking about in the workshop paper isn't really new, but rather the same set of concerns -- about evaluating _any sociotechnical intervention_ -- just applied to a new set of technologies[^3]. This then raises the question of how willing newsrooms will actually be to invest in our proposed context/value-sensitive evaluation approaches for AI systems, when they can potentially fall back on more familiar metrics they've primarily used to evaluate previous tech interventions (e.g., CTR for recommendation engines or efficiency metrics for CMS changes).
 
@@ -33,7 +33,7 @@ I think it depends on what concerns they choose to center. This ties back to the
 
 Incentive can also be influenced by what's out there for people to use and draw from, and this is where I think academics like us can contribute by actually putting out open-source evaluation suites for specific news tasks, contexts, and values. Obviously, this won't solve everything, because qualitative evaluations are equally important in determining appropriate applications. But providing these open evaluation resources could help nudge newsrooms in the right direction.
 
-### On the Types of Use-cases Under Consideration
+## On the Types of Use-cases Under Consideration
 
 What did emerge: newsrooms and tech companies are talking about scoped, low-risk and non-chatbot type applications (yay!). Not everyone and not all of the time, but also, a non-zero number. These applications can involve using AI models for glue work or grunt work. What exactly qualifies under these "grunt work" categories and who helpds define that is less clear to me, although a couple of interesting examples such as communicating with readers or classifying certain kinds of harmful/hateful text were mentioned.
 
@@ -41,7 +41,7 @@ There also seems to be a bit of a divide in who is actually more enthusiastic ab
 
 Of those local news orgs that are dabbling with AI, it does sound like they are focused much more on using it to do whatever glue work it takes to scale their existing work to reach more people in their community. As opposed to, say, developing entirely new media formats or creativity support tools, which seems more of interest to bigger outlets. Lots of credit here to groups like [The Associated Press](https://www.ap.org/solutions/artificial-intelligence/local-news-ai/) and [The American Journalism Project](https://www.theajp.org/news-insights/announcements/american-journalism-project-announces-new-partnership-with-openai-to-support-local-news/) who are out there, trying to help local newsrooms build their own AI tools for their scoped and specific use-cases.
 
-### Closing Notes  
+## Closing Notes  
 
 I have many more thoughts and ideas from this event that I'm still working through. Being in these rooms with people who make decisions in newsrooms was incredibly insightful as I think about what different stakeholders consider when evaluating emerging tools and technologies for their organizations. Lots to reflect on.  
 
