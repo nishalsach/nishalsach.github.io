@@ -4,237 +4,177 @@
     <title>Sachita Nishal</title>
     <link>https://nishalsach.github.io/</link>
     <description>Recent content on Sachita Nishal</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 15 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://nishalsach.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 19 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nishalsach.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Books</title>
+      <link>https://nishalsach.github.io/books/</link>
+      <pubDate>Thu, 19 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://nishalsach.github.io/books/</guid>
+      <description>&lt;p&gt;A list of books I am reading or have read in a way that means something to me.&lt;/p&gt;&#xA;&lt;h2 id=&#34;currently-reading&#34;&gt;Currently Reading&lt;/h2&gt;&#xA;&lt;p&gt;Writers&amp;rsquo; Rights: Freelance Journalism in a Digital Age, by Nicole Cohen (2016)&lt;br&gt;&#xA;Living Thinkwork: Where do Labor Processes Come From, by Mike Hales (1980)&lt;/p&gt;&#xA;&lt;h2 id=&#34;2025&#34;&gt;2025&lt;/h2&gt;&#xA;&lt;p&gt;The Human Use of Human Beings, by Norbert Weiner (1954)&#xA;The Carrier Bag Theory of Fiction, by Ursula K. Le Guin (1986)&lt;br&gt;&#xA;Technology and the Rise of Great Powers, by Jeffrey Ding (2024)&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Publications</title>
       <link>https://nishalsach.github.io/publications/</link>
       <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://nishalsach.github.io/publications/</guid>
-      <description>Archival Publications Values as Problems, Principles, and Tensions in Sociotechnical System Design for Journalism
-Sachita Nishal and Nick Diakopoulos
-Proceedings of the ACM Conference on Designing Interactive Systems (DIS) 2025.
-PDF News Futures: (Re-)Designing Socio-technical Systems for News Production and Consumption
-Sachita Nishal, Marianne Aubin Le Quéré, Brian James McInnis, Bronwyn Jones, Kristen Vaccaro, Tanja Aitamurto, Mor Naaman, and Nick Diakopoulos
-Extended Abstracts of the CHI Conference on Human Factors in Computing Systems (CHI EA) 2025.</description>
+      <description>&lt;h2 id=&#34;peer-reviewed-papers&#34;&gt;Peer-reviewed Papers&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://nishalsach.github.io/pdfs/2025-vsd-journalism.pdf&#34;&gt;Values as Problems, Principles, and Tensions in Sociotechnical System Design for Journalism&lt;/a&gt;&lt;br&gt;&#xA;&lt;u&gt;Sachita Nishal&lt;/u&gt; and Nick Diakopoulos&lt;br&gt;&#xA;DIS 2025&lt;br&gt;&#xA;🏆 Best Paper Honorable Mention&lt;br&gt;&#xA;&#xA;&#xA;&#xA;  &#xA;&#xA;&#xA;&lt;a href=&#34;https://nishalsach.github.io/pdfs/2025-vsd-journalism.pdf&#34;   target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#39;markdown-btn&#39;&gt;PDF&lt;/a&gt; &#xA;&#xA;&#xA;  &#xA;&#xA;&#xA;&lt;a href=&#34;https://airtable.com/appKbl0s3WiBidE0y/shrjFfXeOG7kbVbGP&#34;   target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#39;markdown-btn&#39;&gt; Interactive Dataset&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://dl.acm.org/doi/10.1145/3637419&#34;&gt;Understanding Practices around Computational News Discovery Tools in the Domain of Science Journalism&lt;/a&gt;&lt;br&gt;&#xA;&lt;u&gt;Sachita Nishal&lt;/u&gt;, Jasmine Sinchai and Nick Diakopoulos&lt;br&gt;&#xA;CSCW 2024&lt;br&gt;&#xA;&#xA;&#xA;&#xA;  &#xA;&#xA;&#xA;&lt;a href=&#34;https://nishalsach.github.io/pdfs/2024-newsworthiness.pdf&#34;   target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#39;markdown-btn&#39;&gt;PDF&lt;/a&gt; &#xA;&#xA;&#xA;  &#xA;&#xA;&#xA;&lt;a href=&#34;https://dl.acm.org/doi/10.1145/3637419&#34;   target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#39;markdown-btn&#39;&gt;ACM DL&lt;/a&gt; &#xA;&#xA;&#xA;  &#xA;&#xA;&#xA;&lt;a href=&#34;https://generative-ai-newsroom.com/getting-the-science-and-the-scoop-with-news-angles-from-gpt-3-b1b4fcd7f6b1&#34;   target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#39;markdown-btn&#39;&gt;Blogpost&lt;/a&gt;&lt;br&gt;&#xA;* Also presented at Story Discovery At Scale 2023&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://dl.acm.org/doi/abs/10.1145/3512981&#34;&gt;From Crowd Ratings to Predictive Models of Newsworthiness to Support Science Journalism&lt;/a&gt;&lt;br&gt;&#xA;&lt;u&gt;Sachita Nishal&lt;/u&gt; and Nick Diakopoulos&lt;br&gt;&#xA;CSCW 2022&lt;br&gt;&#xA;&#xA;&#xA;&#xA;  &#xA;&#xA;&#xA;&lt;a href=&#34;https://nishalsach.github.io/pdfs/2022-newsworthiness.pdf&#34;   target=&#34;_blank&#34; rel=&#34;noreferrer&#34; class=&#39;markdown-btn&#39;&gt;PDF&lt;/a&gt;&lt;br&gt;&#xA;* Also presented at Computation+Journalism Symposium 2022&lt;/p&gt;</description>
     </item>
-    
-    <item>
-      <title>Books</title>
-      <link>https://nishalsach.github.io/books/</link>
-      <pubDate>Mon, 21 Apr 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://nishalsach.github.io/books/</guid>
-      <description>A list of books I am reading or have read in a way that means something to me.
-Currently Reading Writers&amp;rsquo; Rights: Freelance Journalism in a Digital Age, by Nicole Cohen (2016)
-Living Thinkwork: Where do labor Processes Come From, by Mike Hales (1980)
-2025 The Carrier Bag Theory of Fiction, by Ursula K. Le Guin (1986)
-Technology and the Rise of Great Powers, by Jeffrey Ding (2024)
-2024 Sorting Things Out, by Geoffrey Bowker and Susan Star (2000)</description>
-    </item>
-    
     <item>
       <title>More About Me</title>
       <link>https://nishalsach.github.io/about/</link>
       <pubDate>Fri, 18 Apr 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://nishalsach.github.io/about/</guid>
-      <description>I&amp;rsquo;m Sachita, and I&amp;rsquo;m PhDing at Northwestern University in Technology and Social Behaviour, a joint PhD program spanning Communication Studies 💬 and Computer Science 🖥️.
-I work at the intersection of human-computer interaction and journalism, and design interactive AI-based systems that help science and tech journalists explore newsworthy scientific research, and offer supports for brainstorming and writing about it.
-Beyond my research, I also enjoy reading, watching films (and reviewing them on Letterboxd), amateur photography, and tennis!</description>
+      <description>&lt;p&gt;I&amp;rsquo;m Sachita, and I&amp;rsquo;m PhDing at Northwestern University in &lt;a href=&#34;https://tsb.northwestern.edu&#34;&gt;Technology and Social Behaviour&lt;/a&gt;, a joint PhD program spanning Communication Studies 💬 and Computer Science 🖥️.&lt;/p&gt;&#xA;&lt;p&gt;I work at the intersection of human-computer interaction and journalism, and design interactive AI-based systems that help science and tech journalists explore newsworthy scientific research, and offer supports for brainstorming and writing about it.&lt;/p&gt;&#xA;&lt;p&gt;Beyond my research, I also enjoy reading, watching films (and reviewing them on Letterboxd), amateur photography, and tennis! I help run the &lt;a href=&#34;https://hci.northwestern.edu/news-events/phd-book-club.html&#34;&gt;HCI + Design book club&lt;/a&gt; at Northwestern, and also log the books I read &lt;a href=&#34;../books&#34;&gt;on here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Learning to scope (and also breathe)</title>
       <link>https://nishalsach.github.io/posts/2025-04-15-post-prospectus/</link>
       <pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://nishalsach.github.io/posts/2025-04-15-post-prospectus/</guid>
-      <description>I recently defended my prospectus!
-I&amp;rsquo;ve spent the last few years of my PhD focused on different problems around value-sensitive design for journalism and science communication. Mostly I&amp;rsquo;ve engaged in artefact design to support tasks like newsgathering and sensemaking that science journalists engage in on a daily basis. When put together, I believe my work makes interesting contributions to how journalists generate the newsworthiness of the stories they ultimately tell the public.</description>
+      <description>&lt;p&gt;I recently defended my prospectus!&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve spent the last few years of my PhD focused on different problems around value-sensitive design for journalism and science communication. Mostly I&amp;rsquo;ve engaged in artefact design to support tasks like newsgathering and sensemaking that science journalists engage in on a daily basis. When put together, I believe my work makes interesting contributions to how journalists generate the &lt;em&gt;newsworthiness&lt;/em&gt; of the stories they ultimately tell the public. Not only is this a creative task, but it also involves the balancing of many different stakeholder values (what does the journalist care about? what is ethical to cover? what do editors want?). My dissertation will describe how we can design sociotechnical systems to support journalists engaged in this creative, generative, value-laden work!&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>One way news practitioners can think about uncertainty in LLM outputs</title>
       <link>https://nishalsach.github.io/posts/2025-04-02-lab-exercise/</link>
       <pubDate>Wed, 02 Apr 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://nishalsach.github.io/posts/2025-04-02-lab-exercise/</guid>
-      <description>This quarter, the Computational Journalism lab undertook a little science comunication exercise: each of us wrote a short blogpost dissecting a recent research paper + its implications for news practitioners. Here&amp;rsquo;s the link to my post, published on the Generative AI in the Newsroom (GAIN) blog.</description>
+      <description>&lt;p&gt;This quarter, the Computational Journalism lab undertook a little science comunication exercise: each of us wrote a short blogpost dissecting a recent research paper + its implications for news practitioners. Here&amp;rsquo;s the &lt;a href=&#34;https://generative-ai-newsroom.com/a-feature-not-a-bug-what-newsrooms-need-to-know-about-the-uncertainty-of-llm-responses-a794bc75d787&#34;&gt;link to my post&lt;/a&gt;, published on the Generative AI in the Newsroom (GAIN) blog.&lt;/p&gt;</description>
     </item>
-    
+    <item>
+      <title>Prospectus passed—officially ABD!</title>
+      <link>https://nishalsach.github.io/news/2025-03-15-prospectus-passed/</link>
+      <pubDate>Sat, 15 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://nishalsach.github.io/news/2025-03-15-prospectus-passed/</guid>
+      <description>I’m now ABD after passing my prospectus on designing sociotechnical systems for science journalism.</description>
+    </item>
+    <item>
+      <title>Projects</title>
+      <link>https://nishalsach.github.io/projects/</link>
+      <pubDate>Thu, 23 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://nishalsach.github.io/projects/</guid>
+      <description>&lt;p&gt;My research examines how people navigate, make sense of, and create with large-scale information. I develop interactive systems and computational techniques to support knowledge workers, primarily science journalists, in their sensemaking and creative work. I also study patterns and biases in cultural production, particularly how narratives reflect and reinforce social values. Here are the major projects I&amp;rsquo;ve worked on:&lt;/p&gt;&#xA;&lt;h2 id=&#34;value-sensitive-design-theory-for-journalism&#34;&gt;Value-Sensitive Design Theory for Journalism&lt;/h2&gt;&#xA;&lt;p&gt;This project synthesizes across design projects in journalism and HCI to extend value-sensitive design theory into the journalism domain. It maps out the design landscape, provides exemplars and evaluation criteria grounded in domain values, and reveals how value trade-offs often emerge from differing stakeholder priorities. The work offers designers a critical perspective on power dynamics in sociotechnical systems and opportunities to challenge them through design.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>A prototype newsgathering tool for science journalists</title>
       <link>https://nishalsach.github.io/posts/2024-11-01-cplusj-blog/</link>
       <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://nishalsach.github.io/posts/2024-11-01-cplusj-blog/</guid>
-      <description>This past month, I presented our recent work on using LLMs to aid science journalists in reading complex scientific papers. Here&amp;rsquo;s the link to my blog post about it, published on the Generative AI in the Newsroom blog.</description>
+      <description>&lt;p&gt;This past month, I presented our recent work on using LLMs to aid science journalists in reading complex scientific papers. Here&amp;rsquo;s the link to my &lt;a href=&#34;https://generative-ai-newsroom.com/making-sense-of-science-llms-for-helping-reporters-understand-complex-research-f1292720a09c&#34;&gt;blog post about it&lt;/a&gt;, published on the Generative AI in the Newsroom blog.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Talk &#43; Responses: Blueprints for Evaluating AI in Journalism</title>
       <link>https://nishalsach.github.io/posts/2024-05-02-ai-evals-aspen-talk/</link>
       <pubDate>Fri, 03 May 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://nishalsach.github.io/posts/2024-05-02-ai-evals-aspen-talk/</guid>
-      <description>Yesterday I delivered a short talk at Aspen Digital&amp;rsquo;s event called AI &amp;amp; News: Charting the Course. It was hosted at the Ford Foundation Center for Social Justice in NYC, which is a really pretty venue. They have so many trees inside! And also apprently: birds1! Here&amp;rsquo;s the slide deck for this talk, made under a certain degree of sleep deprivation-based duress and fever brain.
-Pretty trees! This was a really fun time for me for a bunch of reasons.</description>
+      <description>&lt;p&gt;Yesterday I delivered a short talk at Aspen Digital&amp;rsquo;s event called &lt;em&gt;AI &amp;amp; News: Charting the Course&lt;/em&gt;. It was hosted at the Ford Foundation Center for Social Justice in NYC, which is a really pretty venue. They have so many trees inside! And also apprently: birds&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;! Here&amp;rsquo;s the &lt;a href=&#34;https://nishalsach.github.io/pdfs/2024-aspen-talk.pdf&#34;&gt;slide deck&lt;/a&gt; for this talk, made under a certain degree of sleep deprivation-based duress and fever brain.&lt;/p&gt;&#xA;&lt;figure&gt;&#xA; &lt;img style=&#34;float: center; margin: 15px 15px 15px 15px;&#34; src=&#34;https://nishalsach.github.io/img/ford_foundation_trees.jpg&#34; width=&#34;50%&#34; /&gt;&#xA; &lt;figcaption&gt; &lt;i&gt; Pretty trees! &lt;/i&gt;&lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&lt;p&gt;This was a really fun time for me for a bunch of reasons. First, this was my first time describing our recent &lt;a href=&#34;https://arxiv.org/abs/2403.17911&#34;&gt;CHI workshop paper&lt;/a&gt; on the topic of LLM evaluation in journalism, and to an audience of people actually present in these newsrooms. Exciting in its own right! Second, this then led to a bunch of interesting conversations about what people thought was important to evaluate, and some of the challenges they were encountering when thinking about evaluation. Third, I learnt a lot (a LOT!) about how some decision-makers in the newsroom are approaching this really uncertain tech, its relationship to their intellectual property, and its potential impacts on their role in the information ecosystem.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Talk &#43; Responses: Gender Biases in LLM Narratives</title>
       <link>https://nishalsach.github.io/posts/2024-04-02-story-discovery-at-scale/</link>
       <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://nishalsach.github.io/posts/2024-04-02-story-discovery-at-scale/</guid>
-      <description>Last week I delivered a short talk at Big Local News&amp;rsquo; conference Story Discovery at Scale 2024. It was great to be back this year &amp;ndash; 2023 was my first time attending this event, and meeting the groups around Big Local News! I felt like I was going back to a community of people that I now know and understand a little better, and it was nice to have some familiar faces to say hello to and catch up with.</description>
+      <description>&lt;p&gt;Last week I delivered a short talk at &lt;a href=&#34;https://biglocalnews.org/#/login&#34;&gt;Big Local News&lt;/a&gt;&amp;rsquo; conference &lt;em&gt;Story Discovery at Scale 2024&lt;/em&gt;. It was great to be back this year &amp;ndash; 2023 was my first time attending this event, and meeting the groups around Big Local News! I felt like I was going back to a community of people that I now know and understand a little better, and it was nice to have some familiar faces to say hello to and catch up with. They all do incredible work in making tools and datasets available to news organizations that need support!&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>19 Mar 2024: Where the Month Went</title>
       <link>https://nishalsach.github.io/posts/readings/2024-03-15-reading/</link>
       <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://nishalsach.github.io/posts/readings/2024-03-15-reading/</guid>
-      <description>It&amp;rsquo;s been a while since I wrote these posts, and I think it&amp;rsquo;s not for lack of reading, but for lack of engaging with newer papers. I&amp;rsquo;ve been doing a lot more reading and writing for my prospectus, which majorly involves re-treading my own work as well as stuff I&amp;rsquo;ve already read and cited.
-That being said, I&amp;rsquo;ve read a few books this year! Focusing on books has been an interesting change of pace than reading tons of one-off essays or papers.</description>
+      <description>&lt;p&gt;It&amp;rsquo;s been a while since I wrote these posts, and I think it&amp;rsquo;s not for lack of reading, but for lack of engaging with newer papers. I&amp;rsquo;ve been doing a lot more reading and writing for my prospectus, which majorly involves re-treading my own work as well as stuff I&amp;rsquo;ve already read and cited.&lt;/p&gt;&#xA;&lt;p&gt;That being said, I&amp;rsquo;ve read a few books this year! Focusing on books has been an interesting change of pace than reading tons of one-off essays or papers. Taking the time to think through an idea or a set of allied concepts in this way has been calming. I like it.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Sorting Things Out, by Geoffrey Bowker and Susan Star (2000)</title>
       <link>https://nishalsach.github.io/posts/readings/2024-03-14-sorting-things-out/</link>
       <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://nishalsach.github.io/posts/readings/2024-03-14-sorting-things-out/</guid>
-      <description>I read this over the Fall and Winter quarters with our HCI+Design Book Club at Northwestern. It&amp;rsquo;s a landmark work in HCI and had been on my bucket list for a long time, so I was glad to finally get to it, and wrest with some of its more complex and thought-provoking themes in our little reading group. We read a chapter a week and the result of this was that I genuinely really enjoyed reading it and digging into its meaty bits1!</description>
+      <description>&lt;p&gt;I read this over the Fall and Winter quarters with our &lt;a href=&#34;https://hci.northwestern.edu/news-events/phd-book-club.html&#34;&gt;HCI+Design Book Club&lt;/a&gt; at Northwestern. It&amp;rsquo;s a landmark work in HCI and had been on my bucket list for a long time, so I was glad to finally get to it, and wrest with some of its more complex and thought-provoking themes in our little reading group. We read a chapter a week and the result of this was that I genuinely really enjoyed reading it and digging into its meaty bits&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;!&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>2 Feb 2024: Where the Week Went</title>
       <link>https://nishalsach.github.io/posts/readings/2024-02-02-reading/</link>
       <pubDate>Fri, 02 Feb 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://nishalsach.github.io/posts/readings/2024-02-02-reading/</guid>
-      <description>Cool readings and excerpts from this week:
-The Business of the News Lots of news in January about media downsizing and layoffs. The news industry in the U.S. looks like it is in a precarious position, but I feel like it&amp;rsquo;s also been this way for a while now. In the meanwhile, Joshua Benton of Nieman Lab reminds us that while it can feel like the industry is in freefall, sometimes outlets can simply collapse because they were ill-conceived, ego-driven projects that were terribly run.</description>
+      <description>&lt;p&gt;Cool readings and excerpts from this week:&lt;/p&gt;&#xA;&lt;h4 id=&#34;the-business-of-the-news&#34;&gt;The Business of the News&lt;/h4&gt;&#xA;&lt;p&gt;Lots of news in January about &lt;a href=&#34;https://www.politico.com/news/2024/02/01/journalism-layoffs-00138517&#34;&gt;media downsizing and layoffs&lt;/a&gt;. The news industry in the U.S. looks like it is in a precarious position, but I feel like it&amp;rsquo;s also been this way for a while now. In the meanwhile, Joshua Benton of Nieman Lab reminds us that while it can feel like the industry is in freefall, sometimes outlets can simply collapse because they were &lt;a href=&#34;https://www.niemanlab.org/2024/02/economic-headwinds-no-the-messengers-flop-is-the-result-of-one-mans-blindness-to-his-own-bad-ideas/&#34;&gt;ill-conceived, ego-driven projects that were terribly run&lt;/a&gt;. Good old bad-business-strategy! It&amp;rsquo;s a really informative read, and here&amp;rsquo;s my favourite quote:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>26 Jan 2024: Where the Week Went</title>
       <link>https://nishalsach.github.io/posts/readings/2024-01-26-reading/</link>
       <pubDate>Fri, 26 Jan 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://nishalsach.github.io/posts/readings/2024-01-26-reading/</guid>
-      <description>I&amp;rsquo;m trying out something new this year, where I maintain a log of cool things I read (or watch, or listen to) around my work or academic interests. I think logging and describing these things can be good for my sense-making process in the long term, or generally help me feel sane when I look at the calendar on a Friday and exclaim &amp;ldquo;Where did the week go? 🫠&amp;rdquo;. Now, I will know, where the week went.</description>
+      <description>&lt;p&gt;I&amp;rsquo;m trying out something new this year, where I maintain a log of cool things I read (or watch, or listen to) around my work or academic interests. I think logging and describing these things can be good for my sense-making process in the long term, or generally help me feel sane when I look at the calendar on a Friday and exclaim &amp;ldquo;Where did the week go? 🫠&amp;rdquo;. Now, I will know, where the week went.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Reading and Writing Files in Python: Modifiers</title>
       <link>https://nishalsach.github.io/posts/2023-05-23-reading-writing-modifiers/</link>
       <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://nishalsach.github.io/posts/2023-05-23-reading-writing-modifiers/</guid>
-      <description>Different modes of reading and writing to files, and what they do:
-r: Only read. This is the default if no mode argument is given.
-w: Only write. An existing file with the same name will be over-written.
-a: Append data to the end of the file. Still writing.
-r+: Both reading and writing and can be done. I never use this.
-From the Python Docs:
-Normally, files are opened in text mode, that means, you read and write strings from and to the file, which are encoded in a specific encoding.</description>
+      <description>&lt;p&gt;Different &lt;em&gt;modes&lt;/em&gt; of reading and writing to files, and what they do:&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;r&lt;/code&gt;: Only read. This is the default if no &lt;code&gt;mode&lt;/code&gt; argument is given.&lt;br&gt;&#xA;&lt;code&gt;w&lt;/code&gt;: Only write. An existing file with the same name will be over-written.&lt;br&gt;&#xA;&lt;code&gt;a&lt;/code&gt;: Append data to the end of the file. Still writing.&lt;br&gt;&#xA;&lt;code&gt;r+&lt;/code&gt;: Both reading and writing and can be done. I never use this.&lt;/p&gt;&#xA;&lt;p&gt;From the &lt;a href=&#34;https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files&#34;&gt;Python Docs&lt;/a&gt;:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Normally, files are opened in text mode, that means, you read and write strings from and to the file, which are encoded in a specific encoding. If encoding is not specified, the default is platform dependent (see open()). Because UTF-8 is the modern de-facto standard, encoding=&amp;ldquo;utf-8&amp;rdquo; is recommended unless you know that you need to use a different encoding. Appending a &amp;lsquo;b&amp;rsquo; to the mode opens the file in binary mode. Binary mode data is read and written as bytes objects. You can not specify encoding when opening file in binary mode.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>BeautifulSoup4Dummies</title>
       <link>https://nishalsach.github.io/posts/2023-05-19-bs4dummies/</link>
       <pubDate>Fri, 19 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://nishalsach.github.io/posts/2023-05-19-bs4dummies/</guid>
-      <description>Note: All links are from BS v4.12.0 documentation and reference, but the gist should probably hold for a while.
-BeautifulSoup4 + Python is a formidable combo for web-scraping when the territory I&amp;rsquo;m scraping in is uncertain, webpages are static, and I need to spin up something quick and dirty so I can hunt around through the HTML to specifically extract what I need.
-Another thing is: when pulling web data with BS4, sometimes it&amp;rsquo;s really handy to keep separate files of the subset/tags/text in a page that are of interest, but then also save original HTML files just to have them on hand in case extraction does not go according to plan.</description>
+      <description>&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: All links are from BS v4.12.0 documentation and reference, but the gist should probably hold for a while.&lt;/p&gt;&#xA;&lt;p&gt;BeautifulSoup4 + Python is a formidable combo for web-scraping when the territory I&amp;rsquo;m scraping in is uncertain, webpages are static, and I need to spin up something quick and dirty so I can hunt around through the HTML to specifically extract what I need.&lt;/p&gt;&#xA;&lt;p&gt;Another thing is: when pulling web data with BS4, sometimes it&amp;rsquo;s really handy to keep separate files of the subset/tags/text in a page that are of interest, but then also save original HTML files just to have them on hand in case extraction does not go according to plan.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Two Years into the PhD: Thoughts and Half-thoughts</title>
       <link>https://nishalsach.github.io/posts/2022-10-27-evaluating-my-phd/</link>
       <pubDate>Thu, 27 Oct 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://nishalsach.github.io/posts/2022-10-27-evaluating-my-phd/</guid>
-      <description>One thing I did not (really, truly, practically) take into consideration when I started doing the PhD was how difficult it would be. I learnt soon enough, of course. But you know that joke &amp;ndash; that the best time to be in a PhD program is the summer before it begins, when you impress everyone by telling them you&amp;rsquo;re going to get a PhD without having to actually do anything for it?</description>
+      <description>&lt;p&gt;One thing I did not (really, truly, practically) take into consideration when I started doing the PhD was how &lt;strong&gt;difficult&lt;/strong&gt; it would be. I learnt soon enough, of course. But you know that joke &amp;ndash; that the best time to be in a PhD program is the summer before it begins, when you impress everyone by telling them you&amp;rsquo;re going to get a PhD without having to actually do anything for it? That was me, through and through. Incredibly optimistic, and very excited to finally have the &lt;strong&gt;time&lt;/strong&gt; &amp;ndash; god, so much time! &amp;ndash; to ask cool, impactful questions about the world and work towards answering them.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>A Short Primer on Mutual Information</title>
       <link>https://nishalsach.github.io/posts/2022-04-25-short-primer_mi/</link>
       <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://nishalsach.github.io/posts/2022-04-25-short-primer_mi/</guid>
-      <description>Definitions Conceptual Definition: MI is the reduction in uncertainty when predicting one variable (&amp;ldquo;outcome&amp;rdquo;) in a system, if we know the value of another variable in the system. It will always be &amp;gt;=0, and higher values mean higher dependency between the two variables Formula (for discrete processes/variables X1 and X2): As must be apparent, for two independent variables, MI = 0. Eg. Two coins are tossed; the results of one coin do not help us measure the results of the other in any way Another way to look at this (and I still have some trouble wrapping my head around this) is that MI is the KL Divergence in going from the joint distribution P(X1, X2) to the product of the marginal distributions P(X1).</description>
+      <description>&lt;h2 id=&#34;definitions&#34;&gt;Definitions&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Conceptual Definition&lt;/strong&gt;: MI is the reduction in uncertainty when predicting one variable (&amp;ldquo;outcome&amp;rdquo;) in a system, if we know the value of another variable in the system.&#xA;&lt;ul&gt;&#xA;&lt;li&gt;It will always be &amp;gt;=0, and higher values mean higher dependency between the two variables&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Formula (for discrete processes/variables X1 and X2):&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p align=&#34;center&#34;&gt;&#xA;&lt;img style=&#34;margin: 15px 20px 15px 0px;&#34; src=&#34;../../img/mi_formula.png&#34; width=500/&gt;&#xA;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;As must be apparent, for two independent variables, MI = 0. Eg. Two coins are tossed; the results of one coin do not help us measure the results of the other in any way&lt;/li&gt;&#xA;&lt;li&gt;Another way to look at this (and I still have some trouble wrapping my head around this) is that MI is the KL Divergence in going from the joint distribution P(X1, X2) to the product of the marginal distributions P(X1).P(X2)(derives from the formula of KL Divergence)&#xA;&lt;ul&gt;&#xA;&lt;li&gt;i.e. the informational cost in representing our system as the product of marginals opposed to the full joint distribution&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;mutual-information-as-feature-selection&#34;&gt;Mutual Information as Feature Selection&lt;/h2&gt;&#xA;&lt;p&gt;MI can be used for feature selection, and  scikit-learn implementation of MI for both &lt;a href=&#34;https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.mutual_info_regression.html#sklearn.feature_selection.mutual_info_regression&#34;&gt;regression&lt;/a&gt; and &lt;a href=&#34;https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.mutual_info_classif.html#sklearn.feature_selection.mutual_info_classif&#34;&gt;classification&lt;/a&gt; problems exists.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Debugging Inside Scikit-Learn Pipelines</title>
       <link>https://nishalsach.github.io/posts/2021-08-17-debugging-sklearn-pipelines/</link>
       <pubDate>Tue, 17 Aug 2021 18:01:26 +0530</pubDate>
-      
       <guid>https://nishalsach.github.io/posts/2021-08-17-debugging-sklearn-pipelines/</guid>
-      <description>Click the given link to skip to the code and spare yourself my tortuous introduction: code for sklearn Pipeline debugging Transformer. Don&amp;rsquo;t click the link if you&amp;rsquo;re debugging at 2pm on a slow Thursday and want something, anything, to distract you from staring at VSCode and its quickly blurring lines of code. I can help you pretend you&amp;rsquo;re working as you scan the next few paragraphs of my inner monologue.</description>
+      <description>&lt;p&gt;Click the given link to skip to the code and spare yourself my tortuous introduction: &lt;a href=&#34;#code&#34;&gt;code for sklearn Pipeline debugging Transformer&lt;/a&gt;. &lt;em&gt;Don&amp;rsquo;t&lt;/em&gt; click the link if you&amp;rsquo;re debugging at 2pm on a slow Thursday and want something, &lt;em&gt;anything&lt;/em&gt;, to distract you from staring at VSCode and its quickly blurring lines of code. I can help you pretend you&amp;rsquo;re working as you scan the next few paragraphs of my inner monologue.&lt;/p&gt;&#xA;&lt;p&gt;Hello, hi, welcome! If you&amp;rsquo;re like me and work with Python to do Machine Learning, you probably often find yourself writing complicated pre-processing and modelling code using the scikit-learn library&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. If you&amp;rsquo;re even more like me, which is to say you&amp;rsquo;re a fan of writing end-to-end transformers &amp;amp; estimators to avoid pulling your hair out with complicated testing procedures, you probably find yourself using scikit-learn&amp;rsquo;s Pipeline funtionality&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; a whole lot too. Good on you!&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>My Thesis Experience at Northwestern University</title>
       <link>https://nishalsach.github.io/posts/2020-06-29-thesis_northwestern/</link>
       <pubDate>Mon, 29 Jun 2020 13:39:12 +0530</pubDate>
-      
       <guid>https://nishalsach.github.io/posts/2020-06-29-thesis_northwestern/</guid>
-      <description>In 2019, I completed my undergrad thesis at Northwestern University, where I worked in Dr. Luis Amaral&amp;rsquo;s lab to model complex networks of tropes in American films starting from the 1890s.
-I wrote a brief account of how I applied for my thesis, as well as my takeaways from this momentous experience, and it was published on BITS Goa&amp;rsquo;s blog for undergrad research experiences. Here&amp;rsquo;s a link to the post: Sachita Nishal’s Thesis at Northwestern University!</description>
+      <description>&lt;p&gt;In 2019, I completed my undergrad thesis at Northwestern University, where I worked in &lt;a href=&#34;https://amaral.northwestern.edu/people/amaral/&#34;&gt;Dr. Luis Amaral&amp;rsquo;s lab&lt;/a&gt; to model complex networks of tropes in American films starting from the 1890s.&lt;/p&gt;&#xA;&lt;p&gt;I wrote a brief account of how I applied for my thesis, as well as my takeaways from this momentous experience, and it was published on BITS Goa&amp;rsquo;s blog for undergrad research experiences. Here&amp;rsquo;s a link to the post: &lt;a href=&#34;https://bitsrnd.wordpress.com/2020/06/26/sachitas-thesis-in-the-windy-city/0&#34;&gt;Sachita Nishal’s Thesis at Northwestern University!&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Posters for Plays</title>
       <link>https://nishalsach.github.io/cool_stuff/play_posters/</link>
       <pubDate>Sat, 13 Jun 2020 12:37:02 +0530</pubDate>
-      
       <guid>https://nishalsach.github.io/cool_stuff/play_posters/</guid>
-      <description>Hi, here&amp;rsquo;s some posters from my plays that I&amp;rsquo;ve adored and cherished.</description>
+      <description>&lt;p&gt;Hi, here&amp;rsquo;s some posters from my plays that I&amp;rsquo;ve adored and cherished.&lt;/p&gt;&#xA;&lt;img style=&#34;float: left; margin: 15px 15px 15px 15px;&#34; src=&#34;../../img/cool_stuff/ebt_1.PNG&#34; width=&#34;210px&#34; /&gt;&#xA;&lt;img style=&#34;float: left; margin: 15px 15px 15px 15px;&#34; src=&#34;../../img/cool_stuff/ebt_1.PNG&#34; width=&#34;210px&#34; /&gt;&#xA;&lt;img style=&#34;float: left; margin: 15px 15px 15px 15px;&#34; src=&#34;../../img/cool_stuff/ebt_1.PNG&#34; width=&#34;210px&#34; /&gt;</description>
     </item>
-    
     <item>
       <title>Hugo Hacks</title>
       <link>https://nishalsach.github.io/posts/2020-06-12-hugo-hacks/</link>
       <pubDate>Fri, 12 Jun 2020 18:01:26 +0530</pubDate>
-      
       <guid>https://nishalsach.github.io/posts/2020-06-12-hugo-hacks/</guid>
-      <description>Hi.
-Welcome.
-You can choose to skip right to the hacks with this handy index:
-Filepaths in Hugo Footnotes in Markdown HTML Tags for Images in Markdown Syntax Highlighting for Code in Markdown Or, you can bear witness to an overly detailed and meandering tale about my journey navigating the horrific ills of modern technology, below.
-So, I am proud to announce that as of today, June 12 2020, I have transitioned out of Jekyll, and am the owner of a shiny new blog built with Hugo.</description>
+      <description>&lt;p&gt;Hi.&lt;/p&gt;&#xA;&lt;p&gt;Welcome.&lt;/p&gt;&#xA;&lt;p&gt;You can choose to skip right to the hacks with this handy index:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#filepaths&#34;&gt;Filepaths in Hugo&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#footnotes&#34;&gt;Footnotes in Markdown&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#html_img&#34;&gt;HTML Tags for Images in Markdown&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#syntac_highlights&#34;&gt;Syntax Highlighting for Code in Markdown&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Or, you can bear witness to an overly detailed and meandering tale about my journey navigating the horrific ills of modern technology, below.&lt;/p&gt;&#xA;&lt;p&gt;So, I am proud to announce that as of today, June 12 2020, I have transitioned out of Jekyll, and am the owner of a shiny new blog built with Hugo. Admittedly, this process has had me pulling my hair out over the past few days, and it has made me want to kick myself in frustration about why I set out on this journey in the first place.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Even More About Me</title>
       <link>https://nishalsach.github.io/cool_stuff/2020-06-16-cool-stuff/</link>
       <pubDate>Fri, 12 Jun 2020 14:45:40 +0530</pubDate>
-      
       <guid>https://nishalsach.github.io/cool_stuff/2020-06-16-cool-stuff/</guid>
-      <description>Books and Stuff Oct 2022: I&amp;rsquo;m currently reading James Gleick&amp;rsquo;s book, The Information, which provides a very detailed history of humanity&amp;rsquo;s relationship with information - oral, written, digital, all kinds! I&amp;rsquo;m really enjoying it because it weaves a wide-ranging set of ideas, people, and locations together to tell the story of how we&amp;rsquo;ve understood, catalogued, and communicated our ideas over the ages, and how the media that we use for these purposes has changed how we think.</description>
+      <description>&lt;style&gt;&#xA;.myDiv {&#xA;/*    border: 5px outset red;*/&#xA;    height: 630px;&#xA;    text-align: center;&#xA;    margin:10;&#xA;}&#xA;&lt;/style&gt;&#xA;&lt;h2 id=&#34;books-and-stuff&#34;&gt;Books and Stuff&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Oct 2022&lt;/strong&gt;: I&amp;rsquo;m currently reading James Gleick&amp;rsquo;s book, &lt;a href=&#34;https://www.penguinrandomhouse.com/books/60765/the-information-by-james-gleick/&#34;&gt;&lt;em&gt;The Information&lt;/em&gt;&lt;/a&gt;, which provides a very detailed history of humanity&amp;rsquo;s relationship with &lt;em&gt;information&lt;/em&gt; - oral, written, digital, all kinds! I&amp;rsquo;m really enjoying it because it weaves a wide-ranging set of ideas, people, and locations together to tell the story of how we&amp;rsquo;ve understood, catalogued, and communicated our ideas over the ages, and how the media that we use for these purposes has changed how we think.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Lessons From a Massive(ly-Annoying) Scraping Project in Python</title>
       <link>https://nishalsach.github.io/posts/2019-09-16-lessons-from-a-massively-annoying-scraping-project-in-python/</link>
       <pubDate>Mon, 16 Sep 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://nishalsach.github.io/posts/2019-09-16-lessons-from-a-massively-annoying-scraping-project-in-python/</guid>
-      <description>Hello!
-I&amp;rsquo;m honestly quite unsure of what SEO miracle led you here, given the enthusiastically descriptive, but less than optimal title for this post. I&amp;rsquo;m further unsure of why you actually clicked this link when it showed up. But does that make me any less grateful that you&amp;rsquo;re here? Certainly not!
-I wrote this post to document my experiences while scraping a massive crowdsourced website called TVTropes. During this venture, I spent many an afternoon quite desperately Googling &amp;ldquo;ugh web-scraping is so annoying save me python&amp;rdquo;.</description>
+      <description>&lt;p&gt;Hello!&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;m honestly quite unsure of what SEO miracle led you here, given the enthusiastically descriptive, but less than optimal title for this post. I&amp;rsquo;m further unsure of why you actually clicked this link when it showed up. But does that make me any less grateful that you&amp;rsquo;re here? Certainly not!&lt;/p&gt;&#xA;&lt;p&gt;I wrote this post to document my experiences while scraping a massive crowdsourced website called &lt;a href=&#34;https://tvtropes.org&#34;&gt;TVTropes&lt;/a&gt;. During this venture, I spent many an afternoon quite desperately Googling &amp;ldquo;ugh web-scraping is so annoying save me python&amp;rdquo;. Consequently, due to an SEO miracle akin to the one brought you here, I found tons of websites which helped me with figuring out the coding bits, and I am extremely grateful for them. However, I didn&amp;rsquo;t feel like there was enough material out there that could guide me with regards to the broader approach that I could take with scraping and managing my dataset.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

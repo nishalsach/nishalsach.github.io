@@ -2,27 +2,35 @@
 <html>
 <head>
 	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>hHCI - Sachita Nishal</title><link rel="icon" type="image/png" href=icons/myicon.png /><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>HHCI - Sachita Nishal</title><link rel="icon" type="image/png" href=icons/myicon.png /><meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="alternate" type="application/rss+xml" href="https://nishalsach.github.io/tags/hhci/index.xml" title="Sachita Nishal" />
-	<meta property="og:title" content="hHCI" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://nishalsach.github.io/tags/hhci/" />
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="hHCI"/>
-<meta name="twitter:description" content=""/>
-<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:200,300|Cabin:300,400,300italic,400italic" rel="stylesheet">
+	<meta property="og:url" content="https://nishalsach.github.io/tags/hhci/">
+  <meta property="og:site_name" content="Sachita Nishal">
+  <meta property="og:title" content="HHCI">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="website">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="HHCI">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200..800&display=swap" rel="stylesheet">
 
 	<link rel="stylesheet" type="text/css" media="screen" href="https://nishalsach.github.io/css/normalize.css" />
 	<link rel="stylesheet" type="text/css" media="screen" href="https://nishalsach.github.io/css/main.css" />
 	<link rel="stylesheet" type="text/css" href="https://nishalsach.github.io/css/custom.css" />
 	
+	
+	<link rel="stylesheet" type="text/css" href="https://nishalsach.github.io/css/dark.css" />
+
+	
+	<script src="https://nishalsach.github.io/js/theme-toggle.js"></script>
 
 	
 	<script src="https://nishalsach.github.io/js/main.js"></script>
-	<script src="https://nishalsach.github.io/js/abc.js"></script>
-	<script src="https://nishalsach.github.io/js/xyz.js"></script>
-	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+	<script src="https://unpkg.com/lunr/lunr.js"></script>
+	<script src="https://nishalsach.github.io/js/search.js"></script>
+	<script defer src="https://cloud.umami.is/script.js" data-website-id="70f9bc72-2ed9-4254-8b38-0df6799925c9"></script>
 </head>
 
 
@@ -44,11 +52,11 @@
 			</li>
 			
 			<li>
-				<a href="/pdfs/sachita-cv.pdf">C.V.</a>
+				<a href="/publications">Publications</a>
 			</li>
 			
 			<li>
-				<a href="/publications">Publications</a>
+				<a href="/projects">Projects</a>
 			</li>
 			
 			<li>
@@ -56,9 +64,16 @@
 			</li>
 			
 			<li>
-				<a href="/about">More About Me</a>
+				<div class="search-container">
+					<input type="text" id="search-input" placeholder="Search posts..." autocomplete="off">
+					<div id="search-results" class="search-results"></div>
+				</div>
 			</li>
-			
+			<li>
+				<button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+					<span class="theme-toggle-icon">🌙</span>
+				</button>
+			</li>
 		</ul>
 	</nav>
 </div>
@@ -70,25 +85,17 @@
 
 		
 
-		<ul class="posts">
-
-
-				<div class="post">
-					<li><a href="/posts/2025-04-02-lab-exercise/">One way news practitioners can think about uncertainty in LLM outputs</a> 
-						<span class="meta">Apr 2, 2025
-							</span> &mdash;
-					
-					<span class="description">
+		<ul class="posts"><div class="post">
+				<span class="meta">Apr 2, 2025</span>
+				<div>
+					<a class="title" href="/posts/2025-04-02-lab-exercise/">One way news practitioners can think about uncertainty in LLM outputs</a>
+					<span class="description">&mdash;
 						
 						Recent write-up on LLMs and uncertainty for the GAIN blog
 						
-						<br>
 					</span>
-					</li>
-
-					<br>
-				</div></li>
-		</ul>
+				</div>
+			</div></ul>
 	</div>
 
 	<div class="footer wrapper">
@@ -96,10 +103,6 @@
 		<div> <a href="https://github.com/vividvilla/ezhil">Ezhil theme</a> | Built with <a href="https://gohugo.io">Hugo</a></div>
 	</nav>
 </div>
-
-
-
-
 </body>
 
 </html>

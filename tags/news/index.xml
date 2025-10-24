@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>news on Sachita Nishal</title>
-    <link>https://nishalsach.github.io/tags/news/</link>
-    <description>Recent content in news on Sachita Nishal</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>News on Sachita Nishal</title>
+    <link>http://localhost:1313/tags/news/</link>
+    <description>Recent content in News on Sachita Nishal</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://nishalsach.github.io/tags/news/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/news/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Turn off the GPT Scraper? In this [Attention] Economy?</title>
-      <link>https://nishalsach.github.io/posts/2023-10-02-attention-gpt/</link>
+      <title>“Turn off the GPT Scraper? In this [Attention] Economy?”</title>
+      <link>http://localhost:1313/posts/2023-10-02-openai-bots/</link>
       <pubDate>Mon, 02 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://nishalsach.github.io/posts/2023-10-02-attention-gpt/</guid>
-      <description>After all the hullabaloo around generative models like ChatGPT, BARD, and others helping their parent companies profit off the intellectual property produced by news outlets (and artists and writers but they are not really in the purview of this post), there seem to be some inklings of legislative action, at least in the U.S. For one, representatives of news outlets regional and local, big and small, recently met with lawmakers to discuss copyright protections for their work.</description>
+      <guid>http://localhost:1313/posts/2023-10-02-openai-bots/</guid>
+      <description>&lt;p&gt;After all the hullabaloo around generative models like ChatGPT, BARD, and others helping their parent companies profit off the intellectual property produced by &lt;a href=&#34;https://gizmodo.com/content-farms-ai-chatbots-plagiarize-news-nyt-1850770474&#34;&gt;news&lt;/a&gt; &lt;a href=&#34;https://www.theverge.com/2023/8/10/23827316/news-transparency-copyright-generative-ai&#34;&gt;outlets&lt;/a&gt; (and &lt;a href=&#34;https://www.newyorker.com/culture/infinite-scroll/is-ai-art-stealing-from-artists&#34;&gt;artists&lt;/a&gt; and &lt;a href=&#34;https://www.theatlantic.com/technology/archive/2023/09/books3-database-generative-ai-training-copyright-infringement/675363/&#34;&gt;writers&lt;/a&gt; but they are not really in the purview of this post), there seem to be some inklings of legislative action, at least in the U.S. For one, representatives of news outlets regional and local, big and small, &lt;a href=&#34;https://www.axios.com/2023/10/03/news-execs-lobby-lawmakers-ai-protections&#34;&gt;recently met with lawmakers to discuss copyright protections for their work&lt;/a&gt;. This initiative has been led by the News Media Alliance (NMA), who have put out this &lt;a href=&#34;https://www.newsmediaalliance.org/ai-principles/&#34;&gt;very nice and comprehensive document&lt;/a&gt; with their talking points around the use of news data in generative AI applications.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

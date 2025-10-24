@@ -1,67 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>news-industry on Sachita Nishal</title>
+    <title>News Industry on Sachita Nishal</title>
     <link>https://nishalsach.github.io/tags/news-industry/</link>
-    <description>Recent content in news-industry on Sachita Nishal</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in News Industry on Sachita Nishal</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 02 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://nishalsach.github.io/tags/news-industry/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 02 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nishalsach.github.io/tags/news-industry/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>One way news practitioners can think about uncertainty in LLM outputs</title>
       <link>https://nishalsach.github.io/posts/2025-04-02-lab-exercise/</link>
       <pubDate>Wed, 02 Apr 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://nishalsach.github.io/posts/2025-04-02-lab-exercise/</guid>
-      <description>This quarter, the Computational Journalism lab undertook a little science comunication exercise: each of us wrote a short blogpost dissecting a recent research paper + its implications for news practitioners. Here&amp;rsquo;s the link to my post, published on the Generative AI in the Newsroom (GAIN) blog.</description>
+      <description>&lt;p&gt;This quarter, the Computational Journalism lab undertook a little science comunication exercise: each of us wrote a short blogpost dissecting a recent research paper + its implications for news practitioners. Here&amp;rsquo;s the &lt;a href=&#34;https://generative-ai-newsroom.com/a-feature-not-a-bug-what-newsrooms-need-to-know-about-the-uncertainty-of-llm-responses-a794bc75d787&#34;&gt;link to my post&lt;/a&gt;, published on the Generative AI in the Newsroom (GAIN) blog.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>A prototype newsgathering tool for science journalists</title>
       <link>https://nishalsach.github.io/posts/2024-11-01-cplusj-blog/</link>
       <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://nishalsach.github.io/posts/2024-11-01-cplusj-blog/</guid>
-      <description>This past month, I presented our recent work on using LLMs to aid science journalists in reading complex scientific papers. Here&amp;rsquo;s the link to my blog post about it, published on the Generative AI in the Newsroom blog.</description>
+      <description>&lt;p&gt;This past month, I presented our recent work on using LLMs to aid science journalists in reading complex scientific papers. Here&amp;rsquo;s the link to my &lt;a href=&#34;https://generative-ai-newsroom.com/making-sense-of-science-llms-for-helping-reporters-understand-complex-research-f1292720a09c&#34;&gt;blog post about it&lt;/a&gt;, published on the Generative AI in the Newsroom blog.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Talk &#43; Responses: Blueprints for Evaluating AI in Journalism</title>
       <link>https://nishalsach.github.io/posts/2024-05-02-ai-evals-aspen-talk/</link>
       <pubDate>Fri, 03 May 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://nishalsach.github.io/posts/2024-05-02-ai-evals-aspen-talk/</guid>
-      <description>Yesterday I delivered a short talk at Aspen Digital&amp;rsquo;s event called AI &amp;amp; News: Charting the Course. It was hosted at the Ford Foundation Center for Social Justice in NYC, which is a really pretty venue. They have so many trees inside! And also apprently: birds1! Here&amp;rsquo;s the slide deck for this talk, made under a certain degree of sleep deprivation-based duress and fever brain.
-Pretty trees! This was a really fun time for me for a bunch of reasons.</description>
+      <description>&lt;p&gt;Yesterday I delivered a short talk at Aspen Digital&amp;rsquo;s event called &lt;em&gt;AI &amp;amp; News: Charting the Course&lt;/em&gt;. It was hosted at the Ford Foundation Center for Social Justice in NYC, which is a really pretty venue. They have so many trees inside! And also apprently: birds&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;! Here&amp;rsquo;s the &lt;a href=&#34;https://nishalsach.github.io/pdfs/2024-aspen-talk.pdf&#34;&gt;slide deck&lt;/a&gt; for this talk, made under a certain degree of sleep deprivation-based duress and fever brain.&lt;/p&gt;&#xA;&lt;figure&gt;&#xA; &lt;img style=&#34;float: center; margin: 15px 15px 15px 15px;&#34; src=&#34;https://nishalsach.github.io/img/ford_foundation_trees.jpg&#34; width=&#34;50%&#34; /&gt;&#xA; &lt;figcaption&gt; &lt;i&gt; Pretty trees! &lt;/i&gt;&lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&lt;p&gt;This was a really fun time for me for a bunch of reasons. First, this was my first time describing our recent &lt;a href=&#34;https://arxiv.org/abs/2403.17911&#34;&gt;CHI workshop paper&lt;/a&gt; on the topic of LLM evaluation in journalism, and to an audience of people actually present in these newsrooms. Exciting in its own right! Second, this then led to a bunch of interesting conversations about what people thought was important to evaluate, and some of the challenges they were encountering when thinking about evaluation. Third, I learnt a lot (a LOT!) about how some decision-makers in the newsroom are approaching this really uncertain tech, its relationship to their intellectual property, and its potential impacts on their role in the information ecosystem.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Talk &#43; Responses: Gender Biases in LLM Narratives</title>
       <link>https://nishalsach.github.io/posts/2024-04-02-story-discovery-at-scale/</link>
       <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://nishalsach.github.io/posts/2024-04-02-story-discovery-at-scale/</guid>
-      <description>Last week I delivered a short talk at Big Local News&amp;rsquo; conference Story Discovery at Scale 2024. It was great to be back this year &amp;ndash; 2023 was my first time attending this event, and meeting the groups around Big Local News! I felt like I was going back to a community of people that I now know and understand a little better, and it was nice to have some familiar faces to say hello to and catch up with.</description>
+      <description>&lt;p&gt;Last week I delivered a short talk at &lt;a href=&#34;https://biglocalnews.org/#/login&#34;&gt;Big Local News&lt;/a&gt;&amp;rsquo; conference &lt;em&gt;Story Discovery at Scale 2024&lt;/em&gt;. It was great to be back this year &amp;ndash; 2023 was my first time attending this event, and meeting the groups around Big Local News! I felt like I was going back to a community of people that I now know and understand a little better, and it was nice to have some familiar faces to say hello to and catch up with. They all do incredible work in making tools and datasets available to news organizations that need support!&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>2 Feb 2024: Where the Week Went</title>
       <link>https://nishalsach.github.io/posts/readings/2024-02-02-reading/</link>
       <pubDate>Fri, 02 Feb 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://nishalsach.github.io/posts/readings/2024-02-02-reading/</guid>
-      <description>Cool readings and excerpts from this week:
-The Business of the News Lots of news in January about media downsizing and layoffs. The news industry in the U.S. looks like it is in a precarious position, but I feel like it&amp;rsquo;s also been this way for a while now. In the meanwhile, Joshua Benton of Nieman Lab reminds us that while it can feel like the industry is in freefall, sometimes outlets can simply collapse because they were ill-conceived, ego-driven projects that were terribly run.</description>
+      <description>&lt;p&gt;Cool readings and excerpts from this week:&lt;/p&gt;&#xA;&lt;h4 id=&#34;the-business-of-the-news&#34;&gt;The Business of the News&lt;/h4&gt;&#xA;&lt;p&gt;Lots of news in January about &lt;a href=&#34;https://www.politico.com/news/2024/02/01/journalism-layoffs-00138517&#34;&gt;media downsizing and layoffs&lt;/a&gt;. The news industry in the U.S. looks like it is in a precarious position, but I feel like it&amp;rsquo;s also been this way for a while now. In the meanwhile, Joshua Benton of Nieman Lab reminds us that while it can feel like the industry is in freefall, sometimes outlets can simply collapse because they were &lt;a href=&#34;https://www.niemanlab.org/2024/02/economic-headwinds-no-the-messengers-flop-is-the-result-of-one-mans-blindness-to-his-own-bad-ideas/&#34;&gt;ill-conceived, ego-driven projects that were terribly run&lt;/a&gt;. Good old bad-business-strategy! It&amp;rsquo;s a really informative read, and here&amp;rsquo;s my favourite quote:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>26 Jan 2024: Where the Week Went</title>
       <link>https://nishalsach.github.io/posts/readings/2024-01-26-reading/</link>
       <pubDate>Fri, 26 Jan 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://nishalsach.github.io/posts/readings/2024-01-26-reading/</guid>
-      <description>I&amp;rsquo;m trying out something new this year, where I maintain a log of cool things I read (or watch, or listen to) around my work or academic interests. I think logging and describing these things can be good for my sense-making process in the long term, or generally help me feel sane when I look at the calendar on a Friday and exclaim &amp;ldquo;Where did the week go? 🫠&amp;rdquo;. Now, I will know, where the week went.</description>
+      <description>&lt;p&gt;I&amp;rsquo;m trying out something new this year, where I maintain a log of cool things I read (or watch, or listen to) around my work or academic interests. I think logging and describing these things can be good for my sense-making process in the long term, or generally help me feel sane when I look at the calendar on a Friday and exclaim &amp;ldquo;Where did the week go? 🫠&amp;rdquo;. Now, I will know, where the week went.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

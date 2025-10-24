@@ -3,27 +3,37 @@
 <head>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Books - Sachita Nishal</title><link rel="icon" type="image/png" href=icons/myicon.png /><meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta property="og:title" content="Books" />
-<meta property="og:description" content="A list of books I am reading or have read in a way that means something to me." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://nishalsach.github.io/books/" /><meta property="article:section" content="" />
-<meta property="article:published_time" content="2025-04-21T00:00:00+00:00" />
-<meta property="article:modified_time" content="2025-04-21T00:00:00+00:00" />
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Books"/>
-<meta name="twitter:description" content="A list of books I am reading or have read in a way that means something to me."/>
-<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:200,300|Cabin:300,400,300italic,400italic" rel="stylesheet">
+	<meta property="og:url" content="https://nishalsach.github.io/books/">
+  <meta property="og:site_name" content="Sachita Nishal">
+  <meta property="og:title" content="Books">
+  <meta property="og:description" content="A list of books I am reading or have read in a way that means something to me.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2025-06-19T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-06-19T00:00:00+00:00">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Books">
+  <meta name="twitter:description" content="A list of books I am reading or have read in a way that means something to me.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200..800&display=swap" rel="stylesheet">
 
 	<link rel="stylesheet" type="text/css" media="screen" href="https://nishalsach.github.io/css/normalize.css" />
 	<link rel="stylesheet" type="text/css" media="screen" href="https://nishalsach.github.io/css/main.css" />
 	<link rel="stylesheet" type="text/css" href="https://nishalsach.github.io/css/custom.css" />
 	
+	
+	<link rel="stylesheet" type="text/css" href="https://nishalsach.github.io/css/dark.css" />
+
+	
+	<script src="https://nishalsach.github.io/js/theme-toggle.js"></script>
 
 	
 	<script src="https://nishalsach.github.io/js/main.js"></script>
-	<script src="https://nishalsach.github.io/js/abc.js"></script>
-	<script src="https://nishalsach.github.io/js/xyz.js"></script>
-	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+	<script src="https://unpkg.com/lunr/lunr.js"></script>
+	<script src="https://nishalsach.github.io/js/search.js"></script>
+	<script defer src="https://cloud.umami.is/script.js" data-website-id="70f9bc72-2ed9-4254-8b38-0df6799925c9"></script>
 </head>
 
 <body>
@@ -44,11 +54,11 @@
 			</li>
 			
 			<li>
-				<a href="/pdfs/sachita-cv.pdf">C.V.</a>
+				<a href="/publications">Publications</a>
 			</li>
 			
 			<li>
-				<a href="/publications">Publications</a>
+				<a href="/projects">Projects</a>
 			</li>
 			
 			<li>
@@ -56,32 +66,40 @@
 			</li>
 			
 			<li>
-				<a href="/about">More About Me</a>
+				<div class="search-container">
+					<input type="text" id="search-input" placeholder="Search posts..." autocomplete="off">
+					<div id="search-results" class="search-results"></div>
+				</div>
 			</li>
-			
+			<li>
+				<button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+					<span class="theme-toggle-icon">🌙</span>
+				</button>
+			</li>
 		</ul>
 	</nav>
 </div>
 
 
 		<div class="post-header">
-			<h1 class="title">Books</h1>
+			<h1 class="page-title">Books</h1>
 			
 			<div class="meta">
-				Date Updated: Apr 21, 2025<br>
+				<span class="meta-date">Jun 19, 2025</span>
 				
 				
 			</div>
-			
+
 		</div>
 
 		<div class="markdown">
 			<p>A list of books I am reading or have read in a way that means something to me.</p>
 <h2 id="currently-reading">Currently Reading</h2>
 <p>Writers&rsquo; Rights: Freelance Journalism in a Digital Age, by Nicole Cohen (2016)<br>
-Living Thinkwork: Where do labor Processes Come From, by Mike Hales (1980)</p>
+Living Thinkwork: Where do Labor Processes Come From, by Mike Hales (1980)</p>
 <h2 id="2025">2025</h2>
-<p>The Carrier Bag Theory of Fiction, by Ursula K. Le Guin (1986)<br>
+<p>The Human Use of Human Beings, by Norbert Weiner (1954)
+The Carrier Bag Theory of Fiction, by Ursula K. Le Guin (1986)<br>
 Technology and the Rise of Great Powers, by Jeffrey Ding (2024)</p>
 <h2 id="2024">2024</h2>
 <p><a href="../content/posts/readings/2024-03-14-sorting-things-out.md">Sorting Things Out</a>, by Geoffrey Bowker and Susan Star (2000)<br>
@@ -99,15 +117,11 @@ Chasing Innovation: Making Entrepreneurial Citizens in Modern India, by Lilly Ir
 			
 
 		</div>
-		</div>
+	</div>
 	<div class="footer wrapper">
 	<nav class="nav">
 		<div> <a href="https://github.com/vividvilla/ezhil">Ezhil theme</a> | Built with <a href="https://gohugo.io">Hugo</a></div>
 	</nav>
 </div>
-
-
-
-
 </body>
 </html>

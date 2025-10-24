@@ -3,27 +3,41 @@
 <head>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>A Short Primer on Mutual Information - Sachita Nishal</title><link rel="icon" type="image/png" href=icons/myicon.png /><meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta property="og:title" content="A Short Primer on Mutual Information" />
-<meta property="og:description" content="A conceptual and practical reference about mutual information for forgetful people (me)." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://nishalsach.github.io/posts/2022-04-25-short-primer_mi/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2022-04-25T00:00:00+00:00" />
-<meta property="article:modified_time" content="2022-04-25T00:00:00+00:00" />
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="A Short Primer on Mutual Information"/>
-<meta name="twitter:description" content="A conceptual and practical reference about mutual information for forgetful people (me)."/>
-<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:200,300|Cabin:300,400,300italic,400italic" rel="stylesheet">
+	<meta property="og:url" content="https://nishalsach.github.io/posts/2022-04-25-short-primer_mi/">
+  <meta property="og:site_name" content="Sachita Nishal">
+  <meta property="og:title" content="A Short Primer on Mutual Information">
+  <meta property="og:description" content="A conceptual and practical reference about mutual information for forgetful people (me).">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2022-04-25T00:00:00+00:00">
+    <meta property="article:modified_time" content="2022-04-25T00:00:00+00:00">
+    <meta property="article:tag" content="Research">
+    <meta property="article:tag" content="Statistics">
+    <meta property="article:tag" content="Machine Learning">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="A Short Primer on Mutual Information">
+  <meta name="twitter:description" content="A conceptual and practical reference about mutual information for forgetful people (me).">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200..800&display=swap" rel="stylesheet">
 
 	<link rel="stylesheet" type="text/css" media="screen" href="https://nishalsach.github.io/css/normalize.css" />
 	<link rel="stylesheet" type="text/css" media="screen" href="https://nishalsach.github.io/css/main.css" />
 	<link rel="stylesheet" type="text/css" href="https://nishalsach.github.io/css/custom.css" />
 	
+	
+	<link rel="stylesheet" type="text/css" href="https://nishalsach.github.io/css/dark.css" />
+
+	
+	<script src="https://nishalsach.github.io/js/theme-toggle.js"></script>
 
 	
 	<script src="https://nishalsach.github.io/js/main.js"></script>
-	<script src="https://nishalsach.github.io/js/abc.js"></script>
-	<script src="https://nishalsach.github.io/js/xyz.js"></script>
-	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+	<script src="https://unpkg.com/lunr/lunr.js"></script>
+	<script src="https://nishalsach.github.io/js/search.js"></script>
+	<script defer src="https://cloud.umami.is/script.js" data-website-id="70f9bc72-2ed9-4254-8b38-0df6799925c9"></script>
 </head>
 
 <body>
@@ -44,11 +58,11 @@
 			</li>
 			
 			<li>
-				<a href="/pdfs/sachita-cv.pdf">C.V.</a>
+				<a href="/publications">Publications</a>
 			</li>
 			
 			<li>
-				<a href="/publications">Publications</a>
+				<a href="/projects">Projects</a>
 			</li>
 			
 			<li>
@@ -56,30 +70,37 @@
 			</li>
 			
 			<li>
-				<a href="/about">More About Me</a>
+				<div class="search-container">
+					<input type="text" id="search-input" placeholder="Search posts..." autocomplete="off">
+					<div id="search-results" class="search-results"></div>
+				</div>
 			</li>
-			
+			<li>
+				<button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+					<span class="theme-toggle-icon">🌙</span>
+				</button>
+			</li>
 		</ul>
 	</nav>
 </div>
 
 
 		<div class="post-header">
-			<h1 class="title">A Short Primer on Mutual Information</h1>
+			<h1 class="page-title">A Short Primer on Mutual Information</h1>
 			
 			<div class="meta">
-				Date Updated: Apr 25, 2022<br>
+				<span class="meta-date">Apr 25, 2022</span>
 				
-				Reading Time: 2 minutes <br>
-				305 words
+				<span class="meta-divider">·</span>
+				<span class="meta-stat">305 words</span>
 				
 				
 			</div>
-			
+
 		</div>
 
 		<div class="markdown">
-			<h3 id="definitions">Definitions</h3>
+			<h2 id="definitions">Definitions</h2>
 <ul>
 <li><strong>Conceptual Definition</strong>: MI is the reduction in uncertainty when predicting one variable (&ldquo;outcome&rdquo;) in a system, if we know the value of another variable in the system.
 <ul>
@@ -99,10 +120,10 @@
 </ul>
 </li>
 </ul>
-<h3 id="mutual-information-as-feature-selection">Mutual Information as Feature Selection</h3>
+<h2 id="mutual-information-as-feature-selection">Mutual Information as Feature Selection</h2>
 <p>MI can be used for feature selection, and  scikit-learn implementation of MI for both <a href="https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.mutual_info_regression.html#sklearn.feature_selection.mutual_info_regression">regression</a> and <a href="https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.mutual_info_classif.html#sklearn.feature_selection.mutual_info_classif">classification</a> problems exists.</p>
 <p>MI results can be used to select the K-best features/K-percentile features, and their site gives the explicit instruction that &ldquo;treating a continuous feature as discrete and vice versa will usually give incorrect results, so be attentive about that.&rdquo; A comparable method of univariate feature selection (i.e. selection based on univariate statistical tests) is the F-test method - based on a quick linear model for testing the effect of a single regressor, sequentially for many regressors, and using it to get F-stats and p-values for each feature. However, mutual information can capture any kind of dependency between variables whereas the F-test captures only linear dependency.</p>
-<h3 id="sources">Sources</h3>
+<h2 id="sources">Sources</h2>
 <ul>
 <li><a href="https://www.youtube.com/watch?v=U9h1xkNELvY">Ben Lambert&rsquo;s Excellent Primer on Mutual Information</a>, which links it to basic concepts in Information Theory, and also gives an example</li>
 <li><a href="https://scikit-learn.org/stable/modules/feature_selection.html#univariate-feature-selection">Scikit-learn Docs on Univariate Feature Selection</a></li>
@@ -128,15 +149,11 @@
 			
 
 		</div>
-		</div>
+	</div>
 	<div class="footer wrapper">
 	<nav class="nav">
 		<div> <a href="https://github.com/vividvilla/ezhil">Ezhil theme</a> | Built with <a href="https://gohugo.io">Hugo</a></div>
 	</nav>
 </div>
-
-
-
-
 </body>
 </html>

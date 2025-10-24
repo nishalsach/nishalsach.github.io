@@ -2,10 +2,11 @@ baseURL = "https://nishalsach.github.io/"
 languageCode = "en-us"
 title = "Sachita Nishal"
 theme = "ezhil"
+publishDir = ".."
+
 [pagination]
   # Number of posts to show in recent posts list (Optional). Defaults to 10.
   pagerSize = 3
-publishDir = ".."
 # relativeURLs = true
 
 # Enable syntax highlighting.
@@ -65,7 +66,7 @@ summaryLength = 20
     # Custom list of Javascript files to load. Just like custom CSS you can place js files under
     # `static/js` folder and specify path here as `js/script-name.js`. You can also specify full url,
     # for example you may want to include external JS library.
-    customJS = ["js/abc.js", "js/xyz.js", "https://code.jquery.com/jquery-3.4.1.js"]
+    customJS = ["https://unpkg.com/lunr/lunr.js", "js/search.js"]
 
     [params.umami]
       enabled = true
@@ -78,10 +79,10 @@ name = "Home"
 url = "/"
 weight = 1
 
-[[menu.main]]
-name = "C.V."
-url = "/pdfs/sachita-cv.pdf"
-weight = 2
+# [[menu.main]]
+# name = "C.V."
+# url = "/pdfs/sachita-cv.pdf"
+# weight = 2
 
 [[menu.main]]
 name = "Publications"
@@ -98,10 +99,10 @@ name = "Blog"
 url = "/posts"
 weight = 5
 
-[[menu.main]]
-name = "More About Me"
-url = "/about"
-weight = 6
+# [[menu.main]]
+# name = "More About Me"
+# url = "/about"
+# weight = 6
 
 #[[menu.main]]
 #name = "Tags"

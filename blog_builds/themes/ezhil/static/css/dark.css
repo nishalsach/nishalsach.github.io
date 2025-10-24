@@ -7,6 +7,7 @@
 	--color-primary: #60a5fa;        /* nice blue for dark mode */
 	--color-primary-hover: #3b82f6;  /* brighter blue on hover */
 	--color-text: #ddd;
+	--color-text-header: #ffffff;    /* white headers in dark mode */
 	--color-text-light: #aaa;
 	--color-background: #000;
 	--color-background-subtle: #333;
