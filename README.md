@@ -1,4 +1,72 @@
 Link: [nishalsach.github.io](https://nishalsach.github.io)
+
+# Content Editing Guide
+
+## Where things live
+
+```
+blog_builds/
+├── content/
+│   ├── posts/           → Blog posts (Markdown files)
+│   ├── about.md         → "More About Me" page
+│   ├── publications.md  → Publications page
+│   └── projects.md      → Projects page
+├── data/
+│   ├── bio.yaml         → Homepage bio text
+│   └── news.yaml        → News updates
+├── static/
+│   ├── img/             → Images for blog posts and site
+│   └── pdfs/            → PDFs (CV, papers, etc.)
+└── config.toml          → Site configuration
+```
+
+## How to edit different parts of your site
+
+### Homepage Bio
+- **Edit:** `blog_builds/data/bio.yaml`
+- Supports Markdown formatting (`**bold**`, `[links](url)`)
+- Changes appear after running `hugo` from `blog_builds/`
+
+### News Updates
+- **Edit:** `blog_builds/data/news.yaml`
+- Each entry needs `title`, `date` (`YYYY-MM-DD`), and `summary`
+- Newest entries at the top (Hugo sorts by date)
+- Supports Markdown in summary text
+
+### Blog Posts
+- **Edit:** Create/edit files in `blog_builds/content/posts/`
+- File naming: `YYYY-MM-DD-post-title.md`
+- Each post needs frontmatter:
+  ```yaml
+  ---
+  title: "Your Title"
+  date: YYYY-MM-DD
+  draft: false
+  description: Short description for homepage
+  tags: [tag1, tag2]
+  ---
+  ```
+
+### Blog Post Images
+- **Save to:** `blog_builds/static/img/`
+- **Reference in posts:** `../../img/your-image.png` or `/img/your-image.png`
+- Example: `![alt text](../../img/2025-dis-values-table.png)`
+
+### Other Pages
+- **About page:** `blog_builds/content/about.md`
+- **Publications:** `blog_builds/content/publications.md`
+- **Projects:** `blog_builds/content/projects.md`
+
+## Building the site
+
+From the `blog_builds/` directory, run:
+```bash
+hugo
+```
+This generates HTML files in the parent directory (repo root) which GitHub Pages serves.
+
+---
+
 # To Do (updated Nov 29, 2023)
 
 ### Content
@@ -12,3 +80,14 @@ Link: [nishalsach.github.io](https://nishalsach.github.io)
 - Fix the heading sizes of header and body
 - Improve responsiveness of site by setting some sort of min-width on text
 - Test shortcodes for buttons: done using [here](http://oostens.me/posts/hugo-button-shortcode/) and an scss2css converter
+
+## News workflow (May 2025)
+
+- Updates now live in `blog_builds/data/news.yaml` so there’s no need to create per-item Markdown files.
+- Each entry needs `title`, `date` (`YYYY-MM-DD`), and `summary`. The summary text shows in both the homepage and `/news/`, so feel free to make it a full paragraph and include Markdown links.
+- Newest entries should stay at the top, but Hugo sorts by `date` so ordering survives if you forget.
+- Rebuild the site from inside `blog_builds` as usual (`hugo`) to publish the updates into the root directory.
+
+### Analytics (Umami)
+
+- Update `params.umami.websiteId` in `blog_builds/config.toml` if your Umami property changes. Toggle tracking by flipping `enabled` between `true` and `false`.

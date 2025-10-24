@@ -1,0 +1,172 @@
+[
+  {
+    "id": 11,
+    "title": "Learning to scope (and also breathe)",
+    "ref": "/posts/2025-04-15-post-prospectus",
+    "content": "I recently defended my prospectus! I've spent the last few years of my PhD focused on different problems around value-sensitive design for journalism and science communication. Mostly I've engaged in artefact design to support tasks like newsgathering and sensemaking that science journalists engage in on a daily basis. When put together, I believe my work makes interesting contributions to how journalists generate the _newsworthiness_ of the stories they ultimately tell the public. Not only is t",
+    "summary": "I recently defended my prospectus! I've spent the last few years of my PhD focused on different problems around value-sensitive design for journalism and scienc",
+    "date": "2025-04-15",
+    "creator": "Sachita Nishal",
+    "site": "nishalsach.github.io"
+  },
+  {
+    "id": 2,
+    "title": "One way news practitioners can think about uncertainty in LLM outputs",
+    "ref": "/posts/2025-04-02-lab-exercise",
+    "content": "This quarter, the Computational Journalism lab undertook a little science comunication exercise: each of us wrote a short blogpost dissecting a recent research paper + its implications for news practitioners. Here's the link to my post, published on the Generative AI in the Newsroom (GAIN) blog.",
+    "summary": "This quarter, the Computational Journalism lab undertook a little science comunication exercise: each of us wrote a short blogpost dissecting a recent research ",
+    "date": "2025-04-02",
+    "creator": "Sachita Nishal",
+    "site": "nishalsach.github.io"
+  },
+  {
+    "id": 8,
+    "title": "A prototype newsgathering tool for science journalists",
+    "ref": "/posts/2024-11-01-cplusj-blog",
+    "content": "This past month, I presented our recent work on using LLMs to aid science journalists in reading complex scientific papers. Here's the link to my blog post about it, published on the Generative AI in the Newsroom blog.",
+    "summary": "This past month, I presented our recent work on using LLMs to aid science journalists in reading complex scientific papers. Here's the link to my blog post abou",
+    "date": "2024-11-01",
+    "creator": "Sachita Nishal",
+    "site": "nishalsach.github.io"
+  },
+  {
+    "id": 0,
+    "title": "Talk + Responses: Blueprints for Evaluating AI in Journalism",
+    "ref": "/posts/2024-05-02-ai-evals-aspen-talk",
+    "content": "Yesterday I delivered a short talk at Aspen Digital's event called _AI & News: Charting the Course_. It was hosted at the Ford Foundation Center for Social Justice in NYC, which is a really pretty venue. They have so many trees inside! And also apprently: birds[^1]! Here's the slide deck for this talk, made under a certain degree of sleep deprivation-based duress and fever brain. Pretty trees! This was a really fun time for me for a bunch of reasons. First, this was my first time describing our ",
+    "summary": "Yesterday I delivered a short talk at Aspen Digital's event called _AI & News: Charting the Course_. It was hosted at the Ford Foundation Center for Social Just",
+    "date": "2024-05-03",
+    "creator": "Sachita Nishal",
+    "site": "nishalsach.github.io"
+  },
+  {
+    "id": 1,
+    "title": "Talk + Responses: Gender Biases in LLM Narratives",
+    "ref": "/posts/2024-04-02-story-discovery-at-scale",
+    "content": "Last week I delivered a short talk at Big Local News' conference _Story Discovery at Scale 2024_. It was great to be back this year -- 2023 was my first time attending this event, and meeting the groups around Big Local News! I felt like I was going back to a community of people that I now know and understand a little better, and it was nice to have some familiar faces to say hello to and catch up with. They all do incredible work in making tools and datasets available to news organizations that",
+    "summary": "Last week I delivered a short talk at Big Local News' conference _Story Discovery at Scale 2024_. It was great to be back this year -- 2023 was my first time at",
+    "date": "2024-04-02",
+    "creator": "Sachita Nishal",
+    "site": "nishalsach.github.io"
+  },
+  {
+    "id": 13,
+    "title": "19 Mar 2024: Where the Month Went",
+    "ref": "/posts/readings/2024-03-15-reading",
+    "content": "It's been a while since I wrote these posts, and I think it's not for lack of reading, but for lack of engaging with newer papers. I've been doing a lot more reading and writing for my prospectus, which majorly involves re-treading my own work as well as stuff I've already read and cited. That being said, I've read a few books this year! Focusing on books has been an interesting change of pace than reading tons of one-off essays or papers. Taking the time to think through an idea or a set of all",
+    "summary": "It's been a while since I wrote these posts, and I think it's not for lack of reading, but for lack of engaging with newer papers. I've been doing a lot more re",
+    "date": "2024-03-19",
+    "creator": "Sachita Nishal",
+    "site": "nishalsach.github.io"
+  },
+  {
+    "id": 16,
+    "title": "Sorting Things Out, by Geoffrey Bowker and Susan Star (2000)",
+    "ref": "/posts/readings/2024-03-14-sorting-things-out",
+    "content": "I read this over the Fall and Winter quarters with our HCI+Design Book Club at Northwestern. It's a landmark work in HCI and had been on my bucket list for a long time, so I was glad to finally get to it, and wrest with some of its more complex and thought-provoking themes in our little reading group. We read a chapter a week and the result of this was that I genuinely really enjoyed reading it and digging into its meaty bits[^1]! This is a very unique book in that it dissects massive socio-tech",
+    "summary": "I read this over the Fall and Winter quarters with our HCI+Design Book Club at Northwestern. It's a landmark work in HCI and had been on my bucket list for a lo",
+    "date": "2024-03-14",
+    "creator": "Sachita Nishal",
+    "site": "nishalsach.github.io"
+  },
+  {
+    "id": 14,
+    "title": "2 Feb 2024: Where the Week Went",
+    "ref": "/posts/readings/2024-02-02-reading",
+    "content": "Cool readings and excerpts from this week: The Business of the News Lots of news in January about media downsizing and layoffs. The news industry in the U.S. looks like it is in a precarious position, but I feel like it's also been this way for a while now. In the meanwhile, Joshua Benton of Nieman Lab reminds us that while it can feel like the industry is in freefall, sometimes outlets can simply collapse because they were ill-conceived, ego-driven projects that were terribly run. Good old bad-",
+    "summary": "Cool readings and excerpts from this week: The Business of the News Lots of news in January about media downsizing and layoffs. The news industry in the U.S. lo",
+    "date": "2024-02-02",
+    "creator": "Sachita Nishal",
+    "site": "nishalsach.github.io"
+  },
+  {
+    "id": 15,
+    "title": "26 Jan 2024: Where the Week Went",
+    "ref": "/posts/readings/2024-01-26-reading",
+    "content": "I'm trying out something new this year, where I maintain a log of cool things I read (or watch, or listen to) around my work or academic interests. I think logging and describing these things can be good for my sense-making process in the long term, or generally help me feel sane when I look at the calendar on a Friday and exclaim \"Where did the week go? 🫠\". Now, I will know, where the week went. The Turing Complete User This week, I finally read an essay I'd bookmarked approximately a zillion d",
+    "summary": "I'm trying out something new this year, where I maintain a log of cool things I read (or watch, or listen to) around my work or academic interests. I think logg",
+    "date": "2024-01-26",
+    "creator": "Sachita Nishal",
+    "site": "nishalsach.github.io"
+  },
+  {
+    "id": 7,
+    "title": "Reading and Writing Files in Python: Modifiers",
+    "ref": "/posts/2023-05-23-Reading-Writing-Modifiers",
+    "content": "Different _modes_ of reading and writing to files, and what they do: : Only read. This is the default if no argument is given. : Only write. An existing file with the same name will be over-written. : Append data to the end of the file. Still writing. : Both reading and writing and can be done. I never use this. From the Python Docs: > Normally, files are opened in text mode, that means, you read and write strings from and to the file, which are encoded in a specific encoding. If encoding is not",
+    "summary": "Different _modes_ of reading and writing to files, and what they do: : Only read. This is the default if no argument is given. : Only write. An existing file wi",
+    "date": "2023-05-23",
+    "creator": "Sachita Nishal",
+    "site": "nishalsach.github.io"
+  },
+  {
+    "id": 12,
+    "title": "BeautifulSoup4Dummies",
+    "ref": "/posts/2023-05-19-bs4dummies",
+    "content": "**Note**: All links are from BS v4.12.0 documentation and reference, but the gist should probably hold for a while. BeautifulSoup4 + Python is a formidable combo for web-scraping when the territory I'm scraping in is uncertain, webpages are static, and I need to spin up something quick and dirty so I can hunt around through the HTML to specifically extract what I need. Another thing is: when pulling web data with BS4, sometimes it's really handy to keep separate files of the subset/tags/text in ",
+    "summary": "**Note**: All links are from BS v4.12.0 documentation and reference, but the gist should probably hold for a while. BeautifulSoup4 + Python is a formidable comb",
+    "date": "2023-05-19",
+    "creator": "Sachita Nishal",
+    "site": "nishalsach.github.io"
+  },
+  {
+    "id": 9,
+    "title": "Two Years into the PhD: Thoughts and Half-thoughts",
+    "ref": "/posts/2022-10-27-Evaluating-my-PhD",
+    "content": "One thing I did not (really, truly, practically) take into consideration when I started doing the PhD was how **difficult** it would be. I learnt soon enough, of course. But you know that joke -- that the best time to be in a PhD program is the summer before it begins, when you impress everyone by telling them you're going to get a PhD without having to actually do anything for it? That was me, through and through. Incredibly optimistic, and very excited to finally have the **time** -- god, so m",
+    "summary": "One thing I did not (really, truly, practically) take into consideration when I started doing the PhD was how **difficult** it would be. I learnt soon enough, o",
+    "date": "2022-10-27",
+    "creator": "Sachita Nishal",
+    "site": "nishalsach.github.io"
+  },
+  {
+    "id": 4,
+    "title": "A Short Primer on Mutual Information",
+    "ref": "/posts/2022-04-25-Short-Primer_MI",
+    "content": "Definitions - **Conceptual Definition**: MI is the reduction in uncertainty when predicting one variable (\"outcome\") in a system, if we know the value of another variable in the system. - It will always be >=0, and higher values mean higher dependency between the two variables - Formula (for discrete processes/variables X1 and X2): - As must be apparent, for two independent variables, MI = 0. Eg. Two coins are tossed; the results of one coin do not help us measure the results of the other in any",
+    "summary": "Definitions - **Conceptual Definition**: MI is the reduction in uncertainty when predicting one variable (\"outcome\") in a system, if we know the value of anothe",
+    "date": "2022-04-25",
+    "creator": "Sachita Nishal",
+    "site": "nishalsach.github.io"
+  },
+  {
+    "id": 10,
+    "title": "Debugging Inside Scikit-Learn Pipelines",
+    "ref": "/posts/2021-08-17-Debugging-sklearn-Pipelines",
+    "content": "Click the given link to skip to the code and spare yourself my tortuous introduction: code for sklearn Pipeline debugging Transformer. _Don't_ click the link if you're debugging at 2pm on a slow Thursday and want something, _anything_, to distract you from staring at VSCode and its quickly blurring lines of code. I can help you pretend you're working as you scan the next few paragraphs of my inner monologue. Hello, hi, welcome! If you're like me and work with Python to do Machine Learning, you p",
+    "summary": "Click the given link to skip to the code and spare yourself my tortuous introduction: code for sklearn Pipeline debugging Transformer. _Don't_ click the link if",
+    "date": "2021-08-17T18:01:26+05:30",
+    "creator": "Sachita Nishal",
+    "site": "nishalsach.github.io"
+  },
+  {
+    "id": 6,
+    "title": "My Thesis Experience at Northwestern University",
+    "ref": "/posts/2020-06-29-thesis_northwestern",
+    "content": "In 2019, I completed my undergrad thesis at Northwestern University, where I worked in Dr. Luis Amaral's lab to model complex networks of tropes in American films starting from the 1890s. I wrote a brief account of how I applied for my thesis, as well as my takeaways from this momentous experience, and it was published on BITS Goa's blog for undergrad research experiences. Here's a link to the post: Sachita Nishal’s Thesis at Northwestern University! I hope it can be useful to other undergrad re",
+    "summary": "In 2019, I completed my undergrad thesis at Northwestern University, where I worked in Dr. Luis Amaral's lab to model complex networks of tropes in American fil",
+    "date": "2020-06-29T13:39:12+05:30",
+    "creator": "Sachita Nishal",
+    "site": "nishalsach.github.io"
+  },
+  {
+    "id": 3,
+    "title": "Hugo Hacks",
+    "ref": "/posts/2020-06-12-Hugo-Hacks",
+    "content": "Hi. Welcome. You can choose to skip right to the hacks with this handy index: - Filepaths in Hugo - Footnotes in Markdown - HTML Tags for Images in Markdown - Syntax Highlighting for Code in Markdown Or, you can bear witness to an overly detailed and meandering tale about my journey navigating the horrific ills of modern technology, below. So, I am proud to announce that as of today, June 12 2020, I have transitioned out of Jekyll, and am the owner of a shiny new blog built with Hugo. Admittedly",
+    "summary": "Hi. Welcome. You can choose to skip right to the hacks with this handy index: - Filepaths in Hugo - Footnotes in Markdown - HTML Tags for Images in Markdown - S",
+    "date": "2020-06-12T18:01:26+05:30",
+    "creator": "Sachita Nishal",
+    "site": "nishalsach.github.io"
+  },
+  {
+    "id": 5,
+    "title": "Lessons From a Massive(ly-Annoying) Scraping Project in Python",
+    "ref": "/posts/2019-09-16-Lessons-from-a-Massive(ly-Annoying)-Scraping-Project-in-Python",
+    "content": "Hello! I'm honestly quite unsure of what SEO miracle led you here, given the enthusiastically descriptive, but less than optimal title for this post. I'm further unsure of why you actually clicked this link when it showed up. But does that make me any less grateful that you're here? Certainly not! I wrote this post to document my experiences while scraping a massive crowdsourced website called TVTropes. During this venture, I spent many an afternoon quite desperately Googling \"ugh web-scraping i",
+    "summary": "Hello! I'm honestly quite unsure of what SEO miracle led you here, given the enthusiastically descriptive, but less than optimal title for this post. I'm furthe",
+    "date": "2019-09-16",
+    "creator": "Sachita Nishal",
+    "site": "nishalsach.github.io"
+  }
+]
