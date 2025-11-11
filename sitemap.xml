@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://nishalsach.github.io/books/</loc>
-    <lastmod>2025-06-19T00:00:00+00:00</lastmod>
+    <loc>https://nishalsach.github.io/posts/</loc>
+    <lastmod>2025-11-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nishalsach.github.io/</loc>
-    <lastmod>2025-06-19T00:00:00+00:00</lastmod>
+    <lastmod>2025-11-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nishalsach.github.io/posts/</loc>
-    <lastmod>2025-06-16T00:00:00+00:00</lastmod>
+    <loc>https://nishalsach.github.io/books/</loc>
+    <lastmod>2025-06-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nishalsach.github.io/publications/</loc>
     <lastmod>2025-06-15T00:00:00+00:00</lastmod>
@@ -40,12 +40,6 @@
   </url><url>
     <loc>https://nishalsach.github.io/posts/2025-04-02-lab-exercise/</loc>
     <lastmod>2025-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nishalsach.github.io/news/</loc>
-    <lastmod>2025-03-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nishalsach.github.io/news/2025-03-15-prospectus-passed/</loc>
-    <lastmod>2025-03-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nishalsach.github.io/projects/</loc>
     <lastmod>2025-01-23T00:00:00+00:00</lastmod>
@@ -160,5 +154,7 @@
   </url><url>
     <loc>https://nishalsach.github.io/posts/2019-09-16-lessons-from-a-massively-annoying-scraping-project-in-python/</loc>
     <lastmod>2019-09-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nishalsach.github.io/news/</loc>
   </url>
 </urlset>

@@ -15,14 +15,12 @@ DIS 2025
 [Understanding Practices around Computational News Discovery Tools in the Domain of Science Journalism](https://dl.acm.org/doi/10.1145/3637419)  
 <u>Sachita Nishal</u>, Jasmine Sinchai and Nick Diakopoulos  
 CSCW 2024  
-{{< link_button href="https://nishalsach.github.io/pdfs/2024-newsworthiness.pdf" >}}PDF{{< /link_button >}} {{< link_button href="https://dl.acm.org/doi/10.1145/3637419" >}}ACM DL{{< /link_button >}} {{< link_button href="https://generative-ai-newsroom.com/getting-the-science-and-the-scoop-with-news-angles-from-gpt-3-b1b4fcd7f6b1" >}}Blogpost{{< /link_button >}}  
-\* Also presented at Story Discovery At Scale 2023
+{{< link_button href="https://nishalsach.github.io/pdfs/2024-newsworthiness.pdf" >}}PDF{{< /link_button >}} {{< link_button href="https://generative-ai-newsroom.com/getting-the-science-and-the-scoop-with-news-angles-from-gpt-3-b1b4fcd7f6b1" >}}Blogpost{{< /link_button >}}  
 
 [From Crowd Ratings to Predictive Models of Newsworthiness to Support Science Journalism](https://dl.acm.org/doi/abs/10.1145/3512981)  
 <u>Sachita Nishal</u> and Nick Diakopoulos  
 CSCW 2022  
 {{< link_button href="https://nishalsach.github.io/pdfs/2022-newsworthiness.pdf" >}}PDF{{< /link_button >}}  
-\* Also presented at Computation+Journalism Symposium 2022
 
 [Voting with the Stars: Analyzing Partisan Engagement between Celebrities and Politicians in India](https://dl.acm.org/doi/abs/10.1145/3512981)  
 Ramaravind Kommiya Mothilal, Dibyendu Mishra, <u>Sachita Nishal</u>, Faisal M. Lalani, Joyojeet Pal  
@@ -62,7 +60,6 @@ Computation+Journalism Symposium 2024
 <u>Sachita Nishal</u>, Charlotte Li and Nick Diakopoulos  
 Workshop on Evaluating AI at CHI 2024  
 {{< link_button href="https://medium.com/generative-ai-in-the-newsroom/blueprints-for-evaluating-ai-in-journalism-e702c9e8c4f3" >}}Blogpost{{< /link_button >}}  
-\* Also presented at Aspen Digital AI and News 2024; SRCCON 2023
 
 [Envisioning the Applications and Implications of Generative AI in the Newsroom](https://arxiv.org/abs/2402.18835)  
 <u>Sachita Nishal</u> and Nick Diakopoulos  
@@ -72,4 +69,3 @@ Workshop on Generative AI and HCI at CHI 2023
 <u>Sachita Nishal</u> and Mandi Cai  
 Workshop on AI Literacy at CHI 2023  
 {{< link_button href="/pdfs/2023-ai-literacy-chi.pdf" >}}PDF{{< /link_button >}}  
-\* Also presented at Journalism and Women Symposium CAMP 2023  
