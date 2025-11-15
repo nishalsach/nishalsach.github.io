@@ -60,6 +60,17 @@ body {
 	background-color: var(--color-background);
 	line-height: 1.6;
 	font-size: var(--font-size-base);
+	overflow-x: hidden;
+}
+
+html {
+	overflow-x: hidden;
+	width: 100%;
+}
+
+html, body {
+	max-width: 100%;
+	overflow-x: hidden;
 }
 
 html, button, input, select, textarea {
@@ -88,6 +99,14 @@ html, button, input, select, textarea {
 /* Global bold weight for in-text emphasis */
 strong, b {
 	font-weight: var(--weight-emphasis);
+}
+
+/* Prevent text overflow */
+p, li, td, th, div, span, a {
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+	word-break: break-word;
+	hyphens: auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -235,16 +254,28 @@ a.markdown-btn:active {
    LAYOUT & STRUCTURE
    ============================================ */
 
+* {
+	box-sizing: border-box;
+}
+
 .wrapper {
 	margin: 0 auto;
-	width: 900px;
-	max-width: 85vw;
+	max-width: 900px;
+	padding: 0 1rem;
 	height: auto;
+	overflow-x: hidden;
 }
 
 .container {
 	max-width: 950px;
 	margin-top: 30px;
+	overflow-x: hidden;
+	width: 100%;
+}
+
+.header, .section, .footer {
+	max-width: 100%;
+	overflow-x: hidden;
 }
 
 .align-center { text-align: center; }
@@ -587,7 +618,14 @@ hr {
 
 img {
 	max-width: 100%;
+	height: auto;
 	object-fit: contain;
+}
+
+.headshot {
+	width: 100%;
+	height: auto;
+	max-width: 100%;
 }
 
 a img {
@@ -616,6 +654,8 @@ blockquote {
 	font-family: var(--font-serif);
 	border-left: 3px solid var(--color-primary);
 	padding-left: var(--space-xl);
+	max-width: 100%;
+	overflow-wrap: break-word;
 }
 
 blockquote cite {
@@ -635,20 +675,36 @@ blockquote em {
 	margin-top: 0;
 	padding: var(--space-xl);
 	background-color: transparent !important;
+	overflow-x: auto;
+	max-width: 100%;
 }
 
 .highlight {
 	background: 0 0;
 	background-color: var(--color-background-subtle);
+	max-width: 100%;
+	overflow-x: auto;
+}
+
+pre {
+	overflow-x: auto;
+	max-width: 100%;
 }
 
 pre code {
 	display: inline-block;
+	max-width: 100%;
 }
 
 /* ============================================
    TABLES
    ============================================ */
+
+table {
+	max-width: 100%;
+	overflow-x: auto;
+	display: block;
+}
 
 table th {
 	background-color: var(--color-border);
@@ -718,7 +774,7 @@ table td {
 }
 
 .headshot_wrapper {
-	display: inline;
+	display: inline-block;
 	float: right;
 	width: 100%;
 	max-width: 25%;
@@ -726,6 +782,13 @@ table td {
 	margin: 0 auto;
 	margin-left: var(--space-lg);
 	margin-bottom: var(--space-md);
+	overflow: hidden;
+}
+
+#my_bio {
+	overflow: hidden;
+	width: 100%;
+	max-width: 100%;
 }
 
 .headshot {
@@ -838,26 +901,208 @@ a.search-result-item:hover {
    RESPONSIVE BREAKPOINTS
    ============================================ */
 
-@media (max-width: 767px) {
-	body {
-		padding: var(--space-xl);
+/* Tablet: 768px - 1024px */
+@media (max-width: 1024px) {
+	.wrapper {
+		width: 100%;
+		max-width: 100%;
+		padding: 0 2rem;
 	}
 
+	.container {
+		max-width: 100%;
+	}
+
+	/* Adjust search to not overflow */
+	#search-input {
+		width: 150px;
+	}
+
+	#search-input:focus {
+		width: 200px;
+	}
+}
+
+/* Mobile landscape and small tablets: 600px - 767px */
+@media (max-width: 767px) {
+	body {
+		padding: 0;
+	}
+
+	.wrapper {
+		width: 100%;
+		max-width: 100%;
+		padding: 0 1.5rem;
+	}
+
+	/* Typography adjustments */
 	h1 { font-size: 1.8rem; }
-	h2 { font-size: 1.6rem; }
+	h2 { font-size: 1.4rem; }
 	h3 { font-size: 1.2rem; }
 	h4 { font-size: var(--font-size-base); }
+
+	.site-title {
+		font-size: 1.5rem;
+	}
+
+	.page-title {
+		font-size: 1.8rem;
+	}
 
 	.container {
 		margin-top: 10px;
 	}
+
+	/* Navigation improvements */
+	.header nav ul.flat li {
+		margin-right: 8px;
+		font-size: var(--font-size-sm);
+	}
+
+	/* Bio section - make headshot smaller but keep float */
+	.headshot_wrapper {
+		max-width: 35%;
+		margin-left: var(--space-md);
+		margin-bottom: var(--space-sm);
+	}
+
+	/* Blog list - stack on smaller screens */
+	.list .posts .post {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.list .posts .post .meta {
+		flex: none;
+		margin-right: 0;
+		margin-bottom: var(--space-xs);
+	}
+
+	/* Search adjustments */
+	.search-container {
+		display: block;
+		width: 100%;
+		max-width: 100%;
+	}
+
+	#search-input {
+		width: 100%;
+		max-width: 200px;
+	}
+
+	#search-input:focus {
+		width: 100%;
+		max-width: 100%;
+	}
+
+	.search-results {
+		min-width: auto;
+		width: 100%;
+		max-width: 400px;
+	}
 }
 
+/* Mobile portrait: 500px and below */
 @media (max-width: 500px) {
+	body {
+		padding: 0;
+	}
+
+	.wrapper {
+		width: 100%;
+		max-width: 100%;
+		padding: 0 1rem;
+	}
+
+	/* Typography - smaller on very small screens */
+	h1 { font-size: 1.5rem; }
+	h2 { font-size: 1.25rem; }
+	h3 { font-size: 1.1rem; }
+
+	.site-title {
+		font-size: 1.3rem;
+	}
+
+	.page-title {
+		font-size: 1.5rem;
+	}
+
+	/* Header site description - stack vertically */
+	.header .site-description {
+		flex-direction: column;
+	}
+
+	.header .site-description h2 {
+		font-size: var(--font-size-base);
+		margin-bottom: var(--space-sm);
+	}
+
+	/* Navigation - stack vertically or wrap better */
+	.header nav ul.flat {
+		display: flex;
+		flex-wrap: wrap;
+		gap: var(--space-xs);
+	}
+
+	.header nav ul.flat li {
+		margin-right: 0;
+		margin-top: var(--space-xs);
+		font-size: var(--font-size-sm);
+	}
+
+	/* Bio section - headshot becomes larger and centered */
 	.headshot_wrapper {
 		display: block;
-		float: center;
-		margin-left: var(--space-lg);
-		max-width: 50%;
+		float: none;
+		margin: 0 auto var(--space-lg);
+		max-width: 60%;
+		text-align: center;
+	}
+
+	/* Buttons - stack better on small screens */
+	.button1,
+	a.markdown-btn {
+		display: block;
+		margin-bottom: var(--space-sm);
+		text-align: center;
+	}
+
+	/* Search - full width */
+	.search-container {
+		width: 100%;
+	}
+
+	#search-input,
+	#search-input:focus {
+		width: 100%;
+		max-width: 100%;
+	}
+
+	.search-results {
+		width: 100%;
+		max-width: none;
+		left: 0;
+		right: 0;
+		transform: none;
+	}
+
+	/* Blog posts - ensure meta stacks properly */
+	.recent-posts .posts .post {
+		margin-bottom: var(--space-lg);
+	}
+
+	/* Reduce spacing overall */
+	.section {
+		margin-bottom: var(--space-xl);
+	}
+
+	.news_item {
+		margin-bottom: var(--space-md);
+	}
+
+	/* Footer */
+	.footer {
+		font-size: 0.7rem;
+		text-align: center;
 	}
 }
