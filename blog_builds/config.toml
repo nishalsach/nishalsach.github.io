@@ -89,15 +89,15 @@ name = "Publications"
 url = "/publications"
 weight = 3
 
-[[menu.main]]
-name = "Projects"
-url = "/projects"
-weight = 4
+# [[menu.main]]
+# name = "Projects"
+# url = "/projects"
+# weight = 4
 
 [[menu.main]]
 name = "Blog"
 url = "/posts"
-weight = 5
+weight = 4
 
 # [[menu.main]]
 # name = "More About Me"
