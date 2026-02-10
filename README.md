@@ -1,6 +1,6 @@
 Link: [nishalsach.github.io](https://nishalsach.github.io)
 
-# Content Editing Guide
+# Editing Guide
 
 ## Where things live
 
@@ -20,7 +20,10 @@ blog_builds/
 └── config.toml          → Site configuration
 ```
 
-## How to edit different parts of your site
+## How to edit different parts
+
+Reminder to self: do not add PDFs or media files outside of blog_builds!
+But reference stuff from home, not from blog builds :):):)
 
 ### Homepage Bio
 - **Edit:** `blog_builds/data/bio.yaml`
@@ -39,7 +42,7 @@ blog_builds/
 - Each post needs frontmatter:
   ```yaml
   ---
-  title: "Your Title"
+  title: "Title"
   date: YYYY-MM-DD
   draft: false
   description: Short description for homepage
@@ -49,7 +52,7 @@ blog_builds/
 
 ### Blog Post Images
 - **Save to:** `blog_builds/static/img/`
-- **Reference in posts:** `../../img/your-image.png` or `/img/your-image.png`
+- **Reference in posts:** `../../img/image.png` or `/img/image.png`
 - Example: `![alt text](../../img/2025-dis-values-table.png)`
 
 ### Other Pages
@@ -80,14 +83,3 @@ This generates HTML files in the parent directory (repo root) which GitHub Pages
 - Fix the heading sizes of header and body
 - Improve responsiveness of site by setting some sort of min-width on text
 - Test shortcodes for buttons: done using [here](http://oostens.me/posts/hugo-button-shortcode/) and an scss2css converter
-
-## News workflow (May 2025)
-
-- Updates now live in `blog_builds/data/news.yaml` so there’s no need to create per-item Markdown files.
-- Each entry needs `title`, `date` (`YYYY-MM-DD`), and `summary`. The summary text shows in both the homepage and `/news/`, so feel free to make it a full paragraph and include Markdown links.
-- Newest entries should stay at the top, but Hugo sorts by `date` so ordering survives if you forget.
-- Rebuild the site from inside `blog_builds` as usual (`hugo`) to publish the updates into the root directory.
-
-### Analytics (Umami)
-
-- Update `params.umami.websiteId` in `blog_builds/config.toml` if your Umami property changes. Toggle tracking by flipping `enabled` between `true` and `false`.
