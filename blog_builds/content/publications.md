@@ -6,7 +6,14 @@ date: 2025-06-15
 
 ## Peer-reviewed Papers
 
-[Values as Problems, Principles, and Tensions in Sociotechnical System Design for Journalism](https://nishalsach.github.io/pdfs/2025-vsd-journalism.pdf)  
+["Helping Me Versus Doing It for Me": Designing for Agency in
+LLM-Infused Writing Tools for Science Journalism](https://nishalsach.github.io/pdfs/2026-chi.pdf)  
+<u>Sachita Nishal</u>, Mina Lee, Nick Diakopoulos and Jennifer Wortman Vaughan
+CHI 2026 
+{{< link_button href="https://nishalsach.github.io/pdfs/2026-chi.pdff" >}}PDF{{< /link_button >}}
+
+
+[Values as Problems, Principles, and Tensions in Sociotechnical System Design for Journalism](https://dl.acm.org/doi/10.1145/3715336.3735717)  
 <u>Sachita Nishal</u> and Nick Diakopoulos  
 DIS 2025  
 🏆 Best Paper Honorable Mention  
@@ -44,7 +51,7 @@ ICWSM 2022
 CHI 2025  
 {{< link_button href="https://nishalsach.github.io/pdfs/2025-news-futures-chi.pdf" >}}PDF{{< /link_button >}} {{< link_button href="https://sites.google.com/view/newsfutures/home?pli=1" >}}Workshop Website{{< /link_button >}}
 
-## Workshop and Preconference Papers 
+## Workshop and Preconference Papers
 
 [Designing for Agency in LLM-Infused Writing Support Tools for Science Journalism](https://arxiv.org/abs/2508.21036)  
 <u>Sachita Nishal</u>, Mina Lee, Nick Diakopoulos, and Jennifer Wortman Vaughan  

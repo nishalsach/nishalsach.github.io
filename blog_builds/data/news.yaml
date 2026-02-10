@@ -1,5 +1,9 @@
 items:
 
+  - title: "New CHI 2026 paper on building AI-infused systems to support people's values and agency"
+    date: 2026-02-10
+    summary: >
+      A study I led during my internship at Microsoft Research has been accepted to CHI 2026. We work with 20 science journalists to uncover and chart out the ways in which differnt kinds of LLM-infused sensemaking tools may impact their values, practices and hence their _agency_, and suggest both design and theoretical implications that follow! Find the paper [here](https://nishalsach.github.io/pdfs/2026-chi.pdf), and find me in Barcelona this April!
   - title: "I am on the job market!"
     date: 2025-11-01
     summary: >
