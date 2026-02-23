@@ -7,9 +7,9 @@ date: 2025-06-15
 ## Peer-reviewed Papers
 
 ["Helping Me Versus Doing It for Me": Designing for Agency in LLM-Infused Writing Tools for Science Journalism](https://nishalsach.github.io/pdfs/2026-chi.pdf)  
-<u>Sachita Nishal</u>, Mina Lee, Nick Diakopoulos and Jennifer Wortman Vaughan  
+<u>Sachita Nishal</u>, Mina Lee, Nick Diakopoulos, Jennifer Wortman Vaughan  
 CHI 2026  
-{{< link_button href="https://nishalsach.github.io/pdfs/2026-chi.pdff" >}}PDF{{< /link_button >}}
+{{< link_button href="https://nishalsach.github.io/pdfs/2026-chi.pdf" >}}PDF{{< /link_button >}}
 
 
 [Values as Problems, Principles, and Tensions in Sociotechnical System Design for Journalism](https://dl.acm.org/doi/10.1145/3715336.3735717)  
