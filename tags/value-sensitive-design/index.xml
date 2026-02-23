@@ -10,9 +10,9 @@
     <atom:link href="http://localhost:1313/tags/value-sensitive-design/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Human values as problems, principles, and in tension when we design to support journalism</title>
-      <link>http://localhost:1313/posts/2025-06-16-dis-blogpost/</link>
+      <link>http://localhost:1313/posts/2025-06-16-dis-blogpost-copy/</link>
       <pubDate>Mon, 16 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2025-06-16-dis-blogpost/</guid>
+      <guid>http://localhost:1313/posts/2025-06-16-dis-blogpost-copy/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;#tldr&#34;&gt;Short TLDR about this paper&lt;/a&gt; // &lt;a href=&#34;https://nishalsach.github.io/pdfs/2025-vsd-journalism.pdf&#34;&gt;Link to full paper&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Designing technology is never neutral. Our tools both shape and are shaped by our values. Take Facebook’s original News Feed: it deliberately prioritized &lt;em&gt;recency&lt;/em&gt; above all else, surfacing the freshest posts but sidelining other journalistic values. By contrast, print newspapers had to juggle breaking news, political significance, novelty, and controversy within fixed front‐page space. This goal of this example is to show that every design choice foregrounds certain values and downplays others. The goal of our paper is to map out these relationships between technology design and human values, particularly in the domain of journalism.&lt;/p&gt;</description>
     </item>
   </channel>
