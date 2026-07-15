@@ -1,7 +1,16 @@
 Link: [nishalsach.github.io](https://nishalsach.github.io)
 
+# TODO
 
-# TODO: Migrate publications to structured data (July 5, 2026)
+### Fix the B.S. PDFS / Images reference system - Added July 5, 2026
+
+Broken, unintuitive. Nothing about this works consistently in my process. 
+
+### Fix Publications Page - Added July 5, 2026
+
+Looking a little janky, mainly the titles. Why does it look like that? Too wide? Is the whole site too wide?
+
+### Migrate publications to structured data - Added July 5, 2026
 
 Currently `content/publications.md` has all papers hand-formatted inline (manual `<a>`, `<u>`, button HTML per entry). This is v repetitive.
 
