@@ -26,7 +26,7 @@ The CSS (`.button1.copy-bibtex-btn::before`) and JS (`copyBibtex()` in footer.ht
 
 # Editing Guide
 
-## Where things live
+### Where things live
 
 ```
 blog_builds/
@@ -44,23 +44,23 @@ blog_builds/
 └── config.toml          → Site configuration
 ```
 
-## How to edit different parts
+### How to edit different parts
 
 Reminder to self: do not add PDFs or media files outside of blog_builds!
 But reference stuff from home, not from blog builds :):):)
 
-### Homepage Bio
+#### Homepage Bio
 - **Edit:** `blog_builds/data/bio.yaml`
 - Supports Markdown formatting (`**bold**`, `[links](url)`)
 - Changes appear after running `hugo` from `blog_builds/`
 
-### News Updates
+#### News Updates
 - **Edit:** `blog_builds/data/news.yaml`
 - Each entry needs `title`, `date` (`YYYY-MM-DD`), and `summary`
 - Newest entries at the top (Hugo sorts by date)
 - Supports Markdown in summary text
 
-### Blog Posts
+#### Blog Posts
 - **Edit:** Create/edit files in `blog_builds/content/posts/`
 - File naming: `YYYY-MM-DD-post-title.md`
 - Each post needs frontmatter:
@@ -74,7 +74,7 @@ But reference stuff from home, not from blog builds :):):)
   ---
   ```
 
-### Blog Post Images
+#### Blog Post Images
 - **Save to:** `blog_builds/static/img/`
 - **Reference in posts:** `../../img/image.png` or `/img/image.png`
 - Example: `![alt text](../../img/2025-dis-values-table.png)`
