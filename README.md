@@ -2,6 +2,10 @@ Link: [nishalsach.github.io](https://nishalsach.github.io)
 
 # TODO
 
+### Oh god search is broken - Added July 5, 2026
+
+Smite me now God please.
+
 ### Fix the B.S. PDFS / Images reference system - Added July 5, 2026
 
 Broken, unintuitive. Nothing about this works consistently in my process. 
