@@ -16,13 +16,11 @@ Looking a little janky, mainly the titles. Why does it look like that? Too wide?
 
 ### Migrate publications to structured data - Added July 5, 2026
 
-Currently `content/publications.md` has all papers hand-formatted inline (manual `<a>`, `<u>`, button HTML per entry). This is v repetitive.
-
-**Plan:** move to one content file per paper (e.g. `content/publications/caged-birds.md`) each with front matter fields:
-  - title, authors, venue, year (would need a shortcode to fund my name and add <ul> tags around it?)
-  - pdf link, data/code link, doi/anthology link
-  - bibtex (raw text)
-  - type: peer-reviewed | poster | workshop  (for auto-sorting into sections)
+Currently `content/publications.md` has all papers hand-formatted inline (manual `<a>`, `<u>`, button HTML per entry). This is v repetitive. Will move to one content file per paper (e.g. `content/publications/caged-birds.md`) each with front matter fields:
+- title, authors, venue, year (would need a shortcode to fund my name and add <ul> tags around it?)
+- pdf link, data/code link, doi/anthology link
+- bibtex (raw text)
+- type: peer-reviewed | poster | workshop  (for auto-sorting into sections)
 
 Then write a single Hugo template that loops over all publication pages (like how `index.html` already loops over `site.Data.news.items`) and renders each one consistently, with buttons and all.
 
