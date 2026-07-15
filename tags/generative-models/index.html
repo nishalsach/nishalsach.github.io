@@ -98,7 +98,13 @@
 	<nav class="nav">
 		<div> <a href="https://github.com/vividvilla/ezhil">Ezhil theme</a> | Built with <a href="https://gohugo.io">Hugo</a></div>
 	</nav>
-</div>
+</div><script>
+function copyBibtex(btn) {
+  const pre = btn.nextElementSibling;
+  const text = pre.textContent;
+  navigator.clipboard.writeText(text);
+}
+</script>
 </body>
 
 </html>

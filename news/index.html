@@ -80,7 +80,7 @@
 
 		
 		<div class="markdown">
-			<p>Here you&rsquo;ll find all of my recent news updates—conference travel, paper acceptances, workshops I’m organizing, and anything else I’m excited to share. The homepage shows the three most recent items; this page collects the full archive so it’s easy to browse older updates.</p>
+			<p>The homepage shows three most recent updates; this page collects the full archive.</p>
 
 		</div>
 		
@@ -90,13 +90,26 @@
 			
 			
 			
-			<article class="section-item" id="responsible-ai-in-the-newsroom-panel--nicar-2026">
+			<article class="section-item" id="job-update-">
 				<div class="section-item-header">
-					<span class="meta-date">February 2026</span>
+					<span class="meta-date">July 2026</span>
 				</div>
 				<div class="markdown">
 					
-						I will attend NICAR in Indianapolis this year to talk on a panel about <a href="https://schedules.ire.org/nicar-2026/#/session/1034">how journalists can approach responsible AI use</a>. What can responsible AI use actually look like in a newsroom? Where is the field finding common ground, and where are the edges still fuzzy? We&rsquo;ll chat about this and more!
+						A long overdue job update, but I will be joining  as a postdoc at the UW Center for an Informed Public in Fall 2026, where I will be mentored by Dr. Emma Spiro and Dr. Gary Hsieh. I&rsquo;m really really really excited!
+					
+				</div>
+			</article>
+			
+			
+			
+			<article class="section-item" id="new-work--evaleval-2026-and-acm-ai-letters">
+				<div class="section-item-header">
+					<span class="meta-date">July 2026</span>
+				</div>
+				<div class="markdown">
+					
+						Something
 					
 				</div>
 			</article>
@@ -214,6 +227,38 @@
 	<nav class="nav">
 		<div> <a href="https://github.com/vividvilla/ezhil">Ezhil theme</a> | Built with <a href="https://gohugo.io">Hugo</a></div>
 	</nav>
-</div>
+</div><script>
+
+
+
+
+function copyBibtex(id, btn) {
+  
+  
+  
+  const pre = document.getElementById(id);
+
+  
+  
+  
+  const text = pre.textContent;
+
+  
+  
+  
+  navigator.clipboard.writeText(text).then(() => {
+    
+    const original = btn.textContent;
+
+    
+    btn.textContent = "Copied!";
+
+    
+    setTimeout(() => {
+      btn.textContent = original;
+    }, 1500);
+  });
+}
+</script>
 </body>
 </html>

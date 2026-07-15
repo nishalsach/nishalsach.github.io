@@ -87,17 +87,17 @@
 
 				
 					
-					<p><b>I am on the 2025-2026 academic job market! I&#39;m looking for tenure-track positions and postdocs!</b></p>
+
+					
+					<p>Hi, I&rsquo;m Sachita! I recently finished my PhD at Northwestern University, where I was advised by <a href="http://www.nickdiakopoulos.com">Dr. Nick Diakopoulos</a>. I&rsquo;m tremendously excited to be joining as a postdoc at the <a href="https://www.cip.uw.edu">UW Center for an Informed Public</a> in Fall 2026, where I will be mentored by <a href="https://ischool.uw.edu/people/faculty/profile/espiro">Dr. Emma Spiro</a> and <a href="https://faculty.washington.edu/garyhs/">Dr. Gary Hsieh</a>!</p>
+					
+					<p>In my research, I design sociotechnical systems to help people navigate a complex online information ecosystem. I focus on the value-sensitive design and evaluation of sociotechnical systems, and also study how novel technologies&mdash;social platforms, &lsquo;second-brain&rsquo; style tools, generative AI&mdash;might impact and reshape people&rsquo;s sensemaking practices.</p>
+					
+					<p>During my PhD, I designed interactive AI-infused systems to support science journalists in exploring, making sense of, and translating large-scale scientific information during newsgathering. This research surfaced latent value trade-offs and proposed design patterns to help journalists navigate these more thoughtfully and intentionally, in the interest of accurate, timely, useful science communication.</p>
 					
 
 					
-					<p>Hi, I&rsquo;m Sachita! I&rsquo;m a 5th-year PhD candidate at Northwestern University, advised by <a href="http://www.nickdiakopoulos.com">Dr. Nick Diakopoulos</a>. My research asks: how can systems for navigating, parsing, and creating with information on the internet support people&rsquo;s values and practices?</p>
-					
-					<p>I address this question in the domain of science journalism, where I design interactive AI-infused systems to support how journalists explore, make sense of, and translate large-scale scientific information during news production. New technologies like generative AI introduce value trade-offs—accuracy versus efficiency, independence versus algorithmic support—that reshape workflows and professional identity. My research surfaces such value trade-offs and proposes design patterns to help journalists navigate these more thoughtfully and intentionally, in the interest of accurate, timely, useful science communication.</p>
-					
-
-					
-					<p>You can email me at: <span style="font-family:Courier">nishal [at] u.northwestern.edu</span></p>
+					<p>You can email me at: <span style="font-family:Courier">sachita [dot] nishal [at] gmail [dot] com</span></p>
 					
 				
 
@@ -125,8 +125,15 @@
 					
 					
 					<div class="news_item">
-						<div class="meta-date">February 2026</div>
-						<div class="news-summary">I will attend NICAR in Indianapolis this year to talk on a panel about <a href="https://schedules.ire.org/nicar-2026/#/session/1034">how journalists can approach responsible AI use</a>. What can responsible AI use actually look like in a newsroom? Where is the field finding common ground, and where are the edges still fuzzy? We&rsquo;ll chat about this and more!</div>
+						<div class="meta-date">July 2026</div>
+						<div class="news-summary">A long overdue job update, but I will be joining  as a postdoc at the UW Center for an Informed Public in Fall 2026, where I will be mentored by Dr. Emma Spiro and Dr. Gary Hsieh. I&rsquo;m really really really excited!</div>
+					</div>
+					
+					
+					
+					<div class="news_item">
+						<div class="meta-date">July 2026</div>
+						<div class="news-summary">Something</div>
 					</div>
 					
 					
@@ -134,13 +141,6 @@
 					<div class="news_item">
 						<div class="meta-date">February 2026</div>
 						<div class="news-summary">A study I led during my internship at Microsoft Research has been accepted to CHI 2026! We worked with 20 science journalists to uncover the ways in which differnt kinds of LLM-infused sensemaking tools might impact their values, practices and hence their <em>agency</em>. Our work offers both design and theoretical implications that follow from this. Find the paper <a href="https://nishalsach.github.io/pdfs/2026-chi.pdf">here</a>, and find me in Barcelona at CHI this April!</div>
-					</div>
-					
-					
-					
-					<div class="news_item">
-						<div class="meta-date">November 2025</div>
-						<div class="news-summary">I am looking for tenure-track research and postdoc positions for Summer 2026 an onwards! An exciting (but also unnerving) time :)</div>
 					</div>
 					
 					<p class="news-archive-link"><a href="/news/">See all news →</a></p>
@@ -154,6 +154,16 @@
 			</h2>
 			<div class="posts">
 				
+				
+				<div class="post">
+					<div class="meta"><span class="meta-date">Aug 17, 2021</span></div>
+					<a class="title" href="/posts/2021-08-17-debugging-sklearn-pipelines/">Debugging Inside Scikit-Learn Pipelines</a> &mdash;
+					<span class="description">
+						
+						Writing a custom transformer in scikit-learn for debugging pipelines.
+						
+					</span>
+				</div>
 				
 				<div class="post">
 					<div class="meta"><span class="meta-date">Jun 29, 2020</span></div>
@@ -175,16 +185,6 @@
 					</span>
 				</div>
 				
-				<div class="post">
-					<div class="meta"><span class="meta-date">Jun 12, 2020</span></div>
-					<a class="title" href="/posts/2020-06-12-hugo-hacks/">Hugo Hacks</a> &mdash;
-					<span class="description">
-						
-						Useful Tips for Hosting a Hugo Blog on Github Pages
-						
-					</span>
-				</div>
-				
 				
 				 
 			</div>
@@ -197,6 +197,38 @@
 	<nav class="nav">
 		<div> <a href="https://github.com/vividvilla/ezhil">Ezhil theme</a> | Built with <a href="https://gohugo.io">Hugo</a></div>
 	</nav>
-</div>
+</div><script>
+
+
+
+
+function copyBibtex(id, btn) {
+  
+  
+  
+  const pre = document.getElementById(id);
+
+  
+  
+  
+  const text = pre.textContent;
+
+  
+  
+  
+  navigator.clipboard.writeText(text).then(() => {
+    
+    const original = btn.textContent;
+
+    
+    btn.textContent = "Copied!";
+
+    
+    setTimeout(() => {
+      btn.textContent = original;
+    }, 1500);
+  });
+}
+</script>
 </body>
 </html>

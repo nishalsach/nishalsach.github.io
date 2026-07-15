@@ -1,9 +1,10 @@
-job_market_alert: "I am on the 2025-2026 academic job market! I'm looking for tenure-track positions and postdocs!"
+job_market_alert: 
 
 paragraphs:
-  - "Hi, I'm Sachita! I'm a 5th-year PhD candidate at Northwestern University, advised by [Dr. Nick Diakopoulos](http://www.nickdiakopoulos.com). My research asks: how can systems for navigating, parsing, and creating with information on the internet support people's values and practices?"
+  - "Hi, I'm Sachita! I recently finished my PhD at Northwestern University, where I was advised by [Dr. Nick Diakopoulos](http://www.nickdiakopoulos.com). I'm tremendously excited to be joining as a postdoc at the [UW Center for an Informed Public](https://www.cip.uw.edu) in Fall 2026, where I will be mentored by [Dr. Emma Spiro](https://ischool.uw.edu/people/faculty/profile/espiro) and [Dr. Gary Hsieh](https://faculty.washington.edu/garyhs/)!"
+  
+  - "In my research, I design sociotechnical systems to help people navigate a complex online information ecosystem. I focus on the value-sensitive design and evaluation of sociotechnical systems, and also study how novel technologies---social platforms, 'second-brain' style tools, generative AI---might impact and reshape people's sensemaking practices."
 
-  - "I address this question in the domain of science journalism, where I design interactive AI-infused systems to support how journalists explore, make sense of, and translate large-scale scientific information
-  during news production. New technologies like generative AI introduce value trade-offs—accuracy versus efficiency, independence versus algorithmic support—that reshape workflows and professional identity. My research surfaces such value trade-offs and proposes design patterns to help journalists navigate these more thoughtfully and intentionally, in the interest of accurate, timely, useful science communication."
+  - "During my PhD, I designed interactive AI-infused systems to support science journalists in exploring, making sense of, and translating large-scale scientific information during newsgathering. This research surfaced latent value trade-offs and proposed design patterns to help journalists navigate these more thoughtfully and intentionally, in the interest of accurate, timely, useful science communication."
 
-email: "nishal [at] u.northwestern.edu"
+email: "sachita [dot] nishal [at] gmail [dot] com"

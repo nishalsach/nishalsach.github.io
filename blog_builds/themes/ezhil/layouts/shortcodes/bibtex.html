@@ -1,0 +1,17 @@
+{{/* Build a unique ID for this specific shortcode instance, e.g. "bibtex-0", "bibtex-1", etc. 
+     .Ordinal auto-increments per use of this shortcode on the page, so every paper's 
+     button/pre pair gets its own distinct ID, even though we don't set it manually. */}}
+{{ $id := printf "bibtex-%d" .Ordinal }}
+
+{{/* The visible button. Its onclick calls copyBibtex() and passes the ID as a plain string 
+     (the single quotes around {{ $id }} is JS string syntax, not Hugo syntax). 
+     This tells the JS function exactly which <pre> to go find, rather than relying on 
+     DOM position. */}}
+<button class="button1 copy-bibtex-btn" onclick="copyBibtex('{{ $id }}', this)">Copy BibTeX</button>
+
+{{/* The hidden BibTeX text. It gets the same $id built in the previous line, so JS can find it via 
+     document.getElementById(). display:none keeps it invisible but still present in the 
+     page, so it can be read and copied programmatically. 
+     .Inner is the raw text between {{< bibtex >}} and {{< /bibtex >}} in the markdown file; 
+     safeHTML tells Hugo not to escape special characters like { and & in the BibTeX. */}}
+<pre id="{{ $id }}" style="display:none;">{{- .Inner | safeHTML -}}</pre>

@@ -1,5 +1,20 @@
 Link: [nishalsach.github.io](https://nishalsach.github.io)
 
+
+# TODO: Migrate publications to structured data (July 5, 2026)
+
+Currently `content/publications.md` has all papers hand-formatted inline (manual `<a>`, `<u>`, button HTML per entry). This is v repetitive.
+
+**Plan:** move to one content file per paper (e.g. `content/publications/caged-birds.md`) each with front matter fields:
+  - title, authors, venue, year (would need a shortcode to fund my name and add <ul> tags around it?)
+  - pdf link, data/code link, doi/anthology link
+  - bibtex (raw text)
+  - type: peer-reviewed | poster | workshop  (for auto-sorting into sections)
+
+Then write a single Hugo template that loops over all publication pages (like how `index.html` already loops over `site.Data.news.items`) and renders each one consistently, with buttons and all.
+
+The CSS (`.button1.copy-bibtex-btn::before`) and JS (`copyBibtex()` in footer.html) carry over unchanged. But `bibtex.html` will need to move from `layouts/shortcodes/` to `layouts/partials/` and be called from the new loop template (via `{{ partial "bibtex-button.html" . }}`) instead of `{{< bibtex >}}` in markdown. It also needs a new source of unique ID, since `.Ordinal` (shortcode-only) won't apply anymore. Maybe can use something like `.File.ContentBaseName` (the paper's filename/slug) instead, e.g. `bibtex-caged-birds`. Paper slugs might be useful across the site actually hmmm ...
+
 # Editing Guide
 
 ## Where things live
@@ -60,26 +75,3 @@ But reference stuff from home, not from blog builds :):):)
 - **Publications:** `blog_builds/content/publications.md`
 - **Projects:** `blog_builds/content/projects.md`
 
-## Building the site
-
-From the `blog_builds/` directory, run:
-```bash
-hugo
-```
-This generates HTML files in the parent directory (repo root) which GitHub Pages serves.
-
----
-
-# To Do (updated Nov 29, 2023)
-
-### Content
-
-- link to TSB post
-- link to GAI post
-
-### Design
-
-- mobile rendering still not great, fix this
-- Fix the heading sizes of header and body
-- Improve responsiveness of site by setting some sort of min-width on text
-- Test shortcodes for buttons: done using [here](http://oostens.me/posts/hugo-button-shortcode/) and an scss2css converter

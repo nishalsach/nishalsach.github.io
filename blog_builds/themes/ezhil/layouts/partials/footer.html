@@ -11,3 +11,37 @@
 {{- with .Site.Params.Social -}}
 <script>feather.replace()</script>
 {{- end -}}
+
+<script>
+// This function runs when a "Copy BibTeX" button is clicked.
+// It receives two arguments: the unique id string the shortcode generated
+// for that specific paper (e.g. "bibtex-0"), and the button element itself,
+// passed in via onclick="copyBibtex('bibtex-0', this)".
+function copyBibtex(id, btn) {
+  // Look up the hidden <pre> element that has this exact id.
+  // Because we search by id rather than DOM position,
+  // this works no matter how Hugo's markdown renderer nests or wraps the surrounding HTML.
+  const pre = document.getElementById(id);
+
+  // Read the plain text sitting inside that <pre> — this is the raw BibTeX entry,
+  // with HTML tags stripped out (there aren't any here, but .textContent is the
+  // standard way to get "just the text" from an element).
+  const text = pre.textContent;
+
+  // Hand that text to the browser's clipboard API, so a paste (Cmd+V / Ctrl+V)
+  // anywhere will produce the BibTeX. This only works on https:// or localhost.
+  // .then(...) runs the code inside it only after the copy actually succeeds.
+  navigator.clipboard.writeText(text).then(() => {
+    // Save the button's current label ("Copy BibTeX") so we can restore it later.
+    const original = btn.textContent;
+
+    // Briefly change the button's label to confirm the copy worked.
+    btn.textContent = "Copied!";
+
+    // After 1.5 seconds (1500 milliseconds), switch the label back to normal.
+    setTimeout(() => {
+      btn.textContent = original;
+    }, 1500);
+  });
+}
+</script>

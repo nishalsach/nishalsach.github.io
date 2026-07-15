@@ -189,6 +189,38 @@
 	<nav class="nav">
 		<div> <a href="https://github.com/vividvilla/ezhil">Ezhil theme</a> | Built with <a href="https://gohugo.io">Hugo</a></div>
 	</nav>
-</div>
+</div><script>
+
+
+
+
+function copyBibtex(id, btn) {
+  
+  
+  
+  const pre = document.getElementById(id);
+
+  
+  
+  
+  const text = pre.textContent;
+
+  
+  
+  
+  navigator.clipboard.writeText(text).then(() => {
+    
+    const original = btn.textContent;
+
+    
+    btn.textContent = "Copied!";
+
+    
+    setTimeout(() => {
+      btn.textContent = original;
+    }, 1500);
+  });
+}
+</script>
 </body>
 </html>
