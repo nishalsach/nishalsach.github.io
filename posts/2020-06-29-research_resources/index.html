@@ -117,10 +117,36 @@
 		<div> <a href="https://github.com/vividvilla/ezhil">Ezhil theme</a> | Built with <a href="https://gohugo.io">Hugo</a></div>
 	</nav>
 </div><script>
-function copyBibtex(btn) {
-  const pre = btn.nextElementSibling;
+
+
+
+
+function copyBibtex(id, btn) {
+  
+  
+  
+  const pre = document.getElementById(id);
+
+  
+  
+  
   const text = pre.textContent;
-  navigator.clipboard.writeText(text);
+
+  
+  
+  
+  navigator.clipboard.writeText(text).then(() => {
+    
+    const original = btn.textContent;
+
+    
+    btn.textContent = "Copied!";
+
+    
+    setTimeout(() => {
+      btn.textContent = original;
+    }, 1500);
+  });
 }
 </script>
 </body>

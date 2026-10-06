@@ -103,7 +103,9 @@ CHI 2025
 
 [Designing for Field Awareness in Science Journalism](https://doi.org/10.1145/3785651.3831513)  
 <u>Sachita Nishal</u>, Emőke-Ágnes Horvát, and Nicholas Diakopoulos  
-Posters Track at CSCW 2026
+Posters Track at CSCW 2026  
+{{< link_button href="https://nishalsach.github.io/pdfs/2026-news-compass-cscw.pdf" >}}PDF{{< /link_button >}}
+
 
 [Designing for Agency in LLM-Infused Writing Support Tools for Science Journalism](https://arxiv.org/abs/2508.21036)  
 <u>Sachita Nishal</u>, Mina Lee, Nick Diakopoulos, and Jennifer Wortman Vaughan  
