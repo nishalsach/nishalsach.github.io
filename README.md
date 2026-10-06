@@ -2,20 +2,12 @@ Link: [nishalsach.github.io](https://nishalsach.github.io)
 
 # TODO
 
-### Oh god search is broken - Added July 5, 2026
-
-Smite me now God please.
-
-### Fix the B.S. PDFS / Images reference system - Added July 5, 2026
-
-Broken, unintuitive. Nothing about this works consistently in my process. 
+### Fix the PDFS / Images reference system - Added July 5, 2026
 
 ### Fix Publications Page - Added July 5, 2026
-
 Looking a little janky, mainly the titles. Why does it look like that? Too wide? Is the whole site too wide?
 
 ### Migrate publications to structured data - Added July 5, 2026
-
 Currently `content/publications.md` has all papers hand-formatted inline (manual `<a>`, `<u>`, button HTML per entry). This is v repetitive. Will move to one content file per paper (e.g. `content/publications/caged-birds.md`) each with front matter fields:
 - title, authors, venue, year (would need a shortcode to fund my name and add <ul> tags around it?)
 - pdf link, data/code link, doi/anthology link
