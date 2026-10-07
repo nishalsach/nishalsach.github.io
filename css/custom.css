@@ -1059,12 +1059,11 @@ a.search-result-item:hover {
 		text-align: center;
 	}
 
-	/* Buttons - stack better on small screens */
+	/* Buttons - stay inline and wrap naturally on small screens */
 	.button1,
 	a.markdown-btn {
-		display: block;
-		margin-bottom: var(--space-sm);
-		text-align: center;
+		margin-right: var(--space-xs);
+		padding: 0.2rem 0.35rem;
 	}
 
 	/* Search - full width */

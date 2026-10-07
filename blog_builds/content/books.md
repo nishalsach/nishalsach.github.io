@@ -10,11 +10,12 @@ A list of books I am reading, or have read in a way that means something to me. 
 
 ## Currently Reading  
 
-Language Machines, by Leif Weatherby (2026)  
+Why We Fear AI: On the Interpretation of Nightmares, by Hagen Blix and Ingeborg Glimmer (2025)  
 A History of Christianity: The First Three Thousand Years, by Diarmaid MacCulloch (2009)
 
 ## 2026
 
+Language Machines, by Leif Weatherby (2026)  
 Law and Technology: A Methodical Approach, by Ryan Calo (2025)  
 Orality and Literacy: The Technologizing of the Word, by Walter Ong (2012)  
 
@@ -41,6 +42,9 @@ The Elements of Journalism: What Newspeople Should Know and the Public Should Ex
 
 ## Books I'm Excited to Read (sometime ...)
 
+We the Platform, by Aarthi Vadde (2026)
+Content Machines: Reading and Writing in the Platform Era, by Sarah Brouillette (2026)
+The Next Journalism: How the Press Must Change to Serve Democracy, by Tom Rosenstiel (2026)  
 Writers' Rights: Freelance Journalism in a Digital Age, by Nicole Cohen (2016)  
 Living Thinkwork: Where do Labor Processes Come From, by Mike Hales (1980)  
 Public Data Cultures, by Jonathan Gray (2026)  
