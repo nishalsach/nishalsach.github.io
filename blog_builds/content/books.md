@@ -42,12 +42,14 @@ The Elements of Journalism: What Newspeople Should Know and the Public Should Ex
 
 ## Books I'm Excited to Read (sometime ...)
 
-We the Platform, by Aarthi Vadde (2026)
-Content Machines: Reading and Writing in the Platform Era, by Sarah Brouillette (2026)
+Track Changes, by Matthew Kirschenbaum (2016)  
+Close Reading for the Twenty-First Century, Dan Sinyikin and Johanna Winant (2025)  
+We the Platform, by Aarthi Vadde (2026)  
+Content Machines: Reading and Writing in the Platform Era, by Sarah Brouillette (2026)  
 The Next Journalism: How the Press Must Change to Serve Democracy, by Tom Rosenstiel (2026)  
 Writers' Rights: Freelance Journalism in a Digital Age, by Nicole Cohen (2016)  
 Living Thinkwork: Where do Labor Processes Come From, by Mike Hales (1980)  
 Public Data Cultures, by Jonathan Gray (2026)  
 Archiving Machines: From Punch Cards to Platforms, by Amelia Acker (2025)  
 Influencer Creep: How Optimization, Authenticity, and Self-Branding Transform Creative Culture, by Sohpie Bishop (2025)  
-Power: A Radical View, by Steven Lukes (2021)  
+Power: A Radical View, by Steven Lukes (2021)
