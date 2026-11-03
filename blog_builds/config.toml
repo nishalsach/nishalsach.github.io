@@ -38,7 +38,7 @@ summaryLength = 20
 
 [params]
     # Blog subtitle which appears below blog title. Supports markdown.
-    subtitle = "Postdoctoral Scholar, UW Center for an Informed Public"
+    subtitle = "Postdoctoral Scholar, University of Washington"
 
     # Content types which are included in home page recent posts list.
     mainSections = ["posts", "research"]
