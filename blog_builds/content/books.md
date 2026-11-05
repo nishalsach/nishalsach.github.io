@@ -41,9 +41,9 @@ The Elements of Journalism, by Bill Kovach and Tom Rosensteil (2021)
 
 ## Books I'm Excited to Read (sometime ...)
 
-Inventing Temperature, by Hasok Chang (2004)
-Standards and their stories, edited BY Martha Lampland and Susan Leigh Star (2009)
-The Value of Everything, by Mariana Mazzucato (2018)
+Inventing Temperature, by Hasok Chang (2004)  
+Standards and their stories, edited BY Martha Lampland and Susan Leigh Star (2009)  
+The Value of Everything, by Mariana Mazzucato (2018)  
 Why We Fear AI, by Hagen Blix and Ingeborg Glimmer (2025)  
 We the Platform, by Aarthi Vadde (2026)  
 Track Changes, by Matthew Kirschenbaum (2016)  
