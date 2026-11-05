@@ -84,12 +84,8 @@ summaryLength = 20
     # root by Hugo. For example if you have custom CSS file under `static/css/custom.css` then
     # you can specify custom css path as `css/custom.css`.
     customCSS = "css/custom.css"
-    # Custom CSS added to dark mode style.
-    customDarkCSS = "css/custom-dark.css"
 
-    # Custom list of Javascript files to load. Just like custom CSS you can place js files under
-    # `static/js` folder and specify path here as `js/script-name.js`. You can also specify full url,
-    # for example you may want to include external JS library.
+    # Custom list of Javascript files to load
     customJS = ["js/abc.js", "js/xyz.js", "https://code.jquery.com/jquery-3.4.1.js"]
 
 # Main menu which appears below site header.

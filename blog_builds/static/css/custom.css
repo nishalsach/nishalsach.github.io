@@ -6,8 +6,8 @@
 /* ---- DESIGN TOKENS ---- */
 :root {
 	/* Colors - Light Mode */
-	--color-primary: #059669;        /* medium emerald green */
-	--color-primary-hover: #047857;  /* darker green on hover */
+	--color-primary: #2563eb;        /* blue */
+	--color-primary-hover: #1d4ed8;  /* darker blue on hover */
 	--color-text: #000000;           /* pure black text */
 	--color-text-header: #000000;    /* pure black for headers */
 	--color-text-light: #9ca3af;     /* lighter gray */
@@ -164,29 +164,6 @@ a:hover {
 /* ============================================
    BUTTONS & INTERACTIVE ELEMENTS
    ============================================ */
-
-/* Theme toggle button - subtle style */
-.theme-toggle {
-	background: none;
-	border: none;
-	cursor: pointer;
-	font-size: 1.2rem;
-	padding: 0.25rem 0.5rem;
-	margin-left: 0.5rem;
-	border-radius: 0.25rem;
-	transition: all 0.2s ease;
-	line-height: 1;
-	opacity: 0.6;
-}
-
-.theme-toggle:hover {
-	background-color: var(--color-background-subtle);
-	opacity: 1;
-}
-
-.theme-toggle-icon {
-	display: inline-block;
-}
 
 /* CTA buttons - arrow prefix with faint highlight on hover */
 .button1,
