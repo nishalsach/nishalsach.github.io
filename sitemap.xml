@@ -2,13 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://nishalsach.github.io/books/</loc>
-    <lastmod>2025-06-19T00:00:00+00:00</lastmod>
+    <loc>https://nishalsach.github.io/publications/</loc>
+    <lastmod>2025-06-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nishalsach.github.io/</loc>
-    <lastmod>2025-06-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nishalsach.github.io/publications/</loc>
     <lastmod>2025-06-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nishalsach.github.io/tags/hci/</loc>
@@ -131,23 +128,13 @@
     <loc>https://nishalsach.github.io/posts/2020-06-29-thesis_northwestern/</loc>
     <lastmod>2020-06-29T13:39:12+05:30</lastmod>
   </url><url>
-    <loc>https://nishalsach.github.io/cool_stuff/</loc>
-    <lastmod>2020-06-13T12:37:02+05:30</lastmod>
-  </url><url>
-    <loc>https://nishalsach.github.io/cool_stuff/play_posters/</loc>
-    <lastmod>2020-06-13T12:37:02+05:30</lastmod>
-  </url><url>
-    <loc>https://nishalsach.github.io/tags/theatre/</loc>
-    <lastmod>2020-06-13T12:37:02+05:30</lastmod>
-  </url><url>
     <loc>https://nishalsach.github.io/posts/2020-06-12-hugo-hacks/</loc>
     <lastmod>2020-06-12T18:01:26+05:30</lastmod>
   </url><url>
-    <loc>https://nishalsach.github.io/cool_stuff/2020-06-16-cool-stuff/</loc>
-    <lastmod>2020-06-12T14:45:40+05:30</lastmod>
-  </url><url>
     <loc>https://nishalsach.github.io/posts/2019-09-16-lessons-from-a-massively-annoying-scraping-project-in-python/</loc>
     <lastmod>2019-09-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nishalsach.github.io/books/</loc>
   </url><url>
     <loc>https://nishalsach.github.io/news/</loc>
   </url>

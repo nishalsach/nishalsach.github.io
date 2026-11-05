@@ -10,16 +10,9 @@
 		
 		
 		
-			<lastBuildDate>Thu, 19 Jun 2025 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Sun, 15 Jun 2025 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="https://nishalsach.github.io/index.xml" rel="self" type="application/rss+xml" />
-			<item>
-				<title>Books</title>
-				<link>https://nishalsach.github.io/books/</link>
-				<pubDate>Thu, 19 Jun 2025 00:00:00 +0000</pubDate>
-				<guid>https://nishalsach.github.io/books/</guid>
-				<description>&lt;p&gt;A list of books I am reading, or have read in a way that means something to me. Hyperlinks point to my blogposts about said book.&lt;/p&gt;&#xA;&lt;h2 id=&#34;currently-reading&#34;&gt;Currently Reading&lt;/h2&gt;&#xA;&lt;p&gt;Why We Fear AI: On the Interpretation of Nightmares, by Hagen Blix and Ingeborg Glimmer (2025)&lt;br&gt;&#xA;A History of Christianity: The First Three Thousand Years, by Diarmaid MacCulloch (2009)&lt;/p&gt;&#xA;&lt;h2 id=&#34;2026&#34;&gt;2026&lt;/h2&gt;&#xA;&lt;p&gt;Language Machines, by Leif Weatherby (2026)&lt;br&gt;&#xA;Law and Technology: A Methodical Approach, by Ryan Calo (2025)&lt;br&gt;&#xA;Orality and Literacy: The Technologizing of the Word, by Walter Ong (2012)&lt;/p&gt;</description>
-			</item>
 			<item>
 				<title>Publications</title>
 				<link>https://nishalsach.github.io/publications/</link>
@@ -133,13 +126,6 @@
 				<description>&lt;p&gt;In 2019, I completed my undergrad thesis at Northwestern University, where I worked in &lt;a href=&#34;https://amaral.northwestern.edu/people/amaral/&#34;&gt;Dr. Luis Amaral&amp;rsquo;s lab&lt;/a&gt; to model complex networks of tropes in American films starting from the 1890s.&lt;/p&gt;&#xA;&lt;p&gt;I wrote a brief account of how I applied for my thesis, as well as my takeaways from this momentous experience, and it was published on BITS Goa&amp;rsquo;s blog for undergrad research experiences. Here&amp;rsquo;s a link to the post: &lt;a href=&#34;https://bitsrnd.wordpress.com/2020/06/26/sachitas-thesis-in-the-windy-city/0&#34;&gt;Sachita Nishal’s Thesis at Northwestern University!&lt;/a&gt;&lt;/p&gt;</description>
 			</item>
 			<item>
-				<title>Posters for Plays</title>
-				<link>https://nishalsach.github.io/cool_stuff/play_posters/</link>
-				<pubDate>Sat, 13 Jun 2020 12:37:02 +0530</pubDate>
-				<guid>https://nishalsach.github.io/cool_stuff/play_posters/</guid>
-				<description>&lt;p&gt;Hi, here&amp;rsquo;s some posters from my plays that I&amp;rsquo;ve adored and cherished.&lt;/p&gt;&#xA;&lt;img style=&#34;float: left; margin: 15px 15px 15px 15px;&#34; src=&#34;../../img/cool_stuff/ebt_1.PNG&#34; width=&#34;210px&#34; /&gt;&#xA;&lt;img style=&#34;float: left; margin: 15px 15px 15px 15px;&#34; src=&#34;../../img/cool_stuff/ebt_1.PNG&#34; width=&#34;210px&#34; /&gt;&#xA;&lt;img style=&#34;float: left; margin: 15px 15px 15px 15px;&#34; src=&#34;../../img/cool_stuff/ebt_1.PNG&#34; width=&#34;210px&#34; /&gt;</description>
-			</item>
-			<item>
 				<title>Hugo Hacks</title>
 				<link>https://nishalsach.github.io/posts/2020-06-12-hugo-hacks/</link>
 				<pubDate>Fri, 12 Jun 2020 18:01:26 +0530</pubDate>
@@ -147,18 +133,18 @@
 				<description>&lt;p&gt;Hi.&lt;/p&gt;&#xA;&lt;p&gt;Welcome.&lt;/p&gt;&#xA;&lt;p&gt;You can choose to skip right to the hacks with this handy index:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#filepaths&#34;&gt;Filepaths in Hugo&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#footnotes&#34;&gt;Footnotes in Markdown&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#html_img&#34;&gt;HTML Tags for Images in Markdown&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#syntac_highlights&#34;&gt;Syntax Highlighting for Code in Markdown&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Or, you can bear witness to an overly detailed and meandering tale about my journey navigating the horrific ills of modern technology, below.&lt;/p&gt;&#xA;&lt;p&gt;So, I am proud to announce that as of today, June 12 2020, I have transitioned out of Jekyll, and am the owner of a shiny new blog built with Hugo. Admittedly, this process has had me pulling my hair out over the past few days, and it has made me want to kick myself in frustration about why I set out on this journey in the first place.&lt;/p&gt;</description>
 			</item>
 			<item>
-				<title>Even More About Me</title>
-				<link>https://nishalsach.github.io/cool_stuff/2020-06-16-cool-stuff/</link>
-				<pubDate>Fri, 12 Jun 2020 14:45:40 +0530</pubDate>
-				<guid>https://nishalsach.github.io/cool_stuff/2020-06-16-cool-stuff/</guid>
-				<description>&lt;style&gt;&#xA;.myDiv {&#xA;/*    border: 5px outset red;*/&#xA;    height: 630px;&#xA;    text-align: center;&#xA;    margin:10;&#xA;}&#xA;&lt;/style&gt;&#xA;&lt;h2 id=&#34;books-and-stuff&#34;&gt;Books and Stuff&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Oct 2022&lt;/strong&gt;: I&amp;rsquo;m currently reading James Gleick&amp;rsquo;s book, &lt;a href=&#34;https://www.penguinrandomhouse.com/books/60765/the-information-by-james-gleick/&#34;&gt;&lt;em&gt;The Information&lt;/em&gt;&lt;/a&gt;, which provides a very detailed history of humanity&amp;rsquo;s relationship with &lt;em&gt;information&lt;/em&gt; - oral, written, digital, all kinds! I&amp;rsquo;m really enjoying it because it weaves a wide-ranging set of ideas, people, and locations together to tell the story of how we&amp;rsquo;ve understood, catalogued, and communicated our ideas over the ages, and how the media that we use for these purposes has changed how we think.&lt;/p&gt;</description>
-			</item>
-			<item>
 				<title>Lessons From a Massive(ly-Annoying) Scraping Project in Python</title>
 				<link>https://nishalsach.github.io/posts/2019-09-16-lessons-from-a-massively-annoying-scraping-project-in-python/</link>
 				<pubDate>Mon, 16 Sep 2019 00:00:00 +0000</pubDate>
 				<guid>https://nishalsach.github.io/posts/2019-09-16-lessons-from-a-massively-annoying-scraping-project-in-python/</guid>
 				<description>&lt;p&gt;Hello!&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;m honestly quite unsure of what SEO miracle led you here, given the enthusiastically descriptive, but less than optimal title for this post. I&amp;rsquo;m further unsure of why you actually clicked this link when it showed up. But does that make me any less grateful that you&amp;rsquo;re here? Certainly not!&lt;/p&gt;&#xA;&lt;p&gt;I wrote this post to document my experiences while scraping a massive crowdsourced website called &lt;a href=&#34;https://tvtropes.org&#34;&gt;TVTropes&lt;/a&gt;. During this venture, I spent many an afternoon quite desperately Googling &amp;ldquo;ugh web-scraping is so annoying save me python&amp;rdquo;. Consequently, due to an SEO miracle akin to the one brought you here, I found tons of websites which helped me with figuring out the coding bits, and I am extremely grateful for them. However, I didn&amp;rsquo;t feel like there was enough material out there that could guide me with regards to the broader approach that I could take with scraping and managing my dataset.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Books</title>
+				<link>https://nishalsach.github.io/books/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://nishalsach.github.io/books/</guid>
+				<description>&lt;p&gt;A list of books I am reading, or have read in a way that means something to me. Hyperlinks point to my blogposts about said book.&lt;/p&gt;&#xA;&lt;h2 id=&#34;currently-reading&#34;&gt;Currently Reading&lt;/h2&gt;&#xA;&lt;p&gt;Better Living Through Criticism, by A. O. Scott (2017)&lt;br&gt;&#xA;Public Data Cultures, by Jonathan Gray (2026)&lt;/p&gt;&#xA;&lt;h2 id=&#34;2026&#34;&gt;2026&lt;/h2&gt;&#xA;&lt;p&gt;A History of Christianity, by Diarmaid MacCulloch (2009)&lt;br&gt;&#xA;Language Machines, by Leif Weatherby (2026)&lt;br&gt;&#xA;Law and Technology, by Ryan Calo (2025)&lt;br&gt;&#xA;Orality and Literacy, by Walter Ong (2012)&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>

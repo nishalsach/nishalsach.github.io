@@ -89,6 +89,11 @@ name = "Publications"
 url = "/publications"
 weight = 3
 
+[[menu.main]]
+name = "Books"
+url = "/books"
+weight = 4
+
 # [[menu.main]]
 # name = "Projects"
 # url = "/projects"
