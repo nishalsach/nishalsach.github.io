@@ -10,9 +10,16 @@
 		
 		
 		
-			<lastBuildDate>Tue, 15 Apr 2025 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Mon, 09 Nov 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="https://nishalsach.github.io/tags/personal/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Exporting From Zotero to Obsidian with Simple Citations</title>
+				<link>https://nishalsach.github.io/posts/2026-11-09-obsidian-zotero-setup/</link>
+				<pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+				<guid>https://nishalsach.github.io/posts/2026-11-09-obsidian-zotero-setup/</guid>
+				<description>&lt;p&gt;This is how I connected Zotero to Obsidian so that every source in my library:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Gets a literature note named &lt;code&gt;@citekey&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Can be linked to with &lt;code&gt;[[@citekey]]&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Shows up in a Base&lt;/li&gt;&#xA;&lt;li&gt;Can be exported to Word with my desired ACM format.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;I also added a custom &lt;code&gt;from&lt;/code&gt; field to record where I found each source, which dovetails with my interest in keeping traces of how I find cool things. The reason I had to do this is that the older Obsidian plugin I used stopped working with Zotero 8, which gave me reason to figure out a new setup that takes into account new habits I&amp;rsquo;ve picked up when recording and citing stuff.&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>Learning to scope (and also breathe)</title>
 				<link>https://nishalsach.github.io/posts/2025-04-15-post-prospectus/</link>

@@ -10,28 +10,35 @@
 		
 		
 		
-			<lastBuildDate>Tue, 15 Apr 2025 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Mon, 09 Nov 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="https://nishalsach.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
 			<item>
-				<title>HCI</title>
-				<link>https://nishalsach.github.io/tags/hci/</link>
-				<pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>
-				<guid>https://nishalsach.github.io/tags/hci/</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>Personal</title>
 				<link>https://nishalsach.github.io/tags/personal/</link>
-				<pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>
+				<pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
 				<guid>https://nishalsach.github.io/tags/personal/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Research</title>
 				<link>https://nishalsach.github.io/tags/research/</link>
-				<pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>
+				<pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
 				<guid>https://nishalsach.github.io/tags/research/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Tech</title>
+				<link>https://nishalsach.github.io/tags/tech/</link>
+				<pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+				<guid>https://nishalsach.github.io/tags/tech/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>HCI</title>
+				<link>https://nishalsach.github.io/tags/hci/</link>
+				<pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>
+				<guid>https://nishalsach.github.io/tags/hci/</guid>
 				<description></description>
 			</item>
 			<item>
@@ -42,7 +49,7 @@
 				<description></description>
 			</item>
 			<item>
-				<title>News-Industry</title>
+				<title>News Industry</title>
 				<link>https://nishalsach.github.io/tags/news-industry/</link>
 				<pubDate>Wed, 02 Apr 2025 00:00:00 +0000</pubDate>
 				<guid>https://nishalsach.github.io/tags/news-industry/</guid>

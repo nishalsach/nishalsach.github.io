@@ -2,28 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://nishalsach.github.io/publications/</loc>
-    <lastmod>2025-06-15T00:00:00+00:00</lastmod>
+    <loc>https://nishalsach.github.io/posts/2026-11-09-obsidian-zotero-setup/</loc>
+    <lastmod>2026-11-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nishalsach.github.io/tags/personal/</loc>
+    <lastmod>2026-11-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nishalsach.github.io/posts/</loc>
+    <lastmod>2026-11-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nishalsach.github.io/tags/research/</loc>
+    <lastmod>2026-11-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nishalsach.github.io/</loc>
+    <lastmod>2026-11-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nishalsach.github.io/tags/</loc>
+    <lastmod>2026-11-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nishalsach.github.io/tags/tech/</loc>
+    <lastmod>2026-11-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nishalsach.github.io/publications/</loc>
     <lastmod>2025-06-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nishalsach.github.io/tags/hci/</loc>
     <lastmod>2025-04-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nishalsach.github.io/posts/2025-04-15-post-prospectus/</loc>
-    <lastmod>2025-04-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nishalsach.github.io/tags/personal/</loc>
-    <lastmod>2025-04-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nishalsach.github.io/posts/</loc>
-    <lastmod>2025-04-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nishalsach.github.io/tags/research/</loc>
-    <lastmod>2025-04-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nishalsach.github.io/tags/</loc>
     <lastmod>2025-04-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nishalsach.github.io/tags/hhci/</loc>

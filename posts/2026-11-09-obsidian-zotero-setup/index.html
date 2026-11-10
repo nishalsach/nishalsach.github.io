@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Exporting From Zotero to Obsidian with Simple Citations - Sachita Nishal</title><link rel="icon" type="image/png" href=icons/myicon.png /><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:url" content="https://nishalsach.github.io/posts/2026-11-09-obsidian-zotero-setup/">
+	<meta property="og:site_name" content="Sachita Nishal">
+	<meta property="og:title" content="Exporting From Zotero to Obsidian with Simple Citations">
+	<meta property="og:description" content="Setting up a simple (kind of) notetaking system in Obsidian for research.">
+	<meta property="og:locale" content="en_us">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="posts">
+		<meta property="article:published_time" content="2026-11-09T00:00:00+00:00">
+		<meta property="article:modified_time" content="2026-11-09T00:00:00+00:00">
+		<meta property="article:tag" content="Research">
+		<meta property="article:tag" content="Personal">
+		<meta property="article:tag" content="Tech">
+
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Exporting From Zotero to Obsidian with Simple Citations">
+	<meta name="twitter:description" content="Setting up a simple (kind of) notetaking system in Obsidian for research.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200..800&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" media="screen" href="https://nishalsach.github.io/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://nishalsach.github.io/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="https://nishalsach.github.io/css/custom.css" />
+	
+	
+	<script src="https://nishalsach.github.io/js/main.js"></script>
+	<script src="https://unpkg.com/lunr/lunr.js"></script>
+	<script src="https://nishalsach.github.io/js/search.js"></script>
+	<script defer src="https://cloud.umami.is/script.js" data-website-id="70f9bc72-2ed9-4254-8b38-0df6799925c9"></script>
+</head>
+
+<body>
+	<div class="container wrapper post">
+		<div class="header">
+	
+	<h1 class="site-title"><a href="https://nishalsach.github.io/">Sachita Nishal</a></h1>
+	<div class="site-description"><h2>Postdoctoral Scholar, University of Washington</h2><nav class="nav social">
+			<ul class="flat"></ul>
+		</nav>
+	</div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li>
+				<a href="/">Home</a>
+			</li>
+			
+			<li>
+				<a href="/publications">Publications</a>
+			</li>
+			
+			<li>
+				<a href="/posts">Blog</a>
+			</li>
+			
+			<li>
+				<a href="/books">Books</a>
+			</li>
+			
+			<li>
+				<div class="search-container">
+					<input type="text" id="search-input" placeholder="Search posts..." autocomplete="off">
+					<div id="search-results" class="search-results"></div>
+				</div>
+			</li>
+		</ul>
+	</nav>
+</div>
+
+
+		<div class="post-header">
+			<h1 class="page-title">Exporting From Zotero to Obsidian with Simple Citations</h1>
+			
+			<div class="meta">
+				<span class="meta-date">Nov 9, 2026</span>
+				
+				<span class="meta-divider">·</span>
+				<span class="meta-stat">1086 words</span>
+				
+				
+			</div>
+
+		</div>
+
+		<div class="markdown">
+			<p>This is how I connected Zotero to Obsidian so that every source in my library:</p>
+<ol>
+<li>Gets a literature note named <code>@citekey</code></li>
+<li>Can be linked to with <code>[[@citekey]]</code></li>
+<li>Shows up in a Base</li>
+<li>Can be exported to Word with my desired ACM format.</li>
+</ol>
+<p>I also added a custom <code>from</code> field to record where I found each source, which dovetails with my interest in keeping traces of how I find cool things. The reason I had to do this is that the older Obsidian plugin I used stopped working with Zotero 8, which gave me reason to figure out a new setup that takes into account new habits I&rsquo;ve picked up when recording and citing stuff.</p>
+<h3 id="what-the-setup-does">What the setup does</h3>
+<ul>
+<li>Zotero (with Better BibTeX) exports my library to a Better CSL JSON file inside my Obsidian vault and keeps it updated.
+<ul>
+<li>I use Better CSL JSON because postscripts don’t run in Better BibTeX JSON (the plugin’s other supported format), and the Pandoc export only works with Better CSL JSON.</li>
+</ul>
+</li>
+<li>The Obsidian plugin <a href="https://github.com/masaki39/simple-citations">Simple Citations</a> reads that file and creates one note per source, which is named <code>@citekey</code>.</li>
+<li>A postscript in Better BibTeX in Zotero adds my own <code>from</code> field to the export.</li>
+<li>A Base gives me a table of all my sources.</li>
+<li>The plugin&rsquo;s Pandoc command turns a note full of <code>[[@citekey]]</code> links into a Word document with a reference list.</li>
+</ul>
+<p>Requirements: Zotero 8, the Better BibTeX add-on, Obsidian 1.9+ (for Bases), the Simple Citations plugin, and Pandoc.</p>
+<h3 id="exporting-the-json">Exporting the JSON</h3>
+<p>In Zotero, right-click the library (or a collection) -&gt; Export -&gt; Better CSL JSON, make sure to keep it updated, and save it inside the vault. Better CSL JSON is the format that postscripts run in, and the Pandoc export only works with this one.</p>
+<p>Some things that tripped me up:</p>
+<ul>
+<li>I had two exports and the postscript was feeding the wrong file. If a field doesn&rsquo;t show up in the JSON, check you&rsquo;re looking at the right JSON.</li>
+<li>Exporting the whole library means a note for every item. A collection (e.g. &ldquo;Obsidian&rdquo;) gives more control. I chose not to go this route because I was feeling lazy.</li>
+</ul>
+<p>Then, in Obsidian, open up Simple Citations’ settings and set the bibliography path to this file, set the export folder for notes, and register optional fields.</p>
+<h3 id="citekeys">Citekeys</h3>
+<p>The default Better BibTeX formula gives you keys with hyphens in the name, I hate this. So I set the formula as <code>auth.alphanum.lower + shorttitle(2,2) + year</code> in Zotero’s Better BibTeX preferences. The formula is a small Better BibTeX language that looks like JavaScript but isn&rsquo;t; it only has the built-in functions and filters (list at retorque.re/zotero-better-bibtex/citing/formulas).</p>
+<p>To apply this new formula to existing items, the keys have to be refreshed manually (albeit, not individually). Changing the formula alone doesn&rsquo;t touch existing keys. I also stopped automatically changing keys on edits here, which I had enabled earlier. This is because changing a Better BibTex key orphans its note in Obsidian with Simple Citations. The Simple Citations plugin seems to be matching notes to JSON entries by filename. After a key changes, the old note no longer matches any entry, so <code>Update literature note</code> ignores it and <code>Add literature note</code> creates a new one. I need to be okay with renaming existing notes by hand inside Obsidian to the exact new key as needed, with Obsidian’s <code>Automatically update internal links</code> turned on.</p>
+<p>Citekeys containing # ^ [ ] | \ / : are skipped by the plugin because Obsidian filenames can’t contain them. My formula avoids these for the keys it generates, but keys that were imported or edited by hand could still contain them, so I’d check the console log if a source goes missing, as per the README from Simple Citations.</p>
+<h3 id="the-from-field">The <code>from</code> field</h3>
+<p>The way to do this is to put some value in an item&rsquo;s <code>Extra</code> field in Zotero, and let a postscript copy it into a field called <code>from</code> during the Better CSL JSON export. I did however want to avoid the <code>Extra</code> field&rsquo;s content making it into any BibTex exports since that can show up in a PDF rendered in the ACM template. Here&rsquo;s the code for the postscript field in Better BibTex&rsquo;s Zotero settings that I used to accomplish this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#75715e">// ---- &#34;from&#34; field: for Obsidian (Better CSL JSON export) ----
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// Reads &#34;from: ...&#34; from the Extra field and writes it as a single string.
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// Then removes that line from csl.note so it isn&#39;t duplicated or printed
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// in bibliographies. Other Extra content is kept.
+</span></span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">Translator</span>.<span style="color:#a6e22e">BetterCSLJSON</span>) {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">m</span> <span style="color:#f92672">=</span> (<span style="color:#a6e22e">zotero</span>.<span style="color:#a6e22e">extra</span> <span style="color:#f92672">||</span> <span style="color:#e6db74">&#39;&#39;</span>).<span style="color:#a6e22e">match</span>(<span style="color:#e6db74">/^from:\s*(.+)$/mi</span>);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">m</span>) {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">csl</span>.<span style="color:#a6e22e">from</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">m</span>[<span style="color:#ae81ff">1</span>].<span style="color:#a6e22e">trim</span>();
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">csl</span>.<span style="color:#a6e22e">note</span>) {
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">csl</span>.<span style="color:#a6e22e">note</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">csl</span>.<span style="color:#a6e22e">note</span>.<span style="color:#a6e22e">replace</span>(<span style="color:#e6db74">/^from:.*$/mi</span>, <span style="color:#e6db74">&#39;&#39;</span>).<span style="color:#a6e22e">trim</span>();
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">if</span> (<span style="color:#f92672">!</span><span style="color:#a6e22e">csl</span>.<span style="color:#a6e22e">note</span>) <span style="color:#66d9ef">delete</span> <span style="color:#a6e22e">csl</span>.<span style="color:#a6e22e">note</span>;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// ---- Keep the &#34;from&#34; line out of .bib exports ----
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// Better BibTeX copies unrecognized Extra lines into note/annotation.
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">// This removes that field if it contains a &#34;from:&#34; line.
+</span></span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">Translator</span>.<span style="color:#a6e22e">BetterTeX</span>) {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">name</span> <span style="color:#66d9ef">of</span> [<span style="color:#e6db74">&#39;note&#39;</span>, <span style="color:#e6db74">&#39;annotation&#39;</span>]) {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">f</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">tex</span>.<span style="color:#a6e22e">has</span>[<span style="color:#a6e22e">name</span>];
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">f</span> <span style="color:#f92672">&amp;&amp;</span> <span style="color:#e6db74">/(^|\n|\s)from:/i</span>.<span style="color:#a6e22e">test</span>(String(<span style="color:#a6e22e">f</span>.<span style="color:#a6e22e">value</span> <span style="color:#f92672">||</span> <span style="color:#a6e22e">f</span>.<span style="color:#a6e22e">bibtex</span> <span style="color:#f92672">||</span> <span style="color:#e6db74">&#39;&#39;</span>))) {
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">tex</span>.<span style="color:#a6e22e">remove</span>(<span style="color:#a6e22e">name</span>);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>One catch: the .bib block removes the whole note (or annotation) field on any item that has a <code>from:</code> line, not just the <code>from:</code> line itself. If an item’s Extra field has other content, that drops out of the .bib export too. That’s fine for me, since I don’t want Extra content in my ACM PDFs anyway.</p>
+<p>I used Claude to write these postscripts for me, and tested them out myself. Then in the plugin settings, I added <code>from</code> (lowercase, exact) as an optional field, refreshed the export, and ran <code>Update literature note</code>.</p>
+<h3 id="outputs">Outputs</h3>
+<p>Here&rsquo;s what the final outputs look like:</p>
+<ul>
+<li>A folder with all the literature notes. This is configured in Obsidian&rsquo;s settings for the Simple Citations plugin. I called mine <code>Sources</code>.</li>
+<li>The notes are <code>@citekey.md</code>, and links to them are <code>[[@citekey]]</code>.</li>
+<li>I can make a Base in Obsidian that filters to notes only in my <code>Sources</code> folder.</li>
+<li>To export with Pandoc, I write in a note and cite with <code>[[@citekey]]</code>. Then I run the <code>Pandoc citeproc execution (docx)</code> command in the Obsidian command palette.</li>
+</ul>
+<p>I think this is as simple as it gets, for me, for now. I am okay with a high-effort setup upfront if it means maintenance is easy. The only aspect complicating maintenance is the need to manually rename literature notes if the citekeys change, and I plan to make a feature request for this to the Obsidian plugin. Still, this makes life really easy for me!</p>
+
+		</div>
+
+		<div class="post-tags">
+			
+				
+					<nav class="nav tags">
+							<ul class="flat">
+								
+								<li><a href="/tags/research">research</a></li>
+								
+								<li><a href="/tags/personal">personal</a></li>
+								
+								<li><a href="/tags/tech">tech</a></li>
+								
+							</ul>
+					</nav>
+				
+			
+
+		</div>
+	</div>
+	<div class="footer wrapper">
+	<nav class="nav">
+		<div> <a href="https://github.com/vividvilla/ezhil">Ezhil theme</a> | Built with <a href="https://gohugo.io">Hugo</a></div>
+	</nav>
+</div><script>
+
+
+
+
+function copyBibtex(id, btn) {
+  
+  
+  
+  const pre = document.getElementById(id);
+
+  
+  
+  
+  const text = pre.textContent;
+
+  
+  
+  
+  navigator.clipboard.writeText(text).then(() => {
+    
+    const original = btn.textContent;
+
+    
+    btn.textContent = "Copied!";
+
+    
+    setTimeout(() => {
+      btn.textContent = original;
+    }, 1500);
+  });
+}
+</script>
+</body>
+</html>
